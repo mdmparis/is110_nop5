@@ -1,0 +1,35 @@
+-------------
+| Arguments |
+-------------
+Input file: nop5_round-1_90-90_rep_seq_kingdom=euk-arch.mafft-add.afa (format: fasta)
+Output file: nop5_round-1_90-90_rep_seq_kingdom=euk-arch.mafft-add.afa.clipkit (format: fasta)
+Gaps threshold: 0.98
+Trimming mode: gappy
+Create complementary output: False
+Create log file: False
+
+
+------------------------
+| Processing Alignment |
+------------------------
+
+
+
+------------------------
+| Writing output files |
+------------------------
+trimmed alignment: nop5_round-1_90-90_rep_seq_kingdom=euk-arch.mafft-add.afa.clipkit
+complement file: False
+log file: False
+
+
+---------------------
+| Output Statistics |
+---------------------
+Number of sites kept: 1297
+Number of sites trimmed: 15156
+
+Percentage of alignment trimmed: 92.117%
+
+Execution time: 340.169s
+

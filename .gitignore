@@ -74,3 +74,4 @@ dev/prp31_nop5/phylo_nop-dom/0_detection/nop58_nop-dom/log_hmmsearch.out
 dev/prp31_nop5/phylo_nop-dom/0_detection/prp31_nop-dom/log_hmmsearch.out
 dev/prp31_nop5/phylo_nop-dom/2_iqtree/results/nop5_prp31_nop-dom.afa.mldist
 dev/prp31_nop5/mixed_hmm_profile/1_round/log_hmmsearch.out
+*.html

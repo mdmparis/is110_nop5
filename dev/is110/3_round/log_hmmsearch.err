@@ -1,0 +1,7 @@
+Using 30 cores.
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG041.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG039.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG040.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG040.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG040.prt: no such file or directory
+[33m[WARN][0m you may switch on flag -g/--remove-gaps to remove spaces

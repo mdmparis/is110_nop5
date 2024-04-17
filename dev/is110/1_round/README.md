@@ -1,0 +1,4 @@
+- Initial query : K. pneumoniae IS110 (A0A809T667)
+- blastp of this initial query against GenBank bacterial proteins. minimum inclusion `e-value`=1e-80 for stringent blastp and `max_target_seqs`=1,000,000 to identify all candidates that satisfy this inclusion criterion.
+- All n=6,407 hits are aligned using MAFFT auto (FFT-NS-2), extremities of the alignment (1-70 and 499-end) are manually cut as they are uninformative.
+- profile HMM is built using `hmmbuild` (default parameters) to be used as a query in round_2.

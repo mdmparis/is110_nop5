@@ -1,0 +1,2054 @@
+Query         ACTH002.0722.00001.C001_00618 D ATG TGA 615945 616442 Valid ruvC 498 @A9R16_RS03090@WP_065971554.1@ A9R16_RS03090 1 615945 616442   crossover junction endodeoxyribonuclease RuvC  (translation) 
+Match_columns 165
+No_of_seqs    120 out of 1458
+Neff          9.92012
+Searched_HMMs 87401
+Date          Mon Apr 15 16:43:38 2024
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -o ../results/6645133.hhr -oa3m ../results/6645133.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 1HJR_A HOLLIDAY JUNCTION RESOL  99.9 3.6E-19 4.2E-24  121.9  22.1  151    1-152     1-152 (158)
+  2 4EP4_A Crossover junction endo  99.9 1.1E-18 1.3E-23  120.6  22.8  152    1-152     1-157 (166)
+  3 7XHJ_B Crossover junction endo  99.9 5.3E-19   6E-24  124.1  21.4  151    1-152     1-153 (179)
+  4 6LW3_A Crossover junction endo  99.8 7.3E-18 8.3E-23  116.0  21.7  151    1-152    12-163 (163)
+  5 PF02075.21 ; RuvC ; Crossover   99.8 8.9E-18   1E-22  114.0  19.5  146    3-149     1-148 (148)
+  6 4KTW_A RuvC endonuclease; endo  99.8   3E-17 3.4E-22  113.5  18.5  148    1-152     2-160 (161)
+  7 6KVN_A NtMOC1; chloroplast, re  99.8 2.1E-17 2.4E-22  115.2  15.5  148    1-152     6-165 (171)
+  8 6IS8_A Monokaryotic chloroplas  99.8 5.8E-17 6.7E-22  113.2  15.9  148    1-152    12-171 (174)
+  9 6IS9_B Monokaryotic chloroplas  99.7 1.2E-15 1.3E-20  111.6  17.0  146    1-150    53-210 (224)
+ 10 PF07066.15 ; DUF3882 ; Lactoco  99.7 1.1E-15 1.2E-20  105.7  15.7  145    1-150     2-158 (159)
+ 11 6P7A_B Holliday junction resol  99.7 1.1E-15 1.2E-20  104.1  10.4  137    1-152     1-146 (148)
+ 12 5E6F_B CNPV261 Holliday juncti  99.5 6.3E-13 7.2E-18   91.2  12.3  134    1-152     2-145 (152)
+ 13 PF04848.17 ; Pox_A22 ; Poxviru  99.5 5.7E-12 6.5E-17   85.3  14.8  129    1-152     1-142 (143)
+ 14 PF11215.12 ; DUF3010 ; Protein  99.5 3.5E-12 4.1E-17   86.4  13.6  108    1-112     1-111 (135)
+ 15 1KCF_B HYPOTHETICAL 30.2 KD PR  99.5 2.2E-11 2.5E-16   91.1  18.6  150    1-151    40-240 (258)
+ 16 1NU0_A Hypothetical protein yq  98.8 5.9E-07 6.7E-12   60.7  11.4  108    1-118     3-115 (138)
+ 17 7ESS_A Putative pre-16S rRNA n  98.7 2.1E-06 2.4E-11   60.5  13.1  115    1-125    22-148 (170)
+ 18 PF03652.19 ; RuvX ; Holliday j  98.7 2.7E-06 3.1E-11   58.2  13.3   93    1-102     1-100 (141)
+ 19 1IV0_A hypothetical protein; h  98.6 4.1E-06 4.7E-11   52.7  11.8   91    1-102     1-92  (98)
+ 20 1VHX_A Putative Holliday junct  98.5   3E-05 3.4E-10   53.6  14.5  122    1-148     3-131 (150)
+ 21 5OLA_B Transcription elongatio  98.2 0.00049 5.6E-09   51.4  16.1  147    1-150    34-217 (234)
+ 22 7W89_A Putative pre-16S rRNA n  98.2  0.0001 1.2E-09   49.7  11.2   89    1-102    16-105 (136)
+ 23 PF16921.9 ; Tex_YqgF ; Tex pro  98.0 0.00052   6E-09   45.2  11.7  118    1-148     1-121 (123)
+ 24 5OL8_A Transcription elongatio  97.9   0.003 3.4E-08   49.3  15.1  147    2-151   120-303 (319)
+ 25 PF09159.14 ; Ydc2-catalyt ; Mi  97.2    0.04 4.5E-07   43.8  13.4  110    3-112     1-195 (331)
+ 26 6JDX_C CRISPR-associated endon  97.1   0.003 3.5E-08   39.0   5.2   35    1-35     11-48  (78)
+ 27 PF14639.10 ; YqgF ; Holliday-j  95.9    0.55 6.3E-06   32.7  15.4  124    1-148     5-145 (157)
+ 28 PF04312.17 ; DUF460 ; Protein   93.1     0.2 2.3E-06   34.7   2.9   18    1-19     31-48  (140)
+ 29 5BR9_E Uncharacterized protein  90.7       9  0.0001   28.9   9.9   91    1-106    10-106 (234)
+ 30 6M0X_A CRISPR-associated endon  90.6     2.1 2.4E-05   40.0   7.2   55    1-57      3-59  (1122)
+ 31 6JOO_A CRISPR-associated prote  89.9     1.2 1.3E-05   40.8   4.9   35    1-35      4-42  (927)
+ 32 7EL1_A CRISPR-associated endon  88.7     3.4 3.9E-05   38.5   6.9   55    1-57      3-59  (1053)
+ 33 6WBR_A CRISPR-associated endon  88.0     1.7   2E-05   40.0   4.7   35    1-35     11-48  (977)
+ 34 6KC8_A CRISPR-associated endon  87.4     1.9 2.1E-05   40.3   4.6   35    1-35     10-48  (1083)
+ 35 4OGE_A HNH endonuclease domain  87.1     2.1 2.5E-05   40.0   4.8   35    1-35     10-48  (1101)
+ 36 8HNT_A CRISPR-associated endon  86.4     2.9 3.3E-05   39.0   5.2   35    1-35      8-45  (1055)
+ 37 8HUD_A CRISPR-associated endon  85.7     5.3 6.1E-05   37.5   6.5   54    1-57      1-56  (1107)
+ 38 8D2K_A CRISPR-associated endon  83.2     3.9 4.4E-05   38.6   4.6   35    1-35     11-48  (1138)
+ 39 5X2H_A CRISPR-associated endon  83.2     1.9 2.2E-05   38.9   2.7   19    1-19      7-26  (835)
+ 40 3BZC_A Tex; helix-turn-helix,   75.7      28 0.00032   31.6   7.3   58    2-65    330-389 (785)
+ 41 3ZEU_A PUTATIVE M22 PEPTIDASE   72.2      61  0.0007   24.4  13.4   91    1-106     1-97  (231)
+ 42 3PSF_A Transcription elongatio  66.2 1.9E+02  0.0022   27.8  13.2  121    1-148   519-654 (1030)
+ 43 PF14239.10 ; RRXRR ; RRXRR pro  64.6      13 0.00015   27.1   2.5   16    4-19     54-69  (174)
+ 44 6GFA_A Heat shock protein 105   59.9      18 0.00021   27.9   2.8   19    1-19      1-19  (381)
+ 45 2A6A_B hypothetical protein TM  57.5 1.2E+02  0.0014   22.7  12.5   90    1-106    12-108 (218)
+ 46 5B2R_B CRISPR-associated endon  56.9      17 0.00019   35.4   2.5   17    3-19     10-26  (1372)
+ 47 6X62_KX Type IV secretion syst  53.9 2.2E+02  0.0025   24.5   8.3   72   25-97    454-529 (579)
+ 48 3PSI_A Transcription elongatio  49.2 4.1E+02  0.0047   26.3  13.2  120    2-148   517-651 (1219)
+ 49 1NBW_C GLYCEROL DEHYDRATASE RE  47.9 1.9E+02  0.0022   26.0   7.1   57    1-57      1-59  (607)
+ 50 8EA4_O Cas12k; DNA BINDING PRO  47.1 3.4E+02  0.0039   24.8   9.1  101    2-103   447-613 (639)
+ 51 1HUX_B ACTIVATOR OF (R)-2-HYDR  44.6   2E+02  0.0023   21.3   6.8   50    1-59      3-53  (270)
+ 52 2D0O_A diol dehydratase-reacti  43.4 1.8E+02  0.0021   26.2   6.3   59    1-59      1-62  (610)
+ 53 2W40_A GLYCEROL KINASE, PUTATI  41.7 3.3E+02  0.0038   23.1   7.4   54    1-57      4-66  (503)
+ 54 6EOF_A 78 kDa glucose-regulate  40.7      52 0.00059   27.4   2.7   19    1-19      1-19  (522)
+ 55 5JMV_B Probable bifunctional t  39.8      60 0.00069   25.4   2.8   19    1-19      6-24  (348)
+ 56 7KRU_A Chaperone protein DnaK   39.4      58 0.00066   27.8   2.8   19    1-19      2-20  (552)
+ 57 3ZEU_E PROBABLE TRNA THREONYLC  39.2 2.9E+02  0.0033   21.6   7.6   58    1-59      1-67  (337)
+ 58 3D2F_C Heat shock protein homo  39.1      85 0.00098   27.5   3.8   27    1-29      2-28  (675)
+ 59 6ASY_B 78 kDa glucose-regulate  38.9   1E+02  0.0011   26.7   4.1   27    1-29      5-31  (606)
+ 60 5B2O_A CRISPR-associated endon  38.7      55 0.00063   32.9   2.8   19    1-19      8-26  (1632)
+ 61 5VM1_D Xylulokinase; NIAID, st  38.5 2.5E+02  0.0029   23.8   6.3   58    1-58      8-67  (491)
+ 62 8CTL_D IscB; CRISPR, IscB, HEA  38.2      56 0.00064   28.2   2.6   17    3-19     57-73  (496)
+ 63 6K79_D Glycerol kinase; Glycer  37.5 3.7E+02  0.0042   22.7   7.1   54    1-57      3-65  (497)
+ 64 7X3K_B Ribosome-associated com  35.7 1.1E+02  0.0012   25.8   3.8   28    1-29      3-30  (538)
+ 65 5HUX_A Probable sugar kinase;   34.8 4.1E+02  0.0047   22.1   7.7   62    1-65      4-68  (436)
+ 66 2AA4_A Putative N-acetylmannos  34.5 3.2E+02  0.0037   20.8   7.1   54    1-57      1-55  (289)
+ 67 6N9A_D tRNA N6-adenosine threo  33.2      99  0.0011   24.3   3.1   22    1-23      4-25  (330)
+ 68 2V7Y_A CHAPERONE PROTEIN DNAK;  32.2      90   0.001   26.0   2.8   19    1-19      2-20  (509)
+ 69 3EN9_B O-sialoglycoprotein end  31.9 4.9E+02  0.0056   22.1  12.0   94    1-102     6-110 (540)
+ 70 7YZM_H Putative CoA-substrate-  31.9      90   0.001   22.7   2.5   17    3-19      2-18  (243)
+ 71 8D24_A Chaperone DnaK; ATPase,  31.1      98  0.0011   24.7   2.8   19    1-19     21-39  (397)
+ 72 7ODB_A Heat shock cognate 71 k  30.6      97  0.0011   26.2   2.8   19    1-19      4-22  (554)
+ 73 5FPN_B HEAT SHOCK-RELATED 70 K  30.0 1.7E+02  0.0019   25.8   4.1   27    1-29      6-32  (640)
+ 74 6W6E_I Chaperone protein DnaK;  29.9 1.7E+02  0.0019   25.8   4.1   27    1-29      2-28  (625)
+ 75 3ENO_B Putative O-sialoglycopr  29.9 4.1E+02  0.0047   20.7   7.9   57    1-58      6-63  (334)
+ 76 8DGC_G Terminase, large subuni  29.6 5.5E+02  0.0063   22.0   7.0   57    3-66    361-421 (586)
+ 77 5YA1_A Autoinducer-2 kinase; A  29.1 5.7E+02  0.0066   22.1   7.5   54    1-57     22-86  (540)
+ 78 4JNE_A Hsp70 CHAPERONE DnaK; D  28.6 1.1E+02  0.0013   26.3   2.9   19    1-19      2-20  (608)
+ 79 3G25_D Glycerol kinase; Glycer  27.6 5.8E+02  0.0067   21.6   7.3   54    1-57      6-68  (501)
+ 80 2QM1_B Glucokinase; alpha-beta  27.5 4.5E+02  0.0052   20.3   7.3   56    1-59      6-62  (326)
+ 81 2D4W_B glycerol kinase; Alpha   27.5 5.9E+02  0.0067   21.6   7.1   54    1-57      2-64  (504)
+ 82 3WQT_C Cell division protein F  27.2 5.1E+02  0.0058   22.1   6.3   58    1-58     20-79  (484)
+ 83 5OBU_A Chaperone protein DnaK;  26.4 2.3E+02  0.0026   24.1   4.3   25    3-29      8-32  (529)
+ 84 3I33_A Heat shock-related 70 k  24.7 1.5E+02  0.0017   23.7   2.8   19    1-19     23-41  (404)
+ 85 4RTF_D Chaperone protein DnaK;  24.5 1.5E+02  0.0017   25.2   2.9   19    1-19     34-52  (546)
+ 86 6H9U_A Endoplasmic reticulum c  24.5 1.5E+02  0.0018   23.2   2.8   19    1-19      1-19  (386)
+ 87 PF07355.16 ; GRDB ; Glycine/sa  24.1 6.7E+02  0.0076   21.1   6.9   50   45-100    64-114 (346)
+ 88 3IFR_A Carbohydrate kinase, FG  23.5 7.1E+02  0.0081   21.2   7.3   54    1-57      7-69  (508)
+ 89 6SR6_A Putative heat shock pro  23.2 2.7E+02  0.0031   24.0   4.2   27    1-29     24-50  (589)
+ 90 6GWJ_K Probable tRNA N6-adenos  23.1 5.7E+02  0.0066   20.0   7.9   58    1-59      2-65  (335)
+ 91 4CZG_A ROD SHAPE-DETERMINING P  23.0 1.4E+02  0.0017   23.0   2.4   17    1-17      3-19  (348)
+ 92 PF10113.13 ; Fibrillarin_2 ; F  22.8 6.6E+02  0.0076   22.1   5.8   44   44-88    228-271 (504)
+ 93 3WXL_A Glycerol kinase; TRYPAN  22.8 7.4E+02  0.0085   21.1   7.7   56    1-59      8-72  (518)
+ 94 4J8F_A Heat shock 70 kDa prote  22.6 2.7E+02  0.0031   24.2   4.0   25    3-29     13-37  (561)
+ 95 PF00012.24 ; HSP70 ; Hsp70 pro  22.6 2.2E+02  0.0025   24.5   3.5   25    3-29      1-25  (596)
+ 96 5NCK_B N-acetylmannosamine kin  22.6 5.4E+02  0.0062   19.5   6.8   53    1-56      1-54  (291)
+ 97 3EZW_A Glycerol kinase; GLYCER  22.5 7.7E+02  0.0088   21.3   7.2   54    1-57      4-66  (526)
+ 98 4GNI_A Putative heat shock pro  22.4 1.6E+02  0.0018   23.1   2.5   19    1-19     13-31  (409)
+ 99 2IVN_A O-SIALOGLYCOPROTEIN END  22.4 1.6E+02  0.0018   23.3   2.5   19    1-19      1-19  (330)
+100 6ZQ4_G Glycerol kinase-like pr  22.3 7.7E+02  0.0088   21.2   7.3   54    1-57      2-64  (526)
+101 5TKY_B Putative uncharacterize  22.1 2.9E+02  0.0034   23.8   4.2   27    1-29     14-40  (621)
+102 4EHU_A Activator of 2-hydroxyi  21.7 1.9E+02  0.0022   22.0   2.8   19    1-19      1-19  (276)
+103 7RAX_A Chaperone protein DnaK;  20.7 1.9E+02  0.0021   22.7   2.6   18    2-19      3-20  (393)
+104 2DPN_A Glycerol kinase; Thermu  20.6 8.1E+02  0.0092   20.8   7.2   56    1-59      1-66  (495)
+105 5LJW_B Actin-like ATPase; bact  20.4 1.8E+02  0.0021   22.4   2.5   17    1-17     11-27  (347)
+
+No 1
+>1HJR_A HOLLIDAY JUNCTION RESOLVASE (RUVC); SITE-SPECIFIC RECOMBINASE; 2.5A {Escherichia coli} SCOP: c.55.3.6
+Probab=99.87  E-value=3.6e-19  Score=121.90  Aligned_cols=151  Identities=49%  Similarity=0.836  Sum_probs=122.4  Template_Neff=11.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+|+|||||++++|+|+++..+..+.++.++.+ .+.. +..+++..+.+.+..++..+.++.+++|.+...++..+...
+T Consensus         1 m~ilgiD~g~~~~g~ai~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~~~~~~~~v~iE~~~~~~~~~~~~~   79 (158)
+T 1HJR_A            1 AIILGIDPGSRVTGYGVIRQVGRQLSYLGSGCIRTKVD-DLPSRLKLIYAGVTEIITQFQPDYFAIEQVFMAKNADSALK   79 (158)
+T ss_dssp             CEEEEEECCSSEEEEEEEEEETTEEEEEEEEEEECCCS-CHHHHHHHHHHHHHHHHHHHCCSEEEEEECCCCCCTTTHHH
+T ss_pred             CeEEEEecCCCeEEEEEEEEeCCeEEEEEEEEEecCCC-CHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCHHHHHH
+Confidence            889999999999999999832234577777766 4433 66677777878899999999999999999887654445555
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCCCCcchHHHHHHHHHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGLSAQPSADAADALACALCHLHE  152 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~d~~DA~~i~~~~~~~  152 (165)
+                      +..+.+.+..++...++++..++|.+||+++.+.++.+|+++.+.+.+.+|.....++|.+||++++.+++..
+T Consensus        80 ~~~~~g~i~~~~~~~~~~~~~v~p~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~DA~~ia~~~~~~  152 (158)
+T 1HJR_A           80 LGQARGVAIVAAVNQELPVFEYAARQVKQTVVGIGSAEKSQVQHMVRTLLKLPANPQADAADALAIAITHCHV  152 (158)
+T ss_dssp             HHHHHHHHHHHHHTTTCCEEEEEHHHHHHHHTSSSSCCHHHHHHHHHHHTTCCCCCSSCTHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHHHCCCCEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHcCCCCCCCCCHHHHHHHHHHHHHh
+Confidence            7777888998888889999999999999999888888899999999999987433456899999999998743
+
+
+No 2
+>4EP4_A Crossover junction endodeoxyribonuclease RuvC; resolvase, Hydrolase; 1.28A {Thermus thermophilus} SCOP: c.55.3.6
+Probab=99.87  E-value=1.1e-18  Score=120.60  Aligned_cols=152  Identities=40%  Similarity=0.581  Sum_probs=132.8  Template_Neff=10.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCC---cEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcch
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGG---RPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDS   76 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~---~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~   76 (165)
+                      |+++|||||.+++|+|+++.++.   .+.++.++.+ .++.....+++..+.+.+..++..++++.+++|.+....+..+
+T Consensus         1 m~ilgiD~g~~~~G~a~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~l~~~~~~~v~iE~~~~~~~~~~   80 (166)
+T 4EP4_A            1 MVVAGIDPGITHLGLGVVAVEGKGALKARLLHGEVVKTSPQEPAKERVGRIHARVLEVLHRFRPEAVAVEEQFFYRQNEL   80 (166)
+T ss_dssp             CEEEEEECCSSEEEEEEEEECSSSSSCEEEEEEEEEECCTTSCHHHHHHHHHHHHHHHHHHHCCSEEEEECCCCSSCSHH
+T ss_pred             CeEEEEcCCCCceEEEEEEecCCcceeEEEEEEEEEECCCCCCHHHHHHHHHHHHHHHHHHhCCCEEEEeCcccCCChhH
+Confidence            88999999999999999997644   5678888888 7655578888899999999999999999999999988665566
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCC-CCcchHHHHHHHHHHHHHH
+Q ACTH002.0722.0   77 ALKLGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGLSA-QPSADAADALACALCHLHE  152 (165)
+Q Consensus        77 ~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~~-~~~~d~~DA~~i~~~~~~~  152 (165)
+                      ...+..+.|++..++...++++..++|.+||+.+.+.++.+|+.+..++.+.++... ..++|++||++++++++..
+T Consensus        81 ~~~~~~~~g~i~~~~~~~~i~~~~v~p~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~DA~~i~~~~~~~  157 (166)
+T 4EP4_A           81 AYKVGWALGAVLVAAFEAGVPVYAYGPMQVKQALAGHGHAAKEEVALMVRGILGLKEAPRPSHLADALAIALTHAFY  157 (166)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTCCEEEECHHHHHHHHHSSTTCCHHHHHHHHHHHTTCSSCCSSHHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHHcCCCEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCCCCCCCCHHHHHHHHHHHHHH
+Confidence            677888999999999999999999999999999999888889999999999998754 3578899999999999876
+
+
+No 3
+>7XHJ_B Crossover junction endodeoxyribonuclease RuvC; nuclease, DNA repair, Homologous recombination, Holliday junction resolvase, DNA BINDING PROTEIN; 1.6A {Deinococcus radiodurans ATCC 13939}
+Probab=99.86  E-value=5.3e-19  Score=124.12  Aligned_cols=151  Identities=40%  Similarity=0.597  Sum_probs=129.6  Template_Neff=10.300
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||++++|||+++.++..+.++.++.+ .+......+++..+.+.+.+++..++|+.|++|.+.+..+..+...
+T Consensus         1 m~ilgiD~g~~~~G~av~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~~~~l~~~l~~~~p~~vviE~~~~~~~~~~~~~   80 (179)
+T 7XHJ_B            1 MRVLGIDPGLANLGLGLVEGDVRRAKHLYHVCLTTESAWLMPRRLQYLHEELTRLLTEYRPDAVAIEDQILRRQADVAFK   80 (179)
+T ss_dssp             CEEEEEECCSSEEEEEEEEECSSCEEEEEEEEEECCTTSCHHHHHHHHHHHHHHHHHHHCCSEEEEECCC---CHHHHHH
+T ss_pred             CeEEEEccCcCceEEEEEEccCCceEEEEEEEEeCCccccHHHHHHHHHHHHHHHHHHhCCCEEEEecCccCCCHhHHHH
+Confidence            889999999999999999976666778888888 7666688888999999999999999999999999987656566677
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCC-CCcchHHHHHHHHHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGLSA-QPSADAADALACALCHLHE  152 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~~-~~~~d~~DA~~i~~~~~~~  152 (165)
+                      +..+.|++..++...++++..++|.+||+.+.+.++.+|..+..++...++... +. +|++||++++++++..
+T Consensus        81 ~~~~~g~i~~~~~~~~i~~~~v~p~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~-~d~aDA~~ia~~~~~~  153 (179)
+T 7XHJ_B           81 VGQAFGVVQLACAQAGVPIHAYGPMQVKKSLVGTGRADKEQVIYMVKASLGIRELFN-NHAADALALALTHLAH  153 (179)
+T ss_dssp             HHHHHHHHHHHHHHHTCCEEEECHHHHHHHHCSSCC--CHHHHHHHHHHHTCSCCCC-HHHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHhCCCEEEeCHHHHHHHHhCCCCCCHHHHHHHHHHHhCChhHcc-chHHHHHHHHHHHHHh
+Confidence            888899999999999999999999999999999888889999999999888754 44 8899999999999877
+
+
+No 4
+>6LW3_A Crossover junction endodeoxyribonuclease RuvC; Holliday junction  resolvase  RuvC  Endonuclease, DNA BINDING PROTEIN; 2.38A {Pseudomonas aeruginosa} SCOP: c.55.3.6
+Probab=99.84  E-value=7.3e-18  Score=116.05  Aligned_cols=151  Identities=53%  Similarity=0.793  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||.+++|+|+++.++..+.++.++.+ .+... ..+++..+.+.+.++++++.++.+++|.+....+..+...
+T Consensus        12 ~~vlgiD~~~~~~G~ai~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~i~~~l~~~~~~~v~iE~~~~~~~~~~~~~   90 (163)
+T 6LW3_A           12 TLILGIDPGSRITGFGVVRETARGCEYVASGCIRTGNGP-LHERLHVVFRSVREVIRTHGPTALSIEQVFMARNADSALK   90 (163)
+T ss_dssp             CEEEEEECCSSEEEEEEEEEETTEEEEEEEEEEECCSSC-HHHHHHHHHHHHHHHHHHHCCCEEEEECCCCCSCHHHHHH
+T ss_pred             eEEEEEcCCCCceEEEEEEEcCCeEEEEEEEEEecCCCC-HHHHHHHHHHHHHHHHHHHCCCEEEEcccccCCChHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCCCCcchHHHHHHHHHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGLSAQPSADAADALACALCHLHE  152 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~d~~DA~~i~~~~~~~  152 (165)
+                      +....+.+..++...++++..++|.+|++.+.+.++.+|+++.+.+.+.++.....++|.+||++++.+++.+
+T Consensus        91 ~~~~~~~i~~~~~~~~i~~~~i~~~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~DA~~ia~~~~~~  163 (163)
+T 6LW3_A           91 LGQARGAAIVAAMEEGLSVAEYTASQVKQAVVGTGGADKQQVQMMVMHLLKLTQKPQIDASDALAIALCHAHT  163 (163)
+T ss_dssp             HHHHHHHHHHHHHHTTCEEEEECHHHHHHHHTSSTTCCHHHHHHHHHHHTTCSSCCCHHHHHHHHHHHHHSCC
+T ss_pred             HHHHHHHHHHHHHHcCCeEEEECHHHHHHHHccCCCCCHHHHHHHHHHHcCCCCCCCCCHHHHHHHHHHHhcC
+
+
+No 5
+>PF02075.21 ; RuvC ; Crossover junction endodeoxyribonuclease RuvC
+Probab=99.83  E-value=8.9e-18  Score=113.96  Aligned_cols=146  Identities=34%  Similarity=0.597  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHHHH
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALKLG   81 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~l~   81 (165)
+                      ++|||||..++|+|+++..+..+.++.++.+ .+.. ...+++..+.+.+.+++++++|+.|++|.+...++..+...+.
+T Consensus         1 vlgiDpg~~~~g~av~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~l~~~~~~~~~~~v~iE~~~~~~~~~~~~~~~   79 (148)
+T RUVC_HELPY/3-1    1 ILGIDPGSRKCGYAIISHASNKLSLITAGFINITTT-RLQEQILDLIEALDCLLDRYEVNEVAIEDIFFGYNPKSVIKLA   79 (148)
+T ss_pred             CceecCCCCceeEEEEEecCCeeEEEEEEEEeCCCC-CHHHHHHHHHHHHHHHHHHcCCCEEEEeecccCCChhHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCC-CCCCcchHHHHHHHHHHH
+Q ACTH002.0722.0   82 QARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGL-SAQPSADAADALACALCH  149 (165)
+Q Consensus        82 ~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~-~~~~~~d~~DA~~i~~~~  149 (165)
+                      ...+.+..++...++++..++|.+||+.+.+.++.+|+++.+.+.+.++. ....++|.+||++++.++
+T Consensus        80 ~~~g~~~~~~~~~~~~~~~v~~~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~DA~~ia~~~  148 (148)
+T RUVC_HELPY/3-1   80 QFRGALSLKILERIGNFSEYTPLQVKKALTGNGKAAKEQVAFMVKRLLNITSEIKPLDISDAIAVAITH  148 (148)
+T ss_pred             HHHHHHHHHHHHcCCceEEeCHHHHHHHHhCCCCCCHHHHHHHHHHHcCCCCCCCCCcHHHHHHHHhhC
+
+
+No 6
+>4KTW_A RuvC endonuclease; endonuclease, DNA junctions, replication, recombination, phage packaging, Holliday junction, RNase-H fold, DNA junction endonuclease, Holliday junctions; 1.68A {Lactococcus phage bIL67}
+Probab=99.81  E-value=3e-17  Score=113.47  Aligned_cols=148  Identities=15%  Similarity=0.178  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CeEEEEcCCCCc-----eEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCC--EEEEeccccCC
+Q ACTH002.0722.0    1 MRVLGVDPGSRR-----TGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPD--VCAVERVFLAR   72 (165)
+Q Consensus         1 m~ilgiD~~~~~-----~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~--~vviE~~~~~~   72 (165)
+                      |+++|||||+++     +|+|+++    .-.++.++.. .+......+++..+..++.++++.+.|+  .+++|.+....
+T Consensus         2 ~~ilgiDpg~~~~~~~~~G~a~~~----~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~l~~~~~p~~~~v~iE~~~~~~   77 (161)
+T 4KTW_A            2 KKILAINFSTASKKGEGTGYAFRK----DGQVYVGSIKAYNPKKTAWERTFDIVNAIKDIIDEFDLKGYHLAIETPIMGR   77 (161)
+T ss_dssp             CCEEEEECCCCCSTTCCEEEEEEE----TTEEEEEEECCCCTTSCHHHHHHHHHHHHHHHHHHTTCTTCEEEEECCCCCS
+T ss_pred             ceEEEEEcccCCCCCCCceEEEEE----CCEEEEEEEeecCCCCCHHHHHHHHHHHHHHHHHhcCCCCcEEEEECCCCCC
+
+
+Q ss_pred             CcchHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHH--HHcCCCCCCHHHHHHHHHHHhCCCCC-CcchHHHHHHHHHHH
+Q ACTH002.0722.0   73 NPDSALKLGQARGAALVALAGAGLDVHEYTALQIKK--ATVGVGHADKGQVQHMMRALLGLSAQ-PSADAADALACALCH  149 (165)
+Q Consensus        73 ~~~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~--~~~~~~~~~K~~~~~~~~~~~~~~~~-~~~d~~DA~~i~~~~  149 (165)
+                      +..+...+....+++..++...++++..++|.+|++  ...+.++.+|+.+.+.+...++.... .++|.+||++++.++
+T Consensus        78 ~~~~~~~~~~~~g~i~~~~~~~~~~~~~v~p~~~k~~~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~~~~~DA~~ia~~~  157 (161)
+T 4KTW_A           78 NRKHSITLANCNGYFIGAIDGLVNGYTFIDNSKWCSYHLISGKREQRKEESLELLKATGLVDSNCKDDNIADAYNILTYC  157 (161)
+T ss_dssp             SHHHHHHHHHHHHHHHHHHBTTBSCEEEECHHHHHHHTTCCSSHHHHHHHHHHHHHHTTSSCTTCCCHHHHHHHHHHHHH
+T ss_pred             ChHHHHHHHHHHHHHHHHHhhcCCceEEecHHHHHhhcccCCChhhHHHHHHHHHHHhCCCCCCCCCCcHHHHHHHHHHH
+
+
+Q ss_pred             HHH
+Q ACTH002.0722.0  150 LHE  152 (165)
+Q Consensus       150 ~~~  152 (165)
+                      +..
+T Consensus       158 ~~~  160 (161)
+T 4KTW_A          158 EHL  160 (161)
+T ss_dssp             HHC
+T ss_pred             Hhc
+
+
+No 7
+>6KVN_A NtMOC1; chloroplast, resolvase, PLANT PROTEIN; 2.02A {Nicotiana tabacum}
+Probab=99.79  E-value=2.1e-17  Score=115.19  Aligned_cols=148  Identities=17%  Similarity=0.194  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC-C--CEEEEeccc--cCCCc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR-P--DVCAVERVF--LARNP   74 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~-~--~~vviE~~~--~~~~~   74 (165)
+                      |+++|||||+. +|||+++ .+..+.++.++.. .+.......++..  ..+..+++.+. +  +.+++|.+.  .+++.
+T Consensus         6 ~~ilgiDp~~~-~G~a~~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~l~~~l~~~~~~~~~~v~iE~~~~~~~~~~   81 (171)
+T 6KVN_A            6 GWVIGVDPDTS-GALALLK-PNQPPQVFDSPHLKVLVGKGVRKRLDA--KAIVQLLKSFEAPIGTTVYVEQSTPYPQDGK   81 (171)
+T ss_dssp             CCEEEEECSTT-CEEEEEC-TTSCCEEEECCBCCC-------CCBCH--HHHHHHHHHTCCCTTCEEEEECCCCCTTCCH
+T ss_pred             eEEEEEeCCCC-ceEEEEC-CCCCCEEEECCcccccCCCCccceeCH--HHHHHHHHhCCCCCCcEEEEECCCCCCCCCh
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCC-CCCHHHHHHHHHHHhCCCC-----CCcchHHHHHHHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGAGLDVHEYTALQIKKATVGVG-HADKGQVQHMMRALLGLSA-----QPSADAADALACALC  148 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~-~~~K~~~~~~~~~~~~~~~-----~~~~d~~DA~~i~~~  148 (165)
+                      .+...+..+.+.+..++...++++..++|.+||+++++.+ +.+|+++.+.+.+.++...     ..++|.+||++++++
+T Consensus        82 ~~~~~l~~~~g~l~~~~~~~~~~~~~v~p~~~k~~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~~~~~~d~~DA~~ia~~  161 (171)
+T 6KVN_A           82 QGWWSGGFGYGMWIGILVASGFSVIPVPSSAWKSEFQLTKERSNKDYSRQVASQLFPSLSSLLKRKKDHGRAEALLIAAY  161 (171)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCEEEEECHHHHHHHTTC-------CCHHHHHHHHCGGGGGGGSSGGGHHHHHHHHHHHH
+T ss_pred             hhHHhHHHHHHHHHHHHHHcCCcEEEcChhHhHHhcCCCcCCCCHHHHHHHHHHHCcchHHHccccCCcCHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q ACTH002.0722.0  149 HLHE  152 (165)
+Q Consensus       149 ~~~~  152 (165)
+                      +...
+T Consensus       162 ~~~~  165 (171)
+T 6KVN_A          162 GKGI  165 (171)
+T ss_dssp             HHCC
+T ss_pred             HHHh
+
+
+No 8
+>6IS8_A Monokaryotic chloroplast 1; Holliday junction resolvase-DNA complex, DNA BINDING PROTEIN-DNA complex; HET: 1PE; 1.68A {Zea mays}
+Probab=99.78  E-value=5.8e-17  Score=113.24  Aligned_cols=148  Identities=16%  Similarity=0.201  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC-C--CEEEEecc--ccCCCc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR-P--DVCAVERV--FLARNP   74 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~-~--~~vviE~~--~~~~~~   74 (165)
+                      |.++|||||++ +|||++. .+....++.++.. .+.......++..  ..+..+++.+. +  +.+++|.+  ...++.
+T Consensus        12 ~~ilgiDpg~~-~G~av~~-~~~~~~~~~~~~~~~~~~~~~~~~~~~--~~l~~~l~~~~~~~~~~v~iE~~~~~~~~~~   87 (174)
+T 6IS8_A           12 GWVIGVNPDIG-GAIAVLS-PDGSSQVFDNPFVHIVVSEVIRKRLDT--KSIIQLLRGLDAPPGTTAYIEKSSPFPTDGK   87 (174)
+T ss_dssp             CCEEEEECSTT-CEEEEEC-TTSCEEEEECCEEEEEETTEEEEEECH--HHHHHHHHHCCSCTTCEEEEECCCCCTTSCH
+T ss_pred             cEEEEEeCCCC-ceEEEEC-CCCcEEEEECCcceeecccchhhccCH--HHHHHHHhcCCCCCCCEEEEEccCCCCCCCh
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCC-CCCHHHHHHHHHHHhCCCC-----CCcchHHHHHHHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGAGLDVHEYTALQIKKATVGVG-HADKGQVQHMMRALLGLSA-----QPSADAADALACALC  148 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~-~~~K~~~~~~~~~~~~~~~-----~~~~d~~DA~~i~~~  148 (165)
+                      .+...++.+.+.+..++...|+++..++|.+||+++++.+ +.+|+++.+.+.++++...     ..++|.+||++++.+
+T Consensus        88 ~~~~~l~~~~g~i~~~~~~~~i~~~~v~p~~~k~~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~~~~~~d~aDAi~ia~~  167 (174)
+T 6IS8_A           88 QGWWSTGFSYGLWIASLVASGFSVVPIASQTWKAYFGLMRSETPKDDSRQAASILFPDKDQSLKLKKHHGRAEALLLAAY  167 (174)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCEEEEECHHHHHHHTTCTTCSSHHHHHHHHHHHHCGGGGGGGCSGGGHHHHHHHHHHHH
+T ss_pred             hhHhhHHHHHHHHHHHHHHcCCCeEEeChhhhHHHhCCCCCCCCHHHHHHHHHHHCCCchhhcccCCCcCHHHHHHHHHH
+
+
+Q ss_pred             HHHH
+Q ACTH002.0722.0  149 HLHE  152 (165)
+Q Consensus       149 ~~~~  152 (165)
+                      ++.+
+T Consensus       168 ~~~~  171 (174)
+T 6IS8_A          168 GKGL  171 (174)
+T ss_dssp             HHTC
+T ss_pred             Hhhh
+
+
+No 9
+>6IS9_B Monokaryotic chloroplast 1; Holliday junction resolvase, DNA BINDING PROTEIN; 1.86A {Zea mays}
+Probab=99.73  E-value=1.2e-15  Score=111.58  Aligned_cols=146  Identities=16%  Similarity=0.197  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC-C--CEEEEeccc--cCCCc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR-P--DVCAVERVF--LARNP   74 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~-~--~~vviE~~~--~~~~~   74 (165)
+                      |.|+|||||.+ +|+|+++ .+....+.+++.+ .........++..  ..+.++++.+. |  +.+++|.+.  ...+.
+T Consensus        53 ~~ILgIDPg~s-~G~Al~~-~~~~~~v~~~~~i~~~~~~~~~~rld~--~~l~~ll~~~~~p~~~~vviE~~~~~~~~~~  128 (224)
+T 6IS9_B           53 GWVIGVDPDIG-GAIAVLS-PDGSSQVFDNPFVHIVVSEVIRKRLDT--KSIIQLLRGLDAPPGTTAYIEKSSPFPTDGK  128 (224)
+T ss_dssp             CCEEEEECSTT-CEEEEEC-TTSCEEEEECCEEEEEETTEEEEEECH--HHHHHHHHTCSSCTTCEEEEECCCCCTTSCH
+T ss_pred             cEEEEEeCCCC-eEEEEEC-CCCcEEEEECCCceeecCcchhhccCH--HHHHHHHhcCCCCCCcEEEEEcccCCCCCCC
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCC-CCCHHHHHHHHHHHhCCCC-----CCcchHHHHHHHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGAGLDVHEYTALQIKKATVGVG-HADKGQVQHMMRALLGLSA-----QPSADAADALACALC  148 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~-~~~K~~~~~~~~~~~~~~~-----~~~~d~~DA~~i~~~  148 (165)
+                      .+...++...+++..++...++++..++|.+||+++.+.+ +.+|+++.+.+...++...     ..++|.+||++++.+
+T Consensus       129 ~~~~~~~~~~g~i~~~~~~~g~~v~~v~p~~wK~~~~~~g~~~~K~~~~~~~~~~~~~~~~~~~~~~~~d~aDAi~ia~~  208 (224)
+T 6IS9_B          129 QGWWSTGFSYGLWIASLVASGFSVVPIASQTWKAYFGLMRSETPKDDSRQAASILFPDKDQSLKLKKHHGRAEALLLAAY  208 (224)
+T ss_dssp             HHHHHHHHHHHHHHHHHHHTTCEEEEECHHHHHHHTTCTTCSSHHHHHHHHHHHHCGGGGGGSCSGGGHHHHHHHHHHHH
+T ss_pred             cchHHHHHHHHHHHHHHHHcCCcEEEeCHHHHHHHhcCCCCCCCHHHHHHHHHHHCCChhHhccCCCCCCHHHHHHHHHH
+
+
+Q ss_pred             HH
+Q ACTH002.0722.0  149 HL  150 (165)
+Q Consensus       149 ~~  150 (165)
+                      ++
+T Consensus       209 ~~  210 (224)
+T 6IS9_B          209 GK  210 (224)
+T ss_dssp             HH
+T ss_pred             HH
+
+
+No 10
+>PF07066.15 ; DUF3882 ; Lactococcus phage M3 protein
+Probab=99.73  E-value=1.1e-15  Score=105.72  Aligned_cols=145  Identities=17%  Similarity=0.226  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CeEEEEcCCCCc-----eEEEEEEccCCcEEEEEEEEe-c-CCCCCHHHHHHHHHHHHHHHHHHHCC--CEEEEeccccC
+Q ACTH002.0722.0    1 MRVLGVDPGSRR-----TGFGIVDDQGGRPGYVACGVV-V-SISGTVAERLHRIFSGLAEVVEHYRP--DVCAVERVFLA   71 (165)
+Q Consensus         1 m~ilgiD~~~~~-----~G~ai~~~~~~~~~~~~~~~~-~-~~~~~~~~~~~~l~~~l~~~l~~~~~--~~vviE~~~~~   71 (165)
+                      |+++|||||+++     +|||+++ ++.    +.++.+ . +.......++..+.+.+..++..+.|  +.+++|.+...
+T Consensus         2 ~~ilgiDps~~~~~~~~tG~av~~-~~~----~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~p~~~~vviE~~~~~   76 (159)
+T A0A192YBS3_9CA    2 KKILAIDFSTASKKGEGTGYAFRK-DGQ----VYVGSIKAYNPKKTAWERTFDIVNAIKDIIDEFDLKGYHLAIETPIMG   76 (159)
+T ss_pred             ceEEEEEccccccCCCCceEEEEE-CCe----EEEEEEEecCCCCCHHHHHHHHHHHHHHHHHHcCCCCCEEEEEccCCC
+
+
+Q ss_pred             CCcchHHHHHHHHHHHHHHHHHCCCeEEEeCHHHHH--HHHcCCCCCCHHHHHHHHHHHhCCCCC-CcchHHHHHHHHHH
+Q ACTH002.0722.0   72 RNPDSALKLGQARGAALVALAGAGLDVHEYTALQIK--KATVGVGHADKGQVQHMMRALLGLSAQ-PSADAADALACALC  148 (165)
+Q Consensus        72 ~~~~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k--~~~~~~~~~~K~~~~~~~~~~~~~~~~-~~~d~~DA~~i~~~  148 (165)
+                      .+..+...+....+.+...+...++++..+.|.+|+  .+..+.++.+|+++.+.+.+.++.... .++|.+||++++.+
+T Consensus        77 ~~~~~~~~~~~~~g~i~~~~~~~~~~i~~~~~~~~~~~~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~~d~aDAi~ia~~  156 (159)
+T A0A192YBS3_9CA   77 RNRKHSITLANCNGYFIGAIDGLVNGYTFIDNSKWCSYHLISGKREQRKEESLELLKATGLVDSNCKDDNIADAYNILTY  156 (159)
+T ss_pred             CChHHHHHHHHHHHHHHHHHHHhcCceEeechhhceeeeeecCChhHHHHHHHHHHHHcCCCCCCCCCccHHHHHHHHHH
+
+
+Q ss_pred             HH
+Q ACTH002.0722.0  149 HL  150 (165)
+Q Consensus       149 ~~  150 (165)
+                      ++
+T Consensus       157 ~~  158 (159)
+T A0A192YBS3_9CA  157 CE  158 (159)
+T ss_pred             hc
+
+
+No 11
+>6P7A_B Holliday junction resolvase; RESOLVASE, HYDROLASE; 3.081A {Fowlpox virus}
+Probab=99.68  E-value=1.1e-15  Score=104.07  Aligned_cols=137  Identities=13%  Similarity=0.060  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEc--cCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDD--QGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSA   77 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~--~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~   77 (165)
+                      |+++|||||++++|+|+++.  ++..+.++.++.. .+         ..+.+.+..+++++.|+.+++|.+.  .+..+.
+T Consensus         1 m~il~iD~g~~~~G~av~~~~~~~~~~~~~~~~~~~~~---------~~~~~~l~~~i~~~~~~~v~iE~~~--~~~~~~   69 (148)
+T 6P7A_B            1 MIICSVDIGIKNPAYAIFNYDNTSNTIKLIAIEKSDWT---------KNWERSVARDLTRYNPDVVILEKQG--FASPNS   69 (148)
+T ss_dssp             CEEEEEECCSSSCEEEEEEEETTTTEEEEEEEEECCCS---------SCHHHHHHHHHHTSCCSEEEEECC----CCTTH
+T ss_pred             CeEEEEEecccceEEEEEEecCCCCcEEEEEeeCCCcC---------ccHHHHHHHHHHHhCCCEEEEecCC--CCCchH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHh-----CC-CCCCcchHHHHHHHHHHHHH
+Q ACTH002.0722.0   78 LKLGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALL-----GL-SAQPSADAADALACALCHLH  151 (165)
+Q Consensus        78 ~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~-----~~-~~~~~~d~~DA~~i~~~~~~  151 (165)
+                      ..++.    +..++...++++..++|.+||+.+++.++.+|+++.+++...+     .. ....++|.+||++++.+++.
+T Consensus        70 ~~~~~----~~~~~~~~~~~~~~v~p~~~k~~~~~~~~~~k~~~~~~~~~~~~~~~~~~~~~~~~~d~aDA~~ia~~~~~  145 (148)
+T 6P7A_B           70 KIIYF----IKGFFYNSNTKVIVRNPTFKGGSYRNRAAASIDVFIQKISEYTDYKNDILNKYTKLDDIANSFNLGLSYME  145 (148)
+T ss_dssp             HHHHH----HHHHTSSSSCEEEEECCC--CCCHHHHHHHHHHHHHHHGGGTCSCHHHHHHHCSCCHHHHHHHHHHHHHHH
+T ss_pred             HHHHH----HHHHhhCCCCeEEEECcccCCCcchHHHHHHHHHHHHHHHhcchhHHHHHHhCCCchHHHHHHHHHHHHHH
+
+
+Q ss_pred             H
+Q ACTH002.0722.0  152 E  152 (165)
+Q Consensus       152 ~  152 (165)
+                      +
+T Consensus       146 ~  146 (148)
+T 6P7A_B          146 S  146 (148)
+T ss_dssp             H
+T ss_pred             h
+
+
+No 12
+>5E6F_B CNPV261 Holliday junction resolvase protein; Poxvirus, Resolvase, Holliday Junction, Metal-binding, VIRAL PROTEIN; HET: TAR; 2.6A {Canarypox virus}
+Probab=99.53  E-value=6.3e-13  Score=91.20  Aligned_cols=134  Identities=14%  Similarity=0.101  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||+.++|+|+++.++..+.++.++.. ....         ....+...+..+.++.|++|.+...+...... 
+T Consensus         2 ~~il~iDpg~~~~G~av~~~~~~~~~~~~~~~~~~~~~---------~~~~i~~~l~~~~~~~vviE~~~~~~~~~~~~-   71 (152)
+T 5E6F_B            2 TIICSVDIGIKNPAYTIFRYEDSKVSLIAIEKSDWSDN---------WEYNVTKDLTKYNPDIIVLEKQGYRSPNAKII-   71 (152)
+T ss_dssp             CEEEEEECCSSSCEEEEEEESSSCEEEEEEEECCCSSS---------HHHHHHHHHHTTCCSEEEEECCCTTSTTHHHH-
+T ss_pred             ceEEEEEccCCceEEEEEEecCCeeEEEEeecCCCCch---------hHHHHHHHHHhhCCCEEEEecCCCCChhHHHH-
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHH--hC-------CCCCCcchHHHHHHHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRAL--LG-------LSAQPSADAADALACALCHL  150 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~--~~-------~~~~~~~d~~DA~~i~~~~~  150 (165)
+                           +.+..++...++++..++|.+||+.   .+..+|..+...+...  ++       ....+++|.+||++++++++
+T Consensus        72 -----~~i~~~~~~~~i~~~~~~p~~~k~~---~~~~kk~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~aDAi~ia~~~~  143 (152)
+T 5E6F_B           72 -----YFIKGFFYNTNTSVIVRNPTFQGGS---YSDRKKQSVITFMDKLSRYSDHIDDILSSFTKLDDIADSFNLGIAYI  143 (152)
+T ss_dssp             -----HHHHHHTTTSSCEEEEECCSSCSSC---HHHHHHHHHHHHHHHHC--------------CCHHHHHHHHHHHHHH
+T ss_pred             -----HHHHHHHhcCCCcEEEeCcccCCCc---HHHHHHHHHHHHHHHHhhCChhHHHHHHhCCCchHHHHHHHHHHHHH
+
+
+Q ss_pred             HH
+Q ACTH002.0722.0  151 HE  152 (165)
+Q Consensus       151 ~~  152 (165)
+                      ..
+T Consensus       144 ~~  145 (152)
+T 5E6F_B          144 ES  145 (152)
+T ss_dssp             CC
+T ss_pred             HH
+
+
+No 13
+>PF04848.17 ; Pox_A22 ; Poxvirus A22 protein
+Probab=99.50  E-value=5.7e-12  Score=85.33  Aligned_cols=129  Identities=19%  Similarity=0.144  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||++++|+|+++.++....+++++.. .+     ..+   + ..+.++++.++|+.+++|.+...  ..+...
+T Consensus         1 m~il~iDpg~~~~G~av~~~~~~~~~~~~~~~~~~~-----~~~---~-~~i~~~l~~~~~~~vviE~~~~~--~~~~~~   69 (143)
+T Q98294_MCV1/43    1 HVVCSIDVGTRNPARTLLEIRGEHLRVLSVDKLDWS-----TDW---E-HRVARDVCSVRADVVLVEKQGPR--SPHAKF   69 (143)
+T ss_pred             CeEEEEeeCCcceEEEEEEEeCCEEEEEEeecCCCC-----chH---H-HHHHHHHHhcCCCEEEEecCCCC--ChHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHh------CCCC-----C-CcchHHHHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALL------GLSA-----Q-PSADAADALACAL  147 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~------~~~~-----~-~~~d~~DA~~i~~  147 (165)
+                      +..+.+.+..     ++++..++|..|+       +.+|+.....+...+      ++..     . .++|.+||+++++
+T Consensus        70 ~~~~~~~~~~-----~i~v~~v~p~~~~-------~~~k~~k~~~~~~~~~~~~~~~~~~~~~~~~~~~~d~aDA~~i~~  137 (143)
+T Q98294_MCV1/43   70 LHFMRGLLFG-----QTPVLCRNPALRG-------GSYRARKRRSVQLFLRRLSFFGIDTRELRAHSKLDDVADSFHMAL  137 (143)
+T ss_pred             HHHHHHHHhC-----CCCEEEEChhhCC-------cchHHHHHHHHHHHHHHHhhcCCCHHHHHhcCChHHHHHHHHHHH
+
+
+Q ss_pred             HHHHH
+Q ACTH002.0722.0  148 CHLHE  152 (165)
+Q Consensus       148 ~~~~~  152 (165)
+                      +++..
+T Consensus       138 ~~~~~  142 (143)
+T Q98294_MCV1/43  138 EYALA  142 (143)
+T ss_pred             HHHHh
+
+
+No 14
+>PF11215.12 ; DUF3010 ; Protein of unknown function (DUF3010)
+Probab=99.50  E-value=3.5e-12  Score=86.37  Aligned_cols=108  Identities=8%  Similarity=0.047  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEE--EEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYV--ACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSA   77 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~--~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~   77 (165)
+                      |+++||||+.+.+|||+++.++..+.++  +++.+ .+...+. +++.++.+.+.+++++++||.+++|.+.......++
+T Consensus         1 m~iLGid~~~~~~g~aile~~~~~~~l~~~~~~~i~~~~~~~~-~rL~~i~~~i~~li~~~~pd~vaie~~~~~~~~~~~   79 (135)
+T D4ZFV3_SHEVD/1    1 MVIAGLFLKANEVRMVSLSGTRESHELVAPKINKLTLNKNPTQ-EEVSQFAAEVKAYCDEHQLDKIVMNRRASKGQGAGG   79 (135)
+T ss_pred             CeEEEEEeCCCEEEEEEEeCCCCceeecCCccceEEcCCCCCH-HHHHHHHHHHHHHHHHcCCCEEEEEcCCCCCCCCch
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcC
+Q ACTH002.0722.0   78 LKLGQARGAALVALAGAGLDVHEYTALQIKKATVG  112 (165)
+Q Consensus        78 ~~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~  112 (165)
+                      .....+.+++...+   ++++..++|.+||+..++
+T Consensus        80 ~~~~~~eGvl~~~a---~i~v~~~~p~~ik~~~~g  111 (135)
+T D4ZFV3_SHEVD/1   80 AGTFLMEGVILATA---SVSIDLVHPATVRATDKR  111 (135)
+T ss_pred             hhchhhHHHHHHHc---CCeEEEeChHHHHHHhhc
+
+
+No 15
+>1KCF_B HYPOTHETICAL 30.2 KD PROTEIN C25G10.02 IN CHROMOSOME I; beta-alpha-beta motif, RuvC resolvase family, HYDROLASE; HET: SO4; 2.3A {Schizosaccharomyces pombe} SCOP: a.140.2.1, c.55.3.7
+Probab=99.49  E-value=2.2e-11  Score=91.12  Aligned_cols=150  Identities=14%  Similarity=0.111  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE-ccCCcEEEEEEEEe-cCCCC----------CHHHHHHHHHHHHHHHHHHHCCCEEEEecc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD-DQGGRPGYVACGVV-VSISG----------TVAERLHRIFSGLAEVVEHYRPDVCAVERV   68 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~-~~~~~~~~~~~~~~-~~~~~----------~~~~~~~~l~~~l~~~l~~~~~~~vviE~~   68 (165)
+                      |+|+|||+|.+++|||+++ .++..+.+++|+.+ .....          +.......+.+.+..++..+.+|.+++|.+
+T Consensus        40 ~~VlsIDiGi~nl~~~~i~~~~~~~~~i~~w~~i~l~~~~~~~~~~~~~~~~~~~~~~i~~~v~~l~~~~~~d~vlIE~Q  119 (258)
+T 1KCF_B           40 SRVLGIDLGIKNFSYCFASQNEDSKVIIHNWSVENLTEKNGLDIQWTEDFQPSSMADLSIQLFNTLHEKFNPHVILMERQ  119 (258)
+T ss_dssp             SSEEEEECCSSSEEEEEEEECTTSCEEEEEEEEECTTSSCTTCCCCCCCCSHHHHHHHHHHHHHHHHHHHCCSEEEEECC
+T ss_pred             ceEEEEccccccEEEEEEEcCCCCCcEEEEeEEecCccccCCCccCCCCCCHHHHHHHHHHHHHHHhhhcCCCEEEEecc
+
+
+Q ss_pred             ccCCCcchH-----HHHHHHHHHHHHHHHHCC----------CeEEEeCHHHHHHHHcCCC-----CCCHHHHHHHHHHH
+Q ACTH002.0722.0   69 FLARNPDSA-----LKLGQARGAALVALAGAG----------LDVHEYTALQIKKATVGVG-----HADKGQVQHMMRAL  128 (165)
+Q Consensus        69 ~~~~~~~~~-----~~l~~~~~~~~~~~~~~~----------i~~~~v~~~~~k~~~~~~~-----~~~K~~~~~~~~~~  128 (165)
+                      .+..+. ..     ..+..+.+++..++...+          .++..++|..+.+++.+.+     +.+|....+.+...
+T Consensus       120 ~~r~~~-~~v~~~~l~~~~~e~~l~~~~~~~~~~~~~~~~~~~~v~~~~p~~~~k~~~~~~~~~~~~~~K~~~i~~v~~~  198 (258)
+T 1KCF_B          120 RYRSGI-ATIPEWTLRVNMLESMLYALHYAEKRNSIEQKIQYPFLLSLSPKSTYSYWASVLNTKASFSKKKSRVQMVKEL  198 (258)
+T ss_dssp             CC---------CHHHHHHHHHHHHHHHHHHHHHHHHHTTCCCCEEEEECTTHHHHHHHHHHC---------CHHHHHHHH
+T ss_pred             cccCCC-CcccHHHHHHhHHHHHHHHHHHHHHHcccccccCCCEEEEeCHHHHHHHHhhhcCCCCccchHHHHHHHHHHH
+
+
+Q ss_pred             hCC-------------------CCCCcchHHHHHHHHHHHHH
+Q ACTH002.0722.0  129 LGL-------------------SAQPSADAADALACALCHLH  151 (165)
+Q Consensus       129 ~~~-------------------~~~~~~d~~DA~~i~~~~~~  151 (165)
+                      +..                   ...+.+|.+||++++++++.
+T Consensus       199 l~~~~~~~~~~~~~~~~~~~~~~~~K~DDlaDall~ala~~~  240 (258)
+T 1KCF_B          199 IDGQKILFENEEALYKWNNGSRVEFKKDDMADSALIASGWMR  240 (258)
+T ss_dssp             HHTTSEEESSHHHHHHHHCC---CCCHHHHHHHHHHHHHHHH
+T ss_pred             HhCCCeecCCHHHHHHHhhcCCccccccHHHHHHHHHHHHHH
+
+
+No 16
+>1NU0_A Hypothetical protein yqgF; Structural genomics, hypothetical protein, yqgF, Structure 2 Function Project, S2F, UNKNOWN FUNCTION; HET: MSE; 1.6A {Escherichia coli} SCOP: c.55.3.8
+Probab=98.76  E-value=5.9e-07  Score=60.73  Aligned_cols=108  Identities=12%  Similarity=0.136  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||.+.+|+|+.+ .+ .........+ ..       ....+.+.+.++++.++++.++++.|....+..+.. 
+T Consensus         3 ~~iLgiD~G~~~~G~Av~~-~~-~~~~~~~~~~~~~-------~~~~~~~~l~~~i~~~~~~~ivig~p~~~~~~~~~~-   72 (138)
+T 1NU0_A            3 GTLMAFDFGTKSIGVAVGQ-RI-TGTARPLPAIKAQ-------DGTPDWNIIERLLKEWQPDEIIVGLPLNMDGTEQPL-   72 (138)
+T ss_dssp             CEEEEEECCSSEEEEEEEE-TT-TTEEEEEEEEEEE-------TTEECHHHHHHHHHHHCCSEEEEEEEECTTSCBCHH-
+T ss_pred             CeEEEEeCCCCeEEEEEEc-CC-CCeEEeccEEecC-------CCCCcHHHHHHHHHHHCCCEEEEEcccCCCCCCCHH-
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEE----eCHHHHHHHHcCCCCCCH
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHE----YTALQIKKATVGVGHADK  118 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~----v~~~~~k~~~~~~~~~~K  118 (165)
+                      +....+.+..++...++++..    .++..+++.+.+.+...|
+T Consensus        73 ~~~~~~~~~~l~~~~~~~i~~~dE~~ts~~~~~~~~~~g~~~~  115 (138)
+T 1NU0_A           73 TARARKFANRIHGRFGVEVKLHDERLSTVEARSGLFEQGGYRA  115 (138)
+T ss_dssp             HHHHHHHHHHHHHHHCCCEEEEEEECCCCCC-------CCCCC
+T ss_pred             HHHHHHHHHHHHHHHCCCEEEeCCCCcHHHHHHHHHHCCCchh
+
+
+No 17
+>7ESS_A Putative pre-16S rRNA nuclease; Holliday junction, Holliday junction resolvases, ATPase, DNA BINDING PROTEIN; 1.93A {Mycobacterium tuberculosis H37Rv}
+Probab=98.70  E-value=2.1e-06  Score=60.50  Aligned_cols=115  Identities=17%  Similarity=0.082  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||.+.+|+|+++ .+ .........+ ..       ....+...|..+++++.++.++++.|....+..+.. 
+T Consensus        22 ~~iLgiD~G~~~iG~Av~~-~~-~~~~~~~~~~~~~-------~~~~~~~~i~~li~~~~~~~iVvg~P~~~~~~~~~~-   91 (170)
+T 7ESS_A           22 GRRLGIDVGAARIGVACSD-PD-AILATPVETVRRD-------RSGKHLRRLAALAAELEAVEVIVGLPRTLADRIGRS-   91 (170)
+T ss_dssp             SCEEEEEECSSEEEEEEEC-TT-SCCEEEEEEEECC-------TTCHHHHHHHHHHHHHTCSEEEEEECCCC------C-
+T ss_pred             CeEEEEEcCCCEEEEEEEC-CC-CCeeeCceEEecC-------CchHHHHHHHHHHHHcCCCEEEEEcccCCCCCCCHH-
+
+
+Q ss_pred             HHHHHHHHHHHHHHC-CCeEE----EeCHHHHHHHHcCCCCCCH------HHHHHHH
+Q ACTH002.0722.0   80 LGQARGAALVALAGA-GLDVH----EYTALQIKKATVGVGHADK------GQVQHMM  125 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~-~i~~~----~v~~~~~k~~~~~~~~~~K------~~~~~~~  125 (165)
+                      .......+..+.... ++++.    ..++...++.+.+.+...|      +++...+
+T Consensus        92 ~~~~~~~i~~l~~~~~~i~v~~~dE~~tt~~a~~~~~~~g~~~k~~~~~~D~~AA~~  148 (170)
+T 7ESS_A           92 AQDAIELAEALARRVSPTPVRLADERLTTVSAQRSLRQAGVRASEQRAVIDQAAAVA  148 (170)
+T ss_dssp             HHHHHHHHHHHHHHHTTSCEEEEEGGGSSHHHHHHHHHHHC-CHHHHHHHHHHHHHH
+T ss_pred             HHHHHHHHHHHHHhcCCCCEEEecCCChHHHHHHHHHHcCCCHHHHHhhhHHHHHHH
+
+
+No 18
+>PF03652.19 ; RuvX ; Holliday junction resolvase
+Probab=98.70  E-value=2.7e-06  Score=58.16  Aligned_cols=93  Identities=13%  Similarity=0.156  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHH------CCCEEEEeccccCCC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHY------RPDVCAVERVFLARN   73 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~------~~~~vviE~~~~~~~   73 (165)
+                      |+++|||||.+.+|+|+.+ .+ .........+ .+...      ..+...+..+++++      .++.+++|.|....+
+T Consensus         1 ~~iLgiD~G~~~~G~Av~~-~~-~~~~~~~~~~~~~~~~------~~~~~~l~~~i~~~~~~~~~~~~~ivvg~p~~~~~   72 (141)
+T YQGF_PARUW/8-1    1 SRILGIDFGMSRIGLAQSD-ER-KIIAMPLITVHTEKKS------EQTVIKLLETISQLCETQKCEIEEIVIGLPLMMSG   72 (141)
+T ss_pred             CeEEEEecCCCeEEEEEec-CC-CceeeeeeEEecCCcC------HHHHHHHHHHHHHHhHhccCCCCEEEEecccCCCC
+
+
+Q ss_pred             cchHHHHHHHHHHHHHHHHHCCCeEEEeC
+Q ACTH002.0722.0   74 PDSALKLGQARGAALVALAGAGLDVHEYT  102 (165)
+Q Consensus        74 ~~~~~~l~~~~~~~~~~~~~~~i~~~~v~  102 (165)
+                      ..+ .......+++..++...++++..++
+T Consensus        73 ~~~-~~~~~~~~~~~~l~~~~~l~v~~~d  100 (141)
+T YQGF_PARUW/8-1   73 RTG-FLADEVKHFAQLLQQLTPIPIRLWD  100 (141)
+T ss_pred             CCC-HHHHHHHHHHHHHHHHcCCCEEEeC
+
+
+No 19
+>1IV0_A hypothetical protein; hypothetical protein, RNaseH-like, YqgF, STRUCTURAL GENOMICS, RIKEN Structural Genomics/Proteomics Initiative, RSGI, UNKNOWN FUNCTION; NMR {Thermus thermophilus} SCOP: c.55.3.8
+Probab=98.63  E-value=4.1e-06  Score=52.68  Aligned_cols=91  Identities=21%  Similarity=0.192  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||.+.+|+|+.+ .+ .......... ..       ....+...+..++++++++.+++|.|....+..+...
+T Consensus         1 ~~ilgiD~g~~~~G~ai~~-~~-~~~~~~~~~~~~~-------~~~~~~~~l~~li~~~~~~~ivvg~p~~~~~~~~~~~   71 (98)
+T 1IV0_A            1 MRVGALDVGEARIGLAVGE-EG-VPLASGRGYLVRK-------TLEEDVEALLDFVRREGLGKLVVGLPLRTDLKESAQA   71 (98)
+T ss_dssp             CCEEEEEESSSEEEEEEEC-SC-CSSCCCEEEEECC-------CHHHHHHHHHHHHHHHTCCEEEEECCCCCCSSSCCCS
+T ss_pred             CcEEEEEecCCEEEEEEEC-CC-CCeeEeeeEEecC-------ChHHHHHHHHHHHHHhCCCEEEEECCCCCCCCcCHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeC
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYT  102 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~  102 (165)
+                      . .....+..+... ++++..++
+T Consensus        72 ~-~~~~~~~~l~~~-~~~~~~~d   92 (98)
+T 1IV0_A           72 G-KVLPLVEALRAR-GVEVELWD   92 (98)
+T ss_dssp             S-TTHHHHHHHHHT-TCEEEEEC
+T ss_pred             H-HHHHHHHHHHHc-CCcEEEEc
+
+
+No 20
+>1VHX_A Putative Holliday junction resolvase; structural genomics, HYDROLASE; HET: MSE; 1.96A {Bacillus subtilis} SCOP: c.55.3.8, l.1.1.1
+Probab=98.52  E-value=3e-05  Score=53.65  Aligned_cols=122  Identities=16%  Similarity=0.178  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHH--HHHHHHHHHHHCCCEEEEeccccCCCcchH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRI--FSGLAEVVEHYRPDVCAVERVFLARNPDSA   77 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l--~~~l~~~l~~~~~~~vviE~~~~~~~~~~~   77 (165)
+                      |+++|||||.+.+|+|+.+ .+ .........+ ..       ....+  .+.|..+++++.++.++++.|....+..+.
+T Consensus         3 ~~iLgiD~G~k~~G~Ai~~-~~-~~~~~~~~~i~~~-------~~~~~~~~~~l~~li~~~~~~~iVvG~P~~~~g~~~~   73 (150)
+T 1VHX_A            3 LRILGLDLGTKTLGVALSD-EM-GWTAQGIETIKIN-------EAEGDYGLSRLSELIKDYTIDKIVLGFPKNMNGTVGP   73 (150)
+T ss_dssp             EEEEEEEECSSEEEEEEEC-TT-SSSEEEEEEEECB-------GGGTBCCHHHHHHHHTTSEEEEEEEECCCCBTTBCCH
+T ss_pred             ceEEEEEcCCCEEEEEEEC-CC-CCeeEeeeEEEcc-------ccccCCcHHHHHHHHHHcCCCEEEEECccCCCCCCCH
+
+
+Q ss_pred             HHHHHHHHHHHHHHHHCCCeEEE----eCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCCCCCcchHHHHHHHHHH
+Q ACTH002.0722.0   78 LKLGQARGAALVALAGAGLDVHE----YTALQIKKATVGVGHADKGQVQHMMRALLGLSAQPSADAADALACALC  148 (165)
+Q Consensus        78 ~~l~~~~~~~~~~~~~~~i~~~~----v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~~~~~~d~~DA~~i~~~  148 (165)
+                       .......++..+....++++..    .++...++.+.+.+...+..-                ...|+++.+..
+T Consensus        74 -~~~~v~~~~~~l~~~~~~~v~~~dE~~Tt~~a~~~l~~~g~~~~~~~----------------~~~D~~AA~~i  131 (150)
+T 1VHX_A           74 -RGEASQTFAKVLETTYNVPVVLWDERLTTMAAEKMLIAADVSRQKRK----------------KVIDKMAAVMI  131 (150)
+T ss_dssp             -HHHHHHHHHHHHHHHHCSCEEEECCSSCHHHHHHHHHHTTCCHHHHH----------------HHHHHHHHHHH
+T ss_pred             -HHHHHHHHHHHHHHHhCCCEEEeCccccHHHHHHHHHHCCCCHHHHH----------------HHHHHHHHHHH
+
+
+No 21
+>5OLA_B Transcription elongation factor, mitochondrial; Elongation Factor, Mitochondria, Resolvase, RNA Polymerase, TRANSCRIPTION; 3.904A {Homo sapiens}
+Probab=98.24  E-value=0.00049  Score=51.40  Aligned_cols=147  Identities=12%  Similarity=0.101  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHH-CCCEEEEeccccCCCcch--
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHY-RPDVCAVERVFLARNPDS--   76 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~-~~~~vviE~~~~~~~~~~--   76 (165)
+                      +.|+|||+|..+++||.++ .  +..+++|+.. .............+.+.+..+++.. .+|.+++|.+....+...  
+T Consensus        34 ~~VvsIdvg~~~isw~~l~-~--~~~i~~W~~~~l~~~~~~k~~~~~l~~~~~~i~~~lp~~d~yiiE~q~~~~~~~~~~  110 (234)
+T 5OLA_B           34 NSIISIVFGTRRIAWAHLD-R--KLTVLDWQQSDRWSLMRGIYSSSVYLEEISSIISKMPKADFYVLEKTGLSIQNSSLF  110 (234)
+T ss_dssp             SEEEEEEECSSCEEEEEEE-T--TCBEEEEEEECCCSCSSSCCCHHHHHHHHHHHHTTSCCCSEEEEEECCCCTTCGGGH
+T ss_pred             CeEEEEEEecCcEEEEEEc-C--CCeEEEEEEecchhhcCCCCCHHHHHHHHHHHHHhCCCCCEEEEecCCCCCCccchH
+
+
+Q ss_pred             --HHHHHHHHHHHHHHHHHC-----CCeEEEeCHHHHHHHHc---CCCCCCHHHHHHHH---------------------
+Q ACTH002.0722.0   77 --ALKLGQARGAALVALAGA-----GLDVHEYTALQIKKATV---GVGHADKGQVQHMM---------------------  125 (165)
+Q Consensus        77 --~~~l~~~~~~~~~~~~~~-----~i~~~~v~~~~~k~~~~---~~~~~~K~~~~~~~---------------------  125 (165)
+                        ...+..+.+++..++...     ...+..+.|..+.++|.   |..+.....+.+.+                     
+T Consensus       111 ~~~l~~~~i~amL~~~l~~~~~~~~~~~V~~~~p~~v~k~f~l~vg~ek~s~~~lv~~il~~~~~~~~~~v~i~~~~~~~  190 (234)
+T 5OLA_B          111 PILLHFHIMEAMLYALLNKTFAQDGQHQVLSMNRNAVGKHFELMIGDSRTSGKELVKQFLFDSILKADPRVFFPSDKIVH  190 (234)
+T ss_dssp             HHHHHHHHHHHHHHHHHCTTHHHHCCCCEEEEEHHHHHHHTTCBSSSSBCCCHHHHHHHHHCCCCSSCCSCBCCTTTHHH
+T ss_pred             HHHHHHHHHHHHHHHHHhhhcccCCCceEEEEehhHHHHHhchhcCCcchhHHHHHHHHHhcCcccCCCCeeCCHHHHHH
+
+
+Q ss_pred             -HHHhCCCCC-CcchHHHHHHHHHHHH
+Q ACTH002.0722.0  126 -RALLGLSAQ-PSADAADALACALCHL  150 (165)
+Q Consensus       126 -~~~~~~~~~-~~~d~~DA~~i~~~~~  150 (165)
+                       ...+..... ..+|.+||+++|++++
+T Consensus       191 y~~~f~~~~~~kkedladaLL~alaf~  217 (234)
+T 5OLA_B          191 YRQMFLSTELQRVEELYDSLLQAIAFY  217 (234)
+T ss_dssp             HHHHHHHTSSSCCHHHHHHHHHHHHHC
+T ss_pred             HHHHHhcCccchhhHHHHHHHHHHHHH
+
+
+No 22
+>7W89_A Putative pre-16S rRNA nuclease; RNase, RNA binding, HYDROLASE; 1.50006105724A {Deinococcus radiodurans}
+Probab=98.21  E-value=0.0001  Score=49.73  Aligned_cols=89  Identities=19%  Similarity=0.146  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~   79 (165)
+                      |+++|||||.+.+|+|+++    .......... ..       ....+.+.+.++++.+.++.++++.|....+..+...
+T Consensus        16 ~~ilgiD~G~~~~G~ai~~----~~~~~~~~~~~~~-------~~~~~~~~l~~~i~~~~~~~ivig~p~~~~~~~~~~~   84 (136)
+T 7W89_A           16 PTVLALDVSKSRIGFAVSA----GRLAFGRGSVDRK-------RLPLDLKAVRLKVEETGAERLVLGLPLRTDGKPSPTA   84 (136)
+T ss_dssp             CCEEEEEECSSEEEEEEEE----TTEEEEEEEEECC-------SHHHHHHHHHHHHHHHTCSEEEEEEEBCTTSCBCHHH
+T ss_pred             CeEEEEeCCCCEEEEEEEc----CCeeEEcceeecC-------CcchHHHHHHHHHHHHCCCEEEEeCccCCCCCCCHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHHCCCeEEEeC
+Q ACTH002.0722.0   80 LGQARGAALVALAGAGLDVHEYT  102 (165)
+Q Consensus        80 l~~~~~~~~~~~~~~~i~~~~v~  102 (165)
+                      . ...+.+..+.. .++++..++
+T Consensus        85 ~-~~~~~~~~l~~-~~~~v~~~~  105 (136)
+T 7W89_A           85 D-RVRAFGRVLMD-KGYTVEYQD  105 (136)
+T ss_dssp             H-HHHHHHHHHHH-TTCCEEEEE
+T ss_pred             H-HHHHHHHHHHH-cCCcEEEec
+
+
+No 23
+>PF16921.9 ; Tex_YqgF ; Tex protein YqgF-like domain
+Probab=98.04  E-value=0.00052  Score=45.20  Aligned_cols=118  Identities=14%  Similarity=0.131  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeEEEEcCCCCc-eEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRR-TGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSAL   78 (165)
+Q Consensus         1 m~ilgiD~~~~~-~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~   78 (165)
+                      |+++|||||.+. +|+|+++ .  .-.++..+.+ ..       ....+.+.|..+++++.|+.++++.+....   .  
+T Consensus         1 ~~ilgiD~g~~~~~g~a~~~-~--~g~~~~~~~~~~~-------~~~~~~~~l~~~i~~~~p~~ivvg~~~~~~---~--   65 (123)
+T A5EXJ3_DICNV/3    1 TVTLGLDPGYRHGIKCAVVD-D--TGKLLATTIVYLH-------QENALRAQLKKMIIDHRVSLIAIGNGTASR---E--   65 (123)
+T ss_pred             CeeEEEecCCCCceEEEEEC-C--CCCEEEEEEEeec-------hhHHHHHHHHHHHHHcCCcEEEEcCChhHH---H--
+
+
+Q ss_pred             HHHHHHHHHHHHHHHCCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCC-CCCCcchHHHHHHHHHH
+Q ACTH002.0722.0   79 KLGQARGAALVALAGAGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGL-SAQPSADAADALACALC  148 (165)
+Q Consensus        79 ~l~~~~~~~~~~~~~~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~-~~~~~~d~~DA~~i~~~  148 (165)
+                       ...+...+...+...++++..++...-.          .......+.+.++. .    .+...|+.+|.+
+T Consensus        66 -~~~~~~~l~~~~~~~~~~v~~~de~~s~----------~~~~s~~a~~~~~~~~----~~~r~A~~lar~  121 (123)
+T A5EXJ3_DICNV/3   66 -TTSIITQLLKEIPEHAVRHTIVSEAGAS----------VYSASELAAQEFPELD----VSLRGAVSIARR  121 (123)
+T ss_pred             -HHHHHHHHHHhCCcccCEEEEEcchhHH----------HhhcCHHHHHHCCCCC----HHHHHHHHhhhh
+
+
+No 24
+>5OL8_A Transcription elongation factor, mitochondrial; Elongation Factor, Mitochondria, Resolvase, RNA Polymerase, TRANSCRIPTION; HET: GOL; 1.9A {Homo sapiens}
+Probab=97.89  E-value=0.003  Score=49.30  Aligned_cols=147  Identities=12%  Similarity=0.066  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             eEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCC-CEEEEeccccCCCcchHHH
+Q ACTH002.0722.0    2 RVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRP-DVCAVERVFLARNPDSALK   79 (165)
+Q Consensus         2 ~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~-~~vviE~~~~~~~~~~~~~   79 (165)
+                      .|+|||.|.++++||.++ .  +..+.+|+.. .............+.+.+..+++.... |.+++|......+..+...
+T Consensus       120 ~vlsIdvg~~nla~~~l~-~--~~~i~~W~~~~l~~~~~~~~~~~~~~~~~~~~~~~lp~~d~~viE~q~~~~~~~~~~~  196 (319)
+T 5OL8_A          120 SIISIVFGTRRIAWAHLD-R--KLTVLDWQQSDRWSLMRGIYSSSVYLEEISSIISKMPKADFYVLEKTGLSIQNSSLFP  196 (319)
+T ss_dssp             EEEEEEECSSEEEEEEEE-T--TCBEEEEEEEECTTSSSSCCCHHHHHHHHHHHHTTCCCCSEEEEEECCCCSSCSTTHH
+T ss_pred             eEEEEEecCCcEEEEEeC-C--CCeEEEeEecchhHHcCCCCCHHHHHHHHHHHHHhCCCCCEEEEEcCCCCCCCcccHH
+
+
+Q ss_pred             ----HHHHHHHHHHHHHHC-----CCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCCC------------------
+Q ACTH002.0722.0   80 ----LGQARGAALVALAGA-----GLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGLS------------------  132 (165)
+Q Consensus        80 ----l~~~~~~~~~~~~~~-----~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~~------------------  132 (165)
+                          +..+.+++..++...     ...+..+.|..+.+++.......|......+...+...                  
+T Consensus       197 ~~~~~~~i~~mL~~~l~~~~~~~~~~~v~~~~~~~~~~~f~l~~g~ek~s~~~~v~~ll~~~~~~~~~~v~~~~~~~~~~  276 (319)
+T 5OL8_A          197 ILLHFHIMEAMLYALLNKTFAQDGQHQVLSMNRNAVGKHFELMIGDSRTSGKELVKQFLFDSILKADPRVFFPSDKIVHY  276 (319)
+T ss_dssp             HHHHHHHHHHHHHHHHCTTHHHHCCCCEEEEEHHHHHHHTTCEETTEECCCHHHHHHHHHCSCCCSCCSSBCCHHHHHHH
+T ss_pred             HHHHHHHHHHHHHHHHhhhhccCCCCeEEEEchHHHHHHhchhcCCcchhHHHHHHHHHhcccccCCCCeeCCHHHHHHH
+
+
+Q ss_pred             --------CCCcchHHHHHHHHHHHHH
+Q ACTH002.0722.0  133 --------AQPSADAADALACALCHLH  151 (165)
+Q Consensus       133 --------~~~~~d~~DA~~i~~~~~~  151 (165)
+                              ..+.+|.+||+.+|++++.
+T Consensus       277 ~~~~~~~~~~kkddladslL~alaf~~  303 (319)
+T 5OL8_A          277 RQMFLSTELQRVEELYDSLLQAIAFYE  303 (319)
+T ss_dssp             HHHHHHTTTTTCHHHHHHHHHHHHHCC
+T ss_pred             HHHHhcCCccchHHHHHHHHHHHHHHH
+
+
+No 25
+>PF09159.14 ; Ydc2-catalyt ; Mitochondrial resolvase Ydc2 / RNA splicing MRS1
+Probab=97.24  E-value=0.04  Score=43.79  Aligned_cols=110  Identities=17%  Similarity=0.195  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             EEEEcCCCCceEEEEEEcc-----------CCcEEEEEEEEe-cC-----------------------------------
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVDDQ-----------GGRPGYVACGVV-VS-----------------------------------   35 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~~~-----------~~~~~~~~~~~~-~~-----------------------------------   35 (165)
+                      |++||.|.++++||.++.+           ...+.+..|..+ ..                                   
+T Consensus         1 IlSIDmGirNlA~c~l~~~~~~~~~~~~~~~~~p~l~~W~ri~l~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   80 (331)
+T C0SIT1_PARBP/7    1 ILSIDMGIRNLAFAHLVVPAGHAGRTKSGEFKPPILKAWYRLAVPSFVSNSDRALNFNLDDEMRPKKKITKDRKSLPLNG   80 (331)
+T ss_pred             CeEEeeccceeEEEEEEecccccCCCCCCCCCCCeeeeeeEecCCcccCCchhhhccCCchhhCCcccccccccCCCCCC
+
+
+Q ss_pred             ------------------------CCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcchH-----HHHHHHHHH
+Q ACTH002.0722.0   36 ------------------------ISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSA-----LKLGQARGA   86 (165)
+Q Consensus        36 ------------------------~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~-----~~l~~~~~~   86 (165)
+                                              ..-+.......+..-+..++..+.+|.|+||...+..++..+     ..+..+.++
+T Consensus        81 ~~~~~~~~~~~~~~~~~~~~~~~~~~f~p~~~a~~~~~lv~~l~~~~~pd~vlIErQr~Rs~g~~~V~e~~lrvn~lE~m  160 (331)
+T C0SIT1_PARBP/7   81 PDASSGCDSTHVPGNGDGNKVKQKESFAPKVYAAHAYTLMSSLLATYKPTHVLIERQRFRSGGGSAVPEWTIRVGVFEGM  160 (331)
+T ss_pred             CCCCCCCCCCCCCCCCCCCcccccCCCCHHHHHHHHHHHHHHHHhhcCCCEEEEeecccCCCCCcccchHHHHHhHHHHH
+
+
+Q ss_pred             HHHHHHHC---------CCeEEEeCHHHHHHHHcC
+Q ACTH002.0722.0   87 ALVALAGA---------GLDVHEYTALQIKKATVG  112 (165)
+Q Consensus        87 ~~~~~~~~---------~i~~~~v~~~~~k~~~~~  112 (165)
+                      +..++...         +..+..++|..+-+++..
+T Consensus       161 L~a~l~~~~~~~~~~~~~~~V~sv~P~~v~~~w~~  195 (331)
+T C0SIT1_PARBP/7  161 LYAVLRAMQQERKGEIANIVVQGVEPQRVLRYWID  195 (331)
+T ss_pred             HHHHHHHHHHhcCCCcCCeEEEEecHHHHHHHhhc
+
+
+No 26
+>6JDX_C CRISPR-associated endonuclease Cas9; CRISPR-Cas9, Nme1Cas9, NmeCas9, anti-CRISPR, AcrIIC2, HYDROLASE-HYDROLASE INHIBITOR complex; 2.28A {Neisseria meningitidis 8013}
+Probab=97.13  E-value=0.003  Score=38.98  Aligned_cols=35  Identities=23%  Similarity=0.359  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCC--cEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGG--RPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~--~~~~~~~~~~-~~   35 (165)
+                      |.++|||||..++|||+++..+.  ...++.+++. ++
+T Consensus        11 ~~ilGiD~G~~s~G~avi~~~~~~~~~~~~~~g~~~~~   48 (78)
+T 6JDX_C           11 NYILGLDIGIASVGWAMVEIDEEENPIRLIDLGVRVFE   48 (78)
+T ss_dssp             ---------------------CCSSCCCGGGGCCCBCS
+T ss_pred             cEEEEEeeCCCceEEEEEEcCCCCCceEEEEccEEEeC
+
+
+No 27
+>PF14639.10 ; YqgF ; Holliday-junction resolvase-like of SPT6
+Probab=95.89  E-value=0.55  Score=32.66  Aligned_cols=124  Identities=13%  Similarity=0.057  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CeEEEEcCC---CCceEEEEEEccCCcEEEEEEEEe-cCCCCCH------HHHHHHHHHHHHHHHHHHCCCEEEEecccc
+Q ACTH002.0722.0    1 MRVLGVDPG---SRRTGFGIVDDQGGRPGYVACGVV-VSISGTV------AERLHRIFSGLAEVVEHYRPDVCAVERVFL   70 (165)
+Q Consensus         1 m~ilgiD~~---~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~------~~~~~~l~~~l~~~l~~~~~~~vviE~~~~   70 (165)
+                      .+++|||||   ...+++|+++ .  .-++++...+ .......      ........+.|.+++.++.|+.|++.    
+T Consensus         5 ~~vlai~~g~~~~~~~~~avvd-~--~G~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~~p~~IvIg----   77 (157)
+T SPT6H_HUMAN/77    5 IRVLGIAFSSARDHPVFCALVN-G--EGEVTDFLRLPHFTKRRTAWREEEREKKAQDIETLKKFLLNKKPHVVTVA----   77 (157)
+T ss_pred             ceEEEEEecCCCCCCEEEEEEC-C--CCCEEEEEEccccccccccCCHHHHHHHHHHHHHHHHHHHhhCCCEEEEe----
+
+
+Q ss_pred             CCCcchHHHHHHHHHHHHHHHHH------CCCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCC-CCCCcchHHHHH
+Q ACTH002.0722.0   71 ARNPDSALKLGQARGAALVALAG------AGLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGL-SAQPSADAADAL  143 (165)
+Q Consensus        71 ~~~~~~~~~l~~~~~~~~~~~~~------~~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~-~~~~~~d~~DA~  143 (165)
+                      ..+..+-.-+..+...+.   ..      ..+++..++..--+-+.          ......+.++. +    .....|+
+T Consensus        78 ~~~~~~~~l~~~l~~~~~---~~~~~~~~~~i~v~~v~e~~a~l~~----------~s~~~~~e~~~~~----~~~r~ai  140 (157)
+T SPT6H_HUMAN/77   78 GENRDAQMLIEDVKRIVH---ELDQGQQLSSIGVELVDNELAILYM----------NSKKSEAEFRDYP----PVLRQAV  140 (157)
+T ss_pred             CCCHHHHHHHHHHHHHHH---HHhhcccccCCEEEEECcHHHHHHH----------hCHHHHHHhccCC----HHHHHHH
+
+
+Q ss_pred             HHHHH
+Q ACTH002.0722.0  144 ACALC  148 (165)
+Q Consensus       144 ~i~~~  148 (165)
+                      .++.+
+T Consensus       141 slaR~  145 (157)
+T SPT6H_HUMAN/77  141 SLARR  145 (157)
+T ss_pred             HHHHH
+
+
+No 28
+>PF04312.17 ; DUF460 ; Protein of unknown function (DUF460)
+Probab=93.05  E-value=0.2  Score=34.71  Aligned_cols=18  Identities=44%  Similarity=1.005  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++||||| .++|+|++.
+T Consensus        31 ~liiGIDPG-~k~GvAv~~   48 (140)
+T A8ACB6_IGNH4/2   31 LLVVGIDPG-IKTGLAILN   48 (140)
+T ss_pred             eEEEEEcCC-CcEEEEEEe
+
+
+No 29
+>5BR9_E Uncharacterized protein; SSGCID, Pseudomonas aeruginosa, Uncharacterized protein, peptidase YEAZ, Structural Genomics, Seattle Structural Genomics Center for Infectious Disease; 2.35A {Pseudomonas aeruginosa (strain ATCC 15692 / PAO1 / 1C / PRS 101 / LMG 12228)} SCOP: c.55.1.0
+Probab=90.71  E-value=9  Score=28.92  Aligned_cols=91  Identities=14%  Similarity=0.103  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCC-----CEEEEeccccCCCc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRP-----DVCAVERVFLARNP   74 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~-----~~vviE~~~~~~~~   74 (165)
+                      |.+++||.+...+++|+.. +         +.. ..........-..+...+.+++++.+.     +.+++-..+.+=  
+T Consensus        10 ~~~LaIdts~~~~~ial~~-~---------~~~~~~~~~~~~~~~~~L~~~i~~~l~~~~~~~~~i~~i~v~~GPGSf--   77 (234)
+T 5BR9_E           10 STLLALDTSTEACSVALLH-E---------GRALSHYEVIPRLHAQRLLPMVRDLLDEAGVALSAVDAIAFGRGPGAF--   77 (234)
+T ss_dssp             CCEEEEECSSSEEEEEEEE-T---------TEEEEEEEECSSCSHHHHHHHHHHHHHHHTCCGGGCCEEEEEEESSCH--
+T ss_pred             HhhheeeccCCCeeEEEEE-C---------CEEEEEEEecchHHHhhHHHHHHHHHHHcCCCHHHCCEEEEecCCCCc--
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHCCCeEEEeCHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGAGLDVHEYTALQI  106 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~  106 (165)
+                       ++  +.-.......++...++|+.-++.-.+
+T Consensus        78 -Tg--lRvgia~akgla~~~~ipl~~i~sl~~  106 (234)
+T 5BR9_E           78 -TG--VRIAIGVVQGLAFALQRPVLAVSDLAI  106 (234)
+T ss_dssp             -HH--HHHHHHHHHHHHHHHTCCEEEEEHHHH
+T ss_pred             -HH--HHHHHHHHHHHHHHcCCCEEEeChHHH
+
+
+No 30
+>6M0X_A CRISPR-associated endonuclease Cas9 1; Cas9, CRISPR, DNA BINDING PROTEIN; HET: BA; 2.561A {Streptococcus thermophilus LMD-9}
+Probab=90.62  E-value=2.1  Score=40.05  Aligned_cols=55  Identities=16%  Similarity=0.186  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |. ++|+|+|+.++|||+++ .+ ...+++.|+. ++........-....+..+..+++
+T Consensus         3 ~~~~LGLDlG~~SIGWAvi~-~~-~~~ii~~GvriF~~~~~~~~~~RR~~R~~RR~~~R   59 (1122)
+T 6M0X_A            3 SDLVLGLDIGIGSVGVGILN-KV-TGEIIHKNSRIFPAAQAENNLVRRTNRQGRRLARR   59 (1122)
+T ss_dssp             --CEEEEEECSSEEEEEEEC-TT-TCCEEEEEEEECCTHHHHTHHHHHHHHHHHHHHHH
+T ss_pred             CceEEEEEeCCCeeEEEEEe-CC-CCcEEEEEEEEcchhhhhHHHHHHHHHHHHHHHHH
+
+
+No 31
+>6JOO_A CRISPR-associated protein,CRISPR-associated endonuclease Cas9; CRISPR-Cas, Cas9, PAM, DNA endonuclease, Ribonucleoprotein, HYDROLASE-DNA-RNA complex; HET: MSE; 2.9A {Corynebacterium diphtheriae}
+Probab=89.93  E-value=1.2  Score=40.79  Aligned_cols=35  Identities=20%  Similarity=0.315  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-c-cCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-D-QGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~-~~~~~~~~~~~~~-~~   35 (165)
+                      |+ ++|+|.|..++|||+++ . ++.+..+++.++. ++
+T Consensus         4 ~~~~LGLDlG~~SIGwAvi~~d~~~~p~~i~~~GvriF~   42 (927)
+T 6JOO_A            4 MKYHVGIDVGTFSVGLAAIEVDDAGMPIKTLSLVSHIHD   42 (927)
+T ss_dssp             CCEEEEEEECSSEEEEEEEEECSSSCEEEEEEEEEEECC
+T ss_pred             CceEEEEEeCCCeeEEEEEEeCCCCCeeeEeeeeeEEec
+
+
+No 32
+>7EL1_A CRISPR-associated endonuclease Cas9; UNKNOWN FUNCTION; 2.22A {Staphylococcus aureus}
+Probab=88.67  E-value=3.4  Score=38.51  Aligned_cols=55  Identities=24%  Similarity=0.378  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |. ++|+|+|+.++|||+++ .+.. .+++.|+. ++...+....-....+..+..+++
+T Consensus         3 ~~~~LGLDiG~~SIGwAvi~-~~~~-~Ii~~GvriF~~~~~~~~~~RR~~R~~RR~~~R   59 (1053)
+T 7EL1_A            3 RNYILGLDIGITSVGYGIID-YETR-DVIDAGVRLFKEANVENNEGRRSKRGARRLKRR   59 (1053)
+T ss_dssp             CCEEEEEEECSSEEEEEEEE-TTTC-CEEEEEEEECCCCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             CCeEEEEEeCCCeeEEEEEe-CCCC-ceEEeeeeeccccCCCchHHHHHHHHHHHHHHH
+
+
+No 33
+>6WBR_A CRISPR-associated endonuclease, Csn1 family,CRISPR-associated endonuclease, Csn1 family; DNA endonuclease, CRISPR-Cas9, HNH, RuvC, RNA BINDING PROTEIN, RNA BINDING PROTEIN-DNA-RNA complex; HET: GTP; 2.91A {Acidothermus cellulolyticus (strain ATCC 43068 / 11B)}
+Probab=88.02  E-value=1.7  Score=39.99  Aligned_cols=35  Identities=26%  Similarity=0.343  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-ccCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-DQGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~~~~~~~~~~~~~~-~~   35 (165)
+                      |+ ++|+|+|+.++|||+++ ..+++..++.+++. .+
+T Consensus        11 ~~~~LGLDlG~~SIGwAvi~~d~~~p~~i~~~gvrif~   48 (977)
+T 6WBR_A           11 VTWRLGVDVGERSIGLAAVSYEEDKPKEILAAVSWIHD   48 (977)
+T ss_dssp             CCEEEEEEECSSEEEEEEEEESSSCEEEEEEEEEEECC
+T ss_pred             CceEEEEEeCCCeeEEEEEEcCCCCcceeeeeeeeEec
+
+
+No 34
+>6KC8_A CRISPR-associated endonuclease Cas9; CRISPR-Cas9, NmeCas9, Nme1Cas9, hydrolase, ternary complex, HYDROLASE-RNA-DNA complex; 2.9A {Neisseria meningitidis 8013}
+Probab=87.41  E-value=1.9  Score=40.26  Aligned_cols=35  Identities=26%  Similarity=0.523  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-c-cCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-D-QGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~-~~~~~~~~~~~~~-~~   35 (165)
+                      |. ++|+|+|..++|||+++ . .+.+..+++.|+. ++
+T Consensus        10 ~~~~LGLDiG~~SIGwAvi~~~~~~~~~~i~~~GvriF~   48 (1083)
+T 6KC8_A           10 INYILGLDIGIASVGWAMVEIDEEENPIRLIDLGVRVFE   48 (1083)
+T ss_dssp             CCEEEEEEECSSEEEEEEEEECTTCCEEEEEEEEEEECC
+T ss_pred             CCeEEEEEeCCCceEEEEEEeCCCCCceeEEEcceEEec
+
+
+No 35
+>4OGE_A HNH endonuclease domain protein; CRISPR-Cas, Cas9, HNH, RuvC, RNA-guided DNA endonuclease, cytoplasmic, Hydrolase; HET: SPD; 2.201A {Actinomyces naeslundii}
+Probab=87.06  E-value=2.1  Score=39.97  Aligned_cols=35  Identities=17%  Similarity=0.304  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-c-cCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-D-QGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~-~~~~~~~~~~~~~-~~   35 (165)
+                      |+ ++|+|+|..++|||+++ . ++.+..++..|+. ++
+T Consensus        10 ~~~~LGlDlG~~SiGwAvi~~d~~~~~~~I~~~GvriF~   48 (1101)
+T 4OGE_A           10 HHLRVGIDVGTHSVGLATLRVDDHGTPIELLSALSHIHD   48 (1101)
+T ss_dssp             CEEEEEEEECSSEEEEEEEEECTTCCEEEEEEEEEEECC
+T ss_pred             CCeEEEEEeCCCceEEEEEEeCCCCCeeeeeeeeeEEEe
+
+
+No 36
+>8HNT_A CRISPR-associated endonuclease Cas9; Cas9, ANTIMICROBIAL PROTEIN, REC lobe, IMMUNE SYSTEM; 3.06A {Haemophilus parainfluenzae}
+Probab=86.45  E-value=2.9  Score=39.02  Aligned_cols=35  Identities=26%  Similarity=0.482  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE-c-cCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD-D-QGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~-~-~~~~~~~~~~~~~-~~   35 (165)
+                      +.++|+|+|..++|||+++ . ++.+..+++.|+. ++
+T Consensus         8 ~~~LGlDiG~~SiGwAvi~~~~~~~~~~i~~~GvriF~   45 (1055)
+T 8HNT_A            8 NYILGLDLGIASVGWAVVEIDEKENPLRLIDVGVRTFE   45 (1055)
+T ss_dssp             CEEEEEEEETTEEEEEEEEECSSSCEEEEEEEEEEECC
+T ss_pred             CeEEEEEeCCCeeEEEEEEeCCCCCceeEEEeeeEEec
+
+
+No 37
+>8HUD_A CRISPR-associated endonuclease Cas9; RNA, DNA, RNA BINDING PROTEIN/RNA/DNA, RNA BINDING PROTEIN-RNA-DNA complex; 3.43A {Eubacterium ventriosum ATCC 27560}
+Probab=85.73  E-value=5.3  Score=37.54  Aligned_cols=54  Identities=17%  Similarity=0.259  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |. ++|+|+|+.++|||+++ +  ...+++.|+. ++........-.......+..+++
+T Consensus         1 m~~~LGlDiG~~SIGwAv~~-~--~~~ii~~GvriF~~~~~~~~~~RR~~R~~RR~~~R   56 (1107)
+T 8HUD_A            1 MGYTVGLDIGVASVGVAVLD-E--NDNIVEAVSNIFDEADTSNNKVRRTLREGRRTKRR   56 (1107)
+T ss_dssp             ----------------------------------------CHHHHHHHHHHHHHHHHHH
+T ss_pred             CCeEEEEEecCCeEEEEEEC-C--CCCeeeeEEEEcccccCchHHHHHHHHHHHHHHHH
+
+
+No 38
+>8D2K_A CRISPR-associated endonuclease, Csn1 family; Cas9, AcCas9, Crispr, RNA BINDING PROTEIN, RNA BINDING PROTEIN-DNA-RNA complex; HET: MG, GTP;{Acidothermus cellulolyticus 11B}
+Probab=83.20  E-value=3.9  Score=38.55  Aligned_cols=35  Identities=26%  Similarity=0.343  Sum_probs=0.0  Template_Neff=8.000
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-ccCCcEEEEEEEEe-cC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-DQGGRPGYVACGVV-VS   35 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~~~~~~~~~~~~~~-~~   35 (165)
+                      |. ++|+|+|..++|||+++ ..+++..++..++. .+
+T Consensus        11 ~~~~LGlDlG~~SiGwAvi~~d~~~~~~I~~~g~rif~   48 (1138)
+T 8D2K_A           11 VTWRLGVDVGERSIGLAAVSYEEDKPKEILAAVSWIHD   48 (1138)
+T ss_dssp             CCEEEEEEECSSEEEEEEEEEETTEEEEEEEEEEEECC
+T ss_pred             CceEEEEEeCCCeeEEEEEEcCCCCcceeeeceeeEec
+
+
+No 39
+>5X2H_A CRISPR-associated endonuclease Cas9; CRISPR-Cas9, RNA, DNA, Complex, Nuclease, HYDROLASE-RNA-DNA complex; 2.3A {Campylobacter jejuni subsp. jejuni serotype O:2 (strain ATCC 700819 / NCTC 11168)}
+Probab=83.19  E-value=1.9  Score=38.93  Aligned_cols=19  Identities=26%  Similarity=0.539  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~   19 (165)
+                      |. ++|+|+|+.++|||+++
+T Consensus         7 ~~~~LGLDlG~~SiGwAvi~   26 (835)
+T 5X2H_A            7 MARILAFDIGISSIGWAFSE   26 (835)
+T ss_dssp             CCCEEEEEECSSEEEEEEEE
+T ss_pred             cccEEEEEeCCCeeEEEEEe
+
+
+No 40
+>3BZC_A Tex; helix-turn-helix, helix-hairpin-helix, S1 domain, YqgF domain, TRANSCRIPTION, RNA BINDING PROTEIN; 2.27A {Pseudomonas aeruginosa} SCOP: b.40.4.5, a.294.1.1, a.60.2.6, c.55.3.13
+Probab=75.70  E-value=28  Score=31.57  Aligned_cols=58  Identities=19%  Similarity=0.302  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             eEEEEcCC-CCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEE
+Q ACTH002.0722.0    2 RVLGVDPG-SRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAV   65 (165)
+Q Consensus         2 ~ilgiD~~-~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vvi   65 (165)
+                      .++|+||| ...+.+|+++ .  .-.+++...+ ........+.   ....+.+++.++.|+.|++
+T Consensus       330 ~vl~i~~g~~~~~~~avld-~--~G~vl~~~~~~~~~~~~~~~~---~~~~l~~~i~~~~~~~Iai  389 (785)
+T 3BZC_A          330 ATLGLDPGLRTGVKVAVVD-A--TGKLLDTATVYPHAPKNQWDQ---TLAVLAALCAKHQVELIAI  389 (785)
+T ss_dssp             CEEEEECCSSSCEEEEEEC-T--TSCEEEEEEECCSGGGCCHHH---HHHHHHHHHHHHTCCEEEE
+T ss_pred             ceEeeCCccccceEEEEEc-C--CCCeeeEEEEeCCCChhhHHH---HHHHHHHHHHhcCCcEEEe
+
+
+No 41
+>3ZEU_A PUTATIVE M22 PEPTIDASE YEAZ; HYDROLASE, NUCLEOTIDE BINDING; HET: AGS, MSE, ADP; 1.653A {SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM} SCOP: c.55.1.0
+Probab=72.21  E-value=61  Score=24.42  Aligned_cols=91  Identities=19%  Similarity=0.149  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCC-----CEEEEeccccCCCc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRP-----DVCAVERVFLARNP   74 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~-----~~vviE~~~~~~~~   74 (165)
+                      |++++||.+...+++|+.+    +-.++..... ...      ....+...+..++++.+.     +.+++-..+.+-  
+T Consensus         1 m~~L~idts~~~~~~~l~~----~~~~~~~~~~~~~~------~~~~l~~~i~~~l~~~~~~~~~i~~i~v~~GPGsf--   68 (231)
+T 3ZEU_A            1 MRILAIDTATEACSVALWN----NGTINAHFELCPRE------HTQRILPMVQEILAASGASLNEIDALAFGRGPGSF--   68 (231)
+T ss_dssp             CCEEEEECSSSEEEEEEEE----TTEEEEEEEECTTT------HHHHHHHHHHHHHHHHTCCGGGCSEEEEEEESSCH--
+T ss_pred             CeEEEEEeCCCcEEEEEEE----CCEEEEEEEeCCch------HHHhHHHHHHHHHHHhCCCHHHCCEEEEeCCCCch--
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHCCCeEEEeCHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGAGLDVHEYTALQI  106 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~  106 (165)
+                       ++  +.........++...++|+..++.-..
+T Consensus        69 -tg--lRvg~s~ak~l~~~~~ipl~~i~sl~~   97 (231)
+T 3ZEU_A           69 -TG--VRIGIGIAQGLALGANLPMIGVSTLAT   97 (231)
+T ss_dssp             -HH--HHHHHHHHHHHHHHHTCCEEEEEHHHH
+T ss_pred             -HH--HHHHHHHHHHHHHHcCCCEEEecHHHH
+
+
+No 42
+>3PSF_A Transcription elongation factor SPT6; Transcription Elongation, Nucleus, TRANSCRIPTION; 2.59A {Saccharomyces cerevisiae}
+Probab=66.20  E-value=1.9e+02  Score=27.77  Aligned_cols=121  Identities=7%  Similarity=0.001  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CeEEEEcCC-----CCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCc
+Q ACTH002.0722.0    1 MRVLGVDPG-----SRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNP   74 (165)
+Q Consensus         1 m~ilgiD~~-----~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~   74 (165)
+                      .+|+||++|     ...+.+|+++ .  .-+++++..+ .-.....  ........|.+++.++.|++|+|.    +   
+T Consensus       519 ~rVlai~~g~~~~~~~~~~~v~ld-~--~G~~~~~~~~~~~~~~~~--~~~~~~~~l~~~i~~~~P~vIvvg----~---  586 (1030)
+T 3PSF_A          519 PKILSLTCGQGRFGADAIIAVYVN-R--KGDFIRDYKIVDNPFDKT--NPEKFEDTLDNIIQSCQPNAIGIN----G---  586 (1030)
+T ss_dssp             CCEEEEECTTCCTTTSCEEEEEEC-T--TSCEEEEEEECSCTTCSS--CCHHHHHHHHHHHHHHCCSEEEEC----C---
+T ss_pred             CcEEEEEecCCCCcCCeEEEEEEC-C--CCCEEEEEEecCCCCCCC--CcHHHHHHHHHHHHHHCCCEEEEC----C---
+
+
+Q ss_pred             chHHHHHHHHHHHHHHHHHC--------CCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCC-CCCCcchHHHHHHH
+Q ACTH002.0722.0   75 DSALKLGQARGAALVALAGA--------GLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGL-SAQPSADAADALAC  145 (165)
+Q Consensus        75 ~~~~~l~~~~~~~~~~~~~~--------~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~-~~~~~~d~~DA~~i  145 (165)
+                       .+..-..+...+..++...        .+++..++....+-+.          ......+.+|. +    ....-|+++
+T Consensus       587 -~~~~~~~l~~~l~~~v~~~~~~~~~~~~i~v~~v~d~va~ly~----------~S~~a~~efp~~~----~~~r~avsl  651 (1030)
+T 3PSF_A          587 -PNPKTQKFYKRLQEVLHKKQIVDSRGHTIPIIYVEDEVAIRYQ----------NSERAAQEFPNKP----PLVKYCIAL  651 (1030)
+T ss_dssp             -SSTHHHHHHHHHHHHHHHTTCBCTTSCBCCEEECCCTTHHHHH----------TSHHHHHHSTTCC----HHHHHHHHH
+T ss_pred             -CCHHHHHHHHHHHHHHHhcCccCCCCCCCCEEEECChHHHHHH----------cCHHHHHHCCCCC----HHHHHHHHH
+
+
+Q ss_pred             HHH
+Q ACTH002.0722.0  146 ALC  148 (165)
+Q Consensus       146 ~~~  148 (165)
+                      |.+
+T Consensus       652 aR~  654 (1030)
+T 3PSF_A          652 ARY  654 (1030)
+T ss_dssp             HHH
+T ss_pred             HHH
+
+
+No 43
+>PF14239.10 ; RRXRR ; RRXRR protein
+Probab=64.65  E-value=13  Score=27.14  Aligned_cols=16  Identities=50%  Similarity=0.958  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             EEEcCCCCceEEEEEE
+Q ACTH002.0722.0    4 LGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         4 lgiD~~~~~~G~ai~~   19 (165)
+                      +|||||.+.+|+|+..
+T Consensus        54 l~iD~G~k~~Giav~~   69 (174)
+T K9U9P1_CHRTP/5   54 IKIDPGSKVTGIAIFD   69 (174)
+T ss_pred             eeecCCCCeeeEEEEe
+
+
+No 44
+>6GFA_A Heat shock protein 105 kDa; HSP110, HSP110DE9, Nucleotide-binding domain, HSPH1, HSP105, CHAPERONE; HET: ATP; 2.0A {Homo sapiens} SCOP: c.55.1.0
+Probab=59.93  E-value=18  Score=27.87  Aligned_cols=19  Identities=32%  Similarity=0.538  Sum_probs=0.0  Template_Neff=13.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|...+.+|+..
+T Consensus         1 ~~~igID~Gt~~~~~~~~~   19 (381)
+T 6GFA_A            1 MSVVGLDVGSQSCYIAVAR   19 (381)
+T ss_dssp             --CEEEEECSSEEEEEEEC
+T ss_pred             CeEEEEEECCcEEEEEEEe
+
+
+No 45
+>2A6A_B hypothetical protein TM0874; tm0874, Glycoprotein endopeptidase, Structural Genomics, Joint Center for Structural Genomics, JCSG, Protein Structure Initiative, PSI, HYDROLASE; HET: MSE; 2.5A {Thermotoga maritima} SCOP: l.1.1.1, c.55.1.9
+Probab=57.48  E-value=1.2e+02  Score=22.73  Aligned_cols=90  Identities=9%  Similarity=-0.037  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCC-----C-EEEEeccccCCC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRP-----D-VCAVERVFLARN   73 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~-----~-~vviE~~~~~~~   73 (165)
+                      +++++||-+...+.+|+ . ++   +++....+ ....     .-..+...+.+++++.+.     | +++..+|...  
+T Consensus        12 ~~~L~idts~~~~sial-~-~~---~~~~~~~~~~~~~-----~~~~l~~~i~~~l~~~~~~~~di~~i~v~~GPGSf--   79 (218)
+T 2A6A_B           12 HMNVLALDTSQRIRIGL-R-KG---EDLFEISYTGEKK-----HAEILPVVVKKLLDELDLKVKDLDVVGVGIGPGGL--   79 (218)
+T ss_dssp             CCEEEEEECSSSEEEEE-E-ET---TEEEEEEEESCGG-----GGGGHHHHHHHHHHHHTCCGGGCSEEEEEEESSCH--
+T ss_pred             eeEEEEEecCCeEEEEE-E-CC---eEEEEEEEcCCch-----HHhhHHHHHHHHHHHCCCCHHHCCEEEEEeCCcch--
+
+
+Q ss_pred             cchHHHHHHHHHHHHHHHHHCCCeEEEeCHHHH
+Q ACTH002.0722.0   74 PDSALKLGQARGAALVALAGAGLDVHEYTALQI  106 (165)
+Q Consensus        74 ~~~~~~l~~~~~~~~~~~~~~~i~~~~v~~~~~  106 (165)
+                        ++  +.-.......++...++|+..++.-.+
+T Consensus        80 --TG--lRig~s~ak~la~~~~ipl~~i~sl~~  108 (218)
+T 2A6A_B           80 --TG--LRVGIATVVGLVSPYDIPVAPLNSFEM  108 (218)
+T ss_dssp             --HH--HHHHHHHHHHHHTTTTCCEEEEEHHHH
+T ss_pred             --HH--HHHHHHHHHHHHHHhCCCEEEeChHHH
+
+
+No 46
+>5B2R_B CRISPR-associated endonuclease Cas9; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: K, EDO; 2.0A {Streptococcus pyogenes serotype M1}
+Probab=56.87  E-value=17  Score=35.38  Aligned_cols=17  Identities=18%  Similarity=0.636  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             EEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~   19 (165)
+                      ++|+|+|+.++|||+++
+T Consensus        10 ~igldiG~~SvGwav~d   26 (1372)
+T 5B2R_B           10 SIGLAIGTNSVGWAVIT   26 (1372)
+T ss_dssp             EEEEEECSSEEEEEEEC
+T ss_pred             eEEEEeCCCceEEEEEc
+
+
+No 47
+>6X62_KX Type IV secretion system unknown protein fragment; Secretion, T4SS, Dot, PROTEIN TRANSPORT;{Legionella pneumophila}
+Probab=53.90  E-value=2.2e+02  Score=24.54  Aligned_cols=72  Identities=13%  Similarity=0.074  Sum_probs=0.0  Template_Neff=1.900
+
+Q ss_pred             EEEEEEE-Ee-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCC-CcchHHHHHHHH-HHHHHHHHHCCCe
+Q ACTH002.0722.0   25 PGYVACG-VV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLAR-NPDSALKLGQAR-GAALVALAGAGLD   97 (165)
+Q Consensus        25 ~~~~~~~-~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~-~~~~~~~l~~~~-~~~~~~~~~~~i~   97 (165)
+                      +.++.+. .| .++.....+....| +.|.+.|+++..-.+-||.+..++ +..+...|+.-+ ..+..++..+|++
+T Consensus       454 V~~vPfKFYFapGSSdLTPEIaqEL-DKLVeALkEFPELKLRIEGHTDSRGSsSSNlKLSQaRADAIKdYLIsKGVP  529 (579)
+T 6X62_KX         454 TLIIPTDKYFMFSSPRLNEICYPGL-NNVIRLLNFYPQSTIYVAGFTDNVGSRSHKRKLSQAQAETMMTFLWANGIA  529 (579)
+T ss_pred             EEEecceeecCCCCCCCChhhhHHH-HHHHHHHHhCCCcEEEEEeecCCCCChHHHHHHHHHHHHHHHHHHHHcCCC
+
+
+No 48
+>3PSI_A Transcription elongation factor SPT6; Transcription Elongation, Nucleus, TRANSCRIPTION; 3.3A {Saccharomyces cerevisiae}
+Probab=49.16  E-value=4.1e+02  Score=26.29  Aligned_cols=120  Identities=8%  Similarity=0.007  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             eEEEEcCC-----CCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEeccccCCCcc
+Q ACTH002.0722.0    2 RVLGVDPG-----SRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVERVFLARNPD   75 (165)
+Q Consensus         2 ~ilgiD~~-----~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~   75 (165)
+                      +|+||++|     ...+.+|+++ .  .-.++++..+ .-.....  ......+.|.+++.++.|++|+|.    +    
+T Consensus       517 ~Vlai~~g~~~~~~~~~~~v~lD-~--~G~v~~~~~~~~~~~~~~--~~~~~~~~l~~~i~~~~P~vIvvg----~----  583 (1219)
+T 3PSI_A          517 KILSLTCGQGRFGADAIIAVYVN-R--KGDFIRDYKIVDNPFDKT--NPEKFEDTLDNIIQSCQPNAIGIN----G----  583 (1219)
+T ss_dssp             CEEEEECTTCCTTTTCEEEEEEC-T--TSCEEEEEEECSCTTCSS--CSHHHHHHHHHHHHHHCCSEEEEC----C----
+T ss_pred             cEEEEEecCCcccCCeEEEEEEC-C--CCCEEEEEEecCCCCCCC--ChhHHHHHHHHHHHHHCCCEEEEC----C----
+
+
+Q ss_pred             hHHHHHHHHHHHHHHHHHC--------CCeEEEeCHHHHHHHHcCCCCCCHHHHHHHHHHHhCC-CCCCcchHHHHHHHH
+Q ACTH002.0722.0   76 SALKLGQARGAALVALAGA--------GLDVHEYTALQIKKATVGVGHADKGQVQHMMRALLGL-SAQPSADAADALACA  146 (165)
+Q Consensus        76 ~~~~l~~~~~~~~~~~~~~--------~i~~~~v~~~~~k~~~~~~~~~~K~~~~~~~~~~~~~-~~~~~~d~~DA~~i~  146 (165)
+                      .+..-..+...+..++...        .+++..++....+-+.          -.....+.++. +    ....-|+++|
+T Consensus       584 ~~~~~~~l~~~l~~~i~~~~~~~~~~~~i~v~~v~~~va~ly~----------~S~~a~~efp~~~----~~~r~avsla  649 (1219)
+T 3PSI_A          584 PNPKTQKFYKRLQEVLHKKQIVDSRGHTIPIIYVEDEVAIRYQ----------NSERAAQEFPNKP----PLVKYCIALA  649 (1219)
+T ss_dssp             SSTHHHHHHHHHHHHHHHTTCBCSSSCBCCEEECCCTTHHHHH----------TSHHHHHHCTTCC----HHHHHHHHHH
+T ss_pred             CCHHHHHHHHHHHHHHHhcCccCCCCCcCCEEEECChHHHHHH----------cCHHHHHHCCCCC----HHHHHHHHHH
+
+
+Q ss_pred             HH
+Q ACTH002.0722.0  147 LC  148 (165)
+Q Consensus       147 ~~  148 (165)
+                      .+
+T Consensus       650 R~  651 (1219)
+T 3PSI_A          650 RY  651 (1219)
+T ss_dssp             HH
+T ss_pred             HH
+
+
+No 49
+>1NBW_C GLYCEROL DEHYDRATASE REACTIVASE ALPHA SUBUNIT; Glycerol dehydratase, Reactivase, Molecular chaperone, Actin-like ATPase domain, beta/beta/alpha swiveling domain, HYDROLASE; 2.4A {Klebsiella pneumoniae} SCOP: c.8.6.1, c.55.1.6
+Probab=47.95  E-value=1.9e+02  Score=25.99  Aligned_cols=57  Identities=19%  Similarity=0.358  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |+ |.|||.|.+++-+++.+..++.++++..+.. ...-+.....+....+.|.+.+++
+T Consensus         1 ~~~i~giDiG~s~~~~~i~~~~~~~~~~~~~~~~~t~G~kG~~~n~~~~~~~i~~a~~~   59 (607)
+T 1NBW_C            1 MPLIAGIDIGNATTEVALASDYPQARAFVASGIVATTGMKGTRDNIAGTLAALEQALAK   59 (607)
+T ss_dssp             --CEEEEEECSSEEEEEEECCBTTBCCCCEEEEEECCSSTTSGGGHHHHHHHHHHHHHT
+T ss_pred             CCeEEEEEECCCeEEEEEEECCCCceEEEEEEEecCCCCCcccccHHHHHHHHHHHHHh
+
+
+No 50
+>8EA4_O Cas12k; DNA BINDING PROTEIN, DNA BINDING PROTEIN-RNA-DNA complex; HET: ATP, MG; 3.0A {Scytonema hofmannii}
+Probab=47.13  E-value=3.4e+02  Score=24.76  Aligned_cols=101  Identities=12%  Similarity=0.049  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             eEEEEcCCCCceEEEEEEccCCcEEEEEEE-----------------------------------Ee-cCCCCCHHHHHH
+Q ACTH002.0722.0    2 RVLGVDPGSRRTGFGIVDDQGGRPGYVACG-----------------------------------VV-VSISGTVAERLH   45 (165)
+Q Consensus         2 ~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~-----------------------------------~~-~~~~~~~~~~~~   45 (165)
+                      .++|||.|..++.++.+. ++....++.+.                                   .. .....-..+...
+T Consensus       447 ~vvGVDLGl~nlat~sv~-d~stg~~i~~~~ik~l~~~~~~~l~R~r~~~~k~s~~r~k~qkr~~r~~~ke~~~~~~~~h  525 (639)
+T 8EA4_O          447 ILVGVSLGLEKPATVAVV-DAIANKVLAYRSIKQLLGDNYELLNRQRRQQQYLSHERHKAQKNFSPNQFGASELGQHIDR  525 (639)
+T ss_dssp             EEEEECCCSSCSCCEEEE-ETTTTEEEEEECHHHHSGGGTHHHHHHHHHHHHHHHHHHHHHHTTCSCCCCSHHHHHHHHH
+T ss_pred             eEEEeeccCCcceEEEEe-ccccCeeecchHHHHHHHHHHHHHHHHHHHHHhhHHHHHHHHHhcCccccchhHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHHHHCCCEEEEeccccCCCcch------------------------------HHHHHHHHHHHHHHHHHCC
+Q ACTH002.0722.0   46 RIFSGLAEVVEHYRPDVCAVERVFLARNPDS------------------------------ALKLGQARGAALVALAGAG   95 (165)
+Q Consensus        46 ~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~------------------------------~~~l~~~~~~~~~~~~~~~   95 (165)
+                      .+...|..+...++.+.|++|+....+....                              ...++.+...+...+...|
+T Consensus       526 ~lAk~IV~~A~~~~a~~IvlEdL~~ir~~~~~~i~aka~~k~pg~~~~qk~~~K~~r~~l~~Wsy~rl~~~I~yKA~~~G  605 (639)
+T 8EA4_O          526 LLAKAIVALARTYKAGSIVLPKLGDMREVVQSEIQAIAEQKFPGYIEGQQKYAKQYRVNVHRWSYGRLIQSIQSKAAQTG  605 (639)
+T ss_dssp             HHHHHHHHHHHHTTEEEEEEECCCCHHHHHHHHHHHHHTTTSSSCHHHHHTTTHHHHHHHHHCCHHHHHHHHHHHHHHHT
+T ss_pred             HHHHHHHHHHHHcCCceEEeccccchhhHhHHHHHHHHHhhCCCcchHHHHHhHhchhhHhhccHHHHHHHHHHHHHHhC
+
+
+Q ss_pred             CeEEEeCH
+Q ACTH002.0722.0   96 LDVHEYTA  103 (165)
+Q Consensus        96 i~~~~v~~  103 (165)
+                      +++..++|
+T Consensus       606 I~V~~V~~  613 (639)
+T 8EA4_O          606 IVIEEGKQ  613 (639)
+T ss_dssp             CEEEEECC
+T ss_pred             CEEEEcCC
+
+
+No 51
+>1HUX_B ACTIVATOR OF (R)-2-HYDROXYGLUTARYL-COA DEHYDRATASE; actin fold, METAL BINDING PROTEIN; HET: ADP; 3.0A {Acidaminococcus fermentans} SCOP: c.55.1.5
+Probab=44.62  E-value=2e+02  Score=21.30  Aligned_cols=50  Identities=26%  Similarity=0.306  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      +.++|||.|.+++-+++++ .  ...++..... .+...      ..+.+.+.+++++..
+T Consensus         3 ~~~lgiDiG~t~~~~~~~~-~--~g~~l~~~~~~~~~~~------~~~~~~i~~~~~~~~   53 (270)
+T 1HUX_B            3 IYTLGIDVGSTASKCIILK-D--GKEIVAKSLVAVGTGT------SGPARSISEVLENAH   53 (270)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TTEEEEEEEEECCTTS------CHHHHHHHHHHHHHT
+T ss_pred             ceEEEEEeCCCeEEEEEEe-C--CceEEEEEEEecCCCC------ChHHHHHHHHHHHcC
+
+
+No 52
+>2D0O_A diol dehydratase-reactivating factor large subunit; CHAPERONE; HET: SO4, ADP; 2.0A {Klebsiella oxytoca} SCOP: c.8.6.1, c.55.1.6
+Probab=43.42  E-value=1.8e+02  Score=26.16  Aligned_cols=59  Identities=20%  Similarity=0.249  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEE-ccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVD-DQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~-~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      |+ +.|||.|.+++-+++.. .+++.++++.++.. ...-+.....+....+.|.+.+++.+
+T Consensus         1 ~~~i~giDIG~s~~~~~~~~~~~~~~~~~~~~~~~~t~G~kG~i~n~~~~~~~i~~a~~~~~   62 (610)
+T 2D0O_A            1 MRYIAGIDIGNSSTEVALATLDEAGALTITHSALAETTGIKGTLRNVFGIQEALALVARGAG   62 (610)
+T ss_dssp             CEEEEEEEECSSEEEEEEEEECTTCCEEEEEEEEEECCSSTTSTTHHHHHHHHHHHHHHHHT
+T ss_pred             CceEEEEEeCCCeEEEEEEEECCCCCEEEEEEEeeeCCCCccEEEcHHHHHHHHHHHHHHcC
+
+
+No 53
+>2W40_A GLYCEROL KINASE, PUTATIVE; CLOSED CONFORMATION, KINASE, MALARIA, PLASMODIUM, TRANSFERASE, SUGAR KINASE/HSP70/ACTIN SUPERFAMILY, GLYCEROL KINASE, OPEN CONFORMATION; HET: GOL, EDO; 1.49A {PLASMODIUM FALCIPARUM} SCOP: c.55.1.0
+Probab=41.71  E-value=3.3e+02  Score=23.07  Aligned_cols=54  Identities=13%  Similarity=0.153  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|++++-+++++ .  ...++..... .+        ...+....+..+.+.+.++++.
+T Consensus         4 ~~~lgiDiGtt~~k~~~~d-~--~g~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~i~~~~~~   66 (503)
+T 2W40_A            4 NVILSIDQSTQSTKVFFYD-E--ELNIVHSNNLNHEQKCLKPGWYEHDPIEIMTNLYNLMNEGIKV   66 (503)
+T ss_dssp             EEEEEEEECSSEEEEEEEE-T--TCCEEEEEEEECCCBCCSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEeCCCeEEEEEEc-C--CCCEEEEEEecCceecCCCCccccCHHHHHHHHHHHHHHHHHH
+
+
+No 54
+>6EOF_A 78 kDa glucose-regulated protein; GRP78, BIP, AMPylation, ADP, CHAPERONE; HET: ADP; 1.59A {Cricetulus griseus}
+Probab=40.68  E-value=52  Score=27.35  Aligned_cols=19  Identities=26%  Similarity=0.520  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|+..+++|.+.
+T Consensus         1 ~~v~gID~Gt~~~~~a~~~   19 (522)
+T 6EOF_A            1 GTVVGIDLGTTYSCVGVFK   19 (522)
+T ss_dssp             -CCEEEEECSSEEEEEEEE
+T ss_pred             CcEEEEEEcCCeEEEEEEE
+
+
+No 55
+>5JMV_B Probable bifunctional tRNA threonylcarbamoyladenosine biosynthesis protein; tRNA modification, TRANSFERASE; HET: AMP; 3.38646964319A {Methanocaldococcus jannaschii (strain ATCC 43067 / DSM 2661 / JAL-1 / JCM 10045 / NBRC 100440)}
+Probab=39.81  E-value=60  Score=25.42  Aligned_cols=19  Identities=42%  Similarity=0.732  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|.+++.+++++
+T Consensus         6 ~~ilgiD~Gtt~~k~~l~~   24 (348)
+T 5JMV_B            6 MICLGLEGTAEKTGVGIVT   24 (348)
+T ss_dssp             CCEEEEECSTTCEEEEEEC
+T ss_pred             ceEEEEEcCCCceeEEEEc
+
+
+No 56
+>7KRU_A Chaperone protein DnaK fused with substrate peptide; molecular chaperone, Hsp70, protein folding, CHAPERONE; HET: ATP, SO4, GOL, PDO; 1.82A {Escherichia coli (strain K12)}
+Probab=39.45  E-value=58  Score=27.79  Aligned_cols=19  Identities=26%  Similarity=0.629  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|++++++|++.
+T Consensus         2 ~~~igID~Gtt~s~va~~~   20 (552)
+T 7KRU_A            2 GKIIGIDLGTTNSCVAIMD   20 (552)
+T ss_dssp             CCEEEEEECSSEEEEEEEE
+T ss_pred             CcEEEEEeCCCcEEEEEEe
+
+
+No 57
+>3ZEU_E PROBABLE TRNA THREONYLCARBAMOYLADENOSINE BIOSYNTHESIS PROTEIN GCP; HYDROLASE, NUCLEOTIDE BINDING; HET: AGS, MSE, ADP; 1.653A {SALMONELLA ENTERICA SUBSP. ENTERICA SEROVAR TYPHIMURIUM}
+Probab=39.19  E-value=2.9e+02  Score=21.63  Aligned_cols=58  Identities=16%  Similarity=0.143  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCC--------HHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGT--------VAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~--------~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      |+++|||.+....++|+++ +++.+........ ..+...        .......+...+..+++..+
+T Consensus         1 m~~Lgi~~~~~~~s~al~~-~g~~i~~~~~e~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~l~~~~   67 (337)
+T 3ZEU_E            1 MRVLGIETSCDETGIAIYD-DKKGLLANQLYSQVKLHADYGGVVPELASRDHVRKTVPLIQAALKEAG   67 (337)
+T ss_dssp             CEEEEEECSSSEEEEEEEE-TTTEEEEEEEEECHHHHGGGTSCCHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CeEEeEEeCCCcceEEEEE-CCCcEEEEEEEeccchhhhhCCCChHHHHHHHHHhHHHHHHHHHHHcC
+
+
+No 58
+>3D2F_C Heat shock protein homolog SSE1; nucleotide exchange factor, protein folding, ATP-binding, Calmodulin-binding, Chaperone, Nucleotide-binding, Phosphoprotein, Stress response; HET: ATP; 2.3A {Saccharomyces cerevisiae}
+Probab=39.14  E-value=85  Score=27.55  Aligned_cols=27  Identities=15%  Similarity=0.250  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      |.++|||.|..++.+|+.. ++ .+.++.
+T Consensus         2 ~~~iGID~Gt~~~~va~~~-~~-~~~~i~   28 (675)
+T 3D2F_C            2 STPFGLDLGNNNSVLAVAR-NR-GIDIVV   28 (675)
+T ss_dssp             CCCEEEEECSSEEEEEEEE-TT-EEEEEC
+T ss_pred             CceEEEEECCCeEEEEEEe-CC-CcEEEE
+
+
+No 59
+>6ASY_B 78 kDa glucose-regulated protein; Hsp70s, CHAPERONE; HET: ATP, SO4, PO4, GOL; 1.85A {Homo sapiens}
+Probab=38.88  E-value=1e+02  Score=26.72  Aligned_cols=27  Identities=30%  Similarity=0.541  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      +.++|||.|+.++.+|++. ++ .+.++.
+T Consensus         5 ~~vigID~Gt~~s~va~~~-~~-~~~~~~   31 (606)
+T 6ASY_B            5 GTVVGIDLGTTYSCVGVFK-NG-RVEIIA   31 (606)
+T ss_dssp             CSCEEEECCSSEEEEEEEE-TT-EEEECC
+T ss_pred             CcEEEEEeCCCcEEEEEEE-CC-EEEEEE
+
+
+No 60
+>5B2O_A CRISPR-associated endonuclease Cas9; CRISPR-Cas9, genome engineering, HYDROLASE-RNA-DNA complex; HET: CA, EDO; 1.7A {Francisella tularensis subsp. novicida U112}
+Probab=38.75  E-value=55  Score=32.87  Aligned_cols=19  Identities=21%  Similarity=0.242  Sum_probs=0.0  Template_Neff=6.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      ...+|||.|.+++|||+++
+T Consensus         8 ~~~iGLDlG~~SiG~avv~   26 (1632)
+T 5B2O_A            8 ILPIAIDLGVKNTGVFSAF   26 (1632)
+T ss_dssp             ECCEEEEECSSEEEEEEEC
+T ss_pred             cceEEEEeCCCceEEEEEE
+
+
+No 61
+>5VM1_D Xylulokinase; NIAID, structural genomics, brucellosis, kinase, ATP-dependent, Seattle Structural Genomics Center for Infectious Disease, SSGCID, TRANSFERASE; 2.75A {Brucella ovis (strain ATCC 25840 / 63/290 / NCTC 10512)}
+Probab=38.48  E-value=2.5e+02  Score=23.78  Aligned_cols=58  Identities=16%  Similarity=0.135  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEE-Ee-cCCCCCHHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACG-VV-VSISGTVAERLHRIFSGLAEVVEHY   58 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~-~~-~~~~~~~~~~~~~l~~~l~~~l~~~   58 (165)
+                      |.++|||.|++++=+++++.++.-+...... .. .+...-.......+.+.+.+.+++.
+T Consensus         8 ~~~~~iD~Gtt~vk~~l~d~~g~~l~~~~~~~~~~~~~~g~~~~d~~~~~~~~~~~l~~l   67 (491)
+T 5VM1_D            8 HMYLGLDLGTSGVKALLIDEAQNPVGAAHGELDVSRPHPGWSEQDPAQWIKACRTAIEAL   67 (491)
+T ss_dssp             CEEEEEEECSSEEEEEEEETTCCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEeCCCceEEEEEcCCCCEEEEEEeeCCccCCCCCcceeCHHHHHHHHHHHHHHH
+
+
+No 62
+>8CTL_D IscB; CRISPR, IscB, HEARO RNA, omega RNA, RNA BINDING PROTEIN-RNA-DNA complex; 3.1A {synthetic construct}
+Probab=38.23  E-value=56  Score=28.22  Aligned_cols=17  Identities=47%  Similarity=0.987  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             EEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~   19 (165)
+                      .+|||||.+.+|+|+.+
+T Consensus        57 ~~~iD~G~~~~g~~v~~   73 (496)
+T 8CTL_D           57 VLGIDPGRTNIGMSVVT   73 (496)
+T ss_dssp             EEEEECCSSCEEEEEEE
+T ss_pred             EEeeCCCcCeeEEEEEc
+
+
+No 63
+>6K79_D Glycerol kinase; Glycerol, Kinase, ATP, Archaea, TRANSFERASE; HET: GOL, PGE; 2.19A {Thermococcus kodakarensis (strain ATCC BAA-918 / JCM 12380 / KOD1)} SCOP: c.55.1.0
+Probab=37.50  E-value=3.7e+02  Score=22.75  Aligned_cols=54  Identities=15%  Similarity=0.178  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCC--------CCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSI--------SGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~--------~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |.++|||.|++++-+++++ .  ...++..... .+.        ..+..+....+.+.+.+++++
+T Consensus         3 ~~~lgiDigtt~~k~~l~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~   65 (497)
+T 6K79_D            3 KFVLSLDEGTTSARAIIFD-R--ESNIHGIGQYEFPQHYPRPGWVEHNPEEIWDAQLRAIKDAIQS   65 (497)
+T ss_dssp             CEEEEEEECSSEEEEEEEC-T--TCCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEeCCCeEEEEEEC-C--CCCEEEEEEEeCCeecCCCCccccCHHHHHHHHHHHHHHHHHH
+
+
+No 64
+>7X3K_B Ribosome-associated complex subunit SSZ1; RAC, co-translational folding, TRANSLATION;{Saccharomyces cerevisiae}
+Probab=35.68  E-value=1.1e+02  Score=25.76  Aligned_cols=28  Identities=14%  Similarity=0.316  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      |.++|||.|..++.+|+.. .+....++.
+T Consensus         3 ~~~iGID~Gt~~~~~a~~~-~~~~~~~~~   30 (538)
+T 7X3K_B            3 SPVIGITFGNTSSSIAYIN-PKNDVDVIA   30 (538)
+T ss_dssp             CCEEEEEECSSCEEEEEEC-TTSSEEEEC
+T ss_pred             CCEEEEEeCCCeEEEEEEC-CCCCeEEEe
+
+
+No 65
+>5HUX_A Probable sugar kinase; putative sugar kinases, Synechococcus elongatus PCC7942, complex, ADP, TRANSFERASE; HET: ADP; 1.96A {Synechococcus elongatus (strain PCC 7942)}
+Probab=34.83  E-value=4.1e+02  Score=22.09  Aligned_cols=62  Identities=13%  Similarity=0.110  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCC--CCCHHHHHHHHHHHHHHHHHHHCCCEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSI--SGTVAERLHRIFSGLAEVVEHYRPDVCAV   65 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~--~~~~~~~~~~l~~~l~~~l~~~~~~~vvi   65 (165)
+                      +.++|||.|.+++-+++++ .  ...++..... .+.  ..+.......+.+.+.+++++...+...+
+T Consensus         4 ~~~l~iDiGts~~k~~~~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~~~~~i~~i   68 (436)
+T 5HUX_A            4 VVALGLDFGTSGARAIACD-F--DSDRSVSVSVTFPKTSQNWPQVWREALWQLLTQIPADWRSRIERI   68 (436)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TTTEEEEEEEECCSCCSCHHHHHHHHHHHHHHHSCHHHHTTCCEE
+T ss_pred             cEEEEEEECCCceEEEEEc-C--CCCEEEEEEEECCCCcCCCHHHHHHHHHHHHHHhhhhhHhheeEE
+
+
+No 66
+>2AA4_A Putative N-acetylmannosamine kinase; SUGAR METHABOLISM, STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE INITIATIVE, New York SGX Research Center for Structural Genomics; 2.2A {Escherichia coli} SCOP: c.55.1.10
+Probab=34.54  E-value=3.2e+02  Score=20.79  Aligned_cols=54  Identities=13%  Similarity=0.123  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      |.++|||.+..++-+++++ .  .-+++..... .+...+....+..+.+.+..+...
+T Consensus         1 ~~~lgidig~~~~~~~l~d-~--~g~~i~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~   55 (289)
+T 2AA4_A            1 MTTLAIDIGGTKLAAALIG-A--DGQIRDRRELPTPASQTPEALRDALSALVSPLQAH   55 (289)
+T ss_dssp             CCEEEEEECSSEEEEEEEC-T--TCCEEEEEEEECCSSCCHHHHHHHHHHHHTTTGGG
+T ss_pred             CeEEEEEECCCeEEEEEEC-C--CCCEEEEEEeeCCcccCHHHHHHHHHHHHHHHHHh
+
+
+No 67
+>6N9A_D tRNA N6-adenosine threonylcarbamoyltransferase; Threonylcarbamoyl transfer complex, t6A biosynthesis, tRNA modification, BIOSYNTHETIC PROTEIN; HET: ATP, PGE, KG4, ADP; 2.5A {Thermotoga maritima}
+Probab=33.21  E-value=99  Score=24.25  Aligned_cols=22  Identities=36%  Similarity=0.744  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGG   23 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~   23 (165)
+                      |.++|||.+...+++|+++ +++
+T Consensus         4 ~~~lGid~g~~~~~~al~~-~g~   25 (330)
+T 6N9A_D            4 MRVLGIETSCDETAVAVLD-DGK   25 (330)
+T ss_dssp             CEEEEEECSSSCCEEEEEE-TTT
+T ss_pred             eeEEEEEeccCceeEEEEe-CCC
+
+
+No 68
+>2V7Y_A CHAPERONE PROTEIN DNAK; HSP70, DNAK, CHAPERONE, HEAT SHOCK PROTEIN, ATPASE, DOMAIN REARRANGEMENT; HET: ADP; 2.37A {GEOBACILLUS KAUSTOPHILUS HTA426}
+Probab=32.16  E-value=90  Score=26.01  Aligned_cols=19  Identities=16%  Similarity=0.618  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|+.++.++...
+T Consensus         2 ~~~igID~Gt~~~~va~~~   20 (509)
+T 2V7Y_A            2 SKIIGIDLGTTNSCVAVLE   20 (509)
+T ss_dssp             CCEEEEEECSSEEEEEEEE
+T ss_pred             CcEEEEEeCCCcEEEEEEE
+
+
+No 69
+>3EN9_B O-sialoglycoprotein endopeptidase/protein kinase; endopeptidase activity, protein kinase activity, protein serine/threonine kinase activity, ATP binding, metallopeptidase activity, hydrolase activity, metal; HET: TBR; 2.67A {Methanocaldococcus jannaschii}
+Probab=31.89  E-value=4.9e+02  Score=22.08  Aligned_cols=94  Identities=15%  Similarity=0.073  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCC-------CCHHHHHHHHHHHHHHHHHHHCC---CEEEEeccc
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSIS-------GTVAERLHRIFSGLAEVVEHYRP---DVCAVERVF   69 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~-------~~~~~~~~~l~~~l~~~l~~~~~---~~vviE~~~   69 (165)
+                      |.++|||.|..++.+|+++ .  .-.++..... ....       .........+.+.+..+++..+.   +.+++....
+T Consensus         6 ~~~lgid~g~t~~~~~~~~-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~l~~~~~~~i~~i~~~~~~   82 (540)
+T 3EN9_B            6 MICLGLEGTAEKTGVGIVT-S--DGEVLFNKTIMYKPPKQGINPREAADHHAETFPKLIKEAFEVVDKNEIDLIAFSQGP   82 (540)
+T ss_dssp             CEEEEEECSSSEEEEEEEE-T--TSCEEEEEEEECCC---CCCHHHHHHHHHHHHHHHHHHHHTTSCGGGEEEEEEEEES
+T ss_pred             cEEEeEecCCCcceEEEEe-C--CCeEEEEEEEeeCCCCCCCCchHHHHHHHhhHHHHHHHHHHhCChhhcCEEEEEeCC
+
+
+Q ss_pred             cCCCcchHHHHHHHHHHHHHHHHHCCCeEEEeC
+Q ACTH002.0722.0   70 LARNPDSALKLGQARGAALVALAGAGLDVHEYT  102 (165)
+Q Consensus        70 ~~~~~~~~~~l~~~~~~~~~~~~~~~i~~~~v~  102 (165)
+                      ...   ..  +.........+....++++..++
+T Consensus        83 ~~~---~~--~~~~~~~~~~l~~~~~~~~~~~~  110 (540)
+T 3EN9_B           83 GLG---PS--LRVTATVARTLSLTLKKPIIGVN  110 (540)
+T ss_dssp             SCH---HH--HHHHHHHHHHHHHHTTCCEEEEE
+T ss_pred             CCh---HH--HHHHHHHHHHHHHHhCCCEEEec
+
+
+No 70
+>7YZM_H Putative CoA-substrate-specific enzyme activase; double cubane cluster, ATP, 4Fe4S cluster, electron transfer, OXIDOREDUCTASE; HET: BJ8, SO4, SF4, ANP, PEG, BU3, TAM, NH4; 1.82A {Carboxydothermus hydrogenoformans Z-2901}
+Probab=31.87  E-value=90  Score=22.69  Aligned_cols=17  Identities=29%  Similarity=0.497  Sum_probs=0.0  Template_Neff=12.000
+
+Q ss_pred             EEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~   19 (165)
+                      ++|||+|.+++-+++++
+T Consensus         2 ~lgiD~G~~~~k~~~~~   18 (243)
+T 7YZM_H            2 FAGLDLGSTNSKLVIIK   18 (243)
+T ss_dssp             EEEEEECSSEEEEEEEC
+T ss_pred             eEEEEecCceEEEEEEe
+
+
+No 71
+>8D24_A Chaperone DnaK; ATPase, Chaperone; HET: SO4, 3FD; 1.75A {	Plasmodium falciparum}
+Probab=31.11  E-value=98  Score=24.65  Aligned_cols=19  Identities=26%  Similarity=0.525  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|+.++.+|...
+T Consensus        21 ~~~vgID~Gt~~~~~a~~~   39 (397)
+T 8D24_A           21 GPVIGIDLGTTYSCVGVFK   39 (397)
+T ss_pred             CCEEEEEECCCcEEEEEEE
+
+
+No 72
+>7ODB_A Heat shock cognate 71 kDa protein; CHAPERONE; HET: GOL, EPE; 1.662A {Bos taurus}
+Probab=30.64  E-value=97  Score=26.22  Aligned_cols=19  Identities=21%  Similarity=0.457  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|++++++|++.
+T Consensus         4 ~~~iGID~Gtt~s~v~~~~   22 (554)
+T 7ODB_A            4 GPAVGIDLGTTYSCVGVFQ   22 (554)
+T ss_dssp             CCCEEEEECSSEEEEEEEE
+T ss_pred             CCEEEEEeCCCceEEEEEE
+
+
+No 73
+>5FPN_B HEAT SHOCK-RELATED 70 KDA PROTEIN 2; SIGNALING PROTEIN, HEAT SHOCK, CHAPERONE, HSP70, HSPA2, PROTEIN-LIGAND COMPLEX, FRAGMENT SCREENING, ALTERNATE BINDING SITE, AT9084.; HET: KYD; 1.96A {HOMO SAPIENS} SCOP: c.55.1.0
+Probab=29.99  E-value=1.7e+02  Score=25.83  Aligned_cols=27  Identities=22%  Similarity=0.491  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      +.++|||.|+.++++|++. ++ .+.++.
+T Consensus         6 ~~~iGID~Gtt~s~va~~~-~~-~~~~i~   32 (640)
+T 5FPN_B            6 GPAIGIDLGTTYSCVGVFQ-HG-KVEIIA   32 (640)
+T ss_dssp             -CEEEEECCSSEEEEEEEE-TT-EEEECC
+T ss_pred             CCEEEEEeCCCcEEEEEEE-CC-EEEEEe
+
+
+No 74
+>6W6E_I Chaperone protein DnaK; ClpB-DnaK complex, Disaggregate, Unfold, Refold, CHAPERONE; HET: AGS, ADP; 3.7A {Mycobacterium tuberculosis}
+Probab=29.91  E-value=1.7e+02  Score=25.79  Aligned_cols=27  Identities=30%  Similarity=0.578  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      +.++|||.|+.++.+|++. ++ .+.++.
+T Consensus         2 ~~~iGID~Gtt~s~va~~~-~~-~~~~i~   28 (625)
+T 6W6E_I            2 ARAVGIDLGTTNSVVSVLE-GG-DPVVVA   28 (625)
+T ss_dssp             CCCEEEECCSSEEEEEEEE-TT-EEEEEC
+T ss_pred             CCEEEEEeCCCcEEEEEEE-CC-EEEEEe
+
+
+No 75
+>3ENO_B Putative O-sialoglycoprotein endopeptidase; Hydrolase, Metal-binding, Metalloprotease, Protease, Zinc, KEOPS complex, ATPase, metal ion binding, dimerization module, telomere, hydrolase-unknown function; 3.0201A {Thermoplasma acidophilum}
+Probab=29.90  E-value=4.1e+02  Score=20.66  Aligned_cols=57  Identities=14%  Similarity=0.078  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHY   58 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~   58 (165)
+                      |.++|||.|..++.+|+++ +++-.-....... .................+...+...
+T Consensus         6 ~~~lgid~g~~~~~~~l~~-~g~i~~~~~~~~~~~~~~~~~~~~~~~~~~~l~~~i~~~   63 (334)
+T 3ENO_B            6 MIVLGLEGTAHTISCGIID-ESRILAMESSMYRPKTGGIRPLDAAVHHSEVIDTVISRA   63 (334)
+T ss_dssp             CCEEEEECSSSEEEEEEEC-SSCCCEEEEEECCCTTCSCCHHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEecCCeeEEEEEe-cceeEEEEEeeecCCCCCCChhhHHHHHHHHHHHHHHHH
+
+
+No 76
+>8DGC_G Terminase, large subunit; phage defense, pattern-recognition receptor, nlr, stand, atpase, ANTIVIRAL PROTEIN; HET: ATP;{Salmonella enterica}
+Probab=29.60  E-value=5.5e+02  Score=22.01  Aligned_cols=57  Identities=19%  Similarity=0.297  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             EEEEcCCCCc---eEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHCCCEEEEe
+Q ACTH002.0722.0    3 VLGVDPGSRR---TGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYRPDVCAVE   66 (165)
+Q Consensus         3 ilgiD~~~~~---~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~~~~vviE   66 (165)
+                      ++|+|++..+   ++++++...+....++..... ..       ....+...|..+.+.+++..+++|
+T Consensus       361 ~~giD~a~~~~D~ta~~v~~~~~~~~~i~~~~~~~~~-------~~~~~~~~i~~~~~~~~~~~i~id  421 (586)
+T 8DGC_G          361 ILVIDPSGRGKDETGYAVLYSLNGYIYLMEVGGFRGG-------YDDATLEKLAKKAKQWKVQTVVHE  421 (586)
+T ss_dssp             EEEEECCCSSSCEEEEEEEEEETTEEEEEEEEEEESS-------SCHHHHHHHHHHHHHTTCSEEEEE
+T ss_pred             EEEEeCCCCCCccceEEEEEEeCCEEEEEEeccCCCC-------CCHHHHHHHHHHHHHcCCCEEEEe
+
+
+No 77
+>5YA1_A Autoinducer-2 kinase; ATP binding, STRUCTURAL PROTEIN; HET: HEZ, ATP, PO4; 2.701A {Escherichia coli (strain K12)}
+Probab=29.13  E-value=5.7e+02  Score=22.06  Aligned_cols=54  Identities=11%  Similarity=0.127  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCC----------CCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSI----------SGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~----------~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|+.++-+++++ .  ...++..... .+.          ..+..+....+.+.+.++++.
+T Consensus        22 ~~~l~iDiGtt~ik~~l~d-~--~g~~~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~i~~~i~~~~~~   86 (540)
+T 5YA1_A           22 YYLMALDAGTGSIRAVIFD-L--EGNQIAVGQAEWRHLAVPDVPGSMEFDLNKNWQLACECMRQALHN   86 (540)
+T ss_dssp             CEEEEEEECSSCEEEEEEC-T--TSCEEEEEEECCCC---------CCCCHHHHHHHHHHHHHHHHHH
+T ss_pred             cEEEEEEECCCceEEEEEe-C--CCCEEEEEEEeccCcccCCCCCceecCHHHHHHHHHHHHHHHHHH
+
+
+No 78
+>4JNE_A Hsp70 CHAPERONE DnaK; DnaK, Chaperone, 70kDa heat shock protein (Hsp70), ATP-binding, Nucleotide binding domain (NBD), substructure binding domain (SBD); HET: ATP, SO4, GOL; 1.96A {Escherichia coli}
+Probab=28.61  E-value=1.1e+02  Score=26.28  Aligned_cols=19  Identities=26%  Similarity=0.629  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|+.++.+|++.
+T Consensus         2 ~~viGID~Gtt~~~va~~~   20 (608)
+T 4JNE_A            2 GKIIGIDLGTTNSCVAIMD   20 (608)
+T ss_dssp             CCEEEEECCSSEEEEEEEE
+T ss_pred             CcEEEEEeCCCcEEEEEEe
+
+
+No 79
+>3G25_D Glycerol kinase; Glycerol kinase, Glycerol, idp00743, ATP-binding, Glycerol metabolism, Kinase, Nucleotide-binding, Transferase, Structural Genomics, Center for Structural Genomics; HET: MSE, PO4, GOL; 1.9A {Staphylococcus aureus subsp. aureus COL} SCOP: l.1.1.1, c.55.1.0
+Probab=27.56  E-value=5.8e+02  Score=21.62  Aligned_cols=54  Identities=13%  Similarity=0.236  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|++++-+++++ .  ...++..... .+        ...+..+.+..+.+.+.++++.
+T Consensus         6 ~~~lgiDiGts~ik~~~~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   68 (501)
+T 3G25_D            6 KYILSIDQGTTSSRAILFN-Q--KGEIAGVAQREFKQYFPQSGWVEHDANEIWTSVLAVMTEVINE   68 (501)
+T ss_dssp             CEEEEEEECSSEEEEEEEC-T--TSCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEcCCCceEEEEEC-C--CCCEEEEEEEecCeecCCCCccccCHHHHHHHHHHHHHHHHHh
+
+
+No 80
+>2QM1_B Glucokinase; alpha-beta structure, putative helix-turn-helix, Structural Genomics, PSI-2, Protein Structure Initiative, Midwest Center for Structural Genomics, MCSG; HET: MSE, SO4, GOL; 2.02A {Enterococcus faecalis}
+Probab=27.53  E-value=4.5e+02  Score=20.32  Aligned_cols=56  Identities=14%  Similarity=0.239  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      +.++|||.+..++-+++++ .  ...++..... .+...+..+....+.+.+..++.+..
+T Consensus         6 ~~~lgidig~~~~~~~l~d-~--~g~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~~~   62 (326)
+T 2QM1_B            6 KKIIGIDLGGTTIKFAILT-T--DGVVQQKWSIETNILEDGKHIVPSIIESIRHRIDLYN   62 (326)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TCCEEEEEEEECCCTTTTTTHHHHHHHHHHHHHHHTT
+T ss_pred             cEEEEEEECCCEEEEEEEc-C--CCceeEEEEEEccCCcChhcHHHHHHHHHHHHHHHcC
+
+
+No 81
+>2D4W_B glycerol kinase; Alpha and beta protein, Ribonuclease H-like motif, Actin-like ATPase domain, TRANSFERASE; HET: MPD; 2.3A {Cellulomonas sp.} SCOP: c.55.1.0
+Probab=27.48  E-value=5.9e+02  Score=21.62  Aligned_cols=54  Identities=11%  Similarity=0.108  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCC--------CCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSI--------SGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~--------~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|++++-+++++ .  ...++..... .+.        ..+..+.+..+.+.+.++++.
+T Consensus         2 ~~~l~iDiGtt~ik~~~~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~   64 (504)
+T 2D4W_B            2 DYVLAIDQGTTSSRAIVFD-H--SGEIYSTGQLEHDQIFPRAGWVEHNPEQIWNNVREVVGLALTR   64 (504)
+T ss_dssp             CEEEEEEECSSEEEEEEEC-T--TCCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             CeEEEEEeCCCeeEEEEEc-C--CCCEEEEEEeeccccCCCCCceeeCHHHHHHHHHHHHHHHHHh
+
+
+No 82
+>3WQT_C Cell division protein FtsA; actin-like fold, STRUCTURAL GENOMICS; HET: ANP; 2.2A {Staphylococcus aureus subsp. aureus}
+Probab=27.16  E-value=5.1e+02  Score=22.10  Aligned_cols=58  Identities=9%  Similarity=0.107  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEE-Ee-cCCCCCHHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACG-VV-VSISGTVAERLHRIFSGLAEVVEHY   58 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~-~~-~~~~~~~~~~~~~l~~~l~~~l~~~   58 (165)
+                      ..++|||.|...+-++++...+..+.++.++ .. ..-..........+...|..++++.
+T Consensus        20 ~~~vgIDIgs~~ik~v~~~~~~~~~~i~~~~~~~~~~~~~g~i~d~~~~~~~l~~~l~~~   79 (484)
+T 3WQT_C           20 HYYVSIDIGSSSVKTIVGEKFHNGINVIGTGQTYTSGIKNGLIDDFDIARQAIKDTIKKA   79 (484)
+T ss_dssp             CEEEEEEECSSEEEEEEEECC--CCEEEEEEEEECSSEETTEESBHHHHHHHHHHHHHHH
+T ss_pred             cEEEEEEECCCeEEEEEEEEeCCeEEEEEEEEEeCCceeCCEeCCHHHHHHHHHHHHHHH
+
+
+No 83
+>5OBU_A Chaperone protein DnaK; Complex, co-factor, ATP hydrolysis, CHAPERONE; HET: ANP; 2.0A {Mycoplasma genitalium G37}
+Probab=26.35  E-value=2.3e+02  Score=24.09  Aligned_cols=25  Identities=24%  Similarity=0.652  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             EEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      ++|||.|+.++.+|++. ++ .+.++.
+T Consensus         8 ~iGID~Gtt~~~va~~~-~~-~~~~i~   32 (529)
+T 5OBU_A            8 IIGIDLGTTNSCVSVME-GG-RPVVLE   32 (529)
+T ss_dssp             CEEEEECSSEEEEEEEE-TT-EEEECC
+T ss_pred             EEEEEcCCCcEEEEEEE-CC-EEEEEe
+
+
+No 84
+>3I33_A Heat shock-related 70 kDa protein 2; protein-ADP complex, ATP-binding, Chaperone, Nucleotide-binding, Phosphoprotein, Stress response, Structural Genomics, Structural Genomics Consortium, SGC; HET: ADP; 1.3A {Homo sapiens} SCOP: c.55.1.1, l.1.1.1
+Probab=24.67  E-value=1.5e+02  Score=23.69  Aligned_cols=19  Identities=26%  Similarity=0.611  Sum_probs=0.0  Template_Neff=11.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|+..++++...
+T Consensus        23 ~~~vgID~Gt~~~~~~~~~   41 (404)
+T 3I33_A           23 MPAIGIDLGTTYSCVGVFQ   41 (404)
+T ss_dssp             CCCEEEEECSSEEEEEEEE
+T ss_pred             ccEEEEEeCCCceEEEEEE
+
+
+No 85
+>4RTF_D Chaperone protein DnaK; Structural Genomics, PSI-Biology, Midwest Center for Structural Genomics, MCSG, Structures of Mtb Proteins Conferring Susceptibility to; HET: PG4; 2.77A {Mycobacterium tuberculosis H37Rv} SCOP: c.55.1.0
+Probab=24.51  E-value=1.5e+02  Score=25.23  Aligned_cols=19  Identities=21%  Similarity=0.571  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|+.++.+|++.
+T Consensus        34 ~~~iGID~Gtt~~~~a~~~   52 (546)
+T 4RTF_D           34 ARAVGIDLGTTNSVVSVLE   52 (546)
+T ss_dssp             -CCEEEEECSSEEEEEEEE
+T ss_pred             ccEEEEEeCCCcEEEEEEE
+
+
+No 86
+>6H9U_A Endoplasmic reticulum chaperone BiP; MANF, BiP, NDI, HSP70, ARMET, CHAPERONE; 1.57A {Cricetulus griseus} SCOP: c.55.1.0
+Probab=24.45  E-value=1.5e+02  Score=23.16  Aligned_cols=19  Identities=26%  Similarity=0.520  Sum_probs=0.0  Template_Neff=12.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      +.++|||.|+..+.++...
+T Consensus         1 ~~~vgiD~Gt~~~~~~~~~   19 (386)
+T 6H9U_A            1 GTVVGIDLGTTYSCVGVFK   19 (386)
+T ss_dssp             CCEEEEECCSSEEEEEEEE
+T ss_pred             CcEEEEEeCCCeEEEEEEE
+
+
+No 87
+>PF07355.16 ; GRDB ; Glycine/sarcosine/betaine reductase selenoprotein B (GRDB)
+Probab=24.09  E-value=6.7e+02  Score=21.12  Aligned_cols=50  Identities=22%  Similarity=0.271  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             HHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHHHHHHHHHHHHHHHHC-CCeEEE
+Q ACTH002.0722.0   45 HRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALKLGQARGAALVALAGA-GLDVHE  100 (165)
+Q Consensus        45 ~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~l~~~~~~~~~~~~~~-~i~~~~  100 (165)
+                      +...+.+..++++++||.++....+...   .   ++-..+.+...+.+. |||++.
+T Consensus        64 ~~~~~~i~~~~~~~~pd~~iaGPaf~~g---r---yg~ac~~~~~~v~~~~~ip~vt  114 (346)
+T R5DE75_9FIRM/1   64 ETGRAFLLEQIKKYQPDLIIAGPAFNAG---R---FGIACGDVCKTAKEQAGVEAIT  114 (346)
+T ss_pred             HHHHHHHHHHHHHHCCCEEEEcccccCc---c---HHHHHHHHHHHHHHHHCCCEEE
+
+
+No 88
+>3IFR_A Carbohydrate kinase, FGGY; xylulose kinase, Rhodospirillum rubrum, SGX, Structural genomics, 11200h, Kinase, Transferase, PSI-2, Protein Structure Initiative, New York; HET: MSE; 2.3A {Rhodospirillum rubrum}
+Probab=23.52  E-value=7.1e+02  Score=21.24  Aligned_cols=54  Identities=22%  Similarity=0.147  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|+.++-+++++ .  ...++..... .+        ...+....+..+.+.+.+++++
+T Consensus         7 ~~~lgiDiGtt~ik~~l~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~   69 (508)
+T 3IFR_A            7 RQVIGLDIGTTSTIAILVR-L--PDTVVAVASRPTTLSSPHPGWAEEDPAQWWDNARAVLAELKTT   69 (508)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TTEEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             cEEEEEEECCCceEEEEEc-C--CCcEEEEEEEeCCccCCCCCceeeCHHHHHHHHHHHHHHHHHH
+
+
+No 89
+>6SR6_A Putative heat shock protein; Hsp70, CHAPERONE; HET: ATP; 2.5A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=23.15  E-value=2.7e+02  Score=24.00  Aligned_cols=27  Identities=15%  Similarity=0.272  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      +.++|||.|..++.+|+.. ++ .+.++.
+T Consensus        24 ~~~vGID~Gts~~~va~~~-~~-~~~~i~   50 (589)
+T 6SR6_A           24 RVVIGITFGNSNSSIAHTV-DD-KAEVIA   50 (589)
+T ss_dssp             CCEEEEEECSSEEEEEEEE-TT-EEEEEC
+T ss_pred             ceEEEEEECCcceEEEEEe-CC-eeEEEE
+
+
+No 90
+>6GWJ_K Probable tRNA N6-adenosine threonylcarbamoyltransferase; tRNA, t6A modification, RNA BINDING PROTEIN; HET: GOL, PEG; 1.95A {Homo sapiens}
+Probab=23.06  E-value=5.7e+02  Score=19.99  Aligned_cols=58  Identities=21%  Similarity=0.198  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-c-----CCCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-V-----SISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~-----~~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      |.++|||.+...+.+|+++ +++-......... .     ................+...+++.+
+T Consensus         2 ~~~lgi~~~~~~~~~~l~~-~~~i~~~~~~er~~~~~~~~~~~~~~~~~~~~~~~~i~~~l~~~~   65 (335)
+T 6GWJ_K            2 PAVLGFEGSANKIGVGVVR-DGKVLANPRRTYVTPPGTGFLPGDTARHHRAVILDLLQEALTESG   65 (335)
+T ss_dssp             CEEEEEECSSSEEEEEEEE-TTEEEECCEEECCCCTTCCCCHHHHHHHHHHHHHHHHHHHHHHHT
+T ss_pred             CeEEEEEeCCCccEEEEEE-CCEEEEeeeeeeeCCCCCCCCccccHHHHHHHHHHHHHHHHHHcC
+
+
+No 91
+>4CZG_A ROD SHAPE-DETERMINING PROTEIN MREB; STRUCTURAL PROTEIN, BACTERIAL ACTIN, BACTERIAL CYTOSKELETON; HET: QH3, ADP; 1.5A {CAULOBACTER VIBRIOIDES} SCOP: c.55.1.0
+Probab=22.96  E-value=1.4e+02  Score=22.98  Aligned_cols=17  Identities=18%  Similarity=0.116  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CeEEEEcCCCCceEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGI   17 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai   17 (165)
+                      |.++|||.|...+.+++
+T Consensus         3 ~~~i~ID~G~~~~k~~~   19 (348)
+T 4CZG_A            3 SNDIAIDLGTANTLIYQ   19 (348)
+T ss_dssp             CCCEEEEECSSEEEEEE
+T ss_pred             cceEEEEcCCCeEEEEE
+
+
+No 92
+>PF10113.13 ; Fibrillarin_2 ; FeGP cofactor biosynthesis protein, fibrillarin family
+Probab=22.79  E-value=6.6e+02  Score=22.12  Aligned_cols=44  Identities=20%  Similarity=0.196  Sum_probs=0.0  Template_Neff=2.700
+
+Q ss_pred             HHHHHHHHHHHHHHHCCCEEEEeccccCCCcchHHHHHHHHHHHH
+Q ACTH002.0722.0   44 LHRIFSGLAEVVEHYRPDVCAVERVFLARNPDSALKLGQARGAAL   88 (165)
+Q Consensus        44 ~~~l~~~l~~~l~~~~~~~vviE~~~~~~~~~~~~~l~~~~~~~~   88 (165)
+                      ++.+...++..+ +++.|++++|..+++...+....++....+.+
+T Consensus       228 yddLI~G~~a~i-dl~vDvfViEGGPFN~a~drl~aFakAva~aR  271 (504)
+T A2SUA0_METLZ/1  228 YEDLIAGFDAGL-KMGVDVFVIEGGPFNRAKDRLDAFSRAVTAAR  271 (504)
+T ss_pred             HHHHHHHHHHHH-ccCCCEEEEeCCCcccccchHHHHHHHHHHHH
+
+
+No 93
+>3WXL_A Glycerol kinase; TRYPANOSOMA, GLYCEROL KINASE, SUGAR KINASE SUPERFAMILY, TRANSFERASE, GLYCOSOME; HET: ADP, GOL; 1.9A {Trypanosoma brucei gambiense} SCOP: c.55.1.0, l.1.1.1
+Probab=22.75  E-value=7.4e+02  Score=21.14  Aligned_cols=56  Identities=21%  Similarity=0.243  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      +.++|||.|++++-+++++ .  ...++..... .+        ...+....+..+.+.+.+++.+..
+T Consensus         8 ~~~l~iDiGtt~ik~~l~d-~--~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~~~~~~~~~~   72 (518)
+T 3WXL_A            8 KYVGSIDQGTTSTRFIIFD-E--RQRPVSVHQVPHTQHTPHPGWLEHDPMEIFRSACKCMSVAIAKLR   72 (518)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TCCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEEeCCCcEEEEEEc-C--CCCEEEEEEEeCCccCCCCCccccCHHHHHHHHHHHHHHHHHHHh
+
+
+No 94
+>4J8F_A Heat shock 70 kDa protein 1A/1B, Hsc70-interacting protein; actin-like fold, nucleotide binding domain, tetratricopeptide repeat, solenoid, Molecular chaperone complex, cytosol, Chaperone; HET: IOD, ADP; 2.7A {Homo sapiens}
+Probab=22.62  E-value=2.7e+02  Score=24.24  Aligned_cols=25  Identities=24%  Similarity=0.589  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             EEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      ++|||.|++++.+|++. .+ .++++.
+T Consensus        13 ~~~id~g~~~~~~~~~~-~~-~~~~~~   37 (561)
+T 4J8F_A           13 AIGIDLGTTYSCVGVFQ-HG-KVEIIA   37 (561)
+T ss_dssp             CEEEEECSSEEEEEEEE-TT-EEEECC
+T ss_pred             eEEEEcCCCeeEEEEEe-CC-eEEEEE
+
+
+No 95
+>PF00012.24 ; HSP70 ; Hsp70 protein
+Probab=22.58  E-value=2.2e+02  Score=24.55  Aligned_cols=25  Identities=24%  Similarity=0.683  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             EEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    3 VLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         3 ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      ++|||.|+.++.+|+.. ++ .++++.
+T Consensus         1 viGID~Gt~~~~~a~~~-~~-~~~~i~   25 (596)
+T DNAK_BORBU/4-5    1 IIGIDLGTTNSCVAIME-HG-KPVVIQ   25 (596)
+T ss_pred             CEEEEECCCeeEEEEEE-CC-eEEEEE
+
+
+No 96
+>5NCK_B N-acetylmannosamine kinase; N-acetylmannosamine kinase, zinc-binding motif, ROK family, sialic acid, Transferase; 2.23A {Fusobacterium nucleatum} SCOP: c.55.1.0
+Probab=22.55  E-value=5.4e+02  Score=19.51  Aligned_cols=53  Identities=19%  Similarity=0.271  Sum_probs=0.0  Template_Neff=11.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCCCCCHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSISGTVAERLHRIFSGLAEVVE   56 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~l~~~l~~~l~   56 (165)
+                      |.++|||.+..++-+++++ .  .-+++..... .+...+..+.+..+.+.+.++.+
+T Consensus         1 ~~~lgidig~~~~~~~l~d-~--~g~~i~~~~~~~~~~~~~~~~~~~i~~~~~~~~~   54 (291)
+T 5NCK_B            1 MNILAIDIGGTMIKYGLVS-F--DGKILSTDKIKTEASKGLNNILNKIDNIFKRYKE   54 (291)
+T ss_dssp             CEEEEEEECSSEEEEEEEE-T--TSCEEEEEEEECCGGGCHHHHHHHHHHHHHHHHT
+T ss_pred             CeEEEEEEcCCEEEEEEEc-C--CCceeEEEeeecchhcCHHHHHHHHHHHHHHHHh
+
+
+No 97
+>3EZW_A Glycerol kinase; GLYCEROL KINASE, GLYCEROL METABOLISM, ALLOSTERIC REGULATION, MICROFLUIDICS, IN SITU DATA COLLECTION, ATP-binding, Kinase, Metal-binding, Nucleotide-binding, Transferase; HET: GOL, EDO; 2.0A {Escherichia coli} SCOP: c.55.1.4
+Probab=22.51  E-value=7.7e+02  Score=21.26  Aligned_cols=54  Identities=15%  Similarity=0.197  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      +.++|||.|++++-+++++ .  ..+++..... .+        ...+..+.+..+.+.+.+++.+
+T Consensus         4 ~~~lgiDiGtt~ik~~~~d-~--~g~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~i~~~~~~   66 (526)
+T 3EZW_A            4 KYIVALDQGTTSSRAVVMD-H--DANIISVSQREFEQIYPKPGWVEHDPMEIWATQSSTLVEVLAK   66 (526)
+T ss_dssp             CEEEEEEECSSEEEEEEEC-T--TCCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             cEEEEEEcCCCceEEEEEc-C--CCCEEEEEEEeCceeCCCCCceeeCHHHHHHHHHHHHHHHHHH
+
+
+No 98
+>4GNI_A Putative heat shock protein; Hsp70-type ATPase, ATP binding protein, magnesium binding, co-translational chaperone, ribosome-associated complex, RAC, CHAPERONE; HET: ATP; 1.796A {Chaetomium thermophilum var. thermophilum DSM 1495} SCOP: c.55.1.0
+Probab=22.42  E-value=1.6e+02  Score=23.13  Aligned_cols=19  Identities=16%  Similarity=0.253  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      ..++|||.|...+.+|+..
+T Consensus        13 ~~~vgID~Gt~~~~~~~~~   31 (409)
+T 4GNI_A           13 RVVIGITFGNSNSSIAHTV   31 (409)
+T ss_dssp             CCEEEEEECSSEEEEEEEE
+T ss_pred             eEEEEEEeCCceEEEEEEc
+
+
+No 99
+>2IVN_A O-SIALOGLYCOPROTEIN ENDOPEPTIDASE; UP1 KEOPS COMPLEX, FE/ZN DEPENDENT NUCLEOTIDE PHOSPHATASE, METALLOPROTEASE, HYPOTHETICAL PROTEIN, ZINC, PROTEASE, HYDROLASE, METAL-BINDING; HET: ANP; 1.65A {PYROCOCCUS ABYSSI}
+Probab=22.40  E-value=1.6e+02  Score=23.30  Aligned_cols=19  Identities=37%  Similarity=0.670  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.+...+.+|+++
+T Consensus         1 ~~~lgid~g~~~~~~al~~   19 (330)
+T 2IVN_A            1 MLALGIEGTAHTLGIGIVS   19 (330)
+T ss_dssp             CCEEEEECSSSEEEEEEEC
+T ss_pred             CeeeeEEeeccceEEEEEe
+
+
+No 100
+>6ZQ4_G Glycerol kinase-like protein; Kinase, Glycerol, Metabolism, TRANSFERASE; HET: PO4, GOL; 2.02A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)} SCOP: l.1.1.1, c.55.1.0
+Probab=22.34  E-value=7.7e+02  Score=21.20  Aligned_cols=54  Identities=17%  Similarity=0.143  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cCC--------CCCHHHHHHHHHHHHHHHHHH
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VSI--------SGTVAERLHRIFSGLAEVVEH   57 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~~--------~~~~~~~~~~l~~~l~~~l~~   57 (165)
+                      ..++|||.|+.++-+++++ .  ...++..... .+.        ..+..+.+..+.+.+.+++++
+T Consensus         2 ~~~lgiDiGt~~ik~~~~d-~--~g~~~~~~~~~~~~~~~~~g~~~~~~~~~~~~~~~~i~~~~~~   64 (526)
+T 6ZQ4_G            2 SFVGSIDQGTTSSRFLIFN-G--EGNPVASHQIEFENLYPKSGWHEQDPYELLNSVQQCIDGAMHK   64 (526)
+T ss_dssp             CEEEEEEECSSEEEEEEEC-T--TSCEEEEEEEECCCBCSSTTCCEECHHHHHHHHHHHHHHHHHH
+T ss_pred             ceEEEEecCCCcEEEEEEc-C--CCCEEEEEEeecceeCCCCCceecCHHHHHHHHHHHHHHHHHH
+
+
+No 101
+>5TKY_B Putative uncharacterized protein; Hsp70, chaperone, ribosome, translation; HET: ATP; 2.6A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=22.12  E-value=2.9e+02  Score=23.81  Aligned_cols=27  Identities=15%  Similarity=0.277  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CeEEEEcCCCCceEEEEEEccCCcEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVDDQGGRPGYVA   29 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~~~~~~~~~~~   29 (165)
+                      +.++|||.|+.++.+|+.. ++ .+.++.
+T Consensus        14 ~~~vgID~Gt~~~~va~~~-~~-~~~~~~   40 (621)
+T 5TKY_B           14 DGAIGIDLGTTYSCVAVYE-GT-NVEIIA   40 (621)
+T ss_dssp             CSCEEEEECSSEEEEEEEC-SS-CEEECC
+T ss_pred             CcEEEEEeCCCeEEEEEEe-CC-EEEEEE
+
+
+No 102
+>4EHU_A Activator of 2-hydroxyisocaproyl-CoA dehydratase; actin fold, ATPase, electron transfer, ATP/ADP binding, 2-hydroxyisocaproyl-CoA dehydratase binding, ELECTRON TRANSPORT; HET: ANP, ACT; 1.6A {Clostridium difficile}
+Probab=21.66  E-value=1.9e+02  Score=22.02  Aligned_cols=19  Identities=32%  Similarity=0.387  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CeEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai~~   19 (165)
+                      |.++|||.|.+++-+++++
+T Consensus         1 ~~~lGiDiG~t~~~~~~~d   19 (276)
+T 4EHU_A            1 MYTMGLDIGSTASKGVILK   19 (276)
+T ss_dssp             CEEEEEEECSSCEEEEEEE
+T ss_pred             CcEEEEEeCCCeEEEEEEe
+
+
+No 103
+>7RAX_A Chaperone protein DnaK; molecular chaperone, Hsp70, protein folding, CHAPERONE; HET: CSD, GOL, ATP; 1.41A {Escherichia coli (strain K12)}
+Probab=20.67  E-value=1.9e+02  Score=22.73  Aligned_cols=18  Identities=28%  Similarity=0.728  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             eEEEEcCCCCceEEEEEE
+Q ACTH002.0722.0    2 RVLGVDPGSRRTGFGIVD   19 (165)
+Q Consensus         2 ~ilgiD~~~~~~G~ai~~   19 (165)
+                      +++|||.|...+.++...
+T Consensus         3 ~vigiD~G~~~~~~~~~~   20 (393)
+T 7RAX_A            3 KIIGIDLGTTNSCVAIMD   20 (393)
+T ss_dssp             CEEEEECCSSEEEEEEEE
+T ss_pred             cEEEEEECCCeEEEEEEe
+
+
+No 104
+>2DPN_A Glycerol kinase; Thermus thermophilus HB8, Structural Genomics, NPPSFA, National Project on Protein Structural and Functional Analyses, RIKEN Structural; 2.8A {Thermus thermophilus}
+Probab=20.56  E-value=8.1e+02  Score=20.76  Aligned_cols=56  Identities=16%  Similarity=0.116  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             Ce-EEEEcCCCCceEEEEEEccCCcEEEEEEEEe-cC--------CCCCHHHHHHHHHHHHHHHHHHHC
+Q ACTH002.0722.0    1 MR-VLGVDPGSRRTGFGIVDDQGGRPGYVACGVV-VS--------ISGTVAERLHRIFSGLAEVVEHYR   59 (165)
+Q Consensus         1 m~-ilgiD~~~~~~G~ai~~~~~~~~~~~~~~~~-~~--------~~~~~~~~~~~l~~~l~~~l~~~~   59 (165)
+                      |+ ++|||.|+.++-+++++ .  ...++..... .+        ...+.......+.+.+.+++++.+
+T Consensus         1 ~~~~lgiDiGtt~~k~~~~d-~--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~i~~~i~~~~~~~~   66 (495)
+T 2DPN_A            1 MAFLLALDQGTTSSRAILFT-L--EGRPVAVAKREFRQLYPKPGWVEHDPLEIWETTLWAAREVLRRAG   66 (495)
+T ss_dssp             --CEEEEEECSSEEEEEEEC-T--TSCEEEEEEEECCEECSSTTCCEECHHHHHHHHHHHHHHHHHHTT
+T ss_pred             CCeEEEEEeCCCceEEEEEc-C--CCCEEEEEEecCCeecCCCCccccCHHHHHHHHHHHHHHHHHHcC
+
+
+No 105
+>5LJW_B Actin-like ATPase; bacterial cytoskeleton, filamentous protein, actin-like, magnetosomes, Hydrolase; HET: ANP; 1.8A {Magnetospirillum magneticum AMB-1}
+Probab=20.39  E-value=1.8e+02  Score=22.42  Aligned_cols=17  Identities=35%  Similarity=0.372  Sum_probs=0.0  Template_Neff=12.300
+
+Q ss_pred             CeEEEEcCCCCceEEEE
+Q ACTH002.0722.0    1 MRVLGVDPGSRRTGFGI   17 (165)
+Q Consensus         1 m~ilgiD~~~~~~G~ai   17 (165)
+                      +.++|||.|..++.++.
+T Consensus        11 ~~~igiD~G~~~~k~~~   27 (347)
+T 5LJW_B           11 RLFLGVDLGTSHTAVMS   27 (347)
+T ss_dssp             EEEEEEEECSSEEEEEE
+T ss_pred             ceEEEEEeCCceEEEEe
+
+

@@ -1,0 +1,39 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+Asgard_ASG183_02450     43.6   1.4e-09   1   1.0   0.6    -
+Asgard_ASG044_04149     40.9   9.3e-09   1   1.1   0.0    -
+Asgard_FWG130_00043     39.1   3.5e-08   1   1.2   0.0    -
+Asgard_ASG304_01506     32.5   3.8e-06   1   1.1   0.0    -
+Asgard_ASG303_02906     32.2   4.7e-06   1   1.1   0.0    -
+Asgard_ASG261_01537     30.1   2.1e-05   1   1.0   0.0    -
+Asgard_ASG099_02679     28.2   7.6e-05   2   2.0   0.0    -
+Asgard_ASG259_02726     24.8   0.00089   1   1.4   0.0    -
+Asgard_ASG261_00224     23.4    0.0023   1   1.2   0.0    -
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+Asgard_ASG183_02450     43.5   1.5e-09     1   0.6      1     33      1     33    116    148     -
+Asgard_ASG044_04149     40.6   1.2e-08     1   0.0     13    154     14    152      2    144     -
+Asgard_FWG130_00043     38.7   4.6e-08     1   0.0     14    153     15    132      2    123     -
+Asgard_ASG304_01506     32.3   4.3e-06     1   0.0      6    159      7    136      2    128     -
+Asgard_ASG303_02906     31.9   5.6e-06     1   0.0      5    158      6    135      2    128     -
+Asgard_ASG261_01537     29.8   2.5e-05     1   0.0     14    171     15    169      2    146     -
+Asgard_ASG259_02726     24.0    0.0015     1   0.0      5    109      5    102      1     97     -
+Asgard_ASG099_02679     24.0    0.0015     1   0.0     23    154     24    139      2    113     -
+Asgard_ASG261_00224     23.0     0.003     1   0.0      4    109      4     89      1     90     -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      data/PF02075.hmm
+# Target file:     /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgard297_20211009.faa
+# Option settings: hmmsearch --tblout results/ruvc_pf02075_hits_kingdom=asgard.tsv --domtblout results/ruvc_pf02075_domtbl_kingdom=asgard.tsv --pfamtblout results/ruvc_pf02075_pftblout_kingdom=asgard.tsv --cut_ga --cpu 30 data/PF02075.hmm /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgard297_20211009.faa 
+# Current dir:     /shared/ifbstor1/projects/mdm_db_coli/is110/dev/n_ter_domain/ruvc_detection/pfam_cut-ga
+# Date:            Tue Feb 27 21:24:05 2024
+# [ok]

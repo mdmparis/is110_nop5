@@ -1,0 +1,45 @@
+Using 30 cores.
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_FWG130.prt: no such file or directory
+[33m[WARN][0m you may switch on flag -g/--remove-gaps to remove spaces
+[31m[ERRO][0m stat results/ruvc_pf02075_hit-region_1e-5_qcov-gt-0.80_kingdom=all.faa: no such file or directory
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: -1 kb
+rescale = 1
+All-to-all alignment.
+    0 / 120 (by thread   1)    10 / 120 (by thread  16)    20 / 120 (by thread   1)    30 / 120 (by thread  18)    40 / 120 (by thread  14)    50 / 120 (by thread  17)    60 / 120 (by thread  14)    70 / 120 (by thread  15)    80 / 120 (by thread  14)    90 / 120 (by thread   4)   100 / 120 (by thread  22)   110 / 120 (by thread   4) tbfast-pair (aa) Version 7.505
+alg=A, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+30 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 120   10 / 120   20 / 120   30 / 120   40 / 120   50 / 120   60 / 120   70 / 120   80 / 120   90 / 120  100 / 120  110 / 120
+done.
+
+Progressive alignment ... 
+STEP     4 /119 (thread    4) STEP     3 /119 (thread    1) STEP     6 /119 (thread    7) STEP     5 /119 (thread    6) STEP     1 /119 (thread    0) STEP     2 /119 (thread    3) STEP     7 /119 (thread    5) STEP     9 /119 (thread    8) STEP    10 /119 (thread    9) STEP    11 /119 (thread   10) STEP    16 /119 (thread   15) STEP    15 /119 (thread   14) STEP    21 /119 (thread    8) STEP    23 /119 (thread    9) STEP    22 /119 (thread    5) STEP    13 /119 (thread   12) STEP    20 /119 (thread    3) STEP    12 /119 (thread   11) STEP     8 /119 (thread    2) STEP    29 /119 (thread    9) STEP    31 /119 (thread    3) STEP    32 /119 (thread   14) STEP    27 /119 (thread    4) STEP    25 /119 (thread   15) STEP    33 /119 (thread   12) STEP    34 /119 (thread   11) STEP    14 /119 (thread   13) STEP    36 /119 (thread    9) STEP    17 /119 (thread    6) STEP    38 /119 (thread   14) STEP    39 /119 (thread   12) STEP    40 /119 (thread    4) STEP    41 /119 (thread    9) STEP    42 /119 (thread   15) STEP    37 /119 (thread    3) STEP    43 /119 (thread   14) STEP    44 /119 (thread   12) STEP    49 /119 (thread   13) STEP    47 /119 (thread    9) STEP    18 /119 (thread    7) STEP    51 /119 (thread   12) STEP    46 /119 (thread   11) STEP    53 /119 (thread   15) STEP    54 /119 (thread   13) STEP    57 /119 (thread    9) STEP    19 /119 (thread    0) STEP    59 /119 (thread   15) STEP    61 /119 (thread    9) STEP    48 /119 (thread    6) STEP    62 /119 (thread    0) STEP    24 /119 (thread   10) STEP    64 /119 (thread    9) STEP    66 /119 (thread   10) STEP    26 /119 (thread    1) STEP    50 /119 (thread    3) STEP    68 /119 (thread    9) STEP    28 /119 (thread    8) STEP    52 /119 (thread   14) STEP    72 /119 (thread    9) STEP    73 /119 (thread    8) STEP    30 /119 (thread    5) STEP    55 /119 (thread   12) STEP    75 /119 (thread    9) STEP    76 /119 (thread    8) STEP    35 /119 (thread    2) STEP    78 /119 (thread   12) STEP    58 /119 (thread   13) STEP    79 /119 (thread    9) STEP    45 /119 (thread    4) STEP    83 /119 (thread   13) STEP    60 /119 (thread   11) STEP    56 /119 (thread    7) STEP    86 /119 (thread   13) STEP    63 /119 (thread   15) STEP    88 /119 (thread    7) STEP    89 /119 (thread   13) STEP    90 /119 (thread   15) STEP    65 /119 (thread    0) STEP    91 /119 (thread    7) STEP    92 /119 (thread   13) STEP    93 /119 (thread   15) STEP    94 /119 (thread    7) STEP    67 /119 (thread    6) STEP    97 /119 (thread   15) STEP    95 /119 (thread   13) STEP    99 /119 (thread   15) STEP   100 /119 (thread    6) STEP    69 /119 (thread   10) STEP    98 /119 (thread    7) STEP   101 /119 (thread   15) STEP    70 /119 (thread    1) STEP   103 /119 (thread    6) STEP   107 /119 (thread    1) STEP    71 /119 (thread    3) STEP   104 /119 (thread    7) STEP    74 /119 (thread   14) STEP   105 /119 (thread   10) STEP   112 /119 (thread   14) STEP    77 /119 (thread    5) STEP   106 /119 (thread   15) STEP    80 /119 (thread    8) STEP   108 /119 (thread    6) STEP    81 /119 (thread    2) STEP    82 /119 (thread   12) STEP    84 /119 (thread    4) STEP    85 /119 (thread    9) STEP    87 /119 (thread   11) STEP    96 /119 (thread    0) STEP   102 /119 (thread   13) STEP   109 /119 (thread    1) 
+Reallocating (by thread 3) ..done. *alloclen = 1310
+STEP   110 /119 (thread    3) STEP   111 /119 (thread    7) STEP   113 /119 (thread   10) STEP   114 /119 (thread   14) STEP   115 /119 (thread    5) STEP   116 /119 (thread   15) STEP   117 /119 (thread    8) STEP   118 /119 (thread    6) STEP   119 /119 (thread    2) 
+done.
+tbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+16 thread(s)
+
+
+Strategy:
+ G-INS-1 (Not tested.)
+ Progressive method incorporating GLOBAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

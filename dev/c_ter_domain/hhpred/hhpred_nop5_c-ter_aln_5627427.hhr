@@ -1,0 +1,421 @@
+Query         GCF_003947435_00885
+Match_columns 108
+No_of_seqs    117 out of 1079
+Neff          9.30927
+Searched_HMMs 87401
+Date          Mon Apr 15 15:12:02 2024
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -o ../results/8632020.hhr -oa3m ../results/8632020.a3m -p 20 -Z 1000 -loc -z 1 -b 1 -B 1000 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 7MQA_SA Nucleolar protein 56;  100.0 1.3E-30 1.4E-35  195.0   7.6  107    1-108   295-404 (594)
+  2 2NNW_A NOP5/NOP56 related prot 100.0   8E-30 9.2E-35  182.1  11.1  106    1-107   265-370 (376)
+  3 7XPL_B C/D box methylation gui 100.0   1E-29 1.2E-34  182.1  11.2  106    1-107   264-369 (388)
+  4 7MQA_SB Nucleolar protein 58;  100.0 7.3E-30 8.3E-35  188.9   8.8  107    1-108   285-394 (529)
+  5 3ICX_C Pre mRNA splicing prote 100.0 3.8E-29 4.4E-34  170.6  10.8  107    1-108   131-237 (255)
+  6 6RXU_CD Nop58; ribosome, ribos 100.0 1.2E-29 1.4E-34  188.6   8.7  107    1-108   288-404 (582)
+  7 7SUK_SB Nucleolar protein 58;  100.0 5.2E-29   6E-34  180.8  10.9  107    1-108   285-396 (436)
+  8 6LQP_3E Nucleolar protein 58;  100.0 7.4E-29 8.5E-34  182.9  10.0  107    1-108   286-397 (511)
+  9 7SUK_SA Nucleolar protein 56;  100.0 9.7E-29 1.1E-33  178.2   9.3  107    1-108   300-409 (413)
+ 10 3GQX_A NOP5P PROTEIN; RNA BIND 100.0 3.3E-28 3.7E-33  157.5  10.8  107    1-108    36-142 (169)
+ 11 1NT2_B conserved hypothetical  100.0 2.6E-28   3E-33  167.0   8.9  106    1-108   141-251 (258)
+ 12 6LQP_3D Nucleolar protein 56;  100.0 3.7E-28 4.3E-33  179.0   9.8  107    1-108   302-411 (504)
+ 13 6RXU_CC Nop56; ribosome, ribos 100.0 7.7E-28 8.8E-33  178.1   9.6  107    1-108   305-414 (523)
+ 14 6QW6_4C U4/U6 small nuclear ri 100.0 7.9E-28 9.1E-33  176.9   9.4  107    1-108   218-327 (499)
+ 15 2OZB_B U4/U6 small nuclear rib 100.0 2.5E-27 2.8E-32  162.0  10.5  107    1-108   145-254 (260)
+ 16 PF01798.22 ; Nop ; snoRNA bind  99.9 1.4E-26 1.6E-31  155.2  10.2  107    1-108   123-232 (234)
+ 17 5ZWM_L Pre-mRNA-processing fac  99.9   2E-26 2.3E-31  169.0   8.4  107    1-108   228-340 (494)
+
+No 1
+>7MQA_SA Nucleolar protein 56; Ribosomal assembly intermediate, RIBOSOME; HET: ATP, SAH, GTP, 4AC, OMU, OMC, PSU, OMG, A2M, MG; 2.7A {Homo sapiens}
+Probab=99.97  E-value=1.3e-30  Score=195.01  Aligned_cols=107  Identities=46%  Similarity=0.745  Sum_probs=102.1  Template_Neff=7.300
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.|+|+||++||||.+|++||+|+||+||+++++|++++++..+|+||+||++++|+.++++.+++++|+|++
+T Consensus       295 Nl~alvG~~v~ArLi~~AGsL~~Lak~PastiQiLGaeKalfr~lk~~~~~pk~G~if~s~~i~~a~~~~rgkiaR~lA~  374 (594)
+T 7MQA_SA         295 SLSALIGEAVGARLIAHAGSLTNLAKYPASTVQILGAEKALFRALKTRGNTPKYGLIFHSTFIGRAAAKNKGRISRYLAN  374 (594)
+T ss_pred             cHHHHcCHhHHHHHHHHHHHHHHHHhCChhHhHhhcchHHHHHHHHhcCCCCCceeeeeccccccccHhhcccHHHHHhH
+Confidence            89999999999999999999999999999999999999999999999888899999999999999999999999999999
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.   .+|..+|++|+++
+T Consensus       375 K~siAaRiD~~~-~~~~~~~g~~lr~~ve~r  404 (594)
+T 7MQA_SA         375 KCSIASRIDCFS-EVPTSVFGEKLREQVEER  404 (594)
+T ss_pred             hhhhhcccCCcc-CCCcchhhHHHHHHHHHH
+Confidence            999999999998 74   7999999888653
+
+
+No 2
+>2NNW_A NOP5/NOP56 related protein; box C/D, TRANSFERASE; 2.7A {Pyrococcus furiosus}
+Probab=99.97  E-value=8e-30  Score=182.10  Aligned_cols=106  Identities=50%  Similarity=0.834  Sum_probs=89.8  Template_Neff=8.300
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++++|+.++|+|++.+|||.+|+++|+|+||+||+++++|++++++..+|++|+||++++++.+|++.|++++|++++
+T Consensus       265 Nl~~l~G~~~~a~Li~~aG~l~~La~~psstiq~lGaeka~f~~l~~~~~~pk~G~i~~~~~v~~~~~~~rgk~aR~lA~  344 (376)
+T 2NNW_A          265 NLKALVGAKLAARLISLAGGLRELAMMPSSTIQVLGAEKALFRHLRTGAKPPKHGVIYQYPAINRSPWWQRGKIARALAG  344 (376)
+T ss_dssp             HHHHHHCHHHHHHHHHHHTSHHHHHHSCHHHHHTTTCC-------------CCCCGGGGSHHHHTSCHHHHHHHHHHHHH
+T ss_pred             chHHHHHHHHHHHHHHHhhcHHHHhcCChhhhhHhchhHHHHHHHccCCCCCCeeEEeeChhHhcCCHHHHHHHHHHHHH
+Confidence            89999999999999999999999999999999999999999999999888899999999999999999999999999999
+
+
+Q ss_pred             HHHHHhhhhhhcCCchHHHHHHHHHHh
+Q GCF_003947435_   81 KISIAARVDAYGSDRSIGKKLREEIDE  107 (108)
+Q Consensus        81 k~~la~r~D~~~~~~~~G~~~~~~i~~  107 (108)
+                      |+++|+|+|+|+ +..+|+++++++++
+T Consensus       345 K~~lAaRiD~~~-~~~~g~~l~~~i~~  370 (376)
+T 2NNW_A          345 KLAIAARVDYFS-GEYIAEELKKELEA  370 (376)
+T ss_dssp             HHHHHHHHHHHT-CCCCHHHHHHHHHH
+T ss_pred             HHHHHhcccccC-CcchHHHHHHHHHH
+Confidence            999999999998 76799999988875
+
+
+No 3
+>7XPL_B C/D box methylation guide ribonucleoprotein complex aNOP56 subunit; 2'-O-methylation, guide RNA, RNP, RNA BINDING PROTEIN, RNA BINDING PROTEIN-RNA complex; HET: SAH; 2.213A {Saccharolobus solfataricus}
+Probab=99.97  E-value=1e-29  Score=182.15  Aligned_cols=106  Identities=54%  Similarity=0.925  Sum_probs=101.8  Template_Neff=8.400
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.++|+|++.+|||.+|++||+|+||++|+++++|+++++++.+|++|+||++++|+.+|++.|++++|.+++
+T Consensus       264 Nl~~l~G~~~aa~Li~~aG~L~~La~~psstiq~lGaeka~f~~l~~~~~~pk~G~i~~~~~v~~~~~~~rgk~aR~lA~  343 (388)
+T 7XPL_B          264 NVTALVGPALGARLLSIAGSLDELAKMPASTIQVLGAEKALFRALRSGGRPPKHGIIFQYPAIHTSPRWQRGKIARALAA  343 (388)
+T ss_dssp             HHHHHHCHHHHHHHHHHHSSHHHHTTSCHHHHTTTTCHHHHHHHHHHCCCCCSCSGGGGSHHHHTSCHHHHHHHHHHHHH
+T ss_pred             chHHHhcHHHHHHHHHHHccHHHHhcCCHHHHHHhcHHHHHHHHHhcCCCCCCeEEEecChhHhcCCHHHHHHHHHHHHH
+Confidence            89999999999999999999999999999999999999999999998888899999999999999999999999999999
+
+
+Q ss_pred             HHHHHhhhhhhcCCchHHHHHHHHHHh
+Q GCF_003947435_   81 KISIAARVDAYGSDRSIGKKLREEIDE  107 (108)
+Q Consensus        81 k~~la~r~D~~~~~~~~G~~~~~~i~~  107 (108)
+                      |+++|+|+|+|+ +..+|.+++++|++
+T Consensus       344 K~~lAaRiD~~~-~~~~g~~l~~~i~~  369 (388)
+T 7XPL_B          344 KLAIAARVDAFS-GRFIGDQLNEQLKK  369 (388)
+T ss_dssp             HHHHHHHHHHTT-CCCCHHHHHHHHHH
+T ss_pred             HHHHHhhccccC-CCcchHHHHHHHHH
+Confidence            999999999998 76799999988764
+
+
+No 4
+>7MQA_SB Nucleolar protein 58; Ribosomal assembly intermediate, RIBOSOME; HET: ATP, SAH, GTP, 4AC, OMU, OMC, PSU, OMG, A2M, MG; 2.7A {Homo sapiens}
+Probab=99.96  E-value=7.3e-30  Score=188.91  Aligned_cols=107  Identities=42%  Similarity=0.677  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.|+|+||+++|||.+|+++|+|+||+||+++++|++++++..+|+||+||++++|+.++++++++++|+|++
+T Consensus       285 Nl~~lvG~~v~ArLi~~aGsL~~Lak~PastiqiLGaekalfr~lk~~~~~pk~G~iy~~~~v~~~~~~~rgkiaR~lA~  364 (529)
+T 7MQA_SB         285 NVTVMVGELVGARLIAHAGSLLNLAKHAASTVQILGAEKALFRALKSRRDTPKYGLIYHASLVGQTSPKHKGKISRMLAA  364 (529)
+T ss_pred             hHHHHHhHHHHHHHHHHHHHHHHHHHchhcchhHhchHHHHHHHhhcCCCCCCeEEEEecceeccCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |++||+|+|+|+ +.   .+|.++|++|+++
+T Consensus       365 K~slaaRvD~~~-~~~~~~~G~~~r~~ie~r  394 (529)
+T 7MQA_SB         365 KTVLAIRYDAFG-EDSSSAMGVENRAKLEAR  394 (529)
+T ss_pred             HHHHHHhccccC-CCCcchHHHHHHHHHHHH
+
+
+No 5
+>3ICX_C Pre mRNA splicing protein; C/D guide RNA, 2'-O-methylation, coiled-coil, RNA BINDING PROTEIN; HET: SO4; 3.1A {Sulfolobus solfataricus} SCOP: a.183.1.0
+Probab=99.96  E-value=3.8e-29  Score=170.59  Aligned_cols=107  Identities=54%  Similarity=0.931  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++++|+.++|+|++.+|+|..|+++|+|+||++|++++.|++++++..+|++|+||++++|+.+|++.+++++|++++
+T Consensus       131 nl~~liG~~~aA~Li~~aG~L~~La~~pss~iq~lGaek~~~~~l~~~~~~~k~G~i~~~~~v~~~~~~~r~k~~R~la~  210 (255)
+T 3ICX_C          131 NVTALVGPALGARLLSIAGSLDELAKMPASTIQVLGAEKALFRALRSGGRPPKHGIIFQYPAIHTSPRWQRGKIARALAA  210 (255)
+T ss_dssp             HHHHHHCHHHHHHHHHHHSSHHHHTTSCHHHHTTCC-------------------GGGGSHHHHTSCHHHHHHHHHHHHH
+T ss_pred             ChHHhccHHHHHHHHHHhccHHHHhcCChhhchHhchHHHHHHHHhcCCCCCCeEEEecChhHhcCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCchHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDRSIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +..+|.+++++|+++
+T Consensus       211 K~~laaR~D~~~-~~~~g~~~~~~i~~~  237 (255)
+T 3ICX_C          211 KLAIAARVDAFS-GRFIGDQLNEQLKKR  237 (255)
+T ss_dssp             HHHHHHHHHHTT-CCCCHHHHHHHHHHH
+T ss_pred             HHHHhhhhhhcC-CCchHHHHHHHHHHH
+
+
+No 6
+>6RXU_CD Nop58; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=99.96  E-value=1.2e-29  Score=188.59  Aligned_cols=107  Identities=43%  Similarity=0.686  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|||+.|+||||+++|||.+|+++|+|+||+||+++++|++++++..+|+||+||++++|+.+|++.+++++|+|++
+T Consensus       288 NLt~LvG~~v~ArLIa~AGsL~~LAk~PaStIQiLGAEKalFraLkt~~~tPK~GlIy~~~lV~~a~~~~kGKiaR~LAa  367 (582)
+T 6RXU_CD         288 NMTELIGALVGARLIAHSGSLVNLAKNPGSTIQILGAEKALFRALKTKHATPKYGIIYHASLVGQASGPNKGKIARQLAA  367 (582)
+T ss_pred             cHHHHhhHHHHHHHHHHhHHHHHHHhCCCchHHHhchHHHHHHHHhcCCCCCCceEEEchhheecCCcchHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc----------hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR----------SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~----------~~G~~~~~~i~~k  108 (108)
+                      |++|++|+|+|+ +.          .+|..+|++|+++
+T Consensus       368 K~aLAaRvD~~~-~~~~~~~~~~~~~~G~~~r~~ie~r  404 (582)
+T 6RXU_CD         368 KIALSVRTDAFE-DFPENADDETRAAVGIQARAKLENN  404 (582)
+T ss_pred             HHHHHhcccccc-CCCCCCCchhhhhHHHHHHHHHHHH
+
+
+No 7
+>7SUK_SB Nucleolar protein 58; Bfr2, Lcp5, Small subunit processome, RIBOSOMAL PROTEIN, RIBOSOME; 3.99A {Saccharomyces cerevisiae}
+Probab=99.96  E-value=5.2e-29  Score=180.80  Aligned_cols=107  Identities=46%  Similarity=0.694  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.++|+||+++|||.+|++||+|+||++|+++++|++++++..+|++|+||++++|+.+|++.|++++|+|++
+T Consensus       285 Nl~~l~G~~~~a~Li~~aG~L~~La~~psstiq~lGaeka~f~~l~~~~~~pk~G~i~~~~~v~~~~~~~rgk~aR~lA~  364 (436)
+T 7SUK_SB         285 NLTQLVGELVGARLIAHSGSLISLAKSPASTIQILGAEKALFRALKTKHDTPKYGLLYHASLVGQATGKNKGKIARVLAA  364 (436)
+T ss_pred             cHHHHhcHHHHHHHHHHhhhHHHHhcCChhHHHHhchhHHHHHHHhcCCCCCCeeEEEccHHHhcCCHhHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc-----hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR-----SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~-----~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.     .+|.+++++|+++
+T Consensus       365 K~~laaRiD~~~-~~~~~~~~~g~~l~~~i~~~  396 (436)
+T 7SUK_SB         365 KAAVSLRYDALA-EDRDDSGDIGLESRAKVENR  396 (436)
+T ss_pred             HHHHHhchhhcc-CCCCCCCchhHHHHHHHHHH
+
+
+No 8
+>6LQP_3E Nucleolar protein 58; ribosome assembly, 90S to pre-40S transition, cryo-EM, Dhr1, RIBOSOME; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=99.96  E-value=7.4e-29  Score=182.95  Aligned_cols=107  Identities=46%  Similarity=0.694  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.|+|+||+++|||.+|+++|+|+||++|+++++|++++++..+|++|+||++++|+.+|++.+++++|+|++
+T Consensus       286 Nl~~l~G~~~~arLi~~aG~L~~La~~psstiq~lGaekalf~~l~~~~~~pk~G~i~~~~~v~~~~~~~rgk~aR~la~  365 (511)
+T 6LQP_3E         286 NLTQLVGELVGARLIAHSGSLISLAKSPASTIQILGAEKALFRALKTKHDTPKYGLLYHASLVGQATGKNKGKIARVLAA  365 (511)
+T ss_pred             CHHHHhcHHHHHHHHHHhhhHHHHhcCChhHHHHhccHHHHHHHHhcCCCCCCceeEecceecccCChhHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc-----hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR-----SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~-----~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.     .+|..++++|+++
+T Consensus       366 K~~laaRiD~~~-~~~~~~~~~g~~~~~~i~~~  397 (511)
+T 6LQP_3E         366 KAAVSLRYDALA-EDRDDSGDIGLESRAKVENR  397 (511)
+T ss_pred             HHHHHhhhhhcc-CCCCCCccccHHHHHHHHHH
+
+
+No 9
+>7SUK_SA Nucleolar protein 56; Bfr2, Lcp5, Small subunit processome, RIBOSOMAL PROTEIN, RIBOSOME; 3.99A {Saccharomyces cerevisiae}
+Probab=99.96  E-value=9.7e-29  Score=178.20  Aligned_cols=107  Identities=40%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.++|+|++.+|||.+|+++|+|+||++|++++.|++++++..+|++|+||++++|+.+|++.|++++|++++
+T Consensus       300 Nl~~l~G~~laa~Li~~ag~l~~La~~pss~iq~lGaeka~f~~~~~~~~~pk~G~i~~~~~v~~~~~~~r~k~aR~lA~  379 (413)
+T 7SUK_SA         300 NLSELIGEVIGARLISHAGSLTNLSKQAASTVQILGAEKALFRALKTKGNTPKYGLIYHSGFISKASAKNKGRISRYLAN  379 (413)
+T ss_pred             cHHHHccHHHHHHHHHHhhhhHHHhhCchhhcHHhhhhHHHHHHHHcCCCCCCeeEEEeccccccCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.   .+|..++++|++|
+T Consensus       380 K~~laaR~D~~~-~~~~~~~g~~l~~~i~~k  409 (413)
+T 7SUK_SA         380 KCSMASRIDNYS-EEPSNVFGSVLKKQVEQR  409 (413)
+T ss_pred             HHHHHhccccCC-CCCCcchHHHHHHHHHHH
+
+
+No 10
+>3GQX_A NOP5P PROTEIN; RNA BINDING DOMAIN, RNA BINDING PROTEIN; 2.5A {Pyrococcus horikoshii}
+Probab=99.96  E-value=3.3e-28  Score=157.50  Aligned_cols=107  Identities=52%  Similarity=0.866  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|||+.|+|+|+.++|+|.+|+++|+++||++|++++.|..+++...++++|+||++++|+..+++.++++.|++++
+T Consensus        36 NL~alvG~~vaakLi~~aG~L~~L~~~ps~~iq~lGa~k~~~~~l~~~~~~~~~G~i~~~~~v~~~~~~~r~k~~R~la~  115 (169)
+T 3GQX_A           36 NLKALVGAKLGARLISLAGGLKELAMLPSSTIQVLGAEKALFRHLRTGAKPPKHGVIYQYPAINRSPWWQRGKIARALAG  115 (169)
+T ss_dssp             HHHHHHCHHHHHHHHHHHTSHHHHTTSCSTTGGGCTTC---------------CCGGGGSHHHHTSCTTTHHHHHHHHHH
+T ss_pred             hHHHHhHHHHHHHHHHHhhchHHHhcCChhHHHHhchHHHHHHHhcCCCCCCCceEEeeCccccCCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCchHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDRSIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~~~G~~~~~~i~~k  108 (108)
+                      |+++++|+|+|+ +..+|.+++++|+++
+T Consensus       116 K~~laaR~D~~~-~~~~G~~~~~~i~~k  142 (169)
+T 3GQX_A          116 KLAIAARVDYFS-GEYIAEELKKELEAR  142 (169)
+T ss_dssp             HHHHHHHCCCCC-CCCCCTHHHHHHHHH
+T ss_pred             HHHHHhhccccC-CccHHHHHHHHHHHH
+
+
+No 11
+>1NT2_B conserved hypothetical protein; AdeMet, binding motif, RNA BINDING PROTEIN; HET: SAM; 2.9A {Archaeoglobus fulgidus} SCOP: a.183.1.1
+Probab=99.95  E-value=2.6e-28  Score=166.99  Aligned_cols=106  Identities=42%  Similarity=0.739  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcC-----CCCCCCCeEEEeCchhHhcCCHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMT-----KGTKPPKHGILFQAKEVRSAPKKLRGKIA   75 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~-----~~~~~~~~g~i~~~~~~~~~~~~~~~k~~   75 (108)
+                      ||++|+|+.++|+|++.+|||.+|++||+|+||++|+++++|++++     .+..+|++|+||++++|+.+|++.+++++
+T Consensus       141 Nl~~lvG~~~aA~Li~~aGgL~~La~~Pas~iq~lGa~k~~f~~l~~~~~~~~~~~pk~G~i~~~~~v~~~~~~~rgk~a  220 (258)
+T 1NT2_B          141 NMTELVGAKVAAKLLERAGSMERLVRLPASKIQVIGAEKSLYKAFARMKKGKKAKIPKHGIIFLHPFIRTLPKAKRGKMA  220 (258)
+T ss_dssp             HHHHHHCHHHHHHHHHHHCSHHHHHTCCHHHHTTSSCC--------------------CCGGGGSHHHHTSCSSSSHHHH
+T ss_pred             hhHHHhcHHHHHHHHHHccccHHHHhCCcccccccchhHHHHHHHHHhcCCCCCCCCCcEEEeechhHhcCCHHHHHHHH
+
+
+Q ss_pred             HHHHHHHHHHhhhhhhcCCchHHHHHHHHHHhC
+Q GCF_003947435_   76 RLLATKISIAARVDAYGSDRSIGKKLREEIDER  108 (108)
+Q Consensus        76 r~la~k~~la~r~D~~~~~~~~G~~~~~~i~~k  108 (108)
+                      |.+++|+++|+|+|+|+ +. +|.+++++|+++
+T Consensus       221 R~lA~K~~lAaR~D~~~-g~-~g~~l~~~i~~~  251 (258)
+T 1NT2_B          221 RFLAAKLAIAAKIDYFR-GE-IDESLYESIRRR  251 (258)
+T ss_dssp             HHHHHHHHHHHHHHHHT-CS-CCTHHHHHHHHH
+T ss_pred             HHHHHHHHHHHhhcccc-CC-cCHHHHHHHHHH
+
+
+No 12
+>6LQP_3D Nucleolar protein 56; ribosome assembly, 90S to pre-40S transition, cryo-EM, Dhr1, RIBOSOME; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=99.95  E-value=3.7e-28  Score=179.00  Aligned_cols=107  Identities=40%  Similarity=0.711  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.++|+|++++|||.+|++||+|+||++|+++++|++++++..+|++|+||++++|+.+|++.+++++|+|++
+T Consensus       302 Nl~~lvG~~laa~Li~~aG~L~~La~~pss~Iq~lGaeka~f~~~~~~~~~pk~G~i~~~~~v~~~p~~~r~k~~R~la~  381 (504)
+T 6LQP_3D         302 NLSELIGEVIGARLISHAGSLTNLSKQAASTVQILGAEKALFRALKTKGNTPKYGLIYHSGFISKASAKNKGRISRYLAN  381 (504)
+T ss_pred             cHHHHhcHHHHHHHHHHhhhHHHHHhcchhhHHHhchhHHHHHHHHcCCCCCCceeEEeCcchhcCCHHHhhhHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.   .+|..++++|+++
+T Consensus       382 K~~laaR~D~~~-~~~~~~~g~~~~~~i~~~  411 (504)
+T 6LQP_3D         382 KCSMASRIDNYS-EEPSNVFGSVLKKQVEQR  411 (504)
+T ss_pred             HHHHHhcccCCC-CCCCccHHHHHHHHHHHH
+
+
+No 13
+>6RXU_CC Nop56; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=99.95  E-value=7.7e-28  Score=178.08  Aligned_cols=107  Identities=43%  Similarity=0.723  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|+|+.|+|+||+++|||.+|++||+|+||++|+++++|++++++..+|++|+||++++|+.+|++.+++++|+|++
+T Consensus       305 NL~~lvG~~laArLi~~aG~L~~Lak~pastIq~LGaeKalf~~l~~~~~~pk~G~i~~~~~v~~~~~~~r~k~~R~lA~  384 (523)
+T 6RXU_CC         305 NLQVILGTPVAARLIAHAGSLTNLAKYPASTLQILGAEKALFRALKTKSATPKYGLLYQSSFIGRAGPKVKGRISRYLAN  384 (523)
+T ss_pred             CHHHHcCHHHHHHHHHHHHHHHHHhhCChhhHHHhchHHHHHHHhhccCCCCCceEEeeccchhhCChhhHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.   .+|..++++|+++
+T Consensus       385 K~~lAaRiD~~~-~~~~~~~G~~lr~ei~~k  414 (523)
+T 6RXU_CC         385 KCSIASRIDNFS-EKPTRHFGEVLRQQLEQR  414 (523)
+T ss_pred             hHHHHcccccCC-CCCCchHHHHHHHHHHHH
+
+
+No 14
+>6QW6_4C U4/U6 small nuclear ribonucleoprotein Prp31; RNP complex, splicing, RNA, protein, spliceosome; HET: IHP, M7M, GTP; 2.92A {Homo sapiens}
+Probab=99.95  E-value=7.9e-28  Score=176.85  Aligned_cols=107  Identities=36%  Similarity=0.648  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++|||+.|||+||+.+|||..|++||+|+||+||+++..+.++++....+++|+||++++|+.+|++.++++.|++++
+T Consensus       218 NLsaLvG~~vAAkLi~~AGgL~~La~~Pa~nIq~LGa~k~~~~~~~~~~~~~~~G~i~~~~lV~~~p~~~r~ka~R~lA~  297 (499)
+T 6QW6_4C         218 NLSIIIGASTAAKIMGVAGGLTNLSKMPACNIMLLGAQRKTLSGFSSTSVLPHTGYIYHSDIVQSLPPDLRRKAARLVAA  297 (499)
+T ss_pred             hHHHHHcHHHHHHHHHHhcchHHHHhCchhhhhhhcccccccccccCCCCCCCceEEecchhhhcCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |++||+|+|+|+ +.   .+|.+++++|+++
+T Consensus       298 K~aLAARvD~~~-~~~~g~~G~~lr~ei~~k  327 (499)
+T 6QW6_4C         298 KCTLAARVDSFH-ESTEGKVGYELKDEIERK  327 (499)
+T ss_pred             HHHHHhcccccc-cCCCCchhHHHHHHHHHH
+
+
+No 15
+>2OZB_B U4/U6 small nuclear ribonucleoprotein Prp31; RNA-protein complex, ribonucleoprotein particle (RNP), pre-mRNA splicing, U4/U6 di-snRNA, U4/U6 di-snRNP, hierarchical assembly, Nop domain, RNP-binding; 2.6A {Homo sapiens} SCOP: a.183.1.1
+Probab=99.95  E-value=2.5e-27  Score=162.03  Aligned_cols=107  Identities=36%  Similarity=0.648  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++++|+.++|+|++.+|++..|+++|+++||++|++++.|+++++....|++|+||++++|+..|++.+++++|++++
+T Consensus       145 nL~~iiG~~~aa~Lla~aG~L~~la~~ps~~iq~lG~~k~~~~~l~~~~~~~k~G~i~~~~~v~~~~~~~~~k~~r~la~  224 (260)
+T 2OZB_B          145 NLSIIIGASTAAKIMGVAGGLTNLSKMPACNIMLLGAQRKTLSGFSSTSVLPHTGYIYHSDIVQSLPPDLRRKAARLVAA  224 (260)
+T ss_dssp             HHHHHHHHHHHHHHHHHHTSHHHHHTSCHHHHTTTTCC----------CCCTTCCTTTTSHHHHTSCGGGHHHHHHHHHH
+T ss_pred             ChhHHhCHHHHHHHHHHhCcHHHHhcCChhhhhhhccchhcccccCCCCCCCCceEeeccHhHhhCCHHHHHHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ ++   .+|++++++|+++
+T Consensus       225 k~~laaR~D~~~-~~~~~~~g~~~~~~i~~~  254 (260)
+T 2OZB_B          225 KCTLAARVDSFH-ESTEGKVGYELKDEIERK  254 (260)
+T ss_dssp             HHHHHHHHHHTT-CSTTSHHHHHHHHHHHHH
+T ss_pred             HHHHHhhHhhcC-CCCCCchHHHHHHHHHHH
+
+
+No 16
+>PF01798.22 ; Nop ; snoRNA binding domain, fibrillarin
+Probab=99.94  E-value=1.4e-26  Score=155.24  Aligned_cols=107  Identities=40%  Similarity=0.723  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcCCCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMTKGTKPPKHGILFQAKEVRSAPKKLRGKIARLLAT   80 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la~   80 (108)
+                      ||++++|+.++++|++.+|++..|++||+++||++|++++.|++++++..+|++|+||++++|+.+|++.+++++|++++
+T Consensus       123 nl~~lvG~~~aa~Lla~~G~l~~l~~~ps~~i~~lG~~~~~~~~~~~~~~~~k~G~i~~~~~v~~~~~~~r~k~~r~la~  202 (234)
+T M7SLT3_EUTLA/1  123 NLAALIGEVVAARLIQKAGSLTNLAKYPASTLQILGAEKALFRALKTKGNTPKFGLIYHSTYIGRASQKDKGRISRYLAN  202 (234)
+T ss_pred             HHHHHhCHHHHHHHHHHhCcchhHhhCCHhHHHHhhhHHHHHHHHHcCCCCCCeEEEecCcchhcCCHHHchHHHHHHHH
+
+
+Q ss_pred             HHHHHhhhhhhcCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   81 KISIAARVDAYGSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        81 k~~la~r~D~~~~~~---~~G~~~~~~i~~k  108 (108)
+                      |+++|+|+|+|+ +.   .+|.+++++|+++
+T Consensus       203 k~~laar~D~~~-~~~~~~~g~~~~~~i~~~  232 (234)
+T M7SLT3_EUTLA/1  203 KCSIASRIDNFA-EHPSKKFGNVLKQQVEDR  232 (234)
+T ss_pred             HHHHhhccccCC-CCCCchHHHHHHHHHHHH
+
+
+No 17
+>5ZWM_L Pre-mRNA-processing factor 31; spliceosome, assembly, pre-B complex, U1 snRNP, SPLICING; HET: GTP; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=99.94  E-value=2e-26  Score=169.03  Aligned_cols=107  Identities=27%  Similarity=0.501  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             ChhhhhhHHHHHHHHHHcCChHHHhhCCHHHHHHhchhHHHHhhcC-CCCCCCCeEEEeCchhHhcCCHHHHHHHHHHHH
+Q GCF_003947435_    1 NLSDVAGPLLGARLITMAGGLDKLAQLPASTIQILGAHKAIFLHMT-KGTKPPKHGILFQAKEVRSAPKKLRGKIARLLA   79 (108)
+Q Consensus         1 NL~~lvG~~v~a~l~~~ag~l~~L~~~p~~~i~~lg~~~~~~~~~~-~~~~~~~~g~i~~~~~~~~~~~~~~~k~~r~la   79 (108)
+                      ||++|||+.|||+|++.+|||..|+++|+|+|+++|+++.++.... .....+++|+||++++|+..|++.++++.|+++
+T Consensus       228 NLsaLvG~~iAAkLl~~AGgL~~Lak~PscnIq~LGa~k~l~~~~~s~~s~~~~~G~Iy~s~lVq~~p~~~r~ka~R~lA  307 (494)
+T 5ZWM_L          228 NVCFLVGPEIAAQLIAHAGGVLEFSRIPSCNIASIGKNKHLSHELHTLESGVRQEGYLFASDMIQKFPVSVHKQMLRMLC  307 (494)
+T ss_dssp             THHHHTCHHHHHHHHHHHTSHHHHHTSCGGGGGGSSCCCCCGGGCCCCTTCCSCCCTTTTSHHHHTSCGGGHHHHHHHHH
+T ss_pred             ChHHhhCHHHHHHHHHHhhccHHHhcCCHHHHHHhchhHHHhhhhcccccCCCchhHHHhhhhHhcCCHHHHHHHHHHHh
+
+
+Q ss_pred             HHHHHHhhhhhh--cCCc---hHHHHHHHHHHhC
+Q GCF_003947435_   80 TKISIAARVDAY--GSDR---SIGKKLREEIDER  108 (108)
+Q Consensus        80 ~k~~la~r~D~~--~~~~---~~G~~~~~~i~~k  108 (108)
+                      +|++||+|+|++  + +.   .+|.+++++|+++
+T Consensus       308 aKvaLAARvD~~~~~-~~~~g~~G~~lr~eI~~k  340 (494)
+T 5ZWM_L          308 AKVSLAARVDAGQKN-GDRNTVLAHKWKAELSKK  340 (494)
+T ss_dssp             HHHHHHHHHHTTSCS-SCCCCSHHHHHHHHHHHH
+T ss_pred             hHHHHHhcccccccc-CCCCcchHHHHHHHHHHH
+
+

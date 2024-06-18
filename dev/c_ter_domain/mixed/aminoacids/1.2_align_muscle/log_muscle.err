@@ -1,0 +1,382 @@
+
+muscle 5.1.linux64 []  264Gb RAM, 56 cores
+Built Feb 24 2022 03:16:15
+(C) Copyright 2004-2021 Robert C. Edgar.
+https://drive5.com
+
+Input: 4800 seqs, length avg 119 max 167
+
+00:00 21Mb    0.021% Derep 0 uniques, 0 dupes00:00 21Mb    100.0% Derep 4799 uniques, 0 dupes
+00:00 21Mb    0.021% UCLUST 4800 seqs EE<0.01, 0 centroids, 0 members00:00 21Mb   CPU has 56 cores, running 20 threads                    
+00:01 22Mb      1.0% UCLUST 4800 seqs EE<0.01, 25 centroids, 22 members00:02 22Mb      2.9% UCLUST 4800 seqs EE<0.01, 44 centroids, 92 members00:03 22Mb      4.1% UCLUST 4800 seqs EE<0.01, 75 centroids, 122 members00:04 22Mb      5.0% UCLUST 4800 seqs EE<0.01, 111 centroids, 129 members00:05 22Mb      6.2% UCLUST 4800 seqs EE<0.01, 147 centroids, 149 members00:06 22Mb      7.5% UCLUST 4800 seqs EE<0.01, 184 centroids, 177 members00:07 22Mb      9.1% UCLUST 4800 seqs EE<0.01, 219 centroids, 217 members00:08 22Mb     10.5% UCLUST 4800 seqs EE<0.01, 256 centroids, 248 members00:09 22Mb     12.2% UCLUST 4800 seqs EE<0.01, 291 centroids, 295 members00:10 22Mb     14.0% UCLUST 4800 seqs EE<0.01, 320 centroids, 350 members00:11 22Mb     15.9% UCLUST 4800 seqs EE<0.01, 346 centroids, 415 members00:12 22Mb     18.1% UCLUST 4800 seqs EE<0.01, 369 centroids, 497 members00:13 22Mb     19.9% UCLUST 4800 seqs EE<0.01, 396 centroids, 558 members00:14 23Mb     22.3% UCLUST 4800 seqs EE<0.01, 427 centroids, 642 members00:15 23Mb     25.0% UCLUST 4800 seqs EE<0.01, 449 centroids, 749 members00:16 23Mb     27.2% UCLUST 4800 seqs EE<0.01, 478 centroids, 829 members00:17 23Mb     29.6% UCLUST 4800 seqs EE<0.01, 504 centroids, 914 members00:18 23Mb     31.5% UCLUST 4800 seqs EE<0.01, 533 centroids, 979 members00:19 23Mb     33.4% UCLUST 4800 seqs EE<0.01, 566 centroids, 1035 members00:20 23Mb     35.3% UCLUST 4800 seqs EE<0.01, 597 centroids, 1097 members00:21 23Mb     37.7% UCLUST 4800 seqs EE<0.01, 628 centroids, 1180 members00:22 23Mb     40.0% UCLUST 4800 seqs EE<0.01, 656 centroids, 1262 members00:23 23Mb     41.6% UCLUST 4800 seqs EE<0.01, 689 centroids, 1305 members00:24 23Mb     43.6% UCLUST 4800 seqs EE<0.01, 719 centroids, 1375 members00:25 23Mb     46.0% UCLUST 4800 seqs EE<0.01, 746 centroids, 1463 members00:26 23Mb     48.4% UCLUST 4800 seqs EE<0.01, 775 centroids, 1546 members00:27 23Mb     50.8% UCLUST 4800 seqs EE<0.01, 806 centroids, 1632 members00:28 23Mb     53.0% UCLUST 4800 seqs EE<0.01, 835 centroids, 1710 members00:29 23Mb     55.2% UCLUST 4800 seqs EE<0.01, 867 centroids, 1782 members00:30 23Mb     57.7% UCLUST 4800 seqs EE<0.01, 892 centroids, 1877 members00:31 23Mb     60.7% UCLUST 4800 seqs EE<0.01, 913 centroids, 2001 members00:32 23Mb     63.2% UCLUST 4800 seqs EE<0.01, 939 centroids, 2093 members00:33 23Mb     65.2% UCLUST 4800 seqs EE<0.01, 965 centroids, 2162 members00:34 23Mb     67.4% UCLUST 4800 seqs EE<0.01, 997 centroids, 2237 members00:35 23Mb     69.7% UCLUST 4800 seqs EE<0.01, 1025 centroids, 2320 members00:36 23Mb     71.4% UCLUST 4800 seqs EE<0.01, 1056 centroids, 2370 members00:37 23Mb     74.0% UCLUST 4800 seqs EE<0.01, 1089 centroids, 2462 members00:38 23Mb     76.0% UCLUST 4800 seqs EE<0.01, 1117 centroids, 2528 members00:39 23Mb     78.6% UCLUST 4800 seqs EE<0.01, 1139 centroids, 2631 members00:40 23Mb     81.8% UCLUST 4800 seqs EE<0.01, 1157 centroids, 2766 members00:41 24Mb     83.9% UCLUST 4800 seqs EE<0.01, 1184 centroids, 2840 members00:42 24Mb     86.3% UCLUST 4800 seqs EE<0.01, 1215 centroids, 2925 members00:43 24Mb     88.2% UCLUST 4800 seqs EE<0.01, 1251 centroids, 2982 members00:44 24Mb     90.0% UCLUST 4800 seqs EE<0.01, 1291 centroids, 3027 members00:45 24Mb     92.9% UCLUST 4800 seqs EE<0.01, 1306 centroids, 3150 members00:46 24Mb     95.6% UCLUST 4800 seqs EE<0.01, 1329 centroids, 3261 members00:47 24Mb     97.1% UCLUST 4800 seqs EE<0.01, 1373 centroids, 3287 members00:48 24Mb     98.5% UCLUST 4800 seqs EE<0.01, 1425 centroids, 3300 members00:48 24Mb    100.0% UCLUST 4800 seqs EE<0.01, 1479 centroids, 3320 members
+00:48 24Mb    0.068% UCLUST 1480 seqs EE<0.30, 0 centroids, 0 members      00:49 64Mb     0.27% UCLUST 1480 seqs EE<0.30, 2 centroids, 1 members00:50 937Mb     9.3% UCLUST 1480 seqs EE<0.30, 17 centroids, 120 members00:51 1.3Gb    18.6% UCLUST 1480 seqs EE<0.30, 24 centroids, 251 members00:52 1.3Gb    28.4% UCLUST 1480 seqs EE<0.30, 24 centroids, 396 members00:53 1.3Gb    38.2% UCLUST 1480 seqs EE<0.30, 24 centroids, 540 members00:54 1.3Gb    47.8% UCLUST 1480 seqs EE<0.30, 24 centroids, 682 members00:55 1.3Gb    57.4% UCLUST 1480 seqs EE<0.30, 25 centroids, 823 members00:56 1.3Gb    67.3% UCLUST 1480 seqs EE<0.30, 25 centroids, 970 members00:57 1.3Gb    77.5% UCLUST 1480 seqs EE<0.30, 26 centroids, 1120 members00:58 1.3Gb    87.6% UCLUST 1480 seqs EE<0.30, 28 centroids, 1268 members00:59 1.3Gb    98.2% UCLUST 1480 seqs EE<0.30, 30 centroids, 1422 members00:59 1.3Gb   100.0% UCLUST 1480 seqs EE<0.30, 32 centroids, 1447 members
+00:59 1.3Gb     3.1% Make cluster MFAs                                   00:59 1.3Gb   100.0% Make cluster MFAs
+32 clusters pass 1                    
+32 clusters pass 2
+00:59 1.3Gb  
+00:59 1.3Gb  Align cluster 1 / 32 (13 seqs)
+00:59 1.3Gb  
+00:59 1.3Gb     1.3% Calc posteriors00:59 1.3Gb   100.0% Calc posteriors
+00:59 1.3Gb     1.3% Consistency (1/3)00:59 1.3Gb   100.0% Consistency (1/3)
+00:59 1.3Gb     1.3% Consistency (2/3)00:59 1.3Gb   100.0% Consistency (2/3)
+00:59 1.3Gb     1.3% Consistency (3/3)00:59 1.3Gb   100.0% Consistency (3/3)
+00:59 1.3Gb     8.3% UPGMA5           00:59 1.3Gb   100.0% UPGMA5
+00:59 1.3Gb     0.5% Refining00:59 1.3Gb   100.0% Refining
+00:59 1.3Gb                  
+00:59 1.3Gb  Align cluster 2 / 32 (38 seqs)
+00:59 1.3Gb  
+00:59 1.3Gb    0.14% Calc posteriors00:59 1.3Gb   100.0% Calc posteriors
+00:59 1.3Gb    0.14% Consistency (1/3)00:59 1.3Gb   100.0% Consistency (1/3)
+00:59 1.3Gb    0.14% Consistency (2/3)00:59 1.3Gb   100.0% Consistency (2/3)
+00:59 1.3Gb    0.14% Consistency (3/3)00:59 1.3Gb   100.0% Consistency (3/3)
+00:59 1.3Gb     2.7% UPGMA5           00:59 1.3Gb   100.0% UPGMA5
+00:59 1.3Gb     0.5% Refining00:59 1.3Gb   100.0% Refining
+00:59 1.3Gb                  
+00:59 1.3Gb  Align cluster 3 / 32 (234 seqs)
+00:59 1.3Gb  
+00:59 1.3Gb   0.0037% Calc posteriors01:00 1.3Gb     3.8% Calc posteriors 01:01 1.3Gb    22.5% Calc posteriors01:02 1.3Gb    41.2% Calc posteriors01:03 1.3Gb    59.9% Calc posteriors01:04 1.4Gb    78.6% Calc posteriors01:05 1.4Gb    96.2% Calc posteriors01:06 1.4Gb   100.0% Calc posteriors01:06 1.4Gb   100.0% Calc posteriors
+01:06 1.4Gb   0.0037% Consistency (1/3)01:07 1.4Gb    17.1% Consistency (1/3) 01:08 1.4Gb    35.1% Consistency (1/3)01:09 1.4Gb    53.5% Consistency (1/3)01:10 1.4Gb    71.7% Consistency (1/3)01:11 1.4Gb    86.9% Consistency (1/3)01:12 1.4Gb    96.4% Consistency (1/3)01:13 1.4Gb    99.3% Consistency (1/3)01:13 1.4Gb   100.0% Consistency (1/3)
+01:13 1.4Gb   0.0037% Consistency (2/3)01:14 1.4Gb    10.0% Consistency (2/3) 01:15 1.4Gb    27.8% Consistency (2/3)01:16 1.4Gb    46.2% Consistency (2/3)01:17 1.4Gb    63.4% Consistency (2/3)01:18 1.4Gb    80.0% Consistency (2/3)01:19 1.4Gb    91.4% Consistency (2/3)01:20 1.4Gb    96.8% Consistency (2/3)01:21 1.4Gb    99.8% Consistency (2/3)01:21 1.4Gb   100.0% Consistency (2/3)
+01:21 1.4Gb   0.0037% Consistency (3/3)01:22 1.4Gb    14.3% Consistency (3/3) 01:23 1.4Gb    32.9% Consistency (3/3)01:24 1.4Gb    51.0% Consistency (3/3)01:25 1.4Gb    68.2% Consistency (3/3)01:26 1.4Gb    84.5% Consistency (3/3)01:27 1.4Gb    94.5% Consistency (3/3)01:28 1.4Gb    99.1% Consistency (3/3)01:28 1.4Gb   100.0% Consistency (3/3)
+01:28 1.4Gb    0.43% UPGMA5           01:28 1.4Gb   100.0% UPGMA5
+01:28 1.4Gb     0.5% Refining01:29 1.4Gb     5.5% Refining01:30 1.4Gb    20.5% Refining01:31 1.4Gb    35.0% Refining01:32 1.4Gb    50.0% Refining01:33 1.4Gb    64.5% Refining01:34 1.4Gb    79.0% Refining01:35 1.4Gb    94.0% Refining01:35 1.4Gb   100.0% Refining
+01:35 1.4Gb                  
+01:35 1.4Gb  Align cluster 4 / 32 (91 seqs)
+01:35 1.4Gb  
+01:35 1.4Gb   0.024% Calc posteriors01:36 1.4Gb    61.3% Calc posteriors01:36 1.4Gb   100.0% Calc posteriors
+01:36 1.4Gb   0.024% Consistency (1/3)01:36 1.4Gb   100.0% Consistency (1/3)
+01:36 1.4Gb   0.024% Consistency (2/3)01:37 1.4Gb    38.7% Consistency (2/3)01:37 1.4Gb   100.0% Consistency (2/3)
+01:37 1.4Gb   0.024% Consistency (3/3)01:37 1.4Gb   100.0% Consistency (3/3)
+01:37 1.4Gb     1.1% UPGMA5           01:37 1.4Gb   100.0% UPGMA5
+01:37 1.4Gb     0.5% Refining01:38 1.4Gb    31.0% Refining01:38 1.4Gb   100.0% Refining
+01:38 1.4Gb                  
+01:38 1.4Gb  Align cluster 5 / 32 (50 seqs)
+01:38 1.4Gb  
+01:38 1.4Gb   0.082% Calc posteriors01:38 1.4Gb   100.0% Calc posteriors
+01:38 1.4Gb   0.082% Consistency (1/3)01:38 1.4Gb   100.0% Consistency (1/3)
+01:38 1.4Gb   0.082% Consistency (2/3)01:39 1.4Gb    97.6% Consistency (2/3)01:39 1.4Gb   100.0% Consistency (2/3)
+01:39 1.4Gb   0.082% Consistency (3/3)01:39 1.4Gb   100.0% Consistency (3/3)
+01:39 1.4Gb     2.0% UPGMA5           01:39 1.4Gb   100.0% UPGMA5
+01:39 1.4Gb     0.5% Refining01:39 1.4Gb   100.0% Refining
+01:39 1.4Gb                  
+01:39 1.4Gb  Align cluster 6 / 32 (99 seqs)
+01:39 1.4Gb  
+01:39 1.4Gb   0.021% Calc posteriors01:40 1.4Gb    81.9% Calc posteriors01:40 1.4Gb   100.0% Calc posteriors
+01:40 1.4Gb   0.021% Consistency (1/3)01:40 1.4Gb   100.0% Consistency (1/3)
+01:40 1.4Gb   0.021% Consistency (2/3)01:41 1.4Gb    93.3% Consistency (2/3)01:41 1.4Gb   100.0% Consistency (2/3)
+01:41 1.4Gb   0.021% Consistency (3/3)01:41 1.4Gb   100.0% Consistency (3/3)
+01:41 1.4Gb     1.0% UPGMA5           01:41 1.4Gb   100.0% UPGMA5
+01:41 1.4Gb     0.5% Refining01:42 1.4Gb    56.5% Refining01:42 1.4Gb   100.0% Refining
+01:42 1.4Gb                  
+01:42 1.4Gb  Align cluster 7 / 32 (61 seqs)
+01:42 1.4Gb  
+01:42 1.4Gb   0.055% Calc posteriors01:42 1.4Gb   100.0% Calc posteriors
+01:42 1.4Gb   0.055% Consistency (1/3)01:43 1.4Gb    95.0% Consistency (1/3)01:43 1.4Gb   100.0% Consistency (1/3)
+01:43 1.4Gb   0.055% Consistency (2/3)01:43 1.4Gb   100.0% Consistency (2/3)
+01:43 1.4Gb   0.055% Consistency (3/3)01:43 1.4Gb   100.0% Consistency (3/3)
+01:43 1.4Gb     1.7% UPGMA5           01:43 1.4Gb   100.0% UPGMA5
+01:43 1.4Gb     0.5% Refining01:43 1.4Gb   100.0% Refining
+01:43 1.4Gb                  
+01:43 1.4Gb  Align cluster 8 / 32 (126 seqs)
+01:43 1.4Gb  
+01:43 1.4Gb   0.013% Calc posteriors01:44 1.4Gb     7.6% Calc posteriors01:45 1.4Gb    82.6% Calc posteriors01:45 1.4Gb   100.0% Calc posteriors
+01:45 1.4Gb   0.013% Consistency (1/3)01:46 1.4Gb    72.7% Consistency (1/3)01:46 1.4Gb   100.0% Consistency (1/3)
+01:46 1.4Gb   0.013% Consistency (2/3)01:47 1.4Gb    89.5% Consistency (2/3)01:47 1.4Gb   100.0% Consistency (2/3)
+01:47 1.4Gb   0.013% Consistency (3/3)01:48 1.4Gb    96.7% Consistency (3/3)01:48 1.4Gb   100.0% Consistency (3/3)
+01:48 1.4Gb     0.8% UPGMA5           01:48 1.4Gb   100.0% UPGMA5
+01:48 1.4Gb     0.5% Refining01:49 1.4Gb    50.5% Refining01:49 1.4Gb   100.0% Refining
+01:49 1.4Gb                  
+01:49 1.4Gb  Align cluster 9 / 32 (63 seqs)
+01:49 1.4Gb  
+01:49 1.4Gb   0.051% Calc posteriors01:50 1.4Gb    48.5% Calc posteriors01:50 1.4Gb   100.0% Calc posteriors
+01:50 1.4Gb   0.051% Consistency (1/3)01:50 1.4Gb   100.0% Consistency (1/3)
+01:50 1.4Gb   0.051% Consistency (2/3)01:51 1.4Gb    99.7% Consistency (2/3)01:51 1.4Gb   100.0% Consistency (2/3)
+01:51 1.4Gb   0.051% Consistency (3/3)01:51 1.4Gb   100.0% Consistency (3/3)
+01:51 1.4Gb     1.6% UPGMA5           01:51 1.4Gb   100.0% UPGMA5
+01:51 1.4Gb     0.5% Refining01:51 1.4Gb   100.0% Refining
+01:51 1.4Gb                  
+01:51 1.4Gb  Align cluster 10 / 32 (102 seqs)
+01:51 1.4Gb  
+01:51 1.4Gb   0.019% Calc posteriors01:52 1.4Gb    10.4% Calc posteriors01:53 1.4Gb    99.7% Calc posteriors01:53 1.4Gb   100.0% Calc posteriors
+01:53 1.4Gb   0.019% Consistency (1/3)01:53 1.4Gb   100.0% Consistency (1/3)
+01:53 1.4Gb   0.019% Consistency (2/3)01:54 1.4Gb    92.0% Consistency (2/3)01:54 1.4Gb   100.0% Consistency (2/3)
+01:54 1.4Gb   0.019% Consistency (3/3)01:54 1.4Gb   100.0% Consistency (3/3)
+01:54 1.4Gb    0.99% UPGMA5           01:54 1.4Gb   100.0% UPGMA5
+01:54 1.4Gb     0.5% Refining01:55 1.4Gb    18.5% Refining01:55 1.4Gb   100.0% Refining
+01:55 1.4Gb                  
+01:55 1.4Gb  Align cluster 11 / 32 (13 seqs)
+01:55 1.4Gb  
+01:55 1.4Gb     1.3% Calc posteriors01:55 1.4Gb   100.0% Calc posteriors
+01:55 1.4Gb     1.3% Consistency (1/3)01:55 1.4Gb   100.0% Consistency (1/3)
+01:55 1.4Gb     1.3% Consistency (2/3)01:55 1.4Gb   100.0% Consistency (2/3)
+01:55 1.4Gb     1.3% Consistency (3/3)01:55 1.4Gb   100.0% Consistency (3/3)
+01:55 1.4Gb     8.3% UPGMA5           01:55 1.4Gb   100.0% UPGMA5
+01:55 1.4Gb     0.5% Refining01:55 1.4Gb   100.0% Refining
+01:55 1.4Gb                  
+01:55 1.4Gb  Align cluster 12 / 32 (12 seqs)
+01:55 1.4Gb  
+01:55 1.4Gb     1.5% Calc posteriors01:56 1.4Gb    98.5% Calc posteriors01:56 1.4Gb   100.0% Calc posteriors
+01:56 1.4Gb     1.5% Consistency (1/3)01:56 1.4Gb   100.0% Consistency (1/3)
+01:56 1.4Gb     1.5% Consistency (2/3)01:56 1.4Gb   100.0% Consistency (2/3)
+01:56 1.4Gb     1.5% Consistency (3/3)01:56 1.4Gb   100.0% Consistency (3/3)
+01:56 1.4Gb     9.1% UPGMA5           01:56 1.4Gb   100.0% UPGMA5
+01:56 1.4Gb     0.5% Refining01:56 1.4Gb   100.0% Refining
+01:56 1.4Gb                  
+01:56 1.4Gb  Align cluster 13 / 32 (163 seqs)
+01:56 1.4Gb  
+01:56 1.4Gb   0.0076% Calc posteriors01:57 1.4Gb    43.6% Calc posteriors 01:58 1.4Gb    88.6% Calc posteriors01:58 1.4Gb   100.0% Calc posteriors
+01:58 1.4Gb   0.0076% Consistency (1/3)01:59 1.4Gb    23.7% Consistency (1/3) 02:00 1.4Gb    75.7% Consistency (1/3)02:01 1.4Gb    99.8% Consistency (1/3)02:01 1.4Gb   100.0% Consistency (1/3)
+02:01 1.4Gb   0.0076% Consistency (2/3)02:02 1.4Gb    45.2% Consistency (2/3) 02:03 1.4Gb    91.4% Consistency (2/3)02:03 1.4Gb   100.0% Consistency (2/3)
+02:03 1.4Gb   0.0076% Consistency (3/3)02:04 1.4Gb    13.7% Consistency (3/3) 02:05 1.4Gb    66.0% Consistency (3/3)02:06 1.4Gb    98.8% Consistency (3/3)02:06 1.4Gb   100.0% Consistency (3/3)
+02:06 1.4Gb    0.62% UPGMA5           02:06 1.4Gb   100.0% UPGMA5
+02:06 1.4Gb     0.5% Refining02:07 1.4Gb    22.0% Refining02:08 1.4Gb    55.5% Refining02:09 1.4Gb    90.0% Refining02:09 1.4Gb   100.0% Refining
+02:09 1.4Gb                  
+02:09 1.4Gb  Align cluster 14 / 32 (36 seqs)
+02:09 1.4Gb  
+02:09 1.4Gb    0.16% Calc posteriors02:09 1.4Gb   100.0% Calc posteriors
+02:09 1.4Gb    0.16% Consistency (1/3)02:09 1.4Gb   100.0% Consistency (1/3)
+02:09 1.4Gb    0.16% Consistency (2/3)02:09 1.4Gb   100.0% Consistency (2/3)
+02:09 1.4Gb    0.16% Consistency (3/3)02:09 1.4Gb   100.0% Consistency (3/3)
+02:09 1.4Gb     2.9% UPGMA5           02:09 1.4Gb   100.0% UPGMA5
+02:09 1.4Gb     0.5% Refining02:09 1.4Gb   100.0% Refining
+02:09 1.4Gb                  
+02:09 1.4Gb  Align cluster 15 / 32 (70 seqs)
+02:09 1.4Gb  
+02:09 1.4Gb   0.041% Calc posteriors02:10 1.4Gb    48.6% Calc posteriors02:10 1.4Gb   100.0% Calc posteriors
+02:10 1.4Gb   0.041% Consistency (1/3)02:10 1.4Gb   100.0% Consistency (1/3)
+02:10 1.4Gb   0.041% Consistency (2/3)02:10 1.4Gb   100.0% Consistency (2/3)
+02:10 1.4Gb   0.041% Consistency (3/3)02:10 1.4Gb   100.0% Consistency (3/3)
+02:10 1.4Gb     1.4% UPGMA5           02:10 1.4Gb   100.0% UPGMA5
+02:10 1.4Gb     0.5% Refining02:11 1.4Gb     7.5% Refining02:11 1.4Gb   100.0% Refining
+02:11 1.4Gb  Align cluster 16 / 32 (1 seq)
+02:11 1.4Gb  
+02:11 1.4Gb  Align cluster 17 / 32 (11 seqs)
+02:11 1.4Gb  
+02:11 1.4Gb     1.8% Calc posteriors02:11 1.4Gb   100.0% Calc posteriors
+02:11 1.4Gb     1.8% Consistency (1/3)02:11 1.4Gb   100.0% Consistency (1/3)
+02:11 1.4Gb     1.8% Consistency (2/3)02:11 1.4Gb   100.0% Consistency (2/3)
+02:11 1.4Gb     1.8% Consistency (3/3)02:11 1.4Gb   100.0% Consistency (3/3)
+02:11 1.4Gb    10.0% UPGMA5           02:11 1.4Gb   100.0% UPGMA5
+02:11 1.4Gb     0.5% Refining02:11 1.4Gb   100.0% Refining
+02:11 1.4Gb                  
+02:11 1.4Gb  Align cluster 18 / 32 (40 seqs)
+02:11 1.4Gb  
+02:11 1.4Gb    0.13% Calc posteriors02:11 1.4Gb   100.0% Calc posteriors
+02:11 1.4Gb    0.13% Consistency (1/3)02:11 1.4Gb   100.0% Consistency (1/3)
+02:11 1.4Gb    0.13% Consistency (2/3)02:11 1.4Gb   100.0% Consistency (2/3)
+02:11 1.4Gb    0.13% Consistency (3/3)02:11 1.4Gb   100.0% Consistency (3/3)
+02:11 1.4Gb     2.6% UPGMA5           02:11 1.4Gb   100.0% UPGMA5
+02:11 1.4Gb     0.5% Refining02:12 1.4Gb    73.0% Refining02:12 1.4Gb   100.0% Refining
+02:12 1.4Gb                  
+02:12 1.4Gb  Align cluster 19 / 32 (55 seqs)
+02:12 1.4Gb  
+02:12 1.4Gb   0.067% Calc posteriors02:12 1.4Gb   100.0% Calc posteriors
+02:12 1.4Gb   0.067% Consistency (1/3)02:12 1.4Gb   100.0% Consistency (1/3)
+02:12 1.4Gb   0.067% Consistency (2/3)02:12 1.4Gb   100.0% Consistency (2/3)
+02:12 1.4Gb   0.067% Consistency (3/3)02:12 1.4Gb   100.0% Consistency (3/3)
+02:12 1.4Gb     1.9% UPGMA5           02:12 1.4Gb   100.0% UPGMA5
+02:12 1.4Gb     0.5% Refining02:13 1.4Gb    51.0% Refining02:13 1.4Gb   100.0% Refining
+02:13 1.4Gb                  
+02:13 1.4Gb  Align cluster 20 / 32 (5 seqs)
+02:13 1.4Gb  
+02:13 1.4Gb    10.0% Calc posteriors02:13 1.4Gb   100.0% Calc posteriors
+02:13 1.4Gb    10.0% Consistency (1/3)02:13 1.4Gb   100.0% Consistency (1/3)
+02:13 1.4Gb    10.0% Consistency (2/3)02:13 1.4Gb   100.0% Consistency (2/3)
+02:13 1.4Gb    10.0% Consistency (3/3)02:13 1.4Gb   100.0% Consistency (3/3)
+02:13 1.4Gb    25.0% UPGMA5           02:13 1.4Gb   100.0% UPGMA5
+02:13 1.4Gb     0.5% Refining02:13 1.4Gb   100.0% Refining
+02:13 1.4Gb                  
+02:13 1.4Gb  Align cluster 21 / 32 (7 seqs)
+02:13 1.4Gb  
+02:13 1.4Gb     4.8% Calc posteriors02:13 1.4Gb   100.0% Calc posteriors
+02:13 1.4Gb     4.8% Consistency (1/3)02:13 1.4Gb   100.0% Consistency (1/3)
+02:13 1.4Gb     4.8% Consistency (2/3)02:13 1.4Gb   100.0% Consistency (2/3)
+02:13 1.4Gb     4.8% Consistency (3/3)02:13 1.4Gb   100.0% Consistency (3/3)
+02:13 1.4Gb    16.7% UPGMA5           02:13 1.4Gb   100.0% UPGMA5
+02:13 1.4Gb     0.5% Refining02:13 1.4Gb   100.0% Refining
+02:13 1.4Gb                  
+02:13 1.4Gb  Align cluster 22 / 32 (102 seqs)
+02:13 1.4Gb  
+02:13 1.4Gb   0.019% Calc posteriors02:14 1.4Gb    78.4% Calc posteriors02:14 1.4Gb   100.0% Calc posteriors
+02:14 1.4Gb   0.019% Consistency (1/3)02:14 1.4Gb   100.0% Consistency (1/3)
+02:14 1.4Gb   0.019% Consistency (2/3)02:15 1.4Gb    16.2% Consistency (2/3)02:15 1.4Gb   100.0% Consistency (2/3)
+02:15 1.4Gb   0.019% Consistency (3/3)02:16 1.4Gb    82.6% Consistency (3/3)02:16 1.4Gb   100.0% Consistency (3/3)
+02:16 1.4Gb    0.99% UPGMA5           02:16 1.4Gb   100.0% UPGMA5
+02:16 1.4Gb     0.5% Refining02:17 1.4Gb    76.0% Refining02:17 1.4Gb   100.0% Refining
+02:17 1.4Gb                  
+02:17 1.4Gb  Align cluster 23 / 32 (25 seqs)
+02:17 1.4Gb  
+02:17 1.4Gb    0.33% Calc posteriors02:17 1.4Gb   100.0% Calc posteriors
+02:17 1.4Gb    0.33% Consistency (1/3)02:17 1.4Gb   100.0% Consistency (1/3)
+02:17 1.4Gb    0.33% Consistency (2/3)02:17 1.4Gb   100.0% Consistency (2/3)
+02:17 1.4Gb    0.33% Consistency (3/3)02:17 1.4Gb   100.0% Consistency (3/3)
+02:17 1.4Gb     4.2% UPGMA5           02:17 1.4Gb   100.0% UPGMA5
+02:17 1.4Gb     0.5% Refining02:17 1.4Gb   100.0% Refining
+02:17 1.4Gb                  
+02:17 1.4Gb  Align cluster 24 / 32 (2 seqs)
+02:17 1.4Gb  
+02:17 1.4Gb   100.0% Calc posteriors
+02:17 1.4Gb   100.0% UPGMA5         
+02:17 1.4Gb                
+02:17 1.4Gb  Align cluster 25 / 32 (43 seqs)
+02:17 1.4Gb  
+02:17 1.4Gb    0.11% Calc posteriors02:17 1.4Gb   100.0% Calc posteriors
+02:17 1.4Gb    0.11% Consistency (1/3)02:17 1.4Gb   100.0% Consistency (1/3)
+02:17 1.4Gb    0.11% Consistency (2/3)02:17 1.4Gb   100.0% Consistency (2/3)
+02:17 1.4Gb    0.11% Consistency (3/3)02:17 1.4Gb   100.0% Consistency (3/3)
+02:17 1.4Gb     2.4% UPGMA5           02:17 1.4Gb   100.0% UPGMA5
+02:17 1.4Gb     0.5% Refining02:18 1.4Gb    69.0% Refining02:18 1.4Gb   100.0% Refining
+02:18 1.4Gb                  
+02:18 1.4Gb  Align cluster 26 / 32 (10 seqs)
+02:18 1.4Gb  
+02:18 1.4Gb     2.2% Calc posteriors02:18 1.4Gb   100.0% Calc posteriors
+02:18 1.4Gb     2.2% Consistency (1/3)02:18 1.4Gb   100.0% Consistency (1/3)
+02:18 1.4Gb     2.2% Consistency (2/3)02:18 1.4Gb   100.0% Consistency (2/3)
+02:18 1.4Gb     2.2% Consistency (3/3)02:18 1.4Gb   100.0% Consistency (3/3)
+02:18 1.4Gb    11.1% UPGMA5           02:18 1.4Gb   100.0% UPGMA5
+02:18 1.4Gb     0.5% Refining02:18 1.4Gb   100.0% Refining
+02:18 1.4Gb  Align cluster 27 / 32 (1 seq)
+02:18 1.4Gb  
+02:18 1.4Gb  Align cluster 28 / 32 (3 seqs)
+02:18 1.4Gb  
+02:18 1.4Gb    33.3% Calc posteriors02:18 1.4Gb   100.0% Calc posteriors
+02:18 1.4Gb    33.3% Consistency (1/3)02:18 1.4Gb   100.0% Consistency (1/3)
+02:18 1.4Gb    33.3% Consistency (2/3)02:18 1.4Gb   100.0% Consistency (2/3)
+02:18 1.4Gb    33.3% Consistency (3/3)02:18 1.4Gb   100.0% Consistency (3/3)
+02:18 1.4Gb    50.0% UPGMA5           02:18 1.4Gb   100.0% UPGMA5
+02:18 1.4Gb     0.5% Refining02:18 1.4Gb   100.0% Refining
+02:18 1.4Gb  Align cluster 29 / 32 (1 seq)
+02:18 1.4Gb  Align cluster 30 / 32 (1 seq)
+02:18 1.4Gb  Align cluster 31 / 32 (1 seq)
+02:18 1.4Gb  Align cluster 32 / 32 (1 seq)
+02:18 1.4Gb     3.1% Consensus sequences02:18 1.4Gb   100.0% Consensus sequences
+02:18 1.4Gb     0.2% 32 consensus seqs, mean EE 102:18 1.4Gb   100.0% 32 consensus seqs, mean EE 0.39
+02:18 1.4Gb     3.2% UPGMA5                         02:18 1.4Gb   100.0% UPGMA5
+Guide tree (default)       
+02:18 1.4Gb   0.053% Join 1 / 31 [38 x 50, 1900 pairs]02:18 1.4Gb   100.0% Join 1 / 31 [38 x 50, 1900 pairs]
+02:18 1.4Gb    0.05% Join 2 / 31 [88 x 126, 2000 pairs]02:19 1.4Gb    95.9% Join 2 / 31 [88 x 126, 2000 pairs]02:19 1.4Gb   100.0% Join 2 / 31 [88 x 126, 2000 pairs]
+02:19 1.4Gb   0.039% Join 3 / 31 [12 x 214, 2568 pairs]02:19 1.4Gb   100.0% Join 3 / 31 [12 x 214, 2568 pairs]
+02:19 1.4Gb    0.05% Join 4 / 31 [99 x 163, 2000 pairs]02:20 1.4Gb   100.0% Join 4 / 31 [99 x 163, 2000 pairs]
+02:20 1.4Gb    0.05% Join 5 / 31 [226 x 262, 2000 pairs]02:20 1.4Gb   100.0% Join 5 / 31 [226 x 262, 2000 pairs]
+02:20 1.4Gb    0.05% Join 6 / 31 [7 x 488, 2000 pairs]  02:20 1.4Gb   100.0% Join 6 / 31 [7 x 488, 2000 pairs]
+02:20 1.4Gb    0.05% Join 7 / 31 [13 x 495, 2000 pairs]02:21 1.4Gb    38.1% Join 7 / 31 [13 x 495, 2000 pairs]02:21 1.4Gb   100.0% Join 7 / 31 [13 x 495, 2000 pairs]
+02:21 1.4Gb     0.2% Join 8 / 31 [1 x 508, 508 pairs]  02:21 1.4Gb   100.0% Join 8 / 31 [1 x 508, 508 pairs]
+02:21 1.4Gb     0.2% Join 9 / 31 [1 x 509, 509 pairs]02:21 1.4Gb   100.0% Join 9 / 31 [1 x 509, 509 pairs]
+02:21 1.4Gb   0.042% Join 10 / 31 [43 x 55, 2365 pairs]02:22 1.4Gb    88.8% Join 10 / 31 [43 x 55, 2365 pairs]02:22 1.4Gb   100.0% Join 10 / 31 [43 x 55, 2365 pairs]
+02:22 1.4Gb    0.13% Join 11 / 31 [11 x 70, 770 pairs] 02:22 1.4Gb   100.0% Join 11 / 31 [11 x 70, 770 pairs]
+02:22 1.4Gb    0.05% Join 12 / 31 [81 x 98, 2000 pairs]02:22 1.4Gb   100.0% Join 12 / 31 [81 x 98, 2000 pairs]
+02:22 1.4Gb    0.05% Join 13 / 31 [102 x 179, 2000 pairs]02:23 1.4Gb    80.8% Join 13 / 31 [102 x 179, 2000 pairs]02:23 1.4Gb   100.0% Join 13 / 31 [102 x 179, 2000 pairs]
+02:23 1.4Gb    0.05% Join 14 / 31 [13 x 281, 2000 pairs] 02:23 1.4Gb   100.0% Join 14 / 31 [13 x 281, 2000 pairs]
+02:23 1.4Gb    0.05% Join 15 / 31 [102 x 294, 2000 pairs]02:23 1.4Gb   100.0% Join 15 / 31 [102 x 294, 2000 pairs]
+02:23 1.4Gb    0.05% Join 16 / 31 [36 x 396, 2000 pairs] 02:24 1.4Gb     7.0% Join 16 / 31 [36 x 396, 2000 pairs]02:24 1.4Gb   100.0% Join 16 / 31 [36 x 396, 2000 pairs]
+02:24 1.4Gb    0.05% Join 17 / 31 [61 x 234, 2000 pairs]02:24 1.4Gb   100.0% Join 17 / 31 [61 x 234, 2000 pairs]
+02:24 1.4Gb    0.05% Join 18 / 31 [63 x 295, 2000 pairs]02:25 1.4Gb    35.0% Join 18 / 31 [63 x 295, 2000 pairs]02:25 1.4Gb   100.0% Join 18 / 31 [63 x 295, 2000 pairs]
+02:25 1.4Gb    0.05% Join 19 / 31 [40 x 358, 2000 pairs]02:25 1.4Gb   100.0% Join 19 / 31 [40 x 358, 2000 pairs]
+02:25 1.4Gb    0.05% Join 20 / 31 [398 x 432, 2000 pairs]02:26 1.4Gb    59.0% Join 20 / 31 [398 x 432, 2000 pairs]02:26 1.4Gb   100.0% Join 20 / 31 [398 x 432, 2000 pairs]
+02:26 1.4Gb    0.05% Join 21 / 31 [91 x 830, 2000 pairs] 02:26 1.4Gb   100.0% Join 21 / 31 [91 x 830, 2000 pairs]
+02:26 1.4Gb    0.05% Join 22 / 31 [10 x 921, 2000 pairs]02:27 1.4Gb    91.5% Join 22 / 31 [10 x 921, 2000 pairs]02:27 1.4Gb   100.0% Join 22 / 31 [10 x 921, 2000 pairs]
+02:27 1.4Gb    0.05% Join 23 / 31 [25 x 931, 2000 pairs]02:27 1.4Gb   100.0% Join 23 / 31 [25 x 931, 2000 pairs]
+02:27 1.4Gb   0.035% Join 24 / 31 [3 x 956, 2868 pairs] 02:28 1.4Gb    96.4% Join 24 / 31 [3 x 956, 2868 pairs]02:28 1.4Gb   100.0% Join 24 / 31 [3 x 956, 2868 pairs]
+02:28 1.4Gb    0.05% Join 25 / 31 [5 x 959, 2000 pairs]02:28 1.4Gb   100.0% Join 25 / 31 [5 x 959, 2000 pairs]
+02:28 1.4Gb   0.052% Join 26 / 31 [2 x 964, 1928 pairs]02:28 1.4Gb   100.0% Join 26 / 31 [2 x 964, 1928 pairs]
+02:28 1.4Gb     0.1% Join 27 / 31 [1 x 966, 966 pairs] 02:29 1.4Gb     8.5% Join 27 / 31 [1 x 966, 966 pairs]02:29 1.4Gb   100.0% Join 27 / 31 [1 x 966, 966 pairs]
+02:29 1.4Gb     0.1% Join 28 / 31 [1 x 967, 967 pairs]02:29 1.4Gb   100.0% Join 28 / 31 [1 x 967, 967 pairs]
+02:29 1.4Gb     0.1% Join 29 / 31 [1 x 968, 968 pairs]02:29 1.4Gb   100.0% Join 29 / 31 [1 x 968, 968 pairs]
+02:29 1.4Gb     0.1% Join 30 / 31 [1 x 969, 969 pairs]02:29 1.4Gb   100.0% Join 30 / 31 [1 x 969, 969 pairs]
+02:29 1.4Gb    0.05% Join 31 / 31 [510 x 970, 2000 pairs]02:30 1.4Gb    37.4% Join 31 / 31 [510 x 970, 2000 pairs]02:30 1.4Gb   100.0% Join 31 / 31 [510 x 970, 2000 pairs]
+Guide tree ABC                                           
+02:30 1.4Gb    0.11% Join 1 / 31 [10 x 91, 910 pairs]02:30 1.5Gb   100.0% Join 1 / 31 [10 x 91, 910 pairs]
+02:30 1.5Gb    0.04% Join 2 / 31 [25 x 101, 2525 pairs]02:31 1.5Gb    92.2% Join 2 / 31 [25 x 101, 2525 pairs]02:31 1.5Gb   100.0% Join 2 / 31 [25 x 101, 2525 pairs]
+02:31 1.5Gb    0.26% Join 3 / 31 [3 x 126, 378 pairs]  02:31 1.5Gb   100.0% Join 3 / 31 [3 x 126, 378 pairs]
+02:31 1.5Gb    0.16% Join 4 / 31 [5 x 129, 645 pairs]02:31 1.5Gb   100.0% Join 4 / 31 [5 x 129, 645 pairs]
+02:31 1.5Gb    0.37% Join 5 / 31 [2 x 134, 268 pairs]02:31 1.5Gb   100.0% Join 5 / 31 [2 x 134, 268 pairs]
+02:31 1.5Gb    0.74% Join 6 / 31 [1 x 136, 136 pairs]02:31 1.5Gb   100.0% Join 6 / 31 [1 x 136, 136 pairs]
+02:31 1.5Gb    0.73% Join 7 / 31 [1 x 137, 137 pairs]02:31 1.5Gb   100.0% Join 7 / 31 [1 x 137, 137 pairs]
+02:31 1.5Gb    0.72% Join 8 / 31 [1 x 138, 138 pairs]02:31 1.5Gb   100.0% Join 8 / 31 [1 x 138, 138 pairs]
+02:31 1.5Gb    0.72% Join 9 / 31 [1 x 139, 139 pairs]02:31 1.5Gb   100.0% Join 9 / 31 [1 x 139, 139 pairs]
+02:31 1.5Gb    0.05% Join 10 / 31 [99 x 163, 2000 pairs]02:31 1.5Gb   100.0% Join 10 / 31 [99 x 163, 2000 pairs]
+02:31 1.5Gb   0.053% Join 11 / 31 [38 x 50, 1900 pairs] 02:32 1.5Gb     8.6% Join 11 / 31 [38 x 50, 1900 pairs]02:32 1.5Gb   100.0% Join 11 / 31 [38 x 50, 1900 pairs]
+02:32 1.5Gb    0.05% Join 12 / 31 [88 x 126, 2000 pairs]02:32 1.5Gb   100.0% Join 12 / 31 [88 x 126, 2000 pairs]
+02:32 1.5Gb   0.039% Join 13 / 31 [12 x 214, 2568 pairs]02:33 1.5Gb    54.8% Join 13 / 31 [12 x 214, 2568 pairs]02:33 1.5Gb   100.0% Join 13 / 31 [12 x 214, 2568 pairs]
+02:33 1.5Gb    0.05% Join 14 / 31 [226 x 262, 2000 pairs]02:33 1.5Gb   100.0% Join 14 / 31 [226 x 262, 2000 pairs]
+02:33 1.5Gb    0.05% Join 15 / 31 [7 x 488, 2000 pairs]  02:34 1.5Gb    66.8% Join 15 / 31 [7 x 488, 2000 pairs]02:34 1.5Gb   100.0% Join 15 / 31 [7 x 488, 2000 pairs]
+02:34 1.5Gb    0.05% Join 16 / 31 [13 x 495, 2000 pairs]02:34 1.5Gb   100.0% Join 16 / 31 [13 x 495, 2000 pairs]
+02:34 1.5Gb     0.2% Join 17 / 31 [1 x 508, 508 pairs]  02:34 1.5Gb   100.0% Join 17 / 31 [1 x 508, 508 pairs]
+02:34 1.5Gb     0.2% Join 18 / 31 [1 x 509, 509 pairs]02:35 1.5Gb    19.6% Join 18 / 31 [1 x 509, 509 pairs]02:35 1.5Gb   100.0% Join 18 / 31 [1 x 509, 509 pairs]
+02:35 1.5Gb    0.05% Join 19 / 31 [61 x 234, 2000 pairs]02:35 1.5Gb   100.0% Join 19 / 31 [61 x 234, 2000 pairs]
+02:35 1.5Gb    0.05% Join 20 / 31 [63 x 295, 2000 pairs]02:36 1.5Gb    98.5% Join 20 / 31 [63 x 295, 2000 pairs]02:36 1.5Gb   100.0% Join 20 / 31 [63 x 295, 2000 pairs]
+02:36 1.5Gb    0.05% Join 21 / 31 [40 x 358, 2000 pairs]02:36 1.5Gb   100.0% Join 21 / 31 [40 x 358, 2000 pairs]
+02:36 1.5Gb    0.13% Join 22 / 31 [11 x 70, 770 pairs]  02:36 1.5Gb   100.0% Join 22 / 31 [11 x 70, 770 pairs]
+02:36 1.5Gb   0.042% Join 23 / 31 [43 x 55, 2365 pairs]02:37 1.5Gb    76.4% Join 23 / 31 [43 x 55, 2365 pairs]02:37 1.5Gb   100.0% Join 23 / 31 [43 x 55, 2365 pairs]
+02:37 1.5Gb    0.05% Join 24 / 31 [81 x 98, 2000 pairs]02:37 1.5Gb   100.0% Join 24 / 31 [81 x 98, 2000 pairs]
+02:37 1.5Gb    0.05% Join 25 / 31 [102 x 179, 2000 pairs]02:38 1.5Gb    99.3% Join 25 / 31 [102 x 179, 2000 pairs]02:38 1.5Gb   100.0% Join 25 / 31 [102 x 179, 2000 pairs]
+02:38 1.5Gb    0.05% Join 26 / 31 [13 x 281, 2000 pairs] 02:38 1.5Gb   100.0% Join 26 / 31 [13 x 281, 2000 pairs]
+02:38 1.5Gb    0.05% Join 27 / 31 [102 x 294, 2000 pairs]02:39 1.5Gb    98.0% Join 27 / 31 [102 x 294, 2000 pairs]02:39 1.5Gb   100.0% Join 27 / 31 [102 x 294, 2000 pairs]
+02:39 1.5Gb    0.05% Join 28 / 31 [36 x 396, 2000 pairs] 02:39 1.5Gb   100.0% Join 28 / 31 [36 x 396, 2000 pairs]
+02:39 1.5Gb    0.05% Join 29 / 31 [398 x 432, 2000 pairs]02:39 1.5Gb   100.0% Join 29 / 31 [398 x 432, 2000 pairs]
+02:40 1.5Gb    0.05% Join 30 / 31 [510 x 830, 2000 pairs]02:40 1.5Gb   100.0% Join 30 / 31 [510 x 830, 2000 pairs]
+02:40 1.5Gb    0.05% Join 31 / 31 [140 x 1340, 2000 pairs]02:40 1.5Gb   100.0% Join 31 / 31 [140 x 1340, 2000 pairs]
+Guide tree ACB                                            
+02:40 1.5Gb    0.05% Join 1 / 31 [99 x 163, 2000 pairs]02:41 1.5Gb    14.1% Join 1 / 31 [99 x 163, 2000 pairs]02:41 1.5Gb   100.0% Join 1 / 31 [99 x 163, 2000 pairs]
+02:41 1.5Gb   0.053% Join 2 / 31 [38 x 50, 1900 pairs] 02:41 1.5Gb   100.0% Join 2 / 31 [38 x 50, 1900 pairs]
+02:41 1.5Gb    0.05% Join 3 / 31 [88 x 126, 2000 pairs]02:42 1.5Gb    78.2% Join 3 / 31 [88 x 126, 2000 pairs]02:42 1.5Gb   100.0% Join 3 / 31 [88 x 126, 2000 pairs]
+02:42 1.5Gb   0.039% Join 4 / 31 [12 x 214, 2568 pairs]02:42 1.5Gb   100.0% Join 4 / 31 [12 x 214, 2568 pairs]
+02:42 1.5Gb    0.05% Join 5 / 31 [226 x 262, 2000 pairs]02:43 1.5Gb    35.0% Join 5 / 31 [226 x 262, 2000 pairs]02:43 1.5Gb   100.0% Join 5 / 31 [226 x 262, 2000 pairs]
+02:43 1.5Gb    0.05% Join 6 / 31 [7 x 488, 2000 pairs]  02:43 1.5Gb   100.0% Join 6 / 31 [7 x 488, 2000 pairs]
+02:43 1.5Gb    0.05% Join 7 / 31 [13 x 495, 2000 pairs]02:44 1.5Gb    55.2% Join 7 / 31 [13 x 495, 2000 pairs]02:44 1.5Gb   100.0% Join 7 / 31 [13 x 495, 2000 pairs]
+02:44 1.5Gb     0.2% Join 8 / 31 [1 x 508, 508 pairs]  02:44 1.5Gb   100.0% Join 8 / 31 [1 x 508, 508 pairs]
+02:44 1.5Gb     0.2% Join 9 / 31 [1 x 509, 509 pairs]02:44 1.5Gb   100.0% Join 9 / 31 [1 x 509, 509 pairs]
+02:44 1.5Gb    0.11% Join 10 / 31 [10 x 91, 910 pairs]02:44 1.5Gb   100.0% Join 10 / 31 [10 x 91, 910 pairs]
+02:44 1.5Gb    0.04% Join 11 / 31 [25 x 101, 2525 pairs]02:45 1.5Gb    56.3% Join 11 / 31 [25 x 101, 2525 pairs]02:45 1.5Gb   100.0% Join 11 / 31 [25 x 101, 2525 pairs]
+02:45 1.5Gb    0.26% Join 12 / 31 [3 x 126, 378 pairs]  02:45 1.5Gb   100.0% Join 12 / 31 [3 x 126, 378 pairs]
+02:45 1.5Gb    0.16% Join 13 / 31 [5 x 129, 645 pairs]02:45 1.5Gb   100.0% Join 13 / 31 [5 x 129, 645 pairs]
+02:45 1.5Gb    0.37% Join 14 / 31 [2 x 134, 268 pairs]02:45 1.5Gb   100.0% Join 14 / 31 [2 x 134, 268 pairs]
+02:45 1.5Gb    0.74% Join 15 / 31 [1 x 136, 136 pairs]02:45 1.5Gb   100.0% Join 15 / 31 [1 x 136, 136 pairs]
+02:45 1.5Gb    0.73% Join 16 / 31 [1 x 137, 137 pairs]02:45 1.5Gb   100.0% Join 16 / 31 [1 x 137, 137 pairs]
+02:45 1.5Gb    0.72% Join 17 / 31 [1 x 138, 138 pairs]02:45 1.5Gb   100.0% Join 17 / 31 [1 x 138, 138 pairs]
+02:45 1.5Gb    0.72% Join 18 / 31 [1 x 139, 139 pairs]02:45 1.5Gb   100.0% Join 18 / 31 [1 x 139, 139 pairs]
+02:45 1.5Gb    0.05% Join 19 / 31 [61 x 234, 2000 pairs]02:46 1.5Gb    82.9% Join 19 / 31 [61 x 234, 2000 pairs]02:46 1.5Gb   100.0% Join 19 / 31 [61 x 234, 2000 pairs]
+02:46 1.5Gb    0.05% Join 20 / 31 [63 x 295, 2000 pairs]02:46 1.5Gb   100.0% Join 20 / 31 [63 x 295, 2000 pairs]
+02:46 1.5Gb    0.05% Join 21 / 31 [40 x 358, 2000 pairs]02:47 1.5Gb    99.8% Join 21 / 31 [40 x 358, 2000 pairs]02:47 1.5Gb   100.0% Join 21 / 31 [40 x 358, 2000 pairs]
+02:47 1.5Gb    0.13% Join 22 / 31 [11 x 70, 770 pairs]  02:47 1.5Gb   100.0% Join 22 / 31 [11 x 70, 770 pairs]
+02:47 1.5Gb   0.042% Join 23 / 31 [43 x 55, 2365 pairs]02:47 1.5Gb   100.0% Join 23 / 31 [43 x 55, 2365 pairs]
+02:47 1.5Gb    0.05% Join 24 / 31 [81 x 98, 2000 pairs]02:48 1.5Gb    89.8% Join 24 / 31 [81 x 98, 2000 pairs]02:48 1.5Gb   100.0% Join 24 / 31 [81 x 98, 2000 pairs]
+02:48 1.5Gb    0.05% Join 25 / 31 [102 x 179, 2000 pairs]02:48 1.5Gb   100.0% Join 25 / 31 [102 x 179, 2000 pairs]
+02:48 1.5Gb    0.05% Join 26 / 31 [13 x 281, 2000 pairs] 02:48 1.5Gb   100.0% Join 26 / 31 [13 x 281, 2000 pairs]
+02:48 1.5Gb    0.05% Join 27 / 31 [102 x 294, 2000 pairs]02:49 1.5Gb    12.8% Join 27 / 31 [102 x 294, 2000 pairs]02:49 1.5Gb   100.0% Join 27 / 31 [102 x 294, 2000 pairs]
+02:49 1.5Gb    0.05% Join 28 / 31 [36 x 396, 2000 pairs] 02:49 1.5Gb   100.0% Join 28 / 31 [36 x 396, 2000 pairs]
+02:49 1.5Gb    0.05% Join 29 / 31 [398 x 432, 2000 pairs]02:50 1.5Gb    47.3% Join 29 / 31 [398 x 432, 2000 pairs]02:50 1.5Gb   100.0% Join 29 / 31 [398 x 432, 2000 pairs]
+02:50 1.5Gb    0.05% Join 30 / 31 [140 x 830, 2000 pairs]02:50 1.5Gb   100.0% Join 30 / 31 [140 x 830, 2000 pairs]
+02:50 1.5Gb    0.05% Join 31 / 31 [510 x 970, 2000 pairs]02:51 1.5Gb    73.8% Join 31 / 31 [510 x 970, 2000 pairs]02:51 1.5Gb   100.0% Join 31 / 31 [510 x 970, 2000 pairs]
+Guide tree BCA                                           
+02:51 1.5Gb    0.05% Join 1 / 31 [61 x 234, 2000 pairs]02:51 1.5Gb   100.0% Join 1 / 31 [61 x 234, 2000 pairs]
+02:51 1.5Gb    0.05% Join 2 / 31 [63 x 295, 2000 pairs]02:52 1.5Gb    86.7% Join 2 / 31 [63 x 295, 2000 pairs]02:52 1.5Gb   100.0% Join 2 / 31 [63 x 295, 2000 pairs]
+02:52 1.5Gb    0.05% Join 3 / 31 [40 x 358, 2000 pairs]02:52 1.5Gb   100.0% Join 3 / 31 [40 x 358, 2000 pairs]
+02:52 1.5Gb    0.13% Join 4 / 31 [11 x 70, 770 pairs]  02:52 1.5Gb   100.0% Join 4 / 31 [11 x 70, 770 pairs]
+02:52 1.5Gb   0.042% Join 5 / 31 [43 x 55, 2365 pairs]02:53 1.5Gb    40.5% Join 5 / 31 [43 x 55, 2365 pairs]02:53 1.5Gb   100.0% Join 5 / 31 [43 x 55, 2365 pairs]
+02:53 1.5Gb    0.05% Join 6 / 31 [81 x 98, 2000 pairs]02:53 1.5Gb   100.0% Join 6 / 31 [81 x 98, 2000 pairs]
+02:53 1.5Gb    0.05% Join 7 / 31 [102 x 179, 2000 pairs]02:54 1.5Gb    78.0% Join 7 / 31 [102 x 179, 2000 pairs]02:54 1.5Gb   100.0% Join 7 / 31 [102 x 179, 2000 pairs]
+02:54 1.5Gb    0.05% Join 8 / 31 [13 x 281, 2000 pairs] 02:54 1.5Gb   100.0% Join 8 / 31 [13 x 281, 2000 pairs]
+02:54 1.5Gb    0.05% Join 9 / 31 [102 x 294, 2000 pairs]02:55 1.5Gb    86.8% Join 9 / 31 [102 x 294, 2000 pairs]02:55 1.5Gb   100.0% Join 9 / 31 [102 x 294, 2000 pairs]
+02:55 1.5Gb    0.05% Join 10 / 31 [36 x 396, 2000 pairs]02:55 1.5Gb   100.0% Join 10 / 31 [36 x 396, 2000 pairs]
+02:55 1.5Gb    0.05% Join 11 / 31 [398 x 432, 2000 pairs]02:56 1.5Gb    96.7% Join 11 / 31 [398 x 432, 2000 pairs]02:56 1.5Gb   100.0% Join 11 / 31 [398 x 432, 2000 pairs]
+02:56 1.5Gb    0.11% Join 12 / 31 [10 x 91, 910 pairs]   02:56 1.5Gb   100.0% Join 12 / 31 [10 x 91, 910 pairs]
+02:56 1.5Gb    0.04% Join 13 / 31 [25 x 101, 2525 pairs]02:56 1.5Gb   100.0% Join 13 / 31 [25 x 101, 2525 pairs]
+02:56 1.5Gb    0.26% Join 14 / 31 [3 x 126, 378 pairs]  02:56 1.5Gb   100.0% Join 14 / 31 [3 x 126, 378 pairs]
+02:56 1.5Gb    0.16% Join 15 / 31 [5 x 129, 645 pairs]02:56 1.5Gb   100.0% Join 15 / 31 [5 x 129, 645 pairs]
+02:56 1.5Gb    0.37% Join 16 / 31 [2 x 134, 268 pairs]02:57 1.5Gb    52.2% Join 16 / 31 [2 x 134, 268 pairs]02:57 1.5Gb   100.0% Join 16 / 31 [2 x 134, 268 pairs]
+02:57 1.5Gb    0.74% Join 17 / 31 [1 x 136, 136 pairs]02:57 1.5Gb   100.0% Join 17 / 31 [1 x 136, 136 pairs]
+02:57 1.5Gb    0.73% Join 18 / 31 [1 x 137, 137 pairs]02:57 1.5Gb   100.0% Join 18 / 31 [1 x 137, 137 pairs]
+02:57 1.5Gb    0.72% Join 19 / 31 [1 x 138, 138 pairs]02:57 1.5Gb   100.0% Join 19 / 31 [1 x 138, 138 pairs]
+02:57 1.5Gb    0.72% Join 20 / 31 [1 x 139, 139 pairs]02:57 1.5Gb   100.0% Join 20 / 31 [1 x 139, 139 pairs]
+02:57 1.5Gb    0.05% Join 21 / 31 [99 x 163, 2000 pairs]02:57 1.5Gb   100.0% Join 21 / 31 [99 x 163, 2000 pairs]
+02:57 1.5Gb   0.053% Join 22 / 31 [38 x 50, 1900 pairs] 02:57 1.5Gb   100.0% Join 22 / 31 [38 x 50, 1900 pairs]
+02:57 1.5Gb    0.05% Join 23 / 31 [88 x 126, 2000 pairs]02:58 1.5Gb    18.4% Join 23 / 31 [88 x 126, 2000 pairs]02:58 1.5Gb   100.0% Join 23 / 31 [88 x 126, 2000 pairs]
+02:58 1.5Gb   0.039% Join 24 / 31 [12 x 214, 2568 pairs]02:58 1.5Gb   100.0% Join 24 / 31 [12 x 214, 2568 pairs]
+02:58 1.5Gb    0.05% Join 25 / 31 [226 x 262, 2000 pairs]02:59 1.5Gb    27.0% Join 25 / 31 [226 x 262, 2000 pairs]02:59 1.5Gb   100.0% Join 25 / 31 [226 x 262, 2000 pairs]
+02:59 1.5Gb    0.05% Join 26 / 31 [7 x 488, 2000 pairs]  02:59 1.5Gb   100.0% Join 26 / 31 [7 x 488, 2000 pairs]
+02:59 1.5Gb    0.05% Join 27 / 31 [13 x 495, 2000 pairs]03:00 1.5Gb    65.8% Join 27 / 31 [13 x 495, 2000 pairs]03:00 1.5Gb   100.0% Join 27 / 31 [13 x 495, 2000 pairs]
+03:00 1.5Gb     0.2% Join 28 / 31 [1 x 508, 508 pairs]  03:00 1.5Gb   100.0% Join 28 / 31 [1 x 508, 508 pairs]
+03:00 1.5Gb     0.2% Join 29 / 31 [1 x 509, 509 pairs]03:00 1.5Gb   100.0% Join 29 / 31 [1 x 509, 509 pairs]
+03:00 1.5Gb    0.05% Join 30 / 31 [140 x 510, 2000 pairs]03:00 1.5Gb   100.0% Join 30 / 31 [140 x 510, 2000 pairs]
+03:00 1.5Gb    0.05% Join 31 / 31 [650 x 830, 2000 pairs]03:01 1.5Gb    27.8% Join 31 / 31 [650 x 830, 2000 pairs]03:01 1.5Gb   100.0% Join 31 / 31 [650 x 830, 2000 pairs]

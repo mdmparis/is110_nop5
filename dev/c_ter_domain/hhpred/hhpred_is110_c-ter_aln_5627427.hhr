@@ -1,0 +1,2630 @@
+Query         MISP034.0722.00001.P003_01163:151-261 D ATG TAA 1166164 1166994 Valid JO965_RS38000 831 @WP_203445954.1@ JO965_RS38000 1 1166164 1166994   IS110 family transposase  (translation) 
+Match_columns 111
+No_of_seqs    160 out of 4802
+Neff          7.9594
+Searched_HMMs 91541
+Date          Fri Mar 29 11:21:51 2024
+Command       hhsearch -cpu 8 -i ../results/full.a3m -d /cluster/toolkit/production/databases/hh-suite/mmcif70/pdb70 -d /cluster/toolkit/production/databases/hh-suite/pfama/pfama -d /cluster/toolkit/production/databases/hh-suite/Proteomes/Escherichia_coli_K12/Escherichia_coli_K12 -o ../results/5627427.hhr -oa3m ../results/5627427.a3m -p 20 -Z 250 -loc -z 1 -b 1 -B 250 -ssm 2 -sc 1 -seq 1 -dbstrlen 10000 -norealign -maxres 32000 -contxt /cluster/toolkit/production/bioprogs/tools/hh-suite-build-new/data/context_data.crf 
+
+ No Hit                             Prob E-value P-value  Score    SS Cols Query HMM  Template HMM
+  1 PF02371.20 ; Transposase_20 ;   98.2 7.7E-05 8.4E-10   41.8   9.2   69    1-70      7-77  (88)
+  2 PF01798.22 ; Nop ; snoRNA bind  95.1   0.031 3.4E-07   40.6   2.3   30    4-33    128-158 (234)
+  3 3ICX_C Pre mRNA splicing prote  92.6    0.16 1.7E-06   38.1   2.0   29    4-33    136-166 (255)
+  4 2OZB_B U4/U6 small nuclear rib  92.1    0.22 2.4E-06   37.4   2.2   29    4-33    150-180 (260)
+  5 PF01367.24 ; 5_3_exonuc ; 5'-3  88.8       1 1.1E-05   26.3   2.6   22    1-22     19-40  (92)
+  6 PF21176.1 ; RecR_HhH ; RecR, h  84.5     2.3 2.5E-05   22.8   2.4   16    1-16     11-26  (45)
+  7 1RXW_A Flap structure-specific  79.1     3.9 4.2E-05   30.8   2.6   22    1-22    240-261 (336)
+  8 NP_416423.4 excinuclease UvrAB  78.4     3.9 4.3E-05   35.1   2.7   36    1-36    561-598 (610)
+  9 6TOB_A Integration host factor  77.4     4.1 4.5E-05   27.2   2.1   17    1-17     68-84  (109)
+ 10 6BEK_A SCO1480; nucleic associ  77.1     5.1 5.6E-05   26.7   2.4   17    1-17     64-80  (107)
+ 11 7NDY_B Barrier-to-autointegrat  76.8     3.4 3.7E-05   26.5   1.5   12    1-12     23-34  (89)
+ 12 NP_416572.1 3-methyl-adenine D  76.6     4.7 5.2E-05   30.9   2.5   33    1-33    212-246 (282)
+ 13 PF02961.18 ; BAF ; Barrier to   76.2     3.7   4E-05   26.3   1.6   12    1-12     23-34  (88)
+ 14 NP_417278.4 Ssb-binding protei  75.7       5 5.5E-05   29.9   2.4   22    1-22    182-203 (251)
+ 15 PF04919.16 ; DUF655 ; Protein   74.9     7.1 7.7E-05   28.2   2.9   35    1-36    116-150 (175)
+ 16 1Z00_B DNA repair endonuclease  74.8      11 0.00011   22.5   3.3   33    1-33     23-57  (84)
+ 17 4EJY_B 3-Methyladenine DNA gly  74.3     7.4   8E-05   30.0   3.0   32    1-32    229-261 (311)
+ 18 NP_417757.1 30S ribosomal subu  74.2     5.8 6.4E-05   26.9   2.2   17    1-17     22-38  (118)
+ 19 3ORY_A flap endonuclease 1; en  73.2     8.1 8.8E-05   29.7   3.0   22    1-22    256-277 (363)
+ 20 NP_414976.1 putative competenc  72.5     6.3 6.9E-05   26.8   2.0   36    1-36     76-111 (123)
+ 21 1UL1_X Flap endonuclease-1; pr  72.0     6.4   7E-05   30.6   2.2   22    1-22    237-258 (379)
+ 22 5ZOD_A Flap endonuclease 1; fl  71.9       7 7.7E-05   29.3   2.4   22    1-22    238-259 (333)
+ 23 1IXR_B Holliday junction DNA h  71.8     6.2 6.8E-05   28.0   2.0   36    1-36     77-117 (191)
+ 24 2NRT_A UvrABC system protein C  71.0       7 7.7E-05   28.0   2.1   35    1-36    173-209 (220)
+ 25 4WA8_A Flap endonuclease 1; DN  70.3     9.4  0.0001   29.2   2.8   22    1-22    247-268 (355)
+ 26 2IZO_A FLAP STRUCTURE-SPECIFIC  70.2     8.9 9.7E-05   29.2   2.6   22    1-22    239-260 (346)
+ 27 4Q0W_B DNA repair protein RAD2  70.0     7.7 8.4E-05   29.7   2.3   22    1-22    248-269 (365)
+ 28 4GFJ_A Topoisomerase V; helix-  69.7     5.7 6.2E-05   35.0   1.6   41    1-41    416-462 (685)
+ 29 NP_415005.1 gap repair protein  68.5     9.5  0.0001   28.6   2.4   16    1-16     17-32  (201)
+ 30 NP_416150.1 DNA glycosylase an  68.1     9.2  0.0001   27.7   2.2   32    1-32    114-145 (211)
+ 31 3C65_A UvrABC system protein C  67.4      12 0.00013   27.4   2.7   35    1-36    178-214 (226)
+ 32 NP_416375.1 component of RuvAB  67.3     8.4 9.1E-05   28.4   1.9   36    1-36     78-118 (203)
+ 33 5HML_B Exodeoxyribonuclease; M  66.8      12 0.00013   27.7   2.6   22    1-22    190-211 (272)
+ 34 6C33_A 5'-3' exonuclease; Myco  65.8      11 0.00013   28.6   2.5   22    1-22    213-234 (319)
+ 35 3S6I_A DNA-3-methyladenine gly  65.5      16 0.00018   26.4   3.1   32    1-32    144-177 (228)
+ 36 7OA5_A Holliday junction ATP-d  65.3      12 0.00013   26.9   2.3   36    1-36     77-117 (203)
+ 37 PF14635.10 ; HHH_7 ; Helix-hai  65.2      17 0.00018   22.7   2.8   36    1-36     55-91  (104)
+ 38 7X7Q_B Holliday junction ATP-d  64.8     9.6  0.0001   27.2   1.8   36    1-36     78-118 (201)
+ 39 5Z2V_B Recombination protein R  64.4      13 0.00014   27.7   2.4   16    1-16     17-32  (198)
+ 40 4B21_A PROBABLE DNA-3-METHYLAD  63.7      18  0.0002   26.4   3.1   32    1-32    155-188 (232)
+ 41 8K3F_A Recombination protein R  63.6      14 0.00015   27.6   2.4   16    1-16     24-39  (196)
+ 42 3FHG_A N-glycosylase/DNA lyase  63.4      21 0.00023   25.0   3.3   32    1-32    122-153 (207)
+ 43 2XHI_A N-GLYCOSYLASE/DNA LYASE  63.1      14 0.00015   29.4   2.5   33    1-33    258-291 (360)
+ 44 1B43_A PROTEIN (FEN-1); NUCLEA  62.8      14 0.00015   28.0   2.4   22    1-22    242-263 (340)
+ 45 3VDP_A Recombination protein r  61.7      15 0.00016   27.7   2.3   16    1-16     31-46  (212)
+ 46 NP_417436.1 adenine DNA glycos  61.4      16 0.00018   28.5   2.6   32    1-32    114-145 (350)
+ 47 6VJW_A Methyl-CpG-binding doma  61.2     5.6 6.2E-05   26.0   0.1   32    1-32     97-130 (138)
+ 48 5ZVQ_A Recombination protein R  60.7      16 0.00018   27.0   2.4   16    1-16     17-32  (194)
+ 49 NP_418300.1 5' to 3' DNA polym  60.3      15 0.00017   32.6   2.6   22    1-22    193-214 (928)
+ 50 2YG9_B DNA-3-methyladenine gly  59.9      22 0.00024   25.7   2.9   32    1-32    151-184 (225)
+ 51 6VBH_A DNA repair protein comp  59.8      15 0.00016   28.1   2.1   22    1-22    225-248 (346)
+ 52 8B0Q_A UvrABC system protein C  59.4      14 0.00016   27.6   1.9   36    1-36    193-230 (252)
+ 53 3I0W_A 8-oxoguanine-DNA-glycos  59.2      22 0.00024   26.9   2.9   32    1-32    216-248 (290)
+ 54 7XPL_B C/D box methylation gui  59.1      16 0.00017   29.6   2.2   29    4-33    269-299 (388)
+ 55 1CUK_A RUVA PROTEIN; DNA REPAI  58.4      11 0.00012   26.7   1.2   36    1-36     78-118 (203)
+ 56 2H56_B DNA-3-methyladenine gly  58.4      25 0.00028   25.7   3.0   32    1-32    143-176 (233)
+ 57 PF01552.21 ; Pico_P2B ; Picorn  58.3      22 0.00024   23.6   2.4   36    6-41     60-97  (97)
+ 58 7EF9_A Adenine DNA glycosylase  57.3      17 0.00019   29.6   2.2   32    1-32    144-175 (448)
+ 59 5HM5_A Topoisomerase V; topois  56.9      18 0.00019   32.9   2.3   36    1-36    416-457 (854)
+ 60 2P6R_A afUHEL308 HELICASE; PRO  56.2      15 0.00016   30.7   1.7   32    1-33    637-671 (702)
+ 61 1VDD_D Recombination protein r  55.0      23 0.00025   27.2   2.3   16    1-16     17-32  (228)
+ 62 2NNW_A NOP5/NOP56 related prot  54.6      17 0.00019   29.3   1.8   29    4-33    270-300 (376)
+ 63 2I5H_A Hypothetical protein AF  54.4      27 0.00029   26.1   2.6   35    1-36    137-175 (205)
+ 64 1A77_A FLAP ENDONUCLEASE-1 PRO  54.2      22 0.00024   26.8   2.2   21    1-22    230-250 (326)
+ 65 PF12826.11 ; HHH_2 ; Helix-hai  52.9      35 0.00038   16.1   2.3   22    1-22      8-29  (64)
+ 66 1BGX_T TAQ DNA POLYMERASE; DNA  52.6      26 0.00028   30.7   2.6   22    1-22    196-217 (832)
+ 67 2ZJ8_A Putative ski2-type heli  52.1      24 0.00026   29.7   2.3   36    1-36    651-689 (720)
+ 68 3FHF_A N-glycosylase/DNA lyase  52.0      40 0.00043   24.2   3.1   32    1-32    130-161 (214)
+ 69 8DSS_B ComE operon protein 1;   51.3      24 0.00026   22.9   1.8   36    1-36    100-135 (148)
+ 70 5ZWM_L Pre-mRNA-processing fac  51.1      64  0.0007   27.7   4.5   79    4-98    233-314 (494)
+ 71 6SXA_F DNA repair endonuclease  51.0      33 0.00036   30.2   3.0   33    1-33    855-889 (916)
+ 72 3ZDB_A PROTEIN XNI; HYDROLASE-  50.6      29 0.00032   25.2   2.3   22    1-22    182-203 (251)
+ 73 2A1J_A DNA repair endonuclease  50.2      38 0.00042   17.2   2.3   22    1-22      9-30  (63)
+ 74 PF05559.15 ; DUF763 ; Protein   49.8      17 0.00019   29.2   1.1   31    1-32    273-307 (318)
+ 75 7PBU_J Holliday junction ATP-d  49.6      17 0.00019   23.2   0.9   36    1-36     78-118 (133)
+ 76 4P0P_A Crossover junction endo  49.4      31 0.00033   26.2   2.3   22    1-22    237-258 (306)
+ 77 7SUK_SB Nucleolar protein 58;   49.2      25 0.00027   29.0   1.9   29    4-33    290-320 (436)
+ 78 3C1Y_A DNA integrity scanning   49.2      31 0.00034   27.8   2.4   36    1-36    320-357 (377)
+ 79 4OFA_A Methyl-CpG-binding doma  48.7      23 0.00025   25.2   1.5   32    1-32    146-179 (192)
+ 80 PF08897.15 ; DUF1841 ; Domain   48.5 1.5E+02  0.0016   20.7   7.4   53   55-111    62-118 (135)
+ 81 3B0X_A DNA polymerase beta fam  47.8      61 0.00067   27.1   3.9   28    1-32     98-125 (575)
+ 82 3N0U_C Probable N-glycosylase/  47.4      52 0.00056   23.8   3.1   32    1-32    135-166 (219)
+ 83 2JHN_A 3-METHYLADENINE DNA-GLY  47.2      62 0.00067   24.6   3.6   31    1-32    215-247 (295)
+ 84 7RDT_A Isoform 3 of Endonuclea  46.7      46  0.0005   24.4   2.8   32    1-32    145-177 (250)
+ 85 1PU6_A 3-METHYLADENINE DNA GLY  46.0      41 0.00044   24.3   2.4   32    1-32    126-157 (218)
+ 86 PF21790.1 ; OGG ; Putative 8-o  45.8      39 0.00042   24.2   2.3   33    1-33    112-149 (195)
+ 87 2CSB_B Topoisomerase V; topois  44.5      45 0.00049   28.8   2.7   36    1-36    359-421 (519)
+ 88 7SUK_SA Nucleolar protein 56;   44.1      31 0.00033   28.1   1.7   29    4-33    305-335 (413)
+ 89 4M6W_A Fanconi anemia group M   43.9      57 0.00062   22.8   2.9   36    1-36    169-206 (221)
+ 90 6LQP_3D Nucleolar protein 56;   42.8      32 0.00034   29.0   1.7   29    4-33    307-337 (504)
+ 91 6LQP_3E Nucleolar protein 58;   42.5      36  0.0004   28.7   1.9   29    4-33    291-321 (511)
+ 92 8GHU_m 30S ribosomal protein S  42.3      53 0.00058   20.0   2.3   17    1-17     21-37  (93)
+ 93 3N5N_X A/G-specific adenine DN  42.0      36 0.00039   25.9   1.7   32    1-32    134-165 (287)
+ 94 7UNW_m 30S ribosomal protein S  41.2      55  0.0006   21.4   2.3   17    1-17     22-38  (118)
+ 95 1MUN_A ADENINE GLYCOSYLASE; DN  41.1      54 0.00059   23.1   2.4   32    1-32    114-145 (225)
+ 96 6QW6_4C U4/U6 small nuclear ri  41.1      36 0.00039   29.1   1.7   29    4-33    223-253 (499)
+ 97 2ZIU_A Mus81 protein; Helix-ha  40.9      51 0.00055   25.1   2.4   22    1-22    242-263 (311)
+ 98 5KN8_A Adenine DNA glycosylase  40.8      57 0.00062   23.2   2.5   32    1-32    123-154 (232)
+ 99 7P7Q_n 30S ribosomal protein S  40.5      56 0.00061   21.4   2.3   17    1-17     22-38  (121)
+100 PF00416.26 ; Ribosomal_S13 ; R  40.4      57 0.00062   20.4   2.2   17    1-17     20-36  (105)
+101 1KEA_A Possible G-T mismatches  39.9      67 0.00073   22.6   2.7   32    1-32    120-151 (221)
+102 3PSF_A Transcription elongatio  39.8      43 0.00047   30.9   2.1   41    1-41    722-763 (1030)
+103 2BGW_A XPF ENDONUCLEASE; HYDRO  39.0      62 0.00067   22.5   2.4   36    1-36    167-204 (219)
+104 PF11798.12 ; IMS_HHH ; IMS fam  38.9      59 0.00064   14.2   1.7   12    1-12     16-27  (32)
+105 PF11283.12 ; DUF3084 ; Protein  38.5      52 0.00056   21.2   1.7   31    7-38      9-40  (77)
+106 7Y5E_U6 PS II complex 12 kDa e  38.4      70 0.00077   22.1   2.6   32    1-36     86-117 (150)
+107 1MPG_A 3-METHYLADENINE DNA GLY  38.3      52 0.00057   24.9   2.1   24    1-24    212-236 (282)
+108 8A5F_A Endonuclease III; DNA g  38.1      82  0.0009   22.8   3.0   32    1-32    131-162 (248)
+109 3GQX_A NOP5P PROTEIN; RNA BIND  38.1      50 0.00054   23.8   1.9   30    4-33     41-71  (169)
+110 8GH8_A Holliday junction branc  37.7      42 0.00046   21.6   1.3   36    1-36     77-117 (140)
+111 7KZ1_A Methyl-CpG-binding doma  37.5      24 0.00026   23.9   0.2   32    1-32    111-144 (157)
+112 1NT2_B conserved hypothetical   37.5      24 0.00026   27.3   0.2   29    4-33    146-176 (258)
+113 6S0X_m 30S ribosomal protein S  37.4      67 0.00073   20.2   2.2   17    1-17     16-32  (104)
+114 4UOB_A ENDONUCLEASE III-3; LYA  37.2      84 0.00092   23.5   3.0   32    1-32    165-196 (278)
+115 2M9N_A Fanconi anemia-associat  37.1      79 0.00086   15.1   2.2   22    1-22     14-35  (63)
+116 4BXO_A FANCONI ANEMIA GROUP M   37.0      74 0.00081   23.3   2.7   36    1-36    185-222 (254)
+117 4P4M_A DNA polymerase beta; DN  36.1 1.2E+02  0.0013   24.0   3.9   28    1-32    104-131 (378)
+118 8A22_Bm uS13m; mitoribosome, r  35.9      72 0.00078   20.4   2.2   17    1-17     21-37  (113)
+119 5V07_Z Exonuclease 1; exonucle  35.5      74 0.00081   24.5   2.5   21    1-21    230-252 (352)
+120 8DVP_A Adenine DNA glycosylase  35.2      83  0.0009   24.0   2.7   32    1-32    120-151 (365)
+121 7Y0D_C DNA integrity scanning   35.0      69 0.00075   26.0   2.4   36    1-36    312-349 (383)
+122 8FMW_M 30S ribosomal protein S  34.8      78 0.00085   20.3   2.2   17    1-17     22-38  (114)
+123 4Y4O_2m 30S ribosomal protein   34.8      79 0.00086   20.9   2.3   17    1-17     22-38  (126)
+124 2ABK_A ENDONUCLEASE III; DNA-R  34.7      94   0.001   21.7   2.8   32    1-32    114-145 (211)
+125 2W9M_A POLYMERASE X; SAXS, DNA  34.2 1.2E+02  0.0013   25.4   3.7   27    1-32    102-128 (578)
+126 6VDE_A DNA polymerase I; mycob  34.0      75 0.00082   28.2   2.6   22    1-22    212-233 (908)
+127 1ORN_A Endonuclease III; DNA r  33.8      89 0.00097   22.1   2.6   32    1-32    118-149 (226)
+128 7MQA_SA Nucleolar protein 56;   33.2      46  0.0005   29.0   1.2   29    4-33    300-330 (594)
+129 2MUT_A DNA excision repair pro  32.5      89 0.00097   18.4   2.1   36    1-36     31-68  (96)
+130 2EUC_B Hypothetical protein yf  32.5 1.2E+02  0.0013   21.3   2.8   30    3-32     45-77  (130)
+131 PF17825.5 ; DUF5587 ; Family o  32.2 1.2E+02  0.0013   29.7   3.7   36    1-36   1045-1082(1442)
+132 3PSI_A Transcription elongatio  32.1      64  0.0007   30.4   2.0   38    1-38    719-757 (1219)
+133 4YUU_U1 Photosystem II 12 kDa   31.8      81 0.00088   22.2   2.1   32    1-36     91-122 (155)
+134 6RXU_CC Nop56; ribosome, ribos  31.5      54 0.00059   28.0   1.4   29    4-33    310-340 (523)
+135 PF14520.10 ; HHH_5 ; Helix-hai  31.3 1.1E+02  0.0011   15.3   2.1   21    1-22      7-27  (59)
+136 1X2I_B Hef helicase/nuclease;   31.2 1.3E+02  0.0014   15.0   2.5   22    1-22     19-40  (75)
+137 8E10_B DNA polymerase beta; DN  31.0      78 0.00085   23.1   2.0   16    1-17     17-32  (249)
+138 6SXA_G DNA excision repair pro  30.8      75 0.00082   24.5   1.9   36    1-36    242-279 (297)
+139 1NZP_A DNA polymerase lambda;   30.4 1.5E+02  0.0016   17.6   2.9   24    1-24     62-87  (87)
+140 6YWY_MM Probable ribosomal pro  30.4   1E+02  0.0011   19.9   2.2   17    1-17     22-38  (119)
+141 5MYJ_AM 30S ribosomal protein   29.6 1.1E+02  0.0012   20.1   2.3   17    1-17     22-38  (121)
+142 2A1J_B DNA excision repair pro  29.4   1E+02  0.0011   18.1   2.0   36    1-36     37-74  (91)
+143 4BXO_B FANCONI ANEMIA-ASSOCIAT  28.4      89 0.00098   22.1   1.9   22    1-22    169-190 (217)
+144 1VQO_Y 50S ribosomal protein L  28.3 1.3E+02  0.0014   22.9   2.7   36    1-36     20-58  (241)
+145 8B0X_M 30S ribosomal protein S  28.0 1.2E+02  0.0013   19.7   2.3   17    1-17     22-38  (118)
+146 1KFT_A Excinuclease ABC subuni  27.7 1.5E+02  0.0017   15.6   2.5   22    1-22     29-50  (78)
+147 8DFK_F ComE operon protein 1;   27.6   1E+02  0.0011   20.6   1.9   36    1-36    101-136 (157)
+148 7PKQ_m Mitochondrial ribosomal  27.1 1.2E+02  0.0014   19.7   2.2   17    1-17     22-38  (124)
+149 3MAB_A uncharacterized protein  27.1 1.2E+02  0.0013   19.3   2.1   14    1-14      9-22  (93)
+150 1D8L_B PROTEIN (HOLLIDAY JUNCT  27.1      73  0.0008   21.0   1.2   36    1-36     78-118 (149)
+151 5B66_u Photosystem II 12 kDa e  26.6      98  0.0011   19.4   1.6   32    1-36     38-69  (104)
+152 PF20689.1 ; bDLD1 ; Bacterial   26.6 2.4E+02  0.0026   19.2   3.4   32    1-32      1-32  (105)
+153 PF11486.12 ; DUF3212 ; Protein  26.5 1.6E+02  0.0018   20.4   2.6   30    3-32     45-77  (120)
+154 7XN7_m Transcription elongatio  26.5      88 0.00097   30.5   1.9   41    1-41    980-1021(1503)
+155 6ERI_BM 30S ribosomal protein   26.5 1.2E+02  0.0014   19.2   2.1   17    1-17     21-37  (111)
+156 7P6Z_L 30S ribosomal protein S  26.5 1.3E+02  0.0014   19.9   2.2   17    1-17     22-38  (124)
+157 6X6Z_A DNA repair protein REV1  26.0 1.9E+02   0.002   23.7   3.4   33    1-33    246-284 (442)
+158 NP_417866.4 putative transcrip  26.0      76 0.00083   28.4   1.3   40    1-40    509-548 (773)
+159 PF09398.14 ; FOP_dimer ; FOP N  25.9 2.4E+02  0.0026   17.5   3.2   36    7-42     36-71  (81)
+160 7SFR_m 30S ribosomal protein S  25.6 1.4E+02  0.0015   19.6   2.3   17    1-17     22-38  (124)
+161 7MQA_SB Nucleolar protein 58;   25.3      54 0.00058   28.1   0.3   29    4-33    290-320 (529)
+162 5MRC_MM uS13m; yeast, mitochon  25.1 1.4E+02  0.0016   19.4   2.2   17    1-17     23-39  (120)
+163 PF12482.12 ; DUF3701 ; Phage i  24.9 1.2E+02  0.0013   20.4   1.8   16    1-16     61-76  (100)
+164 2LYH_A Fanconi anemia-associat  24.7 1.3E+02  0.0014   18.8   1.9   22    1-22     49-70  (98)
+165 8IWH_U PS II complex 12 kDa ex  24.6 1.5E+02  0.0016   20.3   2.3   32    1-36     84-115 (148)
+166 PF14716.10 ; HHH_8 ; Helix-hai  24.6 1.7E+02  0.0018   16.4   2.3   16    1-16     55-70  (71)
+167 PF00730.29 ; HhH-GPD ; HhH-GPD  24.1   2E+02  0.0022   18.1   2.8   31    2-32     80-112 (136)
+168 5T9J_B Flap endonuclease GEN h  23.9 1.5E+02  0.0016   25.0   2.5   18    1-18    214-231 (506)
+169 3BZC_A Tex; helix-turn-helix,   23.9   1E+02  0.0011   27.4   1.8   36    1-36    513-548 (785)
+170 PF21292.1 ; EME1-MUS81_C ; EME  23.7 1.8E+02   0.002   16.3   2.3   22    1-22      9-30  (74)
+171 8EQM_u Photosystem II 12 kDa e  23.6 1.3E+02  0.0015   20.7   2.0   32    1-36     94-125 (160)
+172 3SGI_A DNA ligase; NAD depnden  23.5 2.6E+02  0.0028   24.5   3.9   48    1-49    566-613 (615)
+173 2VA8_A SKI2-TYPE HELICASE; HEL  22.8 1.8E+02   0.002   24.6   2.9   25    1-30    662-686 (715)
+174 6RXU_CD Nop58; ribosome, ribos  22.3      63 0.00068   28.4   0.2   29    4-33    293-323 (582)
+175 4GLX_A DNA ligase; DNA ligase   21.7 1.3E+02  0.0015   25.8   2.0   36    1-36    517-554 (586)
+176 PF05559.15 ; DUF763 ; Protein   20.9 2.4E+02  0.0027   23.1   3.1   37    4-42     23-65  (318)
+177 5CO8_C Nuclease-like protein;   20.4 1.3E+02  0.0014   25.1   1.5   18    1-18    204-222 (464)
+178 PF18723.5 ; HMUDK_hel ; 5-hmdU  20.0 1.3E+02  0.0014   23.5   1.5   16    1-16    173-188 (279)
+
+No 1
+>PF02371.20 ; Transposase_20 ; Transposase IS116/IS110/IS902 family
+Probab=98.22  E-value=7.7e-05  Score=41.79  Aligned_cols=69  Identities=23%  Similarity=0.173  Sum_probs=52.5  Template_Neff=13.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH-HHCCCHHHHHHHhcCcCccccCCCCCC-CCCCCCCCCHHHHHHHHHHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA-TQFKSGRQLAAWLGLVPRQFSTGGKPK-LGGISKRGDGYLRRLLIHGARSVL   70 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~-~rf~~~~~l~s~~Gl~P~~~~SG~~~~-~~~isk~g~~~lr~~l~~~a~~~~   70 (111)
+                      +||+|...+..++.+.++. .+|.+...+..+.|+.|...+.+.... ...... ++..++..+...+....
+T Consensus         7 ~~g~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-~~~~~~~~~~~~~~~~~   77 (88)
+T A0AVY2_ARTS2/2    7 MPGFGTMLAAEFLAATGGDITAYESAARLAGVAGLAPVPRDSGRISGNHHRPKR-YDRRLLNAFYLAAQSAA   77 (88)
+T ss_pred             CCCchHHHHHHHHHHhCChHHhCCCHHHHHHHhCccccccCCccccCCCCCccc-CCHHHHHHHHHHHHHHH
+Confidence            4799999999999999988 889998889999999988887776543 344445 67767777766554433
+
+
+No 2
+>PF01798.22 ; Nop ; snoRNA binding domain, fibrillarin
+Probab=95.14  E-value=0.031  Score=40.61  Aligned_cols=30  Identities=23%  Similarity=0.150  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHHHHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQLAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~l~s~~G   33 (111)
+                      ||+.+|+.|++++||+.+|.+ |.+-...+|
+T Consensus       128 vG~~~aa~Lla~~G~l~~l~~~ps~~i~~lG  158 (234)
+T M7SLT3_EUTLA/1  128 IGEVVAARLIQKAGSLTNLAKYPASTLQILG  158 (234)
+T ss_pred             hCHHHHHHHHHHhCcchhHhhCCHhHHHHhh
+
+
+No 3
+>3ICX_C Pre mRNA splicing protein; C/D guide RNA, 2'-O-methylation, coiled-coil, RNA BINDING PROTEIN; HET: SO4; 3.1A {Sulfolobus solfataricus} SCOP: a.183.1.0
+Probab=92.63  E-value=0.16  Score=38.14  Aligned_cols=29  Identities=17%  Similarity=0.092  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|+++.||+.+|.. |.+ ++ .+|
+T Consensus       136 iG~~~aA~Li~~aG~L~~La~~pss~iq-~lG  166 (255)
+T 3ICX_C          136 VGPALGARLLSIAGSLDELAKMPASTIQ-VLG  166 (255)
+T ss_dssp             HCHHHHHHHHHHHSSHHHHTTSCHHHHT-TCC
+T ss_pred             ccHHHHHHHHHHhccHHHHhcCChhhch-Hhc
+
+
+No 4
+>2OZB_B U4/U6 small nuclear ribonucleoprotein Prp31; RNA-protein complex, ribonucleoprotein particle (RNP), pre-mRNA splicing, U4/U6 di-snRNA, U4/U6 di-snRNP, hierarchical assembly, Nop domain, RNP-binding; 2.6A {Homo sapiens} SCOP: a.183.1.1
+Probab=92.12  E-value=0.22  Score=37.43  Aligned_cols=29  Identities=17%  Similarity=0.094  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|++++||+.+|.+ +.+ ++ .+|
+T Consensus       150 iG~~~aa~Lla~aG~L~~la~~ps~~iq-~lG  180 (260)
+T 2OZB_B          150 IGASTAAKIMGVAGGLTNLSKMPACNIM-LLG  180 (260)
+T ss_dssp             HHHHHHHHHHHHHTSHHHHHTSCHHHHT-TTT
+T ss_pred             hCHHHHHHHHHHhCcHHHHhcCChhhhh-hhc
+
+
+No 5
+>PF01367.24 ; 5_3_exonuc ; 5'-3' exonuclease, C-terminal SAM fold
+Probab=88.80  E-value=1  Score=26.32  Aligned_cols=22  Identities=18%  Similarity=0.148  Sum_probs=0.0  Template_Neff=12.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.++++.+
+T Consensus        19 i~g~g~~~a~~ll~~~~~~~~~   40 (92)
+T A9NF42_ACHLI/1   19 VPGVGEVTAKKLIAEYGTLENI   40 (92)
+T ss_pred             CCCCCHHHHHHHHHHHCCHHHH
+
+
+No 6
+>PF21176.1 ; RecR_HhH ; RecR, helix-hairpin-helix
+Probab=84.53  E-value=2.3  Score=22.77  Aligned_cols=16  Identities=13%  Similarity=-0.085  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..++...
+T Consensus        11 ~pGig~~~a~ri~~~~   26 (45)
+T B8KYG4_9GAMM/7   11 LPGVGPKSAQRMTLTL   26 (45)
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 7
+>1RXW_A Flap structure-specific endonuclease; helical clamp, helix-3 turn-helix, hydrophobic wedge, 3' flap binding site, HYDROLASE-DNA COMPLEX; 2.0A {Archaeoglobus fulgidus} SCOP: c.120.1.2, a.60.7.1
+Probab=79.09  E-value=3.9  Score=30.81  Aligned_cols=22  Identities=23%  Similarity=0.119  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       240 i~gig~~~a~~ll~~~~~~~~~  261 (336)
+T 1RXW_A          240 VKGVGVKKALNYIKTYGDIFRA  261 (336)
+T ss_dssp             CTTCCHHHHHHHHHHHSSHHHH
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHH
+
+
+No 8
+>NP_416423.4 excinuclease UvrABC, endonuclease subunit [Escherichia coli str. K-12 substr. MG1655]
+Probab=78.38  E-value=3.9  Score=35.11  Aligned_cols=36  Identities=19%  Similarity=0.175  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC--CCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF--KSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf--~~~~~l~s~~Gl~P   36 (111)
+                      |||||+.+|-.|+...|++..+  .+..+|...-|+.+
+T Consensus       561 I~gIG~~~a~~Ll~~f~s~~~i~~as~eeL~~i~Gig~  598 (610)
+T NP_416423.4     561 IEGVGPKRRQMLLKYMGGLQGLRNASVEEIAKVPGISQ  598 (610)
+T ss_pred             CCCCCHHHHHHHHHHhCcchhHHhCCHHHHHcCCCCCH
+
+
+No 9
+>6TOB_A Integration host factor MIHF; - transcriptional control. Mycobacterial integration host factor - mIHF is an alpha-helical protein with two DNA-binding; NMR {Mycobacterium tuberculosis}
+Probab=77.40  E-value=4.1  Score=27.17  Aligned_cols=17  Identities=12%  Similarity=-0.044  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...|-.++.++|
+T Consensus        68 ipGiG~~~a~~il~~~g   84 (109)
+T 6TOB_A           68 LPKVGKVKAQEIMTELE   84 (109)
+T ss_dssp             STTCCHHHHHHHHHHHT
+T ss_pred             CCCCCHHHHHHHHHhCC
+
+
+No 10
+>6BEK_A SCO1480; nucleic associated proteins, Streptomyces coelicolor, DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA complex; 1.7A {Streptomyces coelicolor}
+Probab=77.06  E-value=5.1  Score=26.66  Aligned_cols=17  Identities=35%  Similarity=0.343  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||..-|-.++.++|
+T Consensus        64 lPg~G~~~a~r~L~~lg   80 (107)
+T 6BEK_A           64 LPGVGKVRAKQIMERLG   80 (107)
+T ss_dssp             STTCCHHHHHHHHHHHT
+T ss_pred             CCCCCHHHHHHHHHHhC
+
+
+No 11
+>7NDY_B Barrier-to-autointegration factor, N-terminally processed; Phosphorylation Complex High Resolution, DNA BINDING PROTEIN; HET: EPE, SEP, TPO; 1.44A {Homo sapiens} SCOP: a.60.5.1
+Probab=76.77  E-value=3.4  Score=26.51  Aligned_cols=12  Identities=17%  Similarity=-0.202  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCHHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALID   12 (111)
+Q Consensus         1 ipGiG~~~a~~l   12 (111)
+                      |||||+.++..|
+T Consensus        23 vPGIg~~~~~~L   34 (89)
+T 7NDY_B           23 LAGIGEVLGKKL   34 (89)
+T ss_dssp             STTCCHHHHHHH
+T ss_pred             ccCccHHHHHHH
+
+
+No 12
+>NP_416572.1 3-methyl-adenine DNA glycosylase II [Escherichia coli str. K-12 substr. MG1655]
+Probab=76.59  E-value=4.7  Score=30.91  Aligned_cols=33  Identities=12%  Similarity=-0.044  Sum_probs=0.0  Template_Neff=8.600
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCCHHH-HHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKSGRQ-LAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~~~~-l~s~~G   33 (111)
+                      +||||+.+|..++.. +|+++-|+-... +...+|
+T Consensus       212 i~GIG~~tA~~vll~~l~~~d~~p~dd~~l~~~l~  246 (282)
+T NP_416572.1     212 FPGIGRWTANYFALRGWQAKDVFLPDDYLIKQRFP  246 (282)
+T ss_pred             CCCCcHHHHHHHHHHhCCCcCCCCccCHHHHHHCC
+
+
+No 13
+>PF02961.18 ; BAF ; Barrier to autointegration factor
+Probab=76.25  E-value=3.7  Score=26.28  Aligned_cols=12  Identities=17%  Similarity=-0.180  Sum_probs=0.0  Template_Neff=7.100
+
+Q ss_pred             CCCCCHHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALID   12 (111)
+Q Consensus         1 ipGiG~~~a~~l   12 (111)
+                      |||||+.++..|
+T Consensus        23 vpGIG~~~~~~L   34 (88)
+T H2XUT9_CIOIN/2   23 VAGIGKVLGKKL   34 (88)
+T ss_pred             cCCCcHHHHHHH
+
+
+No 14
+>NP_417278.4 Ssb-binding protein, misidentified as ExoIX [Escherichia coli str. K-12 substr. MG1655]
+Probab=75.69  E-value=5  Score=29.87  Aligned_cols=22  Identities=23%  Similarity=0.024  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       182 v~giG~~~a~~ll~~~~~~~~~  203 (251)
+T NP_417278.4     182 VAGIGPKSATQLLVEFQSLEGI  203 (251)
+T ss_pred             CCCCCHHHHHHHHHHCCCHHHH
+
+
+No 15
+>PF04919.16 ; DUF655 ; Protein of unknown function (DUF655)
+Probab=74.88  E-value=7.1  Score=28.18  Aligned_cols=35  Identities=11%  Similarity=0.051  Sum_probs=0.0  Template_Neff=7.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||||+..|..|+.+-.. ..|.+..+|..-.|..|
+T Consensus       116 lpGIg~~~a~~Iv~~R~~-~~F~s~~dl~~~~g~~~  150 (175)
+T Y038_METJA/25-  116 LPEIKKKYMWKIIEEREA-KKFESFKDFEERIGKNP  150 (175)
+T ss_pred             CcccCHHHHHHHHHHHHh-CCCCCHHHHHHHhCCCH
+
+
+No 16
+>1Z00_B DNA repair endonuclease XPF; helix-hairpin-helix, HYDROLASE; NMR {Homo sapiens} SCOP: a.60.2.5
+Probab=74.82  E-value=11  Score=22.46  Aligned_cols=33  Identities=12%  Similarity=0.188  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~G   33 (111)
+                      +||||+..+..++...+.+..+..  ...+...+|
+T Consensus        23 ipgig~~~~~~l~~~~~~~~~~~~~~~~~l~~~~~   57 (84)
+T 1Z00_B           23 MPGVNAKNCRSLMHHVKNIAELAALSQDELTSILG   57 (84)
+T ss_dssp             CSSCCHHHHHHHHHHSSCHHHHHHSCHHHHHHHHS
+T ss_pred             CCCCCHHHHHHHHHhCCCHHHHHcCCHHHHHHHhC
+
+
+No 17
+>4EJY_B 3-Methyladenine DNA glycosylase; 8-oxoguanine DNA glycosylase, HYDROLASE-DNA complex; HET: 3DR; 2.0A {Thermoanaerobacter tengcongensis}
+Probab=74.26  E-value=7.4  Score=29.98  Aligned_cols=32  Identities=16%  Similarity=0.078  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++.. +|+++.|+....+...+
+T Consensus       229 i~GIG~~tA~~ill~~lg~~d~~pvD~~v~r~~  261 (311)
+T 4EJY_B          229 INGVGPKVADCVILYSIGRYDTFPTDVWIKRIV  261 (311)
+T ss_dssp             STTCCHHHHHHHCCCCCCCCSCCCCCHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHHhcCCCccCCcCHHHHHHH
+
+
+No 18
+>NP_417757.1 30S ribosomal subunit protein S13 [Escherichia coli str. K-12 substr. MG1655]
+Probab=74.19  E-value=5.8  Score=26.86  Aligned_cols=17  Identities=24%  Similarity=0.130  Sum_probs=0.0  Template_Neff=7.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      |||||..+|..|+.++|
+T Consensus        22 I~GIG~~~a~~I~~~lg   38 (118)
+T NP_417757.1      22 IYGVGKTRSKAILAAAG   38 (118)
+T ss_pred             ccCCCHHHHHHHHHHcC
+
+
+No 19
+>3ORY_A flap endonuclease 1; endonuclease, HYDROLASE; HET: PO4; 2.0A {Desulfurococcus amylolyticus} SCOP: a.60.7.0, c.120.1.0
+Probab=73.22  E-value=8.1  Score=29.66  Aligned_cols=22  Identities=18%  Similarity=0.123  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++...|+++.+
+T Consensus       256 i~gig~~~a~~li~~~~~~~~i  277 (363)
+T 3ORY_A          256 FEGIGPKKALQLVKAYGGIEKI  277 (363)
+T ss_dssp             STTCCHHHHHHHHHHHTSSTTS
+T ss_pred             CCCCCHHHHHHHHHHhCCHhhc
+
+
+No 20
+>NP_414976.1 putative competence-suppressing periplasmic helix-hairpin-helix DNA-binding protein [Escherichia coli str. K-12 substr. MG1655]
+Probab=72.46  E-value=6.3  Score=26.81  Aligned_cols=36  Identities=17%  Similarity=0.019  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||||+..|..|+..-.....|.+..+|...-|+.|
+T Consensus        76 l~gig~~~A~~Ii~~R~~~g~f~sl~eL~~v~Gi~~  111 (123)
+T NP_414976.1      76 MNGVGLKKAQAIVSYREEYGPFKTVEDLKQVPGMGN  111 (123)
+T ss_pred             CCCCCHHHHHHHHHHHHHhCCCCCHHHHHcCCCCCH
+
+
+No 21
+>1UL1_X Flap endonuclease-1; protein complex, DNA-binding protein, Flap DNA, Flap endonuclease, sliding clamp, DNA clamp, replication, DNA repair, HYDROLASE-DNA; 2.9A {Homo sapiens} SCOP: a.60.7.1, c.120.1.2
+Probab=71.99  E-value=6.4  Score=30.64  Aligned_cols=22  Identities=18%  Similarity=0.084  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       237 i~gig~~~a~~ll~~~~~~~~i  258 (379)
+T 1UL1_X          237 IRGIGPKRAVDLIQKHKSIEEI  258 (379)
+T ss_dssp             CTTCCHHHHHHHHHHSSSHHHH
+T ss_pred             ccCCCHHHHHHHHHhCCCHHHH
+
+
+No 22
+>5ZOD_A Flap endonuclease 1; flap endonuclease: gap endonuclease: methylation: posttranslational modification, DNA BINDING PROTEIN, HYDROLASE; 1.9A {Homo sapiens}
+Probab=71.87  E-value=7  Score=29.28  Aligned_cols=22  Identities=18%  Similarity=0.084  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       238 ~~~ig~~~a~~ll~~~~~~~~~  259 (333)
+T 5ZOD_A          238 IRGIGPKRAVDLIQKHKSIEEI  259 (333)
+T ss_dssp             CTTCCHHHHHHHHHHHCSHHHH
+T ss_pred             CCCCCHHHHHHHHHhCCCHHHH
+
+
+No 23
+>1IXR_B Holliday junction DNA helicase ruvA; heterooligomeric complex, octameric RuvA, AAA-ATPase domain, complex with nucleotide, Hydrolase; HET: ANP; 3.3A {Thermus thermophilus} SCOP: a.60.2.1, a.5.1.1, b.40.4.2
+Probab=71.84  E-value=6.2  Score=28.05  Aligned_cols=36  Identities=22%  Similarity=0.133  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC---HHHC--CCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS---ATQF--KSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd---~~rf--~~~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..++..+|.   ....  .+...|.+..|+.|
+T Consensus        77 v~GiG~k~a~~il~~~~~~~l~~~i~~~d~~~l~~v~gig~  117 (191)
+T 1IXR_B           77 VSGVGPKVALALLSALPPRLLARALLEGDARLLTSASGVGR  117 (191)
+T ss_dssp             STTCCHHHHHHHHHHSCHHHHHHHHHHTCHHHHHSSSSCCH
+T ss_pred             CCCCCHHHHHHHHhcCCHHHHHHHHHhCCHHHHHcCCCCCH
+
+
+No 24
+>2NRT_A UvrABC system protein C; UvrC, endonuclease, RNAse H, helix hairpin helix, NER, UvrABC, HYDROLASE; 1.5A {Thermotoga maritima}
+Probab=71.02  E-value=7  Score=27.97  Aligned_cols=35  Identities=20%  Similarity=0.223  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.++-.|+..+|++..+.+  ..++....| .+
+T Consensus       173 i~gig~~~~~~l~~~f~s~~~~~~~~~~~l~~i~g-g~  209 (220)
+T 2NRT_A          173 VPGIGPIRKKKLIEHFGSLENIRSASLEEIARVIG-ST  209 (220)
+T ss_dssp             STTCCHHHHHHHHHHHCSHHHHHTSCHHHHHHHHT-CH
+T ss_pred             CCCCchhhHHHHHHHhCCHHHHHhCCHHHHHcccC-CH
+
+
+No 25
+>4WA8_A Flap endonuclease 1; DNA nuclease, Nucleotide excision repair, HYDROLASE; 2.2A {Methanopyrus kandleri} SCOP: a.60.7.0, c.120.1.0
+Probab=70.31  E-value=9.4  Score=29.21  Aligned_cols=22  Identities=27%  Similarity=0.256  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       247 i~gig~~~a~~ll~~~~~~~~~  268 (355)
+T 4WA8_A          247 VPGIGPKRALQLIRKYGSLDEL  268 (355)
+T ss_dssp             CTTCCHHHHHHHHHHHCSTGGG
+T ss_pred             CCCCCHHHHHHHHHHHCCHHHH
+
+
+No 26
+>2IZO_A FLAP STRUCTURE-SPECIFIC ENDONUCLEASE; HYDROLASE, DNA REPAIR, DNA-BINDING, ENDONUCLEASE, METAL-BINDING, EXCISION REPAIR, DNA REPLICATION, PCNA, FEN1, NUCLEASE, MAGNESIUM; 2.9A {SULFOLOBUS SOLFATARICUS}
+Probab=70.16  E-value=8.9  Score=29.23  Aligned_cols=22  Identities=23%  Similarity=0.194  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++...|+++.+
+T Consensus       239 i~g~g~~~a~~ll~~~~~~~~~  260 (346)
+T 2IZO_A          239 IRGIGPERALKIIKKYGKIEKA  260 (346)
+T ss_dssp             STTCCHHHHHHHHHHSSCC---
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHH
+
+
+No 27
+>4Q0W_B DNA repair protein RAD2; ba Rossmann-like, DNA repair, TFIIH, nucleus, Hydrolase-DNA complex; 2.1A {Saccharomyces cerevisiae}
+Probab=70.05  E-value=7.7  Score=29.73  Aligned_cols=22  Identities=23%  Similarity=0.335  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       248 i~g~g~~~a~~l~~~~~~~~~~  269 (365)
+T 4Q0W_B          248 LKGMGPVSSIEVIAEFGNLKNF  269 (365)
+T ss_dssp             CTTCCHHHHHHHHHHHSSHHHH
+T ss_pred             CCCCChhHHHHHHHHhCCHHHH
+
+
+No 28
+>4GFJ_A Topoisomerase V; helix-hairpin-helix, DNA repair enzyme, topoisomerase, DNA binding, ISOMERASE; HET: GOL; 2.91A {Methanopyrus kandleri AV19}
+Probab=69.73  E-value=5.7  Score=35.01  Aligned_cols=41  Identities=22%  Similarity=0.180  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC------HHHHHHHhcCcCccccC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS------GRQLAAWLGLVPRQFST   41 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~------~~~l~s~~Gl~P~~~~S   41 (111)
+                      |||||+.+|-.|+..++++..|.+      ..+|...-|+.+...++
+T Consensus       416 I~GVGpk~A~~L~~~~~sl~~L~~A~~~~~~eqL~eV~GiG~kta~~  462 (685)
+T 4GFJ_A          416 KEGVGRKTAERLLRAFGNPERVKQLAREFEIEKLASVEGVGERVLRS  462 (685)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHHHHHHHTTCHHHHHTSTTCCHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHHHHHhhcccHHHHHhCCCCCHHHHHH
+
+
+No 29
+>NP_415005.1 gap repair protein [Escherichia coli str. K-12 substr. MG1655]
+Probab=68.52  E-value=9.5  Score=28.60  Aligned_cols=16  Identities=13%  Similarity=-0.118  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..++-++
+T Consensus        17 lPGIG~K~A~Ri~~~L   32 (201)
+T NP_415005.1      17 LPGVGPKSAQRMAFTL   32 (201)
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 30
+>NP_416150.1 DNA glycosylase and apyrimidinic (AP) lyase (endonuclease III) [Escherichia coli str. K-12 substr. MG1655]
+Probab=68.08  E-value=9.2  Score=27.67  Aligned_cols=32  Identities=9%  Similarity=-0.138  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++....+-..+.-..++...+
+T Consensus       114 i~GiG~~ta~~~l~~~~~~~~~~~D~~v~r~~  145 (211)
+T NP_416150.1     114 LPGVGRKTANVVLNTAFGWPTIAVDTHIFRVC  145 (211)
+T ss_pred             CCCCCHHHHHHHHHHHhCCCceEEchHHHHHH
+
+
+No 31
+>3C65_A UvrABC system protein C; UvrC, endonuclease, nucleotide excision repair, DNA repair, RNase H, Cytoplasm, DNA damage, DNA excision, Excision nuclease; HET: MSE; 1.9A {Bacillus stearothermophilus}
+Probab=67.41  E-value=12  Score=27.36  Aligned_cols=35  Identities=20%  Similarity=0.107  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.++..|+..+|+++.+.+  ..++..- |+.+
+T Consensus       178 i~giG~~~~~~L~~~f~s~~~l~~a~~~~l~~i-gig~  214 (226)
+T 3C65_A          178 IPGVGEKRKKALLNYFGSVKKMKEATVEELQRA-NIPR  214 (226)
+T ss_dssp             --------------------------------------
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHHHhCCHHHHHhC-CCCH
+
+
+No 32
+>NP_416375.1 component of RuvABC resolvasome, regulatory subunit [Escherichia coli str. K-12 substr. MG1655]
+Probab=67.25  E-value=8.4  Score=28.44  Aligned_cols=36  Identities=17%  Similarity=0.068  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhC---CHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG---SATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g---d~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..|+..++   ......+  ...|...-|+.+
+T Consensus        78 v~GIGpk~A~~Il~~~~~~~~~~~i~~~d~~~L~~i~GIG~  118 (203)
+T NP_416375.1      78 TNGVGPKLALAILSGMSAQQFVNAVEREEVGALVKLPGIGK  118 (203)
+T ss_pred             cCCcCHHHHHHHHhcCChhHHHHHHHhhcHHHHHhCCCCCH
+
+
+No 33
+>5HML_B Exodeoxyribonuclease; Metal ion complex, flap endonuclease, alternative conformations, hydrolase; HET: CL, B3P; 1.482A {Escherichia phage T5} SCOP: c.120.1.2, a.60.7.1
+Probab=66.84  E-value=12  Score=27.72  Aligned_cols=22  Identities=14%  Similarity=0.160  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       190 i~giG~~~a~~ll~~~~~~~~~  211 (272)
+T 5HML_B          190 VEGIGAKRGYNIIREFGNVLDI  211 (272)
+T ss_dssp             CTTCCHHHHHHHHHHHCSHHHH
+T ss_pred             CCCCCHHHHHHHHHHHCCHHHH
+
+
+No 34
+>6C33_A 5'-3' exonuclease; Mycobacterium DNA flab endonuclease FenA, DNA BINDING PROTEIN; 1.8A {Mycobacterium smegmatis}
+Probab=65.81  E-value=11  Score=28.56  Aligned_cols=22  Identities=23%  Similarity=0.117  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       213 i~gig~~~a~~l~~~~~~~~~~  234 (319)
+T 6C33_A          213 VAGIGEKTAASLLAKHGSLQNI  234 (319)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHH
+T ss_pred             CCCCCHHHHHHHHHHcCCHHHH
+
+
+No 35
+>3S6I_A DNA-3-methyladenine glycosylase 1; DNA Glycosylase, DNA repair, Helix-hairpin-Helix (HhH), abasic site, tetrahydrofuran (THF), HYDROLASE-DNA complex; HET: 3DR; 2.28A {Schizosaccharomyces pombe}
+Probab=65.51  E-value=16  Score=26.39  Aligned_cols=32  Identities=9%  Similarity=-0.012  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC-HHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS-GRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~-~~~l~s~~   32 (111)
+                      +||||+.++..++.. .|+++.|+. ...+...+
+T Consensus       144 ~~GiG~~~a~~~l~~~~~~~~~~p~~d~~~~~~~  177 (228)
+T 3S6I_A          144 IKGIGRWTVEMLLIFSLNRDDVMPADDLSIRNGY  177 (228)
+T ss_dssp             STTCCHHHHHHHHHHTSCCSSCCCTTCHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHHhCCCCCCCCcccHHHHHHH
+
+
+No 36
+>7OA5_A Holliday junction ATP-dependent DNA helicase RuvA; Complex, DNA Binding, DNA BINDING PROTEIN; 2.378A {Mycobacterium leprae (strain TN)}
+Probab=65.28  E-value=12  Score=26.88  Aligned_cols=36  Identities=17%  Similarity=0.004  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC-----HHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS-----ATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd-----~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..|+..+|.     .-.=.+...|....|+.+
+T Consensus        77 v~GiG~k~A~~il~~~~~~~l~~~i~~~d~~~L~~i~Gig~  117 (203)
+T 7OA5_A           77 VSGVGPRLAMATLAVHDAAALRQALADSDVASLTRVPGIGK  117 (203)
+T ss_dssp             STTCCHHHHHHHHHHSCHHHHHHHHHTTCHHHHTTSTTCCH
+T ss_pred             CCCCcHHHHHHHHhcCCHHHHHHHHHcCChHHHhcCCCCCH
+
+
+No 37
+>PF14635.10 ; HHH_7 ; Helix-hairpin-helix motif
+Probab=65.22  E-value=17  Score=22.71  Aligned_cols=36  Identities=17%  Similarity=-0.063  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCHHHHHHHHH-HhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLV-RIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~a-e~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++. .......|.+..++....|+.+
+T Consensus        55 ~~g~~~~~~~~i~~~~~~~~~~~~~~~~l~~~~~~~~   91 (104)
+T SPT6_YEAST/897   55 ISGFGKRKAIDFLQSLQRLNEPLLARQQLITHNILHK   91 (104)
+T ss_pred             CCCCCHHHHHHHHHHHHhCCCCCCCHHHHHhCCCCCh
+
+
+No 38
+>7X7Q_B Holliday junction ATP-dependent DNA helicase RuvA; Holliday junction, Homologous recombination, DNA damage repair, Branch migration, RECOMBINATION-DNA COMPLEX; 7.02A {Pseudomonas aeruginosa PAO1}
+Probab=64.83  E-value=9.6  Score=27.24  Aligned_cols=36  Identities=17%  Similarity=0.056  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC-----HHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS-----ATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd-----~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..|+..+|.     .-.-.+...|...-|+.+
+T Consensus        78 v~GiG~k~A~~il~~~~~~~l~~~i~~~d~~~L~~i~gig~  118 (201)
+T 7X7Q_B           78 LNGVGPKLALALMSGLEVDELVRCVQAQDTSTLVKIPGVGK  118 (201)
+T ss_dssp             SSSCCHHHHHHHHHHSCHHHHHHHHHHTCCHHHHTSTTCCH
+T ss_pred             CCCCCHHHHHHHHcCCCHHHHHHHHHcCCHHHHhcCCCCCH
+
+
+No 39
+>5Z2V_B Recombination protein RecR; RecR DNA binding homologous recombination, DNA BINDING PROTEIN; HET: GOL, N; 2.2A {Pseudomonas aeruginosa (strain ATCC 15692 / DSM 22644 / CIP 104116 / JCM 14847 / LMG 12228 / 1C / PRS 101 / PAO1)} SCOP: e.49.1.0
+Probab=64.37  E-value=13  Score=27.72  Aligned_cols=16  Identities=13%  Similarity=-0.101  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..|.-.+
+T Consensus        17 LPGIG~k~A~Ria~~l   32 (198)
+T 5Z2V_B           17 LPGVGQKSAQRMALML   32 (198)
+T ss_dssp             STTCCHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 40
+>4B21_A PROBABLE DNA-3-METHYLADENINE GLYCOSYLASE 2; HYDROLASE-DNA COMPLEX, HELIX-HAIRPIN-HELIX; HET: 3DR, PO4, BGC; 1.45A {SCHIZOSACCHAROMYCES POMBE}
+Probab=63.68  E-value=18  Score=26.37  Aligned_cols=32  Identities=13%  Similarity=0.029  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC-HHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS-GRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~-~~~l~s~~   32 (111)
+                      +||||+.+|..++.. .|+.+.|+. ...+..++
+T Consensus       155 i~GiG~~~a~~~l~~~~g~~~~~p~~D~~v~~~l  188 (232)
+T 4B21_A          155 IKGVKRWTIEMYSIFTLGRLDIMPADDSTLKNEA  188 (232)
+T ss_dssp             STTCCHHHHHHHHHHTSCCSSCCCTTCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHcCCCCCCCcccHHHHHHH
+
+
+No 41
+>8K3F_A Recombination protein RecR; Recombination mediator protein, RECOMBINATION; 2.603A {Campylobacter jejuni}
+Probab=63.61  E-value=14  Score=27.58  Aligned_cols=16  Identities=6%  Similarity=-0.228  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..+.-.+
+T Consensus        24 LPGIG~ksA~Rla~~L   39 (196)
+T 8K3F_A           24 LPTIGKKTAIRLAYHL   39 (196)
+T ss_dssp             STTCCHHHHHHHHHCC
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 42
+>3FHG_A N-glycosylase/DNA lyase; ogg, helix-hairpin-helix, glycosylase, 8-oxoguanine, 8-oxoG, SsOGG, DNA damage, DNA repair, Glycosidase, Hydrolase, Lyase, Multifunctional enzyme, Nuclease; HET: SO4, GOL; 1.9A {Sulfolobus solfataricus}
+Probab=63.43  E-value=21  Score=25.01  Aligned_cols=32  Identities=19%  Similarity=0.070  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...++..-++-..++..++
+T Consensus       122 ~~Gig~~~a~~~l~~~~~~~~~p~D~~v~r~l  153 (207)
+T 3FHG_A          122 IKGIGMQEASHFLRNVGYFDLAIIDRHIIDFM  153 (207)
+T ss_dssp             STTCCHHHHHHHHHHTTCCSSCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHcCCccceecHHHHHHHH
+
+
+No 43
+>2XHI_A N-GLYCOSYLASE/DNA LYASE; LYASE-DNA COMPLEX, SEPARATION-OF-FUNCTION MUTANT, HELIX-HAIRPIN-HELIX, DNA REPAIR; HET: 8OG; 1.55A {HOMO SAPIENS} SCOP: d.129.1.0, a.96.1.3
+Probab=63.12  E-value=14  Score=29.42  Aligned_cols=33  Identities=6%  Similarity=-0.154  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCCHHHHHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKSGRQLAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~~~~l~s~~G   33 (111)
+                      +||||+.+|..++.. +|+.+.|+-...+...+.
+T Consensus       258 i~GIGp~tA~~ill~~lg~~d~~pvD~~v~r~~~  291 (360)
+T 2XHI_A          258 LPGVGTCVADKICLMALDKPQAVPVNVHMWHIAQ  291 (360)
+T ss_dssp             STTCCHHHHHHHHHHHSCCTTCCCCSHHHHHHHH
+T ss_pred             CCCChHHHHHHHHHhcCCCCCCCCcCHHHHHHHH
+
+
+No 44
+>1B43_A PROTEIN (FEN-1); NUCLEASE, DNA REPAIR, DNA REPLICATION, TRANSFERASE; 2.0A {Pyrococcus furiosus} SCOP: a.60.7.1, c.120.1.2
+Probab=62.76  E-value=14  Score=27.96  Aligned_cols=22  Identities=18%  Similarity=-0.097  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||+|+.+|..++.+.++++.+
+T Consensus       242 i~~~g~~~a~~~~~~~~~~~~~  263 (340)
+T 1B43_A          242 IKGIGLKKALEIVRHSKDPLAK  263 (340)
+T ss_dssp             STTCCHHHHHHHHHTCSSGGGG
+T ss_pred             CCCcCHHHHHHHHHhhCCHHHH
+
+
+No 45
+>3VDP_A Recombination protein recR; Zinc Finger, DNA repair, DNA binding, RECOMBINATION; HET: IMD; 2.451A {Thermoanaerobacter tengcongensis} SCOP: e.49.1.1
+Probab=61.72  E-value=15  Score=27.72  Aligned_cols=16  Identities=19%  Similarity=-0.199  Sum_probs=0.0  Template_Neff=6.300
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..+.-.+
+T Consensus        31 LPGIG~k~A~R~a~~L   46 (212)
+T 3VDP_A           31 LPGIGPKTAQRLAFFI   46 (212)
+T ss_dssp             STTCCHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 46
+>NP_417436.1 adenine DNA glycosylase [Escherichia coli str. K-12 substr. MG1655]
+Probab=61.44  E-value=16  Score=28.46  Aligned_cols=32  Identities=13%  Similarity=-0.229  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++....+-.-+.-..++...+
+T Consensus       114 i~GiG~~ta~~~l~~~~~~~~~~~D~~~~r~~  145 (350)
+T NP_417436.1     114 LPGVGRSTAGAILSLSLGKHFPILDGNVKRVL  145 (350)
+T ss_pred             CCCCCHHHHHHHHHHhcCCeeceecHhHHHHH
+
+
+No 47
+>6VJW_A Methyl-CpG-binding domain protein 4; MBD4, T:G mismatch, TRANSFERASE; HET: ORP; 2.02A {Homo sapiens}
+Probab=61.23  E-value=5.6  Score=25.95  Aligned_cols=32  Identities=6%  Similarity=-0.115  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH--HHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA--TQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~--~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++....+.  ..|+...++..++
+T Consensus        97 ~~GiG~~~a~~~~~~~~~~~~~~~~~d~~~~~~~  130 (138)
+T 6VJW_A           97 LHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYH  130 (138)
+T ss_dssp             STTCCHHHHHHHHHHTSSCGGGCCCCSHHHHHHH
+T ss_pred             CCCccHHHHheeEeeecCcccccCCCCHHHHHHH
+
+
+No 48
+>5ZVQ_A Recombination protein RecR; recombination mediator protein, RECOMBINATION; 2.5A {Thermus thermophilus HB8} SCOP: e.49.1.0
+Probab=60.67  E-value=16  Score=26.98  Aligned_cols=16  Identities=13%  Similarity=-0.110  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..+.-.+
+T Consensus        17 lPGIG~k~A~R~a~~l   32 (194)
+T 5ZVQ_A           17 LPGIGPKTAQRLALHL   32 (194)
+T ss_dssp             STTCCHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 49
+>NP_418300.1 5' to 3' DNA polymerase and 3' to 5'/5' to 3' exonuclease [Escherichia coli str. K-12 substr. MG1655]
+Probab=60.33  E-value=15  Score=32.65  Aligned_cols=22  Identities=18%  Similarity=0.113  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..|+.+.|+++.+
+T Consensus       193 v~giG~k~A~~ll~~~~~~~~~  214 (928)
+T NP_418300.1     193 VPGVGEKTAQALLQGLGGLDTL  214 (928)
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHH
+
+
+No 50
+>2YG9_B DNA-3-methyladenine glycosidase II, putative; HYDROLASE, DNA REPAIR; 1.95A {Deinococcus radiodurans}
+Probab=59.88  E-value=22  Score=25.66  Aligned_cols=32  Identities=19%  Similarity=0.065  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC-HHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS-GRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~-~~~l~s~~   32 (111)
+                      +||||+.++..++.. .|+.+.|+. ...+..++
+T Consensus       151 i~GiG~~~a~~~~~~~~~~~~~~p~~D~~v~~~l  184 (225)
+T 2YG9_B          151 LPGIGRWTAEMFLLFALARPDVFSSGDLALRQGV  184 (225)
+T ss_dssp             STTCCHHHHHHHHHHTSCCSCCCCTTCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHCCCCCCCCccCHHHHHHH
+
+
+No 51
+>6VBH_A DNA repair protein complementing XP-G cells,Flap endonuclease 1; METALLOPROTEIN, REPLICATION, DNA DAMAGE, DNA REPAIR, NUCLOETIDE EXCISION REPAIR, XPG, Xeroderma pigmentosum, 5' NUCLEASE, HYDROLASE-DNA complex; HET: SO4; 1.995A {Homo sapiens}
+Probab=59.83  E-value=15  Score=28.07  Aligned_cols=22  Identities=14%  Similarity=-0.064  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHh--CCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI--GSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~--gd~~rf   22 (111)
+                      +||||+.+|..++.+.  ++++.+
+T Consensus       225 i~g~G~~~a~~l~~~~~~~~l~~~  248 (346)
+T 6VBH_A          225 IPTVGCVTAMEILNEFPGHGLEPL  248 (346)
+T ss_dssp             CTTCCHHHHHHHHHHSCCSTTHHH
+T ss_pred             CCCccHHHHHHHHHHCCCCCcHHH
+
+
+No 52
+>8B0Q_A UvrABC system protein C; DNA repair  Nucleotide Excision Repair  Bacteria  UvrC, DNA BINDING PROTEIN; 1.8A {Deinococcus radiodurans R1}
+Probab=59.45  E-value=14  Score=27.63  Aligned_cols=36  Identities=19%  Similarity=0.072  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.++..|+..+|++..+.+  ..++.+..|+.+
+T Consensus       193 i~giG~~~~~~Ll~~f~s~~~i~~a~~~~l~~~~gig~  230 (252)
+T 8B0Q_A          193 LPGIGQKRRDALLEHFTSLEDLAAAPVEHIAAVPGMTL  230 (252)
+T ss_dssp             CCSSCHHHHHHHTTTCSSHHHHHHSCHHHHHTSTTCCH
+T ss_pred             CCCCChhHHHHHHHHcCCHHHHHhCCHHHHhcCCCCCH
+
+
+No 53
+>3I0W_A 8-oxoguanine-DNA-glycosylase; OGG, CacOgg, DNA, 8-oxoG, 8oxoG, glycosylase, cytosine, HYDROLASE, LYASE-DNA COMPLEX; HET: 8OG, EDO; 1.73A {Clostridium acetobutylicum}
+Probab=59.17  E-value=22  Score=26.90  Aligned_cols=32  Identities=9%  Similarity=-0.075  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++.. .|..+.|+....+...+
+T Consensus       216 i~GiG~~~a~~ill~~lg~~~~~P~D~~~~r~~  248 (290)
+T 3I0W_A          216 FMGVGPQVADCIMLFSMQKYSAFPVDTWVKKAM  248 (290)
+T ss_dssp             STTCCHHHHHHHHHHHHCCTTCCCCCHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHhccCCcccCCcCHHHHHHH
+
+
+No 54
+>7XPL_B C/D box methylation guide ribonucleoprotein complex aNOP56 subunit; 2'-O-methylation, guide RNA, RNP, RNA BINDING PROTEIN, RNA BINDING PROTEIN-RNA complex; HET: SAH; 2.213A {Saccharolobus solfataricus}
+Probab=59.06  E-value=16  Score=29.56  Aligned_cols=29  Identities=17%  Similarity=0.092  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      +|+.+|+.|++..|++.++.. |.+ ++ .+|
+T Consensus       269 ~G~~~aa~Li~~aG~L~~La~~psstiq-~lG  299 (388)
+T 7XPL_B          269 VGPALGARLLSIAGSLDELAKMPASTIQ-VLG  299 (388)
+T ss_dssp             HCHHHHHHHHHHHSSHHHHTTSCHHHHT-TTT
+T ss_pred             hcHHHHHHHHHHHccHHHHhcCCHHHHH-Hhc
+
+
+No 55
+>1CUK_A RUVA PROTEIN; DNA REPAIR, SOS RESPONSE, DNA-BINDING, DNA RECOMBINATION, HELICASE; 1.9A {Escherichia coli} SCOP: a.60.2.1, a.5.1.1, b.40.4.2
+Probab=58.43  E-value=11  Score=26.73  Aligned_cols=36  Identities=17%  Similarity=0.104  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC---HHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS---ATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd---~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..++...|+   ...+..  +..+....|+.+
+T Consensus        78 i~GiG~k~a~~i~~~~~~~~l~~~i~~~~~~~l~~i~gi~~  118 (203)
+T 1CUK_A           78 TNGVGPKLALAILSGMSAQQFVNAVEREEVGALVKLPGIGK  118 (203)
+T ss_dssp             SSSCCHHHHHHHHHHSCHHHHHHHHHTTCHHHHHTSTTCCH
+T ss_pred             CCCCCHHHHHHHHhCCCHHHHHHHHHccChHHHhcCCCCCH
+
+
+No 56
+>2H56_B DNA-3-methyladenine glycosidase; 10174367, DNA-3-methyladenine glycosidase, EC 3.2.2.-, Structural Genomics, PSI-2, Protein Structure Initiative, Joint Center for Structural Genomics; HET: MSE; 2.55A {Bacillus halodurans}
+Probab=58.41  E-value=25  Score=25.71  Aligned_cols=32  Identities=16%  Similarity=0.014  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC-HHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS-GRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~-~~~l~s~~   32 (111)
+                      +||||+.++..++.. .|..+.|+. ...+...+
+T Consensus       143 l~GiG~~~a~~~~~~~~~~~~~~p~~D~~v~r~~  176 (233)
+T 2H56_B          143 IKGIGQWTAEMFMMFSLGRLDVLSVGDVGLQRGA  176 (233)
+T ss_dssp             STTCCHHHHHHHHHHTTCCSCCCCTTCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHhcCCCCCCCcccHHHHHHH
+
+
+No 57
+>PF01552.21 ; Pico_P2B ; Picornavirus 2B protein
+Probab=58.28  E-value=22  Score=23.59  Aligned_cols=36  Identities=22%  Similarity=0.371  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             HHHHHHHHHHhC-CHHHCCC-HHHHHHHhcCcCccccC
+Q MISP034.0722.0    6 GVRALIDLVRIG-SATQFKS-GRQLAAWLGLVPRQFST   41 (111)
+Q Consensus         6 ~~~a~~l~ae~g-d~~rf~~-~~~l~s~~Gl~P~~~~S   41 (111)
+                      +.|++.+.+-+| |...|+= .+++.+++|+.....|+
+T Consensus        60 ~~T~~A~~alLG~D~~Pf~wLK~ki~~~lG~~~~~~Q~   97 (97)
+T POLG_HRV8A/100   60 PQTVIATLTLLGCSGSPWRFLKEKLCAWLQLSYVHKQS   97 (97)
+T ss_pred             HHHHHHHHHHhcCCCChHHHHHHHHHHHhCCcccccCC
+
+
+No 58
+>7EF9_A Adenine DNA glycosylase; DNA repair, DNA BINDING PROTEIN-DNA complex; HET: 3DR, SO4, 8OG; 1.97A {Mus musculus}
+Probab=57.27  E-value=17  Score=29.59  Aligned_cols=32  Identities=9%  Similarity=-0.258  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++....+...|.=...+...+
+T Consensus       144 lpGiG~~tA~~il~~~~~~~~~~vD~nv~Rv~  175 (448)
+T 7EF9_A          144 LPGVGRYTAGAIASIAFDQVTGVVDGNVLRVL  175 (448)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCHHHHHHH
+T ss_pred             CCCCcHhHHHHHHHHHcCCCeeeeChhHHHHH
+
+
+No 59
+>5HM5_A Topoisomerase V; topoisomerase V, Topo-97, AP lyase, ISOMERASE; 2.4A {Methanopyrus kandleri}
+Probab=56.91  E-value=18  Score=32.93  Aligned_cols=36  Identities=22%  Similarity=0.145  Sum_probs=0.0  Template_Neff=6.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCC------CHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFK------SGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~------~~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..|+...+-...|.      +..+|....|+.+
+T Consensus       416 ipGIG~k~AkrIv~yR~~~g~f~~l~e~~s~~qL~ev~Gi~~  457 (854)
+T 5HM5_A          416 KEGVGRKTAERLLRAFGNPERVKQLAREFEIEKLASVEGVGE  457 (854)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHHHHHHHTTCHHHHHTSTTCCH
+T ss_pred             CCCCCHHHHHHHHHHcCCCcHHHHHHhhcCHHHHHhCcCCCH
+
+
+No 60
+>2P6R_A afUHEL308 HELICASE; PROTEIN-DNA COMPLEX, SF2 HELICASE, ARCHAEAL HELICASE, DNA REPAIR, DNA binding protein-DNA COMPLEX; 3.0A {Archaeoglobus fulgidus} SCOP: a.4.5.43, c.37.1.19, a.289.1.2
+Probab=56.19  E-value=15  Score=30.75  Aligned_cols=32  Identities=19%  Similarity=0.091  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC--HHHHHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS--GRQLAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~--~~~l~s~~G   33 (111)
+                      +||||+..|-.|+.. +|+++...+  ..+|. -.|
+T Consensus       637 ~~gi~~~~a~~l~~~~~~~~~~~~~a~~~~l~-~~~  671 (702)
+T 2P6R_A          637 IRHIGRVRARKLYNAGIRNAEDIVRHREKVAS-LIG  671 (702)
+T ss_dssp             STTCCHHHHHHHHTTTCCSHHHHHHTHHHHHH-HHC
+T ss_pred             cCCccHHHHHHHHHCCCCCHHHHHcCCHHHhe-ecC
+
+
+No 61
+>1VDD_D Recombination protein recR; Helix-hairpin-helix, zinc finger, toprim, Walker B ATP binding motif, RECOMBINATION; HET: IMD; 2.5A {Deinococcus radiodurans} SCOP: e.49.1.1
+Probab=55.01  E-value=23  Score=27.19  Aligned_cols=16  Identities=13%  Similarity=-0.145  Sum_probs=0.0  Template_Neff=5.900
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.+|..|.-.+
+T Consensus        17 LPGIG~KsA~Ria~~L   32 (228)
+T 1VDD_D           17 LPGIGPKSAQRLAFHL   32 (228)
+T ss_dssp             STTCCHHHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHH
+
+
+No 62
+>2NNW_A NOP5/NOP56 related protein; box C/D, TRANSFERASE; 2.7A {Pyrococcus furiosus}
+Probab=54.58  E-value=17  Score=29.29  Aligned_cols=29  Identities=14%  Similarity=0.070  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      +|+.+|+.|++..|++.++.. |.+ ++ .+|
+T Consensus       270 ~G~~~~a~Li~~aG~l~~La~~psstiq-~lG  300 (376)
+T 2NNW_A          270 VGAKLAARLISLAGGLRELAMMPSSTIQ-VLG  300 (376)
+T ss_dssp             HCHHHHHHHHHHHTSHHHHHHSCHHHHH-TTT
+T ss_pred             HHHHHHHHHHHHhhcHHHHhcCChhhhh-Hhc
+
+
+No 63
+>2I5H_A Hypothetical protein AF1531; Hypothetical protein AF1531, PFAM:DUF655, PSI-2, 10225b, Structural Genomics, Protein Structure Initiative, New York SGX Research Center; 1.74A {Archaeoglobus fulgidus} SCOP: e.71.1.1
+Probab=54.42  E-value=27  Score=26.14  Aligned_cols=35  Identities=14%  Similarity=-0.035  Sum_probs=0.0  Template_Neff=6.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHH-HHhc---CcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLA-AWLG---LVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~-s~~G---l~P   36 (111)
+                      +||||..+|..|+.+-.. ..|.+..+|. .--|   +.+
+T Consensus       137 lPGIg~k~a~~Ii~~R~~-gpF~s~edL~~rv~g~~~i~~  175 (205)
+T 2I5H_A          137 LPGVGKKMMWAIIEERKK-RPFESFEDIAQRVKGIQRPEK  175 (205)
+T ss_dssp             STTCCHHHHHHHHHHHHH-SCCCSHHHHHHHSTTCCCHHH
+T ss_pred             CcccCHHHHHHHHHHHHH-CCCCCHHHHHHHCCCCCCCch
+
+
+No 64
+>1A77_A FLAP ENDONUCLEASE-1 PROTEIN; 5'-3' EXO/ENDO NUCLEASE, DNA REPLICATION, RTH, RAD27, DNA REPAIR, 5'-3' EXO-ENDO NUCLEASE complex; 2.0A {Methanocaldococcus jannaschii} SCOP: a.60.7.1, c.120.1.2
+Probab=54.16  E-value=22  Score=26.80  Aligned_cols=21  Identities=19%  Similarity=-0.122  Sum_probs=0.0  Template_Neff=11.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+ +.+
+T Consensus       230 i~~ig~~~a~~l~~~~~~-~~~  250 (326)
+T 1A77_A          230 VKGIGFKRAYELVRSGVA-KDV  250 (326)
+T ss_dssp             STTCCHHHHHHHHHTTCH-HHH
+T ss_pred             CCCCCHHHHHHHHHccCc-HHh
+
+
+No 65
+>PF12826.11 ; HHH_2 ; Helix-hairpin-helix motif
+Probab=52.90  E-value=35  Score=16.06  Aligned_cols=22  Identities=9%  Similarity=-0.129  Sum_probs=0.0  Template_Neff=14.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||+|......++...++...+
+T Consensus         8 ~~~~~~~~~~~~~~~~~~~~~~   29 (64)
+T DNLJ_CORJK/512    8 IRHVGPTAAKALAKHFESVEDI   29 (64)
+T ss_pred             CCCcCHHHHHHHHHHCCCHHHH
+
+
+No 66
+>1BGX_T TAQ DNA POLYMERASE; DNA POLYMERASE, FAB, PCR, INHIBITION, HELIX-COIL DYNAMICS, INHIBITOR DESIGN, COMPLEX (POLYMERASE-INHIBITOR), COMPLEX (POLYMERASE-INHIBITOR) complex; 2.3A {Thermus aquaticus} SCOP: e.8.1.1, c.55.3.5, c.120.1.2, a.60.7.1
+Probab=52.63  E-value=26  Score=30.68  Aligned_cols=22  Identities=27%  Similarity=0.093  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++.+.|+++.+
+T Consensus       196 i~giG~~~a~~li~~~~~~~~~  217 (832)
+T 1BGX_T          196 VKGIGEKTARKLLEEWGSLEAL  217 (832)
+T ss_dssp             CCCSSSCTTTTTGGGTTSSCSS
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHH
+
+
+No 67
+>2ZJ8_A Putative ski2-type helicase; RecA fold, ATP-binding, Helicase, Hydrolase, Nucleotide-binding; 2.0A {Pyrococcus furiosus}
+Probab=52.14  E-value=24  Score=29.75  Aligned_cols=36  Identities=14%  Similarity=-0.084  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+..|-.|... +++++.+..  ...+....|+.|
+T Consensus       651 i~gig~~~~~~l~~~g~~~~~~l~~~~~~~l~~~~g~g~  689 (720)
+T 2ZJ8_A          651 LPLVGRRRARALYNSGFRSIEDISQARPEELLKIEGIGV  689 (720)
+T ss_dssp             STTCCHHHHHHHHTTTCCSHHHHHTCCHHHHHTSTTCCH
+T ss_pred             CCCCCHHHHHHHHHcCCCCHHHHHhcCHHHHHhccCCCH
+
+
+No 68
+>3FHF_A N-glycosylase/DNA lyase; ogg, helix-hairpin-helix, glycosylase, 8-oxoguanine, 8-oxoG, MjOgg, DNA damage, DNA repair, Glycosidase, Hydrolase, Lyase, Multifunctional enzyme, Nuclease; HET: MSE; 1.995A {Methanocaldococcus jannaschii}
+Probab=52.00  E-value=40  Score=24.16  Aligned_cols=32  Identities=22%  Similarity=0.008  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++..+|+.+.++-..++...+
+T Consensus       130 ~~GiG~~~a~~~l~~~~~~~~~~~D~~v~r~~  161 (214)
+T 3FHF_A          130 IKGIGYKEASHFLRNVGYDDVAIIDRHILREL  161 (214)
+T ss_dssp             STTCCHHHHHHHHHHTTCCSCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHhcCcccccHhHHHHHHHH
+
+
+No 69
+>8DSS_B ComE operon protein 1; plasma membrane, DNA binding, genetic competence, oligomerization, DNA BINDING PROTEIN; 3.05A {Geobacillus stearothermophilus ATCC 7953}
+Probab=51.35  E-value=24  Score=22.88  Aligned_cols=36  Identities=14%  Similarity=0.034  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +|||+...+..++...-....|.+..++....|+.+
+T Consensus       100 ~~gi~~~~a~~i~~~r~~~g~~~~~~~l~~~~g~~~  135 (148)
+T 8DSS_B          100 LPGIGPAKANAIIAYREEHGPFRRVEDLLNVTGIGE  135 (148)
+T ss_dssp             SSSCCHHHHHHHHHHHHHSCCCSSGGGGGGSTTCCH
+T ss_pred             CCCCCHHHHHHHHHHHHHHCCCCCHHHHhcCcCCCH
+
+
+No 70
+>5ZWM_L Pre-mRNA-processing factor 31; spliceosome, assembly, pre-B complex, U1 snRNP, SPLICING; HET: GTP; 3.4A {Saccharomyces cerevisiae S288c}
+Probab=51.05  E-value=64  Score=27.75  Aligned_cols=79  Identities=9%  Similarity=-0.022  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHHHHHHhcCcCccccCCCCCCCCCCCCCCCHHHHHHHHHHHHHHHHhCccCChH--H
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQLAAWLGLVPRQFSTGGKPKLGGISKRGDGYLRRLLIHGARSVLIRHSTGEAR--S   80 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~l~s~~Gl~P~~~~SG~~~~~~~isk~g~~~lr~~l~~~a~~~~~~~~~~~~~--~   80 (111)
+                      ||+.+|+.|++..|.+..+.. |.+=...+|-......++       .+......-.-++|+ + .+++.    .++  +
+T Consensus       233 vG~~iAAkLl~~AGgL~~Lak~PscnIq~LGa~k~l~~~~-------~s~~s~~~~~G~Iy~-s-~lVq~----~p~~~r  299 (494)
+T 5ZWM_L          233 VGPEIAAQLIAHAGGVLEFSRIPSCNIASIGKNKHLSHEL-------HTLESGVRQEGYLFA-S-DMIQK----FPVSVH  299 (494)
+T ss_dssp             TCHHHHHHHHHHHTSHHHHHTSCGGGGGGSSCCCCCGGGC-------CCCTTCCSCCCTTTT-S-HHHHT----SCGGGH
+T ss_pred             hCHHHHHHHHHHhhccHHHhcCCHHHHHHhchhHHHhhhh-------cccccCCCchhHHHh-h-hhHhc----CCHHHH
+
+
+Q ss_pred             HHHHHHHhCCCHHHHHHH
+Q MISP034.0722.0   81 AWVAGLTSRRSTNIATVA   98 (111)
+Q Consensus        81 ~~y~rl~~~k~~~~a~~a   98 (111)
+                      ..--|+.+.|   ++++|
+T Consensus       300 ~ka~R~lAaK---vaLAA  314 (494)
+T 5ZWM_L          300 KQMLRMLCAK---VSLAA  314 (494)
+T ss_dssp             HHHHHHHHHH---HHHHH
+T ss_pred             HHHHHHHhhH---HHHHh
+
+
+No 71
+>6SXA_F DNA repair endonuclease XPF; DNA Repair enzyme. Nucleotide excision repair, DNA BINDING PROTEIN; 3.6A {Homo sapiens}
+Probab=51.01  E-value=33  Score=30.25  Aligned_cols=33  Identities=12%  Similarity=0.188  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~G   33 (111)
+                      +||||...|..|+..+|.+..+-+  ..+|..-.|
+T Consensus       855 ~pgi~~~~a~~l~~~f~sl~~l~~~~~~~l~~i~g  889 (916)
+T 6SXA_F          855 MPGVNAKNCRSLMHHVKNIAELAALSQDELTSILG  889 (916)
+T ss_dssp             STTCCHHHHHHHHTTSCSTTTTTTSCHHHHHHHHC
+T ss_pred             CCCCCHHHHHHHHhhCCCHHHHHhCCHHHHHHhhC
+
+
+No 72
+>3ZDB_A PROTEIN XNI; HYDROLASE-DNA COMPLEX, FLAP ENDONUCLEASE, DNA BINDING; 1.47A {ESCHERICHIA COLI}
+Probab=50.56  E-value=29  Score=25.20  Aligned_cols=22  Identities=23%  Similarity=0.024  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||+|+.+|..++...|+++.+
+T Consensus       182 ~~g~g~~~a~~~l~~~~~~~~~  203 (251)
+T 3ZDB_A          182 VAGIGPKSATQLLVEFQSLEGI  203 (251)
+T ss_dssp             STTCCHHHHHHHHHHSSSHHHH
+T ss_pred             CCCCChHHHHHHHHHcCCHHHH
+
+
+No 73
+>2A1J_A DNA repair endonuclease XPF; XPF, ERCC1, Xeroderma pigmentosum, NER, DNA repair, endonuclease, helix-hairpin-helix, DNA BINDING PROTEIN; 2.7A {Homo sapiens} SCOP: a.60.2.5
+Probab=50.19  E-value=38  Score=17.21  Aligned_cols=22  Identities=5%  Similarity=0.045  Sum_probs=0.0  Template_Neff=12.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||++...+..++...++...+
+T Consensus         9 ~~~~~~~~~~~~~~~~~~~~~~   30 (63)
+T 2A1J_A            9 MPGVNAKNCRSLMHHVKNIAEL   30 (63)
+T ss_dssp             STTCCHHHHHHHHHHCSSHHHH
+T ss_pred             CCCCCHHHHHHHHHhCCCHHHH
+
+
+No 74
+>PF05559.15 ; DUF763 ; Protein of unknown function (DUF763)
+Probab=49.75  E-value=17  Score=29.22  Aligned_cols=31  Identities=19%  Similarity=0.322  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCCCCH--HHHHHHHHHh--CCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEG--VRALIDLVRI--GSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~--~~a~~l~ae~--gd~~rf~~~~~l~s~~   32 (111)
+                      ++|||+  +-|..|++|+  |....|.+|-.+. |+
+T Consensus       273 i~GvGp~TiRALALiaelIYg~~~S~~DPvkYS-fA  307 (318)
+T A0A2S3QJI8_9FI  273 IPGVGASTMRALAMVSEVVFGSPLTYHDPVRYS-FA  307 (318)
+T ss_pred             CCCCCccHHHHHHHHHHHHhCCCCcccCccccc-cc
+
+
+No 75
+>7PBU_J Holliday junction ATP-dependent DNA helicase RuvA; DNA recombination, DNA repair, branch migration, Holliday junction, helicase, HYDROLASE; 3.3A {Salmonella typhimurium}
+Probab=49.57  E-value=17  Score=23.24  Aligned_cols=36  Identities=17%  Similarity=0.094  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC---HHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS---ATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd---~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|+.++..++.+.|.   ...+..  ...+....|+.+
+T Consensus        78 i~gig~~~~~~l~~~~~~~~~~~~~~~~~~~~l~~~~~i~~  118 (133)
+T 7PBU_J           78 TNGVGPKLALAILSGMSAQQFVNAVEREELGALVKLPGIGK  118 (133)
+T ss_dssp             STTCCHHHHHHHHHHSCHHHHHHHHHHTCHHHHHTSTTCCH
+T ss_pred             CCCCCHHHHHHHHcCCCHHHHHHHHHcCChHHHhcCCCCCH
+
+
+No 76
+>4P0P_A Crossover junction endonuclease MUS81; resolvase, Hydroase-DNA complex, HYDROLASE-DNA complex; 2.8A {Homo sapiens}
+Probab=49.42  E-value=31  Score=26.24  Aligned_cols=22  Identities=18%  Similarity=0.273  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      |||||+..|..|+...+.+..+
+T Consensus       237 ipgvs~~~A~~I~~~~~s~~~l  258 (306)
+T 4P0P_A          237 VRGVSGEKAAALVDRYSTPASL  258 (306)
+T ss_dssp             BTTCCHHHHHHHHHHCCSHHHH
+T ss_pred             CCCCCHHHHHHHHHHCCCHHHH
+
+
+No 77
+>7SUK_SB Nucleolar protein 58; Bfr2, Lcp5, Small subunit processome, RIBOSOMAL PROTEIN, RIBOSOME; 3.99A {Saccharomyces cerevisiae}
+Probab=49.18  E-value=25  Score=29.00  Aligned_cols=29  Identities=14%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      +|+.+|+.|++..|++.++.. |.+ ++ .+|
+T Consensus       290 ~G~~~~a~Li~~aG~L~~La~~psstiq-~lG  320 (436)
+T 7SUK_SB         290 VGELVGARLIAHSGSLISLAKSPASTIQ-ILG  320 (436)
+T ss_pred             hcHHHHHHHHHHhhhHHHHhcCChhHHH-Hhc
+
+
+No 78
+>3C1Y_A DNA integrity scanning protein disA; DNA damage, DNA repair, DNA-binding, DNA BINDING PROTEIN; HET: 2BA; 2.1A {Thermotoga maritima}
+Probab=49.16  E-value=31  Score=27.85  Aligned_cols=36  Identities=8%  Similarity=-0.142  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|+.++..|+..+|++..+-+  ..++.+..|+.+
+T Consensus       320 IpgiG~~~a~~L~~~f~sl~~i~~a~~~~L~~i~gig~  357 (377)
+T 3C1Y_A          320 VARIPLSIGYNVVRMFKTLDQISKASVEDLKKVEGIGE  357 (377)
+T ss_dssp             TSCCCHHHHHHHHHHHCSHHHHTTCCHHHHTTSTTCCH
+T ss_pred             CCCCCHHHHHHHHHHccCHHHHhhCCHHHHhcCCCCCH
+
+
+No 79
+>4OFA_A Methyl-CpG-binding domain protein 4; PROTEIN-DNA COMPLEX, mismatch, thymine glycosylase, HYDROLASE-DNA complex; 1.55A {Homo sapiens}
+Probab=48.65  E-value=23  Score=25.21  Aligned_cols=32  Identities=6%  Similarity=-0.118  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCHHHHHHHHHHh-CCH-HHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI-GSA-TQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~-gd~-~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++... |+. .-|+....+..++
+T Consensus       146 l~GiG~~ta~~~~~~~~~~~~~~~~~D~~v~r~l  179 (192)
+T 4OFA_A          146 LHGIGKYGNDSYRIFCVNEWKQVHPENHKLNKYH  179 (192)
+T ss_dssp             STTCCHHHHHHHHHHTSSCGGGCCCCSHHHHHHH
+T ss_pred             CCCccHHHHHeeehccCCCccccCCCCHHHHHHH
+
+
+No 80
+>PF08897.15 ; DUF1841 ; Domain of unknown function (DUF1841)
+Probab=48.48  E-value=1.5e+02  Score=20.69  Aligned_cols=53  Identities=13%  Similarity=0.134  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CHHHHHHHHHHHHHHHHhCccCC-hH--HHHHHHHHhC-CCHHHHHHHHHHHHHHHHHHhC
+Q MISP034.0722.0   55 DGYLRRLLIHGARSVLIRHSTGE-AR--SAWVAGLTSR-RSTNIATVAIANKNARIAWAVL  111 (111)
+Q Consensus        55 ~~~lr~~l~~~a~~~~~~~~~~~-~~--~~~y~rl~~~-k~~~~a~~a~arkl~~~i~~~~  111 (111)
+                      |..+.-.|..+...-+..    + |+  +..|+++.++ -....|+-.++.-|+..+|.++
+T Consensus        62 np~lh~~lh~~Ve~Ql~~----~~Pp~v~~~~~rL~~~g~~~hea~h~i~~vl~~~l~~~~  118 (135)
+T Q3SHB1_THIDA/5   62 NPFLHLSMHLAVAEQVAI----DQPPGIRAHYEELLAQRGNAMDAQHAIIDCLGEMIWQAQ  118 (135)
+T ss_pred             ChHHHHHHHHHHHHHHHh----CCCHHHHHHHHHHHHcCCCHHHHHHHHHHHHHHHHHHHH
+
+
+No 81
+>3B0X_A DNA polymerase beta family (X family); Structural Genomics, RIKEN Structural Genomics/Proteomics Initiative, RSGI, POLXc, PHP, DNA polymerase, dRP lyase, 3'-5' exonuclease, AP; HET: DGT; 1.36A {Thermus thermophilus}
+Probab=47.76  E-value=61  Score=27.08  Aligned_cols=28  Identities=25%  Similarity=0.139  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      |||||+.+|..|+.++|    +.+..+|...+
+T Consensus        98 i~GiG~~~a~~l~~~lg----~~s~~~l~~~~  125 (575)
+T 3B0X_A           98 VPGVGPKTARLLYEGLG----IDSLEKLKAAL  125 (575)
+T ss_dssp             STTTCHHHHHHHHHTSC----CCSHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHcC----CCCHHHHHHHH
+
+
+No 82
+>3N0U_C Probable N-glycosylase/DNA lyase; structural genomics, ISFI, DNA REPAIR, 8-OXOGUANINE, base excision repair, PSI-2, Protein Structure Initiative, Integrated Center for; 1.5A {Thermotoga maritima}
+Probab=47.35  E-value=52  Score=23.77  Aligned_cols=32  Identities=16%  Similarity=0.023  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...+....++...++...+
+T Consensus       135 l~GiG~~~a~~~l~~~~~~~~~~~D~~v~r~l  166 (219)
+T 3N0U_C          135 AKGIGWKEASHFLRNTGVEDLAILDKHVLRLM  166 (219)
+T ss_dssp             STTCCHHHHHHHHHTTTCCSCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHhCCccceeccHHHHHHH
+
+
+No 83
+>2JHN_A 3-METHYLADENINE DNA-GLYCOSYLASE; ALKA, DNA REPAIR, N1-METHYLADENINE, N3-METHYLCYTOSINE, HYPERTHERMOPHILES, ARCHAEOGLOBUS FULGIDUS, HYDROLASE; HET: MBO, GOL, MES; 1.8A {ARCHAEOGLOBUS FULGIDUS}
+Probab=47.17  E-value=62  Score=24.63  Aligned_cols=31  Identities=19%  Similarity=0.079  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCHHHHHHHHHHh-CCHHHCCC-HHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI-GSATQFKS-GRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~-gd~~rf~~-~~~l~s~~   32 (111)
+                      +||||+.+|..++... |. +.|+. ...+...+
+T Consensus       215 ~~GiG~~ta~~~~l~~~~~-~~~p~~D~~~~r~~  247 (295)
+T 2JHN_A          215 FKGIGRWTAELVLSIALGK-NVFPADDLGVRRAV  247 (295)
+T ss_dssp             STTCCHHHHHHHHHHTTCC-CCCCTTCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHCC-CccChHHHHHHHHH
+
+
+No 84
+>7RDT_A Isoform 3 of Endonuclease III-like protein 1; DNA Glycosylase, HYDROLASE, Lyase; 2.1A {Homo sapiens}
+Probab=46.69  E-value=46  Score=24.45  Aligned_cols=32  Identities=9%  Similarity=0.062  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCHHHHHHHHHHh-CCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI-GSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~-gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++... |+.+-++-..++..++
+T Consensus       145 i~GiG~~~a~~~l~~~~~~~~~~p~D~~v~r~~  177 (250)
+T 7RDT_A          145 LPGVGPKMAHLAMAVAWGTVSGIAVDTHVHRIA  177 (250)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHhCCCCcceeehhHHHHH
+
+
+No 85
+>1PU6_A 3-METHYLADENINE DNA GLYCOSYLASE; Helix-hairpin-helix, 3-Methyladenine, BASE EXCISION REPAIR, GLYCOSYLASE, HYDROLASE; HET: KCX, MPD; 1.64A {Helicobacter pylori} SCOP: a.96.1.5
+Probab=46.01  E-value=41  Score=24.29  Aligned_cols=32  Identities=16%  Similarity=-0.017  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++....+..-++-..++..++
+T Consensus       126 ~~GiG~~~a~~~ll~~~~~~~~~~D~~~~r~l  157 (218)
+T 1PU6_A          126 QKGIGKESADAILCYACAKEVMVVDKYSYLFL  157 (218)
+T ss_dssp             STTCCHHHHHHCCCCCTCCSCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHhcCCceEecHHHHHHH
+
+
+No 86
+>PF21790.1 ; OGG ; Putative 8-oxoguanine DNA glycosylase OGG-like protein
+Probab=45.83  E-value=39  Score=24.25  Aligned_cols=33  Identities=12%  Similarity=-0.136  Sum_probs=0.0  Template_Neff=9.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhC----CHHHCCCHHH-HHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG----SATQFKSGRQ-LAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g----d~~rf~~~~~-l~s~~G   33 (111)
+                      |||||+.++..++...+    ++.++.--++ +...++
+T Consensus       112 i~glG~s~~Tk~L~f~~~~~~~~~~~~IlD~~v~~~l~  149 (195)
+T A0A1E3RX88_9MY  112 IKGLNMSFGTKLLYFAGYTTSHRPRPLILDERVRSAIQ  149 (195)
+T ss_pred             CCCccccHHHHHHHHhcCCCCCCCCCccHhHHHHHHHH
+
+
+No 87
+>2CSB_B Topoisomerase V; topoisomerase IB, topoisomerase V, helix-turn-helix, helix-hairpin-helix, HhH motif, three helix bundle, Methanopyrus kandleri, ISOMERASE; HET: MSE; 2.3A {Methanopyrus kandleri} SCOP: a.60.2.4, a.267.1.1
+Probab=44.48  E-value=45  Score=28.85  Aligned_cols=36  Identities=14%  Similarity=-0.068  Sum_probs=0.0  Template_Neff=5.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCC---------------------------CHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFK---------------------------SGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~---------------------------~~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|..|+..++++...-                           +...|..--|+.|
+T Consensus       359 IpGIGpk~A~kIle~f~si~~il~~~l~qL~~~~~igG~~ee~~~aIl~a~l~eLl~IpGIG~  421 (519)
+T 2CSB_B          359 EHGLSPDAADELIEHFESIAGILATDLEEIERMYEEGRLSEEAYRAAVEIQLAELTKKEGVGR  421 (519)
+T ss_dssp             CSCCCHHHHHHHHHHHSSHHHHHTSCHHHHHHHHHTTSSCHHHHHHHHHHHHHHHHSSTTCCH
+T ss_pred             CcCCCHHHHHHHHHHhhcHHHHHhcCHHHHHHHHHcCCCCHHHHHHHHHhcHHHHHhccCCCH
+
+
+No 88
+>7SUK_SA Nucleolar protein 56; Bfr2, Lcp5, Small subunit processome, RIBOSOMAL PROTEIN, RIBOSOME; 3.99A {Saccharomyces cerevisiae}
+Probab=44.15  E-value=31  Score=28.14  Aligned_cols=29  Identities=21%  Similarity=0.189  Sum_probs=0.0  Template_Neff=8.700
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      +|+.+|+.|++..|++.++.. |.+ ++ .+|
+T Consensus       305 ~G~~laa~Li~~ag~l~~La~~pss~iq-~lG  335 (413)
+T 7SUK_SA         305 IGEVIGARLISHAGSLTNLSKQAASTVQ-ILG  335 (413)
+T ss_pred             ccHHHHHHHHHHhhhhHHHhhCchhhcH-Hhh
+
+
+No 89
+>4M6W_A Fanconi anemia group M protein; FANCM, FAAP24, XPF/Mus81, Fanconi anemia, DNA repair, DNA BINDING PROTEIN; HET: SO4; 2.9A {Homo sapiens}
+Probab=43.87  E-value=57  Score=22.84  Aligned_cols=36  Identities=8%  Similarity=0.039  Sum_probs=0.0  Template_Neff=11.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..++...+++..+.+  ...+....|+.+
+T Consensus       169 ~~gi~~~~a~~l~~~~~~~~~~~~~~~~~l~~~~g~~~  206 (221)
+T 4M6W_A          169 IPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTH  206 (221)
+T ss_dssp             STTCCHHHHHHHHSSCSCHHHHHTCCHHHHHHHTTCCT
+T ss_pred             CCCCCHHHHHHHHHhCCCHHHHHcCCHHHHHhccCCCH
+
+
+No 90
+>6LQP_3D Nucleolar protein 56; ribosome assembly, 90S to pre-40S transition, cryo-EM, Dhr1, RIBOSOME; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=42.81  E-value=32  Score=28.99  Aligned_cols=29  Identities=21%  Similarity=0.189  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|++..|.+.++.. |.+ ++ .+|
+T Consensus       307 vG~~laa~Li~~aG~L~~La~~pss~Iq-~lG  337 (504)
+T 6LQP_3D         307 IGEVIGARLISHAGSLTNLSKQAASTVQ-ILG  337 (504)
+T ss_pred             hcHHHHHHHHHHhhhHHHHHhcchhhHH-Hhc
+
+
+No 91
+>6LQP_3E Nucleolar protein 58; ribosome assembly, 90S to pre-40S transition, cryo-EM, Dhr1, RIBOSOME; HET: GTP; 3.2A {Saccharomyces cerevisiae S288C}
+Probab=42.51  E-value=36  Score=28.74  Aligned_cols=29  Identities=14%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|++..|.+.++.. |.+ ++ -+|
+T Consensus       291 ~G~~~~arLi~~aG~L~~La~~psstiq-~lG  321 (511)
+T 6LQP_3E         291 VGELVGARLIAHSGSLISLAKSPASTIQ-ILG  321 (511)
+T ss_pred             hcHHHHHHHHHHhhhHHHHhcCChhHHH-Hhc
+
+
+No 92
+>8GHU_m 30S ribosomal protein S13; ribosome, 30S, RmtC, 16S rRNA methyltransferase; HET: ZIV, MG; 3.0A {Escherichia coli}
+Probab=42.26  E-value=53  Score=20.02  Aligned_cols=17  Identities=24%  Similarity=0.130  Sum_probs=0.0  Template_Neff=10.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...+-.+....|
+T Consensus        21 i~Gig~~~~~~i~~~~g   37 (93)
+T 8GHU_m           21 IYGVGKTRSKAILAAAG   37 (93)
+T ss_dssp             SSSCCSSSTTTSTTSSC
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 93
+>3N5N_X A/G-specific adenine DNA glycosylase; alpha-helices, helix-hairpin-helix motif, iron-sulfur cluster, HYDROLASE; HET: SF4; 2.3A {Homo sapiens}
+Probab=42.02  E-value=36  Score=25.92  Aligned_cols=32  Identities=13%  Similarity=-0.215  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++...++...|.-...+...+
+T Consensus       134 l~GiG~~ta~~il~~~~~~~~~~vD~~v~Rvl  165 (287)
+T 3N5N_X          134 LPGVGRYTAGAIASIAFGQATGVVDGNVARVL  165 (287)
+T ss_dssp             STTCCHHHHHHHHHHHSCCCCCCCCHHHHHHH
+T ss_pred             CCCCchhHHHHHHHHhhcCCeeecCccHHhHH
+
+
+No 94
+>7UNW_m 30S ribosomal protein S13; Initiation Factor 2, 70S ribosome, cryo-EM, translation initiation, initiator tRNA, conformational changes, RIBOSOME; HET: 1MG, 6MZ, UR3, 2MA, OMC, MG, GCP, FME, 2MG, 4OC, OMU, PSU, 4SU, 5MC, OMG, 5MU, MA6, 7MG; 2.6A {Pseudomonas aeruginosa PAO1}
+Probab=41.20  E-value=55  Score=21.35  Aligned_cols=17  Identities=18%  Similarity=-0.052  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...+-.+..+.|
+T Consensus        22 i~Gig~~~a~~i~~~~g   38 (118)
+T 7UNW_m           22 IYGVGRTTAQSICAATG   38 (118)
+T ss_dssp             GSSCCSHHHHHHHHHTT
+T ss_pred             CCCCCHHHHHHHHHHcC
+
+
+No 95
+>1MUN_A ADENINE GLYCOSYLASE; DNA REPAIR, DNA G.A MISMATCH REPAIR ENZYME, GLYCOSIDASE, HYDROLASE; HET: IMD; 1.2A {Escherichia coli} SCOP: a.96.1.2
+Probab=41.08  E-value=54  Score=23.13  Aligned_cols=32  Identities=13%  Similarity=-0.226  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...++...+....++..++
+T Consensus       114 ~~Gig~~~a~~~~~~~~~~~~~~~D~~~~r~~  145 (225)
+T 1MUN_A          114 LPGVGRSTAGAILSLSLGKHFPILNGNVKRVL  145 (225)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCHHHHHHH
+T ss_pred             CCCchHHHHHHHHHHHHCCCcCeecHHHHHHH
+
+
+No 96
+>6QW6_4C U4/U6 small nuclear ribonucleoprotein Prp31; RNP complex, splicing, RNA, protein, spliceosome; HET: IHP, M7M, GTP; 2.92A {Homo sapiens}
+Probab=41.07  E-value=36  Score=29.12  Aligned_cols=29  Identities=17%  Similarity=0.094  Sum_probs=0.0  Template_Neff=6.600
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|++..|++..+.. |.+ ++ .+|
+T Consensus       223 vG~~vAAkLi~~AGgL~~La~~Pa~nIq-~LG  253 (499)
+T 6QW6_4C         223 IGASTAAKIMGVAGGLTNLSKMPACNIM-LLG  253 (499)
+T ss_pred             HcHHHHHHHHHHhcchHHHHhCchhhhh-hhc
+
+
+No 97
+>2ZIU_A Mus81 protein; Helix-hairpin-Helix, Alternative splicing, DNA damage, DNA recombination, DNA repair, Endonuclease, Hydrolase, Magnesium, Metal-binding, Nuclease, Nucleus, Phosphoprotein; 2.7A {Danio rerio}
+Probab=40.94  E-value=51  Score=25.06  Aligned_cols=22  Identities=18%  Similarity=0.214  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||...|..|+..++.+..+
+T Consensus       242 ipgis~~~A~~i~~~~~s~~~l  263 (311)
+T 2ZIU_A          242 ISGVSGDKAAAVLEHYSTVSSL  263 (311)
+T ss_dssp             BTTCCHHHHHHHHHHCSSHHHH
+T ss_pred             CCCCCHHHHHHHHHHCCCHHHH
+
+
+No 98
+>5KN8_A Adenine DNA glycosylase; adenine glycosylase, oxoG, DNA repair protein, lesion-scanning complex, Hydrolase-DNA complex; 1.81A {Geobacillus stearothermophilus}
+Probab=40.83  E-value=57  Score=23.21  Aligned_cols=32  Identities=13%  Similarity=-0.114  Sum_probs=0.0  Template_Neff=11.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...++...+.-..++..++
+T Consensus       123 ~~Gig~~~a~~~l~~~~~~~~~~~D~~v~r~~  154 (232)
+T 5KN8_A          123 LKGVGPYTVGAVLSLAYGVPEPAVNGNVMRVL  154 (232)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCHHHHHHH
+T ss_pred             CCCCcHHHHHHHHHHHHCCCCCccChhHHHHH
+
+
+No 99
+>7P7Q_n 30S ribosomal protein S13; Ribosome, Enterococcus faecalis, PoxtA, ABCF, antibiotic resistance protein; HET: K, ATP, 5MU, 2MG, SCM, PUT, MA6, OMC, OMG, MG; 2.4A {Enterococcus faecalis}
+Probab=40.55  E-value=56  Score=21.36  Aligned_cols=17  Identities=24%  Similarity=0.153  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...|-.+..++|
+T Consensus        22 i~GiG~~~a~~i~~~~g   38 (121)
+T 7P7Q_n           22 IYGIGNTTAKKVLANVG   38 (121)
+T ss_pred             CCCCCHHHHHHHHHHcC
+
+
+No 100
+>PF00416.26 ; Ribosomal_S13 ; Ribosomal protein S13/S18
+Probab=40.42  E-value=57  Score=20.36  Aligned_cols=17  Identities=29%  Similarity=0.157  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...|-.+....|
+T Consensus        20 i~Gig~~~a~~i~~~~g   36 (105)
+T RR13_ARATH/49-   20 IHGIGRTRARQILVDLQ   36 (105)
+T ss_pred             CCCCCHHHHHHHHHHCC
+
+
+No 101
+>1KEA_A Possible G-T mismatches repair enzyme; DNA Repair, DNA Glycosylase, DNA Mismatch, Methylation, Base Twisting, HYDROLASE; HET: ACT; 2.0A {Methanothermobacter thermautotrophicus} SCOP: a.96.1.2
+Probab=39.94  E-value=67  Score=22.61  Aligned_cols=32  Identities=3%  Similarity=-0.146  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...++...++-..++...+
+T Consensus       120 ~~gig~~~~~~~~~~~~~~~~~~~d~~~~r~~  151 (221)
+T 1KEA_A          120 LPGVGKYTCAAVMCLAFGKKAAMVDANFVRVI  151 (221)
+T ss_dssp             STTCCHHHHHHCCCCCTCCCCCCCCHHHHHHH
+T ss_pred             CCCccHHHHHHHHHHHhCCCceeecHHHHHHH
+
+
+No 102
+>3PSF_A Transcription elongation factor SPT6; Transcription Elongation, Nucleus, TRANSCRIPTION; 2.59A {Saccharomyces cerevisiae}
+Probab=39.84  E-value=43  Score=30.89  Aligned_cols=41  Identities=17%  Similarity=0.040  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH-HHCCCHHHHHHHhcCcCccccC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA-TQFKSGRQLAAWLGLVPRQFST   41 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~-~rf~~~~~l~s~~Gl~P~~~~S   41 (111)
+                      +||+|+..|..|+..+-.. ..|.+-.+|..-.|+.|.....
+T Consensus       722 v~GlgprkA~~i~~~~~~~~g~~~sr~~L~~~~~l~~~v~~n  763 (1030)
+T 3PSF_A          722 ISGFGKRKAIDFLQSLQRLNEPLLARQQLITHNILHKTIFMN  763 (1030)
+T ss_dssp             STTCCHHHHHHHHHHHHHTCSCCCCTTHHHHTTSSCHHHHHH
+T ss_pred             ccCCCHHHHHHHHHHHHHcCCCCCCHHHHHHCCCCChHHhhc
+
+
+No 103
+>2BGW_A XPF ENDONUCLEASE; HYDROLASE, STRUCTURE SPECIFIC ENDONUCLEASE, NUCLEOTIDE EXCISION REPAIR; HET: SO4; 2.8A {Aeropyrum pernix} SCOP: c.52.1.20, a.60.2.5
+Probab=39.01  E-value=62  Score=22.45  Aligned_cols=36  Identities=22%  Similarity=0.139  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..++...+.+..+..  ...+....|+.+
+T Consensus       167 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~l~~~~g~~~  204 (219)
+T 2BGW_A          167 FPGIGRRTAERILERFGSLERFFTASKAEISKVEGIGE  204 (219)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHHTTCCHHHHHHSTTCCH
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHHHhCCHHHHhcCCCCCH
+
+
+No 104
+>PF11798.12 ; IMS_HHH ; IMS family HHH motif
+Probab=38.93  E-value=59  Score=14.16  Aligned_cols=12  Identities=17%  Similarity=-0.252  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCCHHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALID   12 (111)
+Q Consensus         1 ipGiG~~~a~~l   12 (111)
+                      +||||..++..+
+T Consensus        16 ~~g~g~~~~~~l   27 (32)
+T Q65HM2_BACLD/1   16 MYGVGRKTAEKL   27 (32)
+T ss_pred             cCCCCHHHHHHH
+
+
+No 105
+>PF11283.12 ; DUF3084 ; Protein of unknown function (DUF3084)
+Probab=38.48  E-value=52  Score=21.15  Aligned_cols=31  Identities=26%  Similarity=0.243  Sum_probs=0.0  Template_Neff=4.200
+
+Q ss_pred             HHHHHHHHHhCC-HHHCCCHHHHHHHhcCcCcc
+Q MISP034.0722.0    7 VRALIDLVRIGS-ATQFKSGRQLAAWLGLVPRQ   38 (111)
+Q Consensus         7 ~~a~~l~ae~gd-~~rf~~~~~l~s~~Gl~P~~   38 (111)
+                      .....+++.+|| +.+.--.+.+. .+||-|+.
+T Consensus         9 ~~~~g~iAy~GD~lG~k~GKkRls-lFgLRPr~   40 (77)
+T K9TN13_9CYAN/4    9 LVLGGLLATLGDRLGTKVGKARLS-LFGLRPRQ   40 (77)
+T ss_pred             HHHHHHHHHHHHHHHHHHchhhhh-hcCCChhh
+
+
+No 106
+>7Y5E_U6 PS II complex 12 kDa extrinsic protein; complex, PHOTOSYNTHESIS; HET: PQN, LHG, PEB, CYC, DGD, BGC, 3XQ, LMG, PHO, HEM, BCT, BCR, MEN, SF4, GOL, PUB, ZEX, OEX, PL9, CLA; 3.3A {Porphyridium purpureum}
+Probab=38.38  E-value=70  Score=22.09  Aligned_cols=32  Identities=16%  Similarity=-0.092  Sum_probs=0.0  Template_Neff=8.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..|+.    ...|.+..+|...-|+.+
+T Consensus        86 lpgl~~~~a~~I~~----~~~f~s~~eL~~v~gi~~  117 (150)
+T 7Y5E_U6          86 YPGMYPNIAREIVK----NGPFESVDDVLKIETLTA  117 (150)
+T ss_pred             CCCCCHHHHHHHHH----hCCCCCHHHHHccCCCCH
+
+
+No 107
+>1MPG_A 3-METHYLADENINE DNA GLYCOSYLASE II; DNA GLYCOSYLASE, DNA REPAIR, BASE EXCISION, METHYLATION, ALKA, HYDROLASE; HET: GOL; 1.8A {Escherichia coli} SCOP: a.96.1.3, d.129.1.2
+Probab=38.35  E-value=52  Score=24.88  Aligned_cols=24  Identities=13%  Similarity=-0.128  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHH-HhCCHHHCCC
+Q MISP034.0722.0    1 GKGCEGVRALIDLV-RIGSATQFKS   24 (111)
+Q Consensus         1 ipGiG~~~a~~l~a-e~gd~~rf~~   24 (111)
+                      +||||+.+|..++. -.|+.+.|+.
+T Consensus       212 i~GiG~~ta~~~l~~~~g~~~~~p~  236 (282)
+T 1MPG_A          212 FPGIGRWTANYFALRGWQAKDVFLP  236 (282)
+T ss_dssp             STTCCHHHHHHHHHHHSCCSSCCCT
+T ss_pred             CCCCCHHHHHHHHHHhcCCCCccCC
+
+
+No 108
+>8A5F_A Endonuclease III; DNA glycosylase, resistant bacterium, Deinococcus radiodurans, mutations, LYASE; 1.38A {Deinococcus radiodurans R1}
+Probab=38.14  E-value=82  Score=22.79  Aligned_cols=32  Identities=13%  Similarity=-0.071  Sum_probs=0.0  Template_Neff=10.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++....+...+....++...+
+T Consensus       131 ~~gig~~~a~~~l~~~~~~~~~~~D~~~~r~~  162 (248)
+T 8A5F_A          131 LPGVGVKTASLVLLFNYARPVFPVDTHVHRVS  162 (248)
+T ss_dssp             STTCCHHHHHHCCCCCHCCSCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHhcCCCCCcccHHHHHHH
+
+
+No 109
+>3GQX_A NOP5P PROTEIN; RNA BINDING DOMAIN, RNA BINDING PROTEIN; 2.5A {Pyrococcus horikoshii}
+Probab=38.13  E-value=50  Score=23.77  Aligned_cols=30  Identities=10%  Similarity=-0.004  Sum_probs=0.0  Template_Neff=7.600
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHHHHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQLAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~l~s~~G   33 (111)
+                      ||+.+|+.|++..|++..+.. +.+=...+|
+T Consensus        41 vG~~vaakLi~~aG~L~~L~~~ps~~iq~lG   71 (169)
+T 3GQX_A           41 VGAKLGARLISLAGGLKELAMLPSSTIQVLG   71 (169)
+T ss_dssp             HCHHHHHHHHHHHTSHHHHTTSCSTTGGGCT
+T ss_pred             hHHHHHHHHHHHhhchHHHhcCChhHHHHhc
+
+
+No 110
+>8GH8_A Holliday junction branch migration complex subunit RuvA; Holliday junction, tetramer, RuvA, DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA complex; 4.3A {Thermus thermophilus HB8}
+Probab=37.67  E-value=42  Score=21.62  Aligned_cols=36  Identities=22%  Similarity=0.121  Sum_probs=0.0  Template_Neff=11.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC---HHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS---ATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd---~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|..++..++...|+   ...+..  ...+....|+.+
+T Consensus        77 ~~g~g~~~a~~l~~~~g~~~~~~~~~~~~~~~l~~~~gi~~  117 (140)
+T 8GH8_A           77 VSGVGPKVALALLSALPPRLLARALLEGDARLLTSASGVGR  117 (140)
+T ss_dssp             TTCCTTTSSSSSSTTCCCSCHHHHHTTTHHHHHHSSSCSSS
+T ss_pred             CCCCCHHHHHHHHhcCCHHHHHHHHHhCCHHHHHcCCCCCH
+
+
+No 111
+>7KZ1_A Methyl-CpG-binding domain protein 4; protein-DNA complex, HYDROLASE-DNA complex; HET: ORP; 1.62A {Homo sapiens}
+Probab=37.48  E-value=24  Score=23.90  Aligned_cols=32  Identities=6%  Similarity=-0.115  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH--HHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA--TQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~--~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++.....-  ..++...++.+++
+T Consensus       111 ~~GiG~~~a~~~~~~~~~~~~~~~p~d~~~~~~l  144 (157)
+T 7KZ1_A          111 LHGIGKYGNDSYRIFCVNEWKQVHPEDHKLNKYH  144 (157)
+T ss_dssp             STTCCHHHHHHHHHHTSSCGGGCCCCSHHHHHHH
+T ss_pred             CCCCcHHHHceeeeeecCCcccCCCCChHHHHHH
+
+
+No 112
+>1NT2_B conserved hypothetical protein; AdeMet, binding motif, RNA BINDING PROTEIN; HET: SAM; 2.9A {Archaeoglobus fulgidus} SCOP: a.183.1.1
+Probab=37.47  E-value=24  Score=27.27  Aligned_cols=29  Identities=21%  Similarity=0.164  Sum_probs=0.0  Template_Neff=7.200
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      +|+.+|+.|++..|++.++.. |.+ ++ .+|
+T Consensus       146 vG~~~aA~Li~~aGgL~~La~~Pas~iq-~lG  176 (258)
+T 1NT2_B          146 VGAKVAAKLLERAGSMERLVRLPASKIQ-VIG  176 (258)
+T ss_dssp             HCHHHHHHHHHHHCSHHHHHTCCHHHHT-TSS
+T ss_pred             hcHHHHHHHHHHccccHHHHhCCccccc-ccc
+
+
+No 113
+>6S0X_m 30S ribosomal protein S13; Ribosome, antibiotics, resistance, Staphylococcus aureus, exit tunnel, RNA, rProteins, erythromycin; HET: ERY; 2.425A {Staphylococcus aureus}
+Probab=37.40  E-value=67  Score=20.15  Aligned_cols=17  Identities=18%  Similarity=-0.138  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...+-.+..+.|
+T Consensus        16 i~Gig~~~a~~i~~~~g   32 (104)
+T 6S0X_m           16 IYGIGTSTAQKILEEAN   32 (104)
+T ss_pred             CcCCCHHHHHHHHHHCC
+
+
+No 114
+>4UOB_A ENDONUCLEASE III-3; LYASE, ENDONUCLEASE III, FES CLUSTER, BASE EXCISION REPAIR, DNA GLYCOSYLASE, DEINOCOCCUS RADIODURANS; HET: ACT, SO4; 1.31A {DEINOCOCCUS RADIODURANS}
+Probab=37.25  E-value=84  Score=23.54  Aligned_cols=32  Identities=6%  Similarity=-0.132  Sum_probs=0.0  Template_Neff=10.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.+|..++...++...++-..++...+
+T Consensus       165 ~~GiG~~~a~~~l~~~~~~~~~~~D~~i~r~l  196 (278)
+T 4UOB_A          165 LPGVGHKTVALVLLFDLRRPAMPVDGNMERAA  196 (278)
+T ss_dssp             STTCCHHHHHHHHHHHSCCCCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHhcCCCCCCCCHHHHHHH
+
+
+No 115
+>2M9N_A Fanconi anemia-associated protein of 24 kDa; Fanconi anemia, FAAP24, (HhH)2 domain, DNA BINDING PROTEIN; NMR {Homo sapiens}
+Probab=37.07  E-value=79  Score=15.08  Aligned_cols=22  Identities=27%  Similarity=0.234  Sum_probs=0.0  Template_Neff=14.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||+|...+..++...++...+
+T Consensus        14 ~~~~~~~~~~~~~~~~~~~~~~   35 (63)
+T 2M9N_A           14 IPGVGKVKAPLLLQKFPSIQQL   35 (63)
+T ss_dssp             STTTCTTTHHHHHTTSSCHHHH
+T ss_pred             CCCCChhHHHHHHHhCCCHHHH
+
+
+No 116
+>4BXO_A FANCONI ANEMIA GROUP M PROTEIN; HYDROLASE-DNA COMPLEX, DNA BINDING, PSEUDO-NUCLEASE; 2.15A {HOMO SAPIENS}
+Probab=37.03  E-value=74  Score=23.28  Aligned_cols=36  Identities=8%  Similarity=0.039  Sum_probs=0.0  Template_Neff=10.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..++...|++..+.+  ...+....|+.+
+T Consensus       185 ~~gi~~~~a~~l~~~~~~l~~~~~~~~~~l~~~~g~g~  222 (254)
+T 4BXO_A          185 IPNISYITALNMCHQFSSVKRMANSSLQEISMYAQVTH  222 (254)
+T ss_dssp             STTCCHHHHHHHHHHCSCHHHHHTCCHHHHHHHHTCCH
+T ss_pred             CCCCCHHHHHHHHHhCCCHHHHHcCCHHHHHcccCCCH
+
+
+No 117
+>4P4M_A DNA polymerase beta; DNA polymerase, TRANSFERASE-DNA complex; HET: D3T; 1.9185A {Leishmania infantum}
+Probab=36.08  E-value=1.2e+02  Score=23.99  Aligned_cols=28  Identities=18%  Similarity=-0.028  Sum_probs=0.0  Template_Neff=9.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      |||||+.+|..|..+.|    +.+..+|...+
+T Consensus       104 i~Gig~~~a~~l~~~~g----i~s~~dL~~~~  131 (378)
+T 4P4M_A          104 VHGFGPRAAAALFDREG----IFTVDELLQKA  131 (378)
+T ss_dssp             STTCCHHHHHHHHHHHC----CCSHHHHHHHG
+T ss_pred             CcCCCHHHHHHHHHHcC----CCCHHHHHHHH
+
+
+No 118
+>8A22_Bm uS13m; mitoribosome, ribosome, mitochondria, polytomella, fragmentation, rrna, evolution, translation; HET: K, ATP, MG; 2.91A {Polytomella magna}
+Probab=35.90  E-value=72  Score=20.42  Aligned_cols=17  Identities=24%  Similarity=0.169  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...+-.++.+.|
+T Consensus        21 i~Gig~~~a~~i~~~~g   37 (113)
+T 8A22_Bm          21 VFGLGGPTSLAVVEACG   37 (113)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 119
+>5V07_Z Exonuclease 1; exonuclease, endonuclease, HYDROLASE-DNA complex; 2.15A {Homo sapiens}
+Probab=35.47  E-value=74  Score=24.47  Aligned_cols=21  Identities=14%  Similarity=-0.031  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhC--CHHH
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG--SATQ   21 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g--d~~r   21 (111)
+                      +||||+.+|..++.+.+  +++.
+T Consensus       230 i~gig~~~a~~li~~~~~~~i~~  252 (352)
+T 5V07_Z          230 LRGIGLAKACKVLRLANNPDIVK  252 (352)
+T ss_dssp             CTTCCHHHHHHHHHHCCCSCHHH
+T ss_pred             CCCCcHHHHHHHHHHcCChhHHH
+
+
+No 120
+>8DVP_A Adenine DNA glycosylase; Protein-DNA complex, DNA repair, Base Excision Repair, HYDROLASE, HYDROLASE-DNA complex; HET: PRN, SF4, 8OG; 1.54A {Geobacillus stearothermophilus}
+Probab=35.19  E-value=83  Score=23.98  Aligned_cols=32  Identities=13%  Similarity=-0.122  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++....+...+.-..++...+
+T Consensus       120 l~Gig~~~a~~~~~~~~~~~~~~~d~~~~r~~  151 (365)
+T 8DVP_A          120 LKGVGPYTVGAVLSLAYGVPEPAVDGSVMRVL  151 (365)
+T ss_dssp             STTCCHHHHHHHHHHHTCCCCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHCCCCCCCchHHHHHH
+
+
+No 121
+>7Y0D_C DNA integrity scanning protein DisA; second messengers, stress response, c-di-AMP, cryo-EM, CELL CYCLE; 3.1A {Mycolicibacterium smegmatis MC2 155}
+Probab=34.97  E-value=69  Score=25.97  Aligned_cols=36  Identities=11%  Similarity=0.005  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..|+..+|++..+.+  ..++....|+.+
+T Consensus       312 ip~lg~~~a~~L~~~fgsl~~i~~as~~~L~~v~gig~  349 (383)
+T 7Y0D_C          312 IPRLQFAHVDLLVRSFGSLQNLLAASADDLQSVDGIGS  349 (383)
+T ss_dssp             CTTCCHHHHHHHHHHHCSHHHHHTCCTTHHHHSTTCCH
+T ss_pred             CCCCCHHHHHHHHHHhCChHHHHhCCHHHHhcCCCCCH
+
+
+No 122
+>8FMW_M 30S ribosomal protein S13; hibernating ribosome, bacterial, pathogen, 70S, translation, RIBOSOME;{Borreliella burgdorferi B31}
+Probab=34.83  E-value=78  Score=20.30  Aligned_cols=17  Identities=24%  Similarity=0.006  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+-.+..+.|
+T Consensus        22 i~Gig~~~a~~i~~~~g   38 (114)
+T 8FMW_M           22 IYGIGRTRALEVCNKSS   38 (114)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 123
+>4Y4O_2m 30S ribosomal protein S13; Ribosome, rRNA modofications, pseudouridine, rRNA methylation, ribosomal protein post-translational modifications, iron-sulfur cluster, beta-thio-aspartate; HET: ZN, UR3, 2MA, 2MU, MPD, MG, ARG, 2MG, 4OC, PSU, 0TD, SF4, 5MC, 5MU, OMG, MA6, M2G, 7MG; 2.3A {Thermus thermophilus HB8}
+Probab=34.81  E-value=79  Score=20.86  Aligned_cols=17  Identities=29%  Similarity=0.196  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      +||||...+-.+..+.|
+T Consensus        22 i~GiG~~~a~~i~~~~g   38 (126)
+T 4Y4O_2m          22 IYGIGKARAKEALEKTG   38 (126)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 124
+>2ABK_A ENDONUCLEASE III; DNA-REPAIR, DNA GLYCOSYLASE, ENDONUCLEASE; 1.85A {Escherichia coli} SCOP: a.96.1.1
+Probab=34.70  E-value=94  Score=21.68  Aligned_cols=32  Identities=9%  Similarity=-0.138  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++....+...++-..++...+
+T Consensus       114 ~~gig~~~~~~~~~~~~~~~~~~~d~~~~r~~  145 (211)
+T 2ABK_A          114 LPGVGRKTANVVLNTAFGWPTIAVDTHIFRVC  145 (211)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHHCCCceeehHHHHHHH
+
+
+No 125
+>2W9M_A POLYMERASE X; SAXS, DNA REPAIR, DNA POLYMERASE, DNA REPLICATION; 2.46A {DEINOCOCCUS RADIODURANS}
+Probab=34.18  E-value=1.2e+02  Score=25.38  Aligned_cols=27  Identities=15%  Similarity=0.015  Sum_probs=0.0  Template_Neff=10.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      |||||+.+|..|+. .|    +.|..+|.+.+
+T Consensus       102 i~giG~~~a~~l~~-~g----~~s~~dl~~~~  128 (578)
+T 2W9M_A          102 VRGLGPKKIRSLWL-AG----IDSLERLREAA  128 (578)
+T ss_dssp             STTCCHHHHHHHHH-TT----CCSHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH-CC----CCCHHHHHHHH
+
+
+No 126
+>6VDE_A DNA polymerase I; mycobacteria, DNA polymerase, Flap endonuclease, TRANSFERASE; 2.713A {Mycolicibacterium smegmatis}
+Probab=33.98  E-value=75  Score=28.22  Aligned_cols=22  Identities=23%  Similarity=0.110  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||+.+|..++...|+++.+
+T Consensus       212 i~giG~~~a~~ll~~~~~~~~~  233 (908)
+T 6VDE_A          212 IPGVGEKTATKWIVEYGSLQAL  233 (908)
+T ss_dssp             -----CCSGGGGGTSSCCSTTT
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHH
+
+
+No 127
+>1ORN_A Endonuclease III; DNA repair, DNA glycosylase, [4Fe-4S] cluster, iron-sulfur cluster, HYDROLASE-DNA COMPLEX; HET: PED; 1.7A {Geobacillus stearothermophilus} SCOP: a.96.1.1, l.1.1.1
+Probab=33.77  E-value=89  Score=22.08  Aligned_cols=32  Identities=6%  Similarity=-0.123  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +||||+.++..++...++..-++...++..++
+T Consensus       118 ~~Gig~~~a~~~~~~~~~~~~~~~d~~~~r~~  149 (226)
+T 1ORN_A          118 LPGVGRKTANVVVSVAFGVPAIAVDTHVERVS  149 (226)
+T ss_dssp             STTCCHHHHHHHHHHHHCCCCCCCCHHHHHHH
+T ss_pred             CCCCCHHHHHHHHHHHhCCCeeEehHHHHHHH
+
+
+No 128
+>7MQA_SA Nucleolar protein 56; Ribosomal assembly intermediate, RIBOSOME; HET: ATP, SAH, GTP, 4AC, OMU, OMC, PSU, OMG, A2M, MG; 2.7A {Homo sapiens}
+Probab=33.16  E-value=46  Score=28.99  Aligned_cols=29  Identities=17%  Similarity=0.139  Sum_probs=0.0  Template_Neff=7.300
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+++.||+..|++.++.. |.+ ++ .+|
+T Consensus       300 vG~~v~ArLi~~AGsL~~Lak~PastiQ-iLG  330 (594)
+T 7MQA_SA         300 IGEAVGARLIAHAGSLTNLAKYPASTVQ-ILG  330 (594)
+T ss_pred             cCHhHHHHHHHHHHHHHHHHhCChhHhH-hhc
+
+
+No 129
+>2MUT_A DNA excision repair protein ERCC-1; ERCC1-XPF, F231L, Nucleotide Excision Repair, HYDROLASE; NMR {Homo sapiens} SCOP: a.60.2.5, l.1.1.1
+Probab=32.50  E-value=89  Score=18.38  Aligned_cols=36  Identities=28%  Similarity=0.259  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++...+++..+..  ...+....|+.+
+T Consensus        31 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~   68 (96)
+T 2MUT_A           31 VKSVNKTDSQTLLTTFGSLEQLIAASREDLALCPGLGP   68 (96)
+T ss_dssp             STTCCHHHHHHHHHHTCBHHHHHTSCHHHHHHSTTSCH
+T ss_pred             CCCCCHHHHHHHHHHhCCHHHHHHCCHHHHhcCCCCCH
+
+
+No 130
+>2EUC_B Hypothetical protein yfmB; STRUCTURAL GENOMICS, PSI, PROTEIN STRUCTURE INITIATIVE, NORTHEAST STRUCTURAL GENOMICS CONSORTIUM, NESG, UNKNOWN FUNCTION; HET: MSE; 2.5A {Bacillus subtilis} SCOP: a.249.1.1
+Probab=32.48  E-value=1.2e+02  Score=21.25  Aligned_cols=30  Identities=13%  Similarity=0.230  Sum_probs=0.0  Template_Neff=2.000
+
+Q ss_pred             CCCHHHHHHHHHHhCCHH-HCCC--HHHHHHHh
+Q MISP034.0722.0    3 GCEGVRALIDLVRIGSAT-QFKS--GRQLAAWL   32 (111)
+Q Consensus         3 GiG~~~a~~l~ae~gd~~-rf~~--~~~l~s~~   32 (111)
+                      ||-.--.-.|+-.|||++ +.++  .+.|.+|+
+T Consensus        45 ~InIDfVFSIImNIGDiE~~~~~~~e~~LssYL   77 (130)
+T 2EUC_B           45 HIDIDFVFSIIMNIGDIEFALTDEIEKKLSGYL   77 (130)
+T ss_dssp             CCCHHHHHHHHHCCSCCSSCSSSHHHHHHHHHH
+T ss_pred             CCChhHhhhhhhhccCHHHhccHHHHHHHHHHH
+
+
+No 131
+>PF17825.5 ; DUF5587 ; Family of unknown function (DUF5587)
+Probab=32.21  E-value=1.2e+02  Score=29.71  Aligned_cols=36  Identities=22%  Similarity=-0.041  Sum_probs=0.0  Template_Neff=6.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||+.+|-.|+...|.+..+-+  ..+|...++-.|
+T Consensus      1045 fPgINp~~AQ~LL~r~~SL~~Ll~AS~eeL~ellp~Ip 1082 (1442)
+T F7CP79_HORSE/1 1045 FPCINPLVAQLMLNKGPSLDWILLATLGQLQELLPEVP 1082 (1442)
+T ss_pred             CCCCCHHHHHHHHHHCCCHHHHHcCCHHHHHHHcCCCC
+
+
+No 132
+>3PSI_A Transcription elongation factor SPT6; Transcription Elongation, Nucleus, TRANSCRIPTION; 3.3A {Saccharomyces cerevisiae}
+Probab=32.09  E-value=64  Score=30.44  Aligned_cols=38  Identities=16%  Similarity=-0.011  Sum_probs=0.0  Template_Neff=8.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH-HHCCCHHHHHHHhcCcCcc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA-TQFKSGRQLAAWLGLVPRQ   38 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~-~rf~~~~~l~s~~Gl~P~~   38 (111)
+                      |||+|+..|..|+..+-.. ..|.+-.+|..-.|+.|..
+T Consensus       719 v~GlGprkA~~ii~~~~~~~g~~~sr~~L~~~~~~~~~v  757 (1219)
+T 3PSI_A          719 ISGFGKRKAIDFLQSLQRLNEPLLARQQLITHNILHKTI  757 (1219)
+T ss_dssp             STTCCHHHHHHHHHHHHHHCSCCCCTTHHHHTTCSCHHH
+T ss_pred             ccCCCHHHHHHHHHHHHHcCCCCCCHHHHHHCCCCChhH
+
+
+No 133
+>4YUU_U1 Photosystem II 12 kDa extrinsic protein, chloroplastic; TRANSMEMBRANE ALPHA-HELIX, ELECTRON TRANSPORT, PHOTOSYNTHESIS, PHOTOSYSTEM II, WATER-SPLITTING, OXYGEN-EVOLVING, IRON BINDING, CALCIUM BINDING, MANGANESE BINDING, CHLORIDE; HET: LHG, SQD, DGD, LMG, PHO, HEM, BCT, BCR, LMT, GOL, PL9, UNL, OEX, CLA; 2.77000368116A {Cyanidium caldarium}
+Probab=31.83  E-value=81  Score=22.16  Aligned_cols=32  Identities=9%  Similarity=-0.086  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++    ....|.+..++..--|+.+
+T Consensus        91 lpgi~~~~a~~Iv----~~gpf~s~~dL~~v~gi~~  122 (155)
+T 4YUU_U1          91 FPGLYPTAAKKIV----QGGPYGTPDDILKNPELSE  122 (155)
+T ss_pred             CCCCCHHHHHHHH----HcCCCCCHHHHHhCCCCCH
+
+
+No 134
+>6RXU_CC Nop56; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=31.54  E-value=54  Score=27.99  Aligned_cols=29  Identities=24%  Similarity=0.156  Sum_probs=0.0  Template_Neff=7.700
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+|+.|++..|.+.++.. |.+ ++ -+|
+T Consensus       310 vG~~laArLi~~aG~L~~Lak~pastIq-~LG  340 (523)
+T 6RXU_CC         310 LGTPVAARLIAHAGSLTNLAKYPASTLQ-ILG  340 (523)
+T ss_pred             cCHHHHHHHHHHHHHHHHHhhCChhhHH-Hhc
+
+
+No 135
+>PF14520.10 ; HHH_5 ; Helix-hairpin-helix domain
+Probab=31.35  E-value=1.1e+02  Score=15.30  Aligned_cols=21  Identities=24%  Similarity=-0.001  Sum_probs=0.0  Template_Neff=12.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      ++|+|...+..+... +++..+
+T Consensus         7 ~~~~~~~~~~~l~~~-~~~~~~   27 (59)
+T C9R8U6_AMMDK/7    7 IGGVGPKTALALLSC-FSVEEL   27 (59)
+T ss_pred             CCCCCHHHHHHHHhc-CCHHHH
+
+
+No 136
+>1X2I_B Hef helicase/nuclease; alpha helix, helix-hairpin-helix DNA binding domain, homodimer, HYDROLASE; 1.45A {Pyrococcus furiosus} SCOP: a.60.2.5
+Probab=31.15  E-value=1.3e+02  Score=14.97  Aligned_cols=22  Identities=18%  Similarity=0.006  Sum_probs=0.0  Template_Neff=14.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||+|......++...+++..+
+T Consensus        19 ~~~~~~~~~~~l~~~~~~~~~~   40 (75)
+T 1X2I_B           19 LPHVSATLARRLLKHFGSVERV   40 (75)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHH
+T ss_pred             CCCCCHHHHHHHHHHcCCHHHH
+
+
+No 137
+>8E10_B DNA polymerase beta; DNA polymerase, DNA binding, base excision repair, TRANSFERASE; HET: MLA; 1.65A {Mus musculus}
+Probab=30.99  E-value=78  Score=23.13  Aligned_cols=16  Identities=19%  Similarity=-0.043  Sum_probs=0.0  Template_Neff=10.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      |||||+.+|..|..+ |
+T Consensus        17 i~g~G~~~a~~l~~~-g   32 (249)
+T 8E10_B           17 VTGIGPSAARKFVDE-G   32 (249)
+T ss_dssp             STTCCHHHHHHHHHT-T
+T ss_pred             CCCCCHHHHHHHHHC-C
+
+
+No 138
+>6SXA_G DNA excision repair protein ERCC-1; DNA Repair enzyme. Nucleotide excision repair, DNA BINDING PROTEIN; 3.6A {Homo sapiens}
+Probab=30.81  E-value=75  Score=24.53  Aligned_cols=36  Identities=28%  Similarity=0.259  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||||...|..|+...|.+..+-+  ...+...-|+.+
+T Consensus       242 ipgI~~~~a~~Ll~~f~sl~~l~~as~~~L~~i~GiG~  279 (297)
+T 6SXA_G          242 VKSVNKTDSQTLLTTFGSLEQLIAASREDLALCPGLGP  279 (297)
+T ss_dssp             STTCCHHHHHHHHTTTCCHHHHTTCCTTGGGCCSSSCH
+T ss_pred             CCCCCHHHHHHHHHHcCCHHHHHHCCHHHHhcCCCCCH
+
+
+No 139
+>1NZP_A DNA polymerase lambda; DNA POLYMERASE LAMBDA, POL LAMBDA, LYASE DOMAIN, 8 kDa DOMAIN, POL BETA-LIKE, DNA BINDING PROTEIN-TRANSFERASE COMPLEX; NMR {Homo sapiens} SCOP: a.60.6.1
+Probab=30.36  E-value=1.5e+02  Score=17.61  Aligned_cols=24  Identities=13%  Similarity=-0.017  Sum_probs=0.0  Template_Neff=10.400
+
+Q ss_pred             CCCCCHHHHHHHHHHh--CCHHHCCC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI--GSATQFKS   24 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~--gd~~rf~~   24 (111)
+                      +||||+.++..|...+  |.....+.
+T Consensus        62 l~gig~~~~~~i~e~l~~g~~~~l~~   87 (87)
+T 1NZP_A           62 IPGIGKRMAEKIIEILESGHLRKLDH   87 (87)
+T ss_dssp             STTCCHHHHHHHHHHHTTSSSSCCCC
+T ss_pred             CCCCCHHHHHHHHHHHHHCCchhccC
+
+
+No 140
+>6YWY_MM Probable ribosomal protein S13; Neurospora crassa, translating Mitoribosomes, tRNA, mRNA, mL108, TRANSLATION; HET: NAD, ATP, SPM, K, MG;{Neurospora crassa}
+Probab=30.36  E-value=1e+02  Score=19.94  Aligned_cols=17  Identities=12%  Similarity=-0.113  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      |+|||...+..+....|
+T Consensus        22 i~Gig~~~a~~i~~~~g   38 (119)
+T 6YWY_MM          22 FYGLGQQASARILAKYS   38 (119)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 141
+>5MYJ_AM 30S ribosomal protein S13; ribosome, 70S, lactoccocus lactis, Cryo-EM; 5.6A {Lactococcus lactis subsp. cremoris MG1363}
+Probab=29.59  E-value=1.1e+02  Score=20.06  Aligned_cols=17  Identities=18%  Similarity=-0.068  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...|-.+....|
+T Consensus        22 i~GIg~~~a~~i~~~~g   38 (121)
+T 5MYJ_AM          22 VFGVGLQTSKKVLAAAG   38 (121)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 142
+>2A1J_B DNA excision repair protein ERCC-1; XPF, ERCC1, Xeroderma pigmentosum, NER, DNA repair, endonuclease, helix-hairpin-helix, DNA BINDING PROTEIN; 2.7A {Homo sapiens} SCOP: a.60.2.5, l.1.1.1
+Probab=29.38  E-value=1e+02  Score=18.08  Aligned_cols=36  Identities=28%  Similarity=0.259  Sum_probs=0.0  Template_Neff=11.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..++...+++..+..  ...+....|+.+
+T Consensus        37 ~~~~~~~~~~~l~~~~~~~~~~~~~~~~~l~~~~~~~~   74 (91)
+T 2A1J_B           37 VKSVNKTDSQTLLTTFGSLEQLIAASREDLALCPGLGP   74 (91)
+T ss_dssp             STTCCHHHHHHHHHHHSSHHHHHSCCHHHHHTSSSCCS
+T ss_pred             CCCCCHHHHHHHHHHcCCHHHHHhCCHHHHhcCCCCCH
+
+
+No 143
+>4BXO_B FANCONI ANEMIA-ASSOCIATED PROTEIN OF 24 KDA; HYDROLASE-DNA COMPLEX, DNA BINDING, PSEUDO-NUCLEASE; 2.15A {HOMO SAPIENS}
+Probab=28.42  E-value=89  Score=22.13  Aligned_cols=22  Identities=27%  Similarity=0.234  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||||...+..++...|.+..+
+T Consensus       169 ~~gi~~~~~~~l~~~~~sl~~~  190 (217)
+T 4BXO_B          169 IPGVGKVKAPLLLQKFPSIQQL  190 (217)
+T ss_dssp             STTCCTTHHHHHHHHSCSHHHH
+T ss_pred             CCCCCcchHHHHHHHCCCHHHH
+
+
+No 144
+>1VQO_Y 50S ribosomal protein L32E; ribosome 50S, PROTEIN-PROTEIN COMPLEX, RNA-RNA COMPLEX, PROTEIN-RNA COMPLEX, PEPTIDYL TRANSFERASE REACTION, RIBOSOME; HET: 1MA, NA, SR, UR3, MG, OMU, PPU, OMG, CL, PSU; 2.2A {Haloarcula marismortui} SCOP: c.9.2.1
+Probab=28.26  E-value=1.3e+02  Score=22.87  Aligned_cols=36  Identities=17%  Similarity=0.024  Sum_probs=0.0  Template_Neff=8.300
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCCHHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGSATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++.. ++++..+..  ...+....|+.+
+T Consensus        20 i~gig~~~a~~L~~~G~~s~~~l~~a~~~~l~~~~gis~   58 (241)
+T 1VQO_Y           20 ISGVGPSKAESLREAGFESVEDVRGADQSALADVSGIGN   58 (241)
+T ss_dssp             ---------------------------------------
+T ss_pred             CCCCCHHHHHHHHHCCCCCHHHHhcCCHHHHhhhcCCCH
+
+
+No 145
+>8B0X_M 30S ribosomal protein S13; 70S, bacterial, translation, high-resolution, RIBOSOME; HET: G7M, 3TD, H2U, K, 5MU, D2T, 2MG, 5MC, 2MA, 4OC, 6MZ, OMU, MA6, OMC, PSU, OMG, MEQ, 1MG, 4D4, UR3, MG; 1.55A {Escherichia coli B}
+Probab=28.04  E-value=1.2e+02  Score=19.72  Aligned_cols=17  Identities=24%  Similarity=0.130  Sum_probs=0.0  Template_Neff=9.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+-.+..+.|
+T Consensus        22 i~Gig~~~a~~i~~~~g   38 (118)
+T 8B0X_M           22 IYGVGKTRSKAILAAAG   38 (118)
+T ss_dssp             STTCCHHHHHHHHHHHT
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 146
+>1KFT_A Excinuclease ABC subunit C; helix-hairpin-helix, HhH domain, DNA-binding domain, DNA BINDING PROTEIN; NMR {Escherichia coli} SCOP: a.60.2.3
+Probab=27.66  E-value=1.5e+02  Score=15.58  Aligned_cols=22  Identities=18%  Similarity=0.154  Sum_probs=0.0  Template_Neff=12.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      ++|+|......++...++..++
+T Consensus        29 ~~~~~~~~~~~l~~~~~~~~~~   50 (78)
+T 1KFT_A           29 IEGVGPKRRQMLLKYMGGLQGL   50 (78)
+T ss_dssp             CTTCSSSHHHHHHHHHSCHHHH
+T ss_pred             CCCCCHHHHHHHHHHcCCHHHH
+
+
+No 147
+>8DFK_F ComE operon protein 1; plasma membrane, DNA binding, genetic competence, oligomerization, DNA BINDING PROTEIN; 3.2A {Bacillus subtilis subsp. subtilis}
+Probab=27.62  E-value=1e+02  Score=20.63  Aligned_cols=36  Identities=11%  Similarity=0.052  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||++...+..++...-....|.+..+|...-|+.+
+T Consensus       101 ~~gi~~~~a~~i~~~r~~~g~~~s~~~l~~~~g~~~  136 (157)
+T 8DFK_F          101 ISGVGPSKAEAIIAYREENGRFQTIEDITKVSGIGE  136 (157)
+T ss_dssp             ------------------------------------
+T ss_pred             CCCCCHHHHHHHHHHHHHhCCCCCHHHHhcCCCCCH
+
+
+No 148
+>7PKQ_m Mitochondrial ribosomal protein S13; Mitochondria, mitoribosome, alga, RIBOSOME; 4.2A {Chlamydomonas reinhardtii}
+Probab=27.11  E-value=1.2e+02  Score=19.74  Aligned_cols=17  Identities=18%  Similarity=-0.042  Sum_probs=0.0  Template_Neff=9.700
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+..+..+.|
+T Consensus        22 i~Gig~~~a~~i~~~~g   38 (124)
+T 7PKQ_m           22 VFGLGKSTSLAVSEACG   38 (124)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 149
+>3MAB_A uncharacterized protein; NYSGXRC, PSI-2, STRUCTURAL GENOMICS, PROTEIN STRUCTURE INITIATIVE, NEW YORK SGX RESEARCH CENTER FOR STRUCTURAL GENOMICS, UNKNOWN; 1.42A {Listeria monocytogenes}
+Probab=27.06  E-value=1.2e+02  Score=19.29  Aligned_cols=14  Identities=7%  Similarity=-0.346  Sum_probs=0.0  Template_Neff=8.200
+
+Q ss_pred             CCCCCHHHHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALIDLV   14 (111)
+Q Consensus         1 ipGiG~~~a~~l~a   14 (111)
+                      +||||+.++..|..
+T Consensus         9 l~~ig~~~~~~L~~   22 (93)
+T 3MAB_A            9 LPNIGKVLEQDLIK   22 (93)
+T ss_dssp             STTCCHHHHHHHHH
+T ss_pred             CCCCCHHHHHHHHH
+
+
+No 150
+>1D8L_B PROTEIN (HOLLIDAY JUNCTION DNA HELICASE RUVA); OB-FOLD, HELIX-HAIRPIN-HELIX MOTIF, GENE REGULATION; 2.5A {Escherichia coli} SCOP: a.60.2.1, b.40.4.2
+Probab=27.06  E-value=73  Score=21.02  Aligned_cols=36  Identities=17%  Similarity=0.104  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC---HHHCCC--HHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS---ATQFKS--GRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd---~~rf~~--~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++...|+   ......  +..+....|+.+
+T Consensus        78 ~~gig~~~a~~i~~~~~~~~~~~~~~~~~~~~l~~i~gi~~  118 (149)
+T 1D8L_B           78 TNGVGPKLALAILSGMSAQQFVNAVEREEVGALVKLPGIGK  118 (149)
+T ss_dssp             STTCCHHHHHHHHHTSCHHHHHHHHHHTCHHHHHSSTTCCH
+T ss_pred             CCCCCHHHHHHHHhcCCHHHHHHHHHcCChHHHhcCCCCCH
+
+
+No 151
+>5B66_u Photosystem II 12 kDa extrinsic protein; psii, photosystem, oxygen evolving, water splitting, thylakoid membrane, ELECTRON TRANSPORT, PHOTOSYNTHESIS; HET: HEC, SQD, LHG, DGD, DMS, FME, HTG, LMG, RRX, PHO, HEM, BCR, LMT, PL9, UNL, OEX, CLA; 1.85A {Thermosynechococcus vulcanus} SCOP: a.60.12.2
+Probab=26.61  E-value=98  Score=19.36  Aligned_cols=32  Identities=16%  Similarity=0.121  Sum_probs=0.0  Template_Neff=10.000
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|...+..++    ....|.+..++....|+.+
+T Consensus        38 ~~gi~~~~a~~i~----~~~~~~s~~~l~~~~g~~~   69 (104)
+T 5B66_u           38 YRGLYPTLAKLIV----KNAPYESVEDVLNIPGLTE   69 (104)
+T ss_dssp             STTCTTHHHHHHH----HHCCCSSGGGGGGCTTCCH
+T ss_pred             cCCCCHHHHHHHH----HhCCCCCHHHHhcCCCCCH
+
+
+No 152
+>PF20689.1 ; bDLD1 ; Bacterial Death-like domain 1
+Probab=26.59  E-value=2.4e+02  Score=19.25  Aligned_cols=32  Identities=13%  Similarity=-0.048  Sum_probs=0.0  Template_Neff=5.300
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWL   32 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~   32 (111)
+                      +|||-+.+=-.+-..+=+-+.|.|...|.+.+
+T Consensus         1 M~gip~eL~~~lr~~Ll~C~~F~s~~~Lr~~F   32 (105)
+T A0A139WX65_9CY    1 IIGIPNHFYTRCRNVLLQCEEFDTNAKLRAIF   32 (105)
+T ss_pred             CCCCChHHHHHHHHHHhCCcccCCHHHHHHHH
+
+
+No 153
+>PF11486.12 ; DUF3212 ; Protein of unknown function (DUF3212)
+Probab=26.55  E-value=1.6e+02  Score=20.43  Aligned_cols=30  Identities=13%  Similarity=0.230  Sum_probs=0.0  Template_Neff=2.100
+
+Q ss_pred             CCCHHHHHHHHHHhCCHH-HCCC--HHHHHHHh
+Q MISP034.0722.0    3 GCEGVRALIDLVRIGSAT-QFKS--GRQLAAWL   32 (111)
+Q Consensus         3 GiG~~~a~~l~ae~gd~~-rf~~--~~~l~s~~   32 (111)
+                      ||-.--.-.|+-.|||++ +.++  .+.|.+|+
+T Consensus        45 ~InIDfvFSIImNIGDiE~~~~~~~e~~LssYL   77 (120)
+T YFMB_BACSU/1-1   45 HIDIDFVFSIIMNIGDIEFALTDEIEKKLSGYL   77 (120)
+T ss_pred             CCchhHhhhhhhcccCHHHhccHHHHHHHHHHH
+
+
+No 154
+>7XN7_m Transcription elongation factor Spt6; chromatin, nucleosome, TRANSCRIPTION; HET: ZN; 3.1A {Komagataella phaffii}
+Probab=26.53  E-value=88  Score=30.47  Aligned_cols=41  Identities=12%  Similarity=-0.075  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCH-HHCCCHHHHHHHhcCcCccccC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSA-TQFKSGRQLAAWLGLVPRQFST   41 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~-~rf~~~~~l~s~~Gl~P~~~~S   41 (111)
+                      +||+|+..|..|+..+-.. ..|.+-.+|..-.|+.|....+
+T Consensus       980 v~GLGprkA~~li~~~~~~~g~~~sr~~L~~~~~l~~~vf~n 1021 (1503)
+T 7XN7_m          980 VCGLGPRKAAGLIQSIQRIGSNLVNRAHLITEQLTSKTVFLN 1021 (1503)
+T ss_dssp             STTCCHHHHHHHHHHHHHHCSSCCCTTHHHHTTCSCHHHHHH
+T ss_pred             ccCCCHHHHHHHHHHHHHcCCCCcCHHHHHHcCCCCHHhHHh
+
+
+No 155
+>6ERI_BM 30S ribosomal protein S13, chloroplastic; Chloroplast, translation, ribosome; HET: MG; 3.0A {Spinacia oleracea}
+Probab=26.49  E-value=1.2e+02  Score=19.23  Aligned_cols=17  Identities=24%  Similarity=0.069  Sum_probs=0.0  Template_Neff=9.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+-.+....|
+T Consensus        21 i~Gig~~~a~~i~~~~g   37 (111)
+T 6ERI_BM          21 IHGIGRSRARQILCDLT   37 (111)
+T ss_pred             CcCcCHHHHHHHHHHCC
+
+
+No 156
+>7P6Z_L 30S ribosomal protein S13; In-cell cryo-electron tomography, sub-tomogram analysis, ribosome; HET: MG; 3.5A {Mycoplasma pneumoniae M129}
+Probab=26.46  E-value=1.3e+02  Score=19.90  Aligned_cols=17  Identities=18%  Similarity=-0.105  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+-.+..+.|
+T Consensus        22 i~GIg~~~a~~i~~~~g   38 (124)
+T 7P6Z_L           22 IFGIGLSRSQAILKQAN   38 (124)
+T ss_pred             CcCCCHHHHHHHHHHCC
+
+
+No 157
+>6X6Z_A DNA repair protein REV1; DNA polymerase, REPLICATION, REPLICATION-DNA complex; HET: DCP; 1.4A {Saccharomyces cerevisiae}
+Probab=26.04  E-value=1.9e+02  Score=23.71  Aligned_cols=33  Identities=12%  Similarity=-0.091  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCHHHHHHHHHH------hCCHHHCCCHHHHHHHhc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR------IGSATQFKSGRQLAAWLG   33 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae------~gd~~rf~~~~~l~s~~G   33 (111)
+                      +||||..++..|-..      +||+.++-+...|...+|
+T Consensus       246 Lpgig~~~~~~L~~~~~gi~ti~dl~~~~~~~~L~~~fG  284 (442)
+T 6X6Z_A          246 LPGVGHSTLSRLESTFDSPHSLNDLRKRYTLDALKASVG  284 (442)
+T ss_dssp             STTCCHHHHHHHHHHTTCCCSHHHHHHHCCHHHHHHHHC
+T ss_pred             CCCCCHHHHHHHHhhCCCCccHHHHHhcCCHHHHHHHHC
+
+
+No 158
+>NP_417866.4 putative transcriptional accessory protein [Escherichia coli str. K-12 substr. MG1655]
+Probab=25.97  E-value=76  Score=28.35  Aligned_cols=40  Identities=23%  Similarity=0.179  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcCcccc
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVPRQFS   40 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P~~~~   40 (111)
+                      +||+|+..|-.|+...-.-..|.+-.+|..-.|+.|...+
+T Consensus       509 v~Glg~~~A~~ii~~r~~~g~~~s~~~L~~v~~ig~~~~~  548 (773)
+T NP_417866.4     509 VAGLTRMMAQNIVAWRDENGQFQNRQQLLKVSRLGPKAFE  548 (773)
+T ss_pred             cCCCCHHHHHHHHHHHHHcCCccCHHHHhhcCCCCHHHHH
+
+
+No 159
+>PF09398.14 ; FOP_dimer ; FOP N terminal dimerisation domain
+Probab=25.87  E-value=2.4e+02  Score=17.50  Aligned_cols=36  Identities=14%  Similarity=0.143  Sum_probs=0.0  Template_Neff=7.900
+
+Q ss_pred             HHHHHHHHHhCCHHHCCCHHHHHHHhcCcCccccCC
+Q MISP034.0722.0    7 VRALIDLVRIGSATQFKSGRQLAAWLGLVPRQFSTG   42 (111)
+Q Consensus         7 ~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P~~~~SG   42 (111)
+                      .|...+..|.|-.+.+.+..++...+|+.+....+.
+T Consensus        36 ~TlsVf~~Es~~~~~~~~r~~L~~~L~l~~~~~~~~   71 (81)
+T Q6IQF6_DANRE/4   36 FTLAVFQPEISTLNGLDSREVLSKELGISESEVNKN   71 (81)
+T ss_pred             hHHHHHHHHHhcCCCCCCHHHHHHHhCCCcccccCC
+
+
+No 160
+>7SFR_m 30S ribosomal protein S13; unmethylated, Mtb ribosome, drug discovery, SEQ-9, Structural Genomics, TB Structural Genomics Consortium, TBSGC, RIBOSOME-ANTIBIOTIC complex; HET: G7M, 5MU, 6MZ, 2MG, 5MC, WDP, 4OC, MA6, OMC, OMG, UR3, MG; 2.6A {Mycobacterium tuberculosis}
+Probab=25.55  E-value=1.4e+02  Score=19.64  Aligned_cols=17  Identities=24%  Similarity=0.036  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...+-.+....|
+T Consensus        22 i~GIg~~~a~~i~~~~g   38 (124)
+T 7SFR_m           22 IFGIGRTRSNEILAATG   38 (124)
+T ss_pred             CcCCCHHHHHHHHHHcC
+
+
+No 161
+>7MQA_SB Nucleolar protein 58; Ribosomal assembly intermediate, RIBOSOME; HET: ATP, SAH, GTP, 4AC, OMU, OMC, PSU, OMG, A2M, MG; 2.7A {Homo sapiens}
+Probab=25.31  E-value=54  Score=28.15  Aligned_cols=29  Identities=14%  Similarity=0.151  Sum_probs=0.0  Template_Neff=7.400
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+++.||+..|.+..+.. |.+ ++ .+|
+T Consensus       290 vG~~v~ArLi~~aGsL~~Lak~Pastiq-iLG  320 (529)
+T 7MQA_SB         290 VGELVGARLIAHAGSLLNLAKHAASTVQ-ILG  320 (529)
+T ss_pred             HhHHHHHHHHHHHHHHHHHHHchhcchh-Hhc
+
+
+No 162
+>5MRC_MM uS13m; yeast, mitochondrial, ribosome, saccharomyces cerevisiae; HET: GDP, MG; 3.25A {Saccharomyces cerevisiae}
+Probab=25.08  E-value=1.4e+02  Score=19.37  Aligned_cols=17  Identities=18%  Similarity=-0.009  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIG   17 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~g   17 (111)
+                      ++|||...|-.+...+|
+T Consensus        23 i~Gig~~~a~~i~~~~g   39 (120)
+T 5MRC_MM          23 FYGIGKTTAEKICSKLG   39 (120)
+T ss_pred             CCCcCHHHHHHHHHHcC
+
+
+No 163
+>PF12482.12 ; DUF3701 ; Phage integrase protein
+Probab=24.91  E-value=1.2e+02  Score=20.39  Aligned_cols=16  Identities=6%  Similarity=-0.315  Sum_probs=0.0  Template_Neff=5.400
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      |||||...|..|.+-+
+T Consensus        61 Vp~lG~~~A~rl~~WL   76 (100)
+T A2SMR6_METPP/2   61 VPRLGQERGDRLTAWL   76 (100)
+T ss_pred             CCCcCcHHHHHHHHHH
+
+
+No 164
+>2LYH_A Fanconi anemia-associated protein of 24 kDa; interstrand crosslink repair, Fanconi anemia, DNA BINDING PROTEIN; NMR {Homo sapiens}
+Probab=24.74  E-value=1.3e+02  Score=18.82  Aligned_cols=22  Identities=27%  Similarity=0.234  Sum_probs=0.0  Template_Neff=9.600
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      ++|+|...+..++..+|++..|
+T Consensus        49 i~g~g~~~~~~l~~~~~~~~~~   70 (98)
+T 2LYH_A           49 IPGVGKVKAPLLLQKFPSIQQL   70 (98)
+T ss_dssp             STTTCTTTHHHHTTTSSSHHHH
+T ss_pred             CCCCCccHHHHHHHHCCCHHHH
+
+
+No 165
+>8IWH_U PS II complex 12 kDa extrinsic protein; PSII supercomplex, LHCX, FCP, PHOTOSYNTHESIS; HET: CLA, KC2, SQD, OEX, PL9, DD6, LMG, PHO, DGD, BCR, LHG, A86, ET4, LMU, HEM, KC1;{Thalassiosira pseudonana}
+Probab=24.62  E-value=1.5e+02  Score=20.34  Aligned_cols=32  Identities=19%  Similarity=0.013  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++.    -..|.+..+|....|+.|
+T Consensus        84 l~g~~~~~a~~i~~----~~~f~s~~eL~~v~g~~~  115 (148)
+T 8IWH_U           84 MPGMYPAAAGKIVT----HGPYKSVADVYNIPGLTN  115 (148)
+T ss_dssp             STTCCCCCCHHHTT----SCCCSSGGGGGGCTTCCH
+T ss_pred             CCCCCHHHHHHHHH----HCCCCCHHHHhcCCCCCH
+
+
+No 166
+>PF14716.10 ; HHH_8 ; Helix-hairpin-helix domain
+Probab=24.58  E-value=1.7e+02  Score=16.38  Aligned_cols=16  Identities=6%  Similarity=-0.454  Sum_probs=0.0  Template_Neff=10.700
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||||+.++..|.-.+
+T Consensus        55 l~gig~~~~~~i~e~l   70 (71)
+T D5C3U4_NITHN/5   55 LPHIGSDLADKIRTIV   70 (71)
+T ss_pred             CCCCCHHHHHHHHHHh
+
+
+No 167
+>PF00730.29 ; HhH-GPD ; HhH-GPD superfamily base excision DNA repair protein
+Probab=24.10  E-value=2e+02  Score=18.05  Aligned_cols=31  Identities=10%  Similarity=-0.189  Sum_probs=0.0  Template_Neff=11.700
+
+Q ss_pred             CCCCHHHHHHHHHHhCCH--HHCCCHHHHHHHh
+Q MISP034.0722.0    2 KGCEGVRALIDLVRIGSA--TQFKSGRQLAAWL   32 (111)
+Q Consensus         2 pGiG~~~a~~l~ae~gd~--~rf~~~~~l~s~~   32 (111)
+                      +|||+.++..++....+-  .-++....+...+
+T Consensus        80 ~GvG~~~a~~~~~~~~~~~~~~~~~D~~~~~~~  112 (136)
+T END3_RICPR/34-   80 KLPGVGRKTANVVLNCLFAMPTMAVDTHVFRVS  112 (136)
+T ss_pred             CCCCHHHHHHHHHHhcCCCCCCCeecHHHHHHH
+
+
+No 168
+>5T9J_B Flap endonuclease GEN homolog 1; protein-DNA complex, Holliday junction resolvase, structure-specific endonuclease, DNA four-way junction, HYDROLASE; HET: GOL; 3.00012743215A {Homo sapiens}
+Probab=23.92  E-value=1.5e+02  Score=24.96  Aligned_cols=18  Identities=17%  Similarity=0.034  Sum_probs=0.0  Template_Neff=9.200
+
+Q ss_pred             CCCCCHHHHHHHHHHhCC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGS   18 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd   18 (111)
+                      +||||..+|..++...++
+T Consensus       214 v~g~G~~~a~~l~~~~~~  231 (506)
+T 5T9J_B          214 VPGVGKEQALKLIQILKG  231 (506)
+T ss_dssp             CSCCHHHHHHHHHHCCSC
+T ss_pred             CCCCCHHHHHHHHHHhCC
+
+
+No 169
+>3BZC_A Tex; helix-turn-helix, helix-hairpin-helix, S1 domain, YqgF domain, TRANSCRIPTION, RNA BINDING PROTEIN; 2.27A {Pseudomonas aeruginosa} SCOP: b.40.4.5, a.294.1.1, a.60.2.6, c.55.3.13
+Probab=23.89  E-value=1e+02  Score=27.38  Aligned_cols=36  Identities=14%  Similarity=0.030  Sum_probs=0.0  Template_Neff=9.100
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..|..|+...-....|.+-.+|....|+.|
+T Consensus       513 ~~gl~~~~a~~ii~~r~~~g~~~s~~eL~~~~~~~~  548 (785)
+T 3BZC_A          513 ISGLNSTLAQNIVAHRDANGAFRTRDELKKVSRLGE  548 (785)
+T ss_dssp             STTCCHHHHHHHHHHHHHHCCCSSGGGGGGSTTCCH
+T ss_pred             hhCCCHHHHHHHHHHHHHcCCCCCHHHHHhcCCCCH
+
+
+No 170
+>PF21292.1 ; EME1-MUS81_C ; EME1/MUS81, C-terminal
+Probab=23.66  E-value=1.8e+02  Score=16.35  Aligned_cols=22  Identities=9%  Similarity=-0.158  Sum_probs=0.0  Template_Neff=10.800
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF   22 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf   22 (111)
+                      +||++...|..++.....+..|
+T Consensus         9 i~g~s~~~a~~i~~~~~t~~~l   30 (74)
+T A7RUE5_NEMVE/9    9 FTNVSAQMAAAIVSVYPSPQML   30 (74)
+T ss_pred             ccCCCHHHHHHHHHHCCCHHHH
+
+
+No 171
+>8EQM_u Photosystem II 12 kDa extrinsic protein; Far-red, photosystem II, cyanobacteria, chlorophyll, PHOTOSYNTHESIS; HET: DGD, PL9, OEX, RRX, F6C, PHO, LMG, CL7, HEM, CLA, SQD, LHG, BCR, LMT; 2.6A {Synechococcus sp. PCC 7335}
+Probab=23.56  E-value=1.3e+02  Score=20.73  Aligned_cols=32  Identities=19%  Similarity=0.072  Sum_probs=0.0  Template_Neff=9.400
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P   36 (111)
+                      +||+|+..+..++    ....|.+..+|...-|+.+
+T Consensus        94 lp~l~~~~a~~i~----~~~~~~s~~eL~~v~g~~~  125 (160)
+T 8EQM_u           94 HRGLYPTIAGKVV----SNAPYDSIEDILDIPGLRE  125 (160)
+T ss_pred             cCCCCHHHHHHHH----hhCCCCCHHHHhcCCCCCH
+
+
+No 172
+>3SGI_A DNA ligase; NAD depndent DNA ligase A, LIGASE; HET: AMP; 3.5A {Mycobacterium tuberculosis}
+Probab=23.49  E-value=2.6e+02  Score=24.49  Aligned_cols=48  Identities=8%  Similarity=-0.114  Sum_probs=0.0  Template_Neff=8.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHHHhcCcCccccCCCCCCCCC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAAWLGLVPRQFSTGGKPKLGG   49 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s~~Gl~P~~~~SG~~~~~~~   49 (111)
+                      ++|||..+|..|+..+.+.....--..|. -.|+.+....-|.+....+
+T Consensus       566 i~Gig~~~a~~i~~~~~~~~~~~~l~~L~-~~gi~~~~~~~~~~~~~~~  613 (615)
+T 3SGI_A          566 VEGVGPTIAAAVTEWFAVDWHREIVDKWR-AAGVRMVDERDGSRSHHHH  613 (615)
+T ss_dssp             -------------------------------------------------
+T ss_pred             CCCCCHHHHHHHHHHHcCHHHHHHHHHHH-HCCCcccccccccccCCCC
+
+
+No 173
+>2VA8_A SKI2-TYPE HELICASE; HEL308, SSO2462, HELICASE, HYDROLASE, DNA REPAIR, ATP-BINDING, NUCLEOTIDE-BINDING; HET: SO4; 2.3A {SULFOLOBUS SOLFATARICUS}
+Probab=22.75  E-value=1.8e+02  Score=24.64  Aligned_cols=25  Identities=20%  Similarity=0.112  Sum_probs=0.0  Template_Neff=11.500
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHCCCHHHHHH
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQFKSGRQLAA   30 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf~~~~~l~s   30 (111)
+                      |||||+..|..|... |    |.|..+|+.
+T Consensus       662 ~~~~~~~~~~~l~~~-g----~~~~~~~~~  686 (715)
+T 2VA8_A          662 ISGVGRKRARLLYNN-G----IKELGDVVM  686 (715)
+T ss_dssp             STTCCHHHHHHHHHT-T----CCSHHHHHH
+T ss_pred             ccCCCHHHHHHHHHC-C----CCCHHHHhc
+
+
+No 174
+>6RXU_CD Nop58; ribosome, ribosome biogenesis, rRNA; HET: GTP; 3.5A {Chaetomium thermophilum}
+Probab=22.27  E-value=63  Score=28.38  Aligned_cols=29  Identities=14%  Similarity=0.140  Sum_probs=0.0  Template_Neff=6.100
+
+Q ss_pred             CCHHHHHHHHHHhCCHHHCCC-HHH-HHHHhc
+Q MISP034.0722.0    4 CEGVRALIDLVRIGSATQFKS-GRQ-LAAWLG   33 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd~~rf~~-~~~-l~s~~G   33 (111)
+                      ||+.+++.||+..|++.++.. |.+ ++ .+|
+T Consensus       293 vG~~v~ArLIa~AGsL~~LAk~PaStIQ-iLG  323 (582)
+T 6RXU_CD         293 IGALVGARLIAHSGSLVNLAKNPGSTIQ-ILG  323 (582)
+T ss_pred             hhHHHHHHHHHHhHHHHHHHhCCCchHH-Hhc
+
+
+No 175
+>4GLX_A DNA ligase; DNA ligase A, inhibitor, LIGASE-LIGASE INHIBITOR-DNA complex; HET: 0XS; 1.9A {Escherichia coli}
+Probab=21.70  E-value=1.3e+02  Score=25.79  Aligned_cols=36  Identities=11%  Similarity=-0.099  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCCCCHHHHHHHHHHhCCHHHC--CCHHHHHHHhcCcC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRIGSATQF--KSGRQLAAWLGLVP   36 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~gd~~rf--~~~~~l~s~~Gl~P   36 (111)
+                      +||||...+-.|+..++++..+  .++.+|...-|+.+
+T Consensus       517 i~giG~~~a~~L~~~~~~~~~l~~~~~~~l~~i~Gig~  554 (586)
+T 4GLX_A          517 IREVGEATAAGLAAYFGTLEALEAASIEELQKVPDVGI  554 (586)
+T ss_dssp             CTTCCHHHHHHHHHHHCSHHHHHHCCHHHHTTSTTCCH
+T ss_pred             cchHhHHHHHHHHHHhcCHHHHHhCCHHHHhCCCCCCH
+
+
+No 176
+>PF05559.15 ; DUF763 ; Protein of unknown function (DUF763)
+Probab=20.91  E-value=2.4e+02  Score=23.08  Aligned_cols=37  Identities=11%  Similarity=0.140  Sum_probs=0.0  Template_Neff=5.500
+
+Q ss_pred             CCHHHHHHHHHHhCC---HHHCCCH---HHHHHHhcCcCccccCC
+Q MISP034.0722.0    4 CEGVRALIDLVRIGS---ATQFKSG---RQLAAWLGLVPRQFSTG   42 (111)
+Q Consensus         4 iG~~~a~~l~ae~gd---~~rf~~~---~~l~s~~Gl~P~~~~SG   42 (111)
+                      ++..+.-.|+.|.|.   ++||.+|   .+|..-+|++  .++||
+T Consensus        23 L~~~I~~~iv~e~G~~e~l~rlsdP~wFQal~~vlG~D--W~SSG   65 (318)
+T A0A2S3QJI8_9FI   23 LSAAIIEAVAYEFGTAEALRRMADPVWFQAFGSVIGFD--WHSSG   65 (318)
+T ss_pred             HHHHHHHHHHHHHCcHHHHHhhcCchHHHhHHHhhcCC--CCccc
+
+
+No 177
+>5CO8_C Nuclease-like protein; Holiday junction, resolvase, Complex, DNA, hydrolase; HET: MSE; 2.4A {Chaetomium thermophilum (strain DSM 1495 / CBS 144.50 / IMI 039719)}
+Probab=20.40  E-value=1.3e+02  Score=25.08  Aligned_cols=18  Identities=22%  Similarity=0.130  Sum_probs=0.0  Template_Neff=8.900
+
+Q ss_pred             CCCCCHHHHHHHHHH-hCC
+Q MISP034.0722.0    1 GKGCEGVRALIDLVR-IGS   18 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae-~gd   18 (111)
+                      +||+|+.+|..++.. +|+
+T Consensus       204 i~g~G~~~A~~l~~~~~g~  222 (464)
+T 5CO8_C          204 IPGCGIKVACQAAKAGFGK  222 (464)
+T ss_dssp             CTTCCHHHHHHHCCCCCCC
+T ss_pred             CCCchHHHHHHHHHcCCcH
+
+
+No 178
+>PF18723.5 ; HMUDK_hel ; 5-hmdU DNA kinase, helical domain
+Probab=20.04  E-value=1.3e+02  Score=23.51  Aligned_cols=16  Identities=6%  Similarity=-0.099  Sum_probs=0.0  Template_Neff=7.800
+
+Q ss_pred             CCCCCHHHHHHHHHHh
+Q MISP034.0722.0    1 GKGCEGVRALIDLVRI   16 (111)
+Q Consensus         1 ipGiG~~~a~~l~ae~   16 (111)
+                      +||+|+.+|.+++..+
+T Consensus       173 ~~g~G~Fla~Q~~~Dl  188 (279)
+T A0A0P0C5I5_9BA  173 YPSFGRFLAFQYTIDL  188 (279)
+T ss_pred             CCCccccHHHHHHHhc
+
+

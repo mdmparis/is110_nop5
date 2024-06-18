@@ -1,0 +1,179 @@
+# Sequence scores
+# ---------------
+#
+# name                  bits   E-value   n   exp  bias    description
+# ------------------- ------ --------- --- ----- -----    ---------------------
+
+# Domain scores
+# -------------
+#
+#  name                 bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+# ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+# Sequence scores
+# ---------------
+#
+# name                           bits   E-value   n   exp  bias    description
+#          ------------------- ------ --------- --- ----- -----    ---------------------
+GCA_013152575_00756              19.4   0.00096   2   3.3   0.3    -
+GCA_003661905_01146              18.1    0.0023   4   3.0   0.2    -
+GCA_011055355_00568              16.8    0.0062   1   2.6   0.1    -
+GCF_012027595_02055              16.0      0.01   2   2.4   0.0    -
+GCA_011367065_00914              15.8     0.012   2   3.0   0.0    -
+AECA001.0722.00001.C001_01410    15.8     0.013   1   2.0   0.1    C TTG TAG 1333815 1335077 Valid ACAM_RS07000 1263 @WP_022542119.1@ ACAM_RS07000 1 1333815 1335077 | hypothetical protein  (translation)
+GCF_000591035_01373              15.8     0.013   1   2.0   0.1    -
+GCA_003661825_00420              15.6     0.015   1   2.3   0.1    -
+STMA002.0722.00001.C001_01329    15.5     0.015   1   2.1   0.1    C ATG TAA 1219413 1220642 Valid SMAR_RS06540 1230 @WP_011839539.1@ SMAR_RS06540 1 1219413 1220642 | hypothetical protein  (translation)
+GCF_000015945_01286              15.5     0.015   1   2.1   0.1    -
+GCA_003661865_00362              15.3     0.017   1   2.2   0.0    -
+GCA_002254975_00526              15.3     0.017   3   2.7   0.3    -
+GCF_000022365_00468              15.0     0.022   2   2.9   0.0    -
+THGA001.0722.00001.C001_00481    15.0     0.022   2   2.9   0.0    C GTG TGA 453651 454919 Valid TGAM_RS02355 1269 @WP_015858084.1@ TGAM_RS02355 1 453651 454919 | hypothetical protein  (translation)
+AEPE001.0722.00001.C001_01485    14.9     0.023   1   2.0   0.1    C TTG TAG 1394108 1395367 Valid APE_RS07390 1260 @WP_010866859.1@ APE_RS07390 1 1394108 1395367 | hypothetical protein  (translation)
+GCF_000011125_01451              14.9     0.023   1   2.0   0.1    -
+GCA_003056265_01203              14.8     0.025   2   2.1   0.1    -
+STHE001.0722.00001.C001_01186    14.8     0.025   1   2.1   0.0    D ATG TAA 1155166 1156401 Valid SHELL_RS05805 1236 @WP_052833655.1@ SHELL_RS05805 1 1155166 1156401 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000092465_01161              14.8     0.026   1   2.1   0.1    -
+GCA_003661745_00811              14.8     0.026   1   2.0   0.2    -
+GCA_003649445_01003              14.6      0.03   3   3.5   0.0    -
+GCA_011053855_00306              14.4     0.033   2   2.7   0.1    -
+GCA_013154205_02036              14.2     0.037   1   2.1   0.1    -
+GCF_000769655_00116              14.0     0.044   2   2.9   0.0    -
+THEU001.0722.00001.C001_00117    14.0     0.044   2   2.9   0.0    C ATG TGA 95574 96824 Valid TEU_RS00590 1251 @WP_050001936.1@ TEU_RS00590 1 95574 96824 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_902812485_01284              13.8     0.051   2   2.5   0.0    -
+GCA_011364565_00188              13.8     0.051   2   2.5   0.2    -
+GCF_002214525_00435              13.7     0.054   3   2.6   0.0    -
+THSP005.0722.00001.C001_00456    13.7     0.054   3   2.6   0.0    C ATG TGA 409555 410802 Valid A3L12_RS02270 1248 @WP_088882102.1@ A3L12_RS02270 1 409555 410802 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000151205_02074              13.7     0.056   2   2.9   0.0    -
+THSP017.0722.00001.C001_02103    13.7     0.056   2   2.9   0.0    C GTG TGA 1898243 1899511 Valid TAM4_RS10410 1269 @WP_014123189.1@ TAM4_RS10410 1 1898243 1899511 | rRNA biogenesis protein Nop5/Nop56  (translation)
+GCA_003661965_00696              13.7     0.056   1   2.6   0.1    -
+GCF_000585495_01657              13.7     0.056   2   2.9   0.0    -
+THNA002.0722.00001.C001_01692    13.7     0.056   2   2.9   0.0    C ATG TGA 1511367 1512632 Valid BD01_RS08330 1266 @WP_042691903.1@ BD01_RS08330 1 1511367 1512632 | hypothetical protein  (translation)
+GCA_002255045_00786              13.3     0.073   1   1.7   0.0    -
+GCA_002254745_00704              13.3     0.077   2   2.3   0.1    -
+GCF_006274605_02156              13.2     0.077   2   2.7   0.0    -
+THIN004.0722.00001.C001_02173    13.2     0.077   2   2.7   0.0    D ATG TGA 1981082 1982356 Valid FH039_RS10755 1275 @WP_139681839.1@ FH039_RS10755 1 1981082 1982356 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_002011035_01339              13.2     0.079   1   1.8   0.0    -
+GCF_000816105_01208              13.2     0.081   2   2.8   0.0    -
+THGU001.0722.00001.C001_01232    13.2     0.081   2   2.8   0.0    C ATG TGA 1111632 1112900 Valid X802_RS06055 1269 @WP_062371884.1@ X802_RS06055 1 1111632 1112900 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+PYFU002.0722.00001.C001_01814    13.1     0.083   1   2.1   0.1    C ATG TAA 1691182 1692429 Valid PYRFU_RS08885 1248 @WP_048192010.1@ PYRFU_RS08885 1 1691182 1692429 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000223395_01809              13.1     0.084   1   2.1   0.1    -
+GCA_011361945_00158              13.0      0.09   1   1.8   0.0    -
+HYBU002.0722.00001.C001_00032    13.0      0.09   2   2.5   0.2    D ATG TAG 22465 23706 Valid HBUT_RS00155 1242 @WP_011821225.1@ HBUT_RS00155 1 22465 23706 | hypothetical protein  (translation)
+Asgard_ASG050_00542              12.9     0.095   2   2.3   0.0    -
+GCF_002214385_01418              12.9     0.099   2   2.8   0.0    -
+THGO001.0722.00001.C001_01449    12.9     0.099   2   2.8   0.0    D ATG TGA 1273882 1275171 Valid A3K92_RS07115 1290 @WP_088885597.1@ A3K92_RS07115 1 1273882 1275171 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_011362275_00898              12.9       0.1   2   2.3   0.1    -
+GCF_000015145_00030              12.8      0.11   2   2.5   0.1    -
+GCA_003649145_00084              12.8      0.11   2   2.8   0.0    -
+GCA_002506595_01442              12.8      0.11   1   2.2   0.1    -
+GCA_013153105_01241              12.7      0.12   2   2.5   0.3    -
+GCA_003661775_00089              12.6      0.12   1   2.2   0.1    -
+GCA_011375895_00843              12.6      0.12   1   2.1   0.1    -
+PYHO001.0722.00001.C001_00049    12.6      0.12   1   2.0   0.1    C ATG TGA 46265 47470 Valid PH_RS00250 1206 @WP_048053017.1@ PH_RS00250 1 46265 47470 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000011105_00047              12.6      0.12   1   2.0   0.1    -
+GCF_000092185_00156              12.5      0.13   1   2.1   0.1    -
+THAG001.0722.00001.C001_00164    12.5      0.13   1   2.1   0.1    C ATG TGA 138173 139387 Valid TAGG_RS00805 1215 @WP_013129029.1@ TAGG_RS00805 1 138173 139387 | rRNA biogenesis protein Nop56/Nop58  (translation)
+
+# Domain scores
+# -------------
+#
+#  name                          bits   E-value   hit  bias env-st env-en ali-st ali-en hmm-st hmm-en     description
+#          ------------------- ------ --------- ----- ----- ------ ------ ------ ------ ------ ------      ---------------------
+GCA_003661905_01146              14.4     0.035     2   0.0    155    272    200    226     36     66     -
+GCA_003661865_00362              13.8     0.053     1   0.0    157    397    201    251     36     79     -
+GCA_011055355_00568              13.7     0.056     1   0.1    157    396    158    242     11     67     -
+STMA002.0722.00001.C001_01329    13.7     0.057     1   0.1    154    309    197    236     35     67     C ATG TAA 1219413 1220642 Valid SMAR_RS06540 1230 @WP_011839539.1@ SMAR_RS06540 1 1219413 1220642 | hypothetical protein  (translation)
+AECA001.0722.00001.C001_01410    13.5     0.063     1   0.1    157    275    196    255     47     91     C TTG TAG 1333815 1335077 Valid ACAM_RS07000 1263 @WP_022542119.1@ ACAM_RS07000 1 1333815 1335077 | hypothetical protein  (translation)
+GCF_000591035_01373              13.5     0.063     1   0.1    157    275    196    255     47     91     -
+GCF_000015945_01286              13.4     0.068     1   0.1    155    270    198    237     35     67     -
+GCA_003661825_00420              13.4     0.071     1   0.1    109    275    153    192     36     67     -
+GCA_003661745_00811              13.3     0.074     1   0.2    183    380    197    238     34     67     -
+GCA_013152575_00756              13.1     0.083     2   0.1    149    304    150    226     11     67     -
+GCF_012027595_02055              13.1     0.083     2   0.0    141    255    178    212     28     66     -
+AEPE001.0722.00001.C001_01485    12.8      0.11     1   0.1    156    275    159    254     13     91     C TTG TAG 1394108 1395367 Valid APE_RS07390 1260 @WP_010866859.1@ APE_RS07390 1 1394108 1395367 | hypothetical protein  (translation)
+GCF_000011125_01451              12.8      0.11     1   0.1    156    275    159    254     13     91     -
+STHE001.0722.00001.C001_01186    12.5      0.13     1   0.0    153    263    195    236     33     67     D ATG TAA 1155166 1156401 Valid SHELL_RS05805 1236 @WP_052833655.1@ SHELL_RS05805 1 1155166 1156401 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000092465_01161              12.5      0.13     1   0.0    154    264    196    237     33     67     -
+GCA_003056265_01203              12.5      0.14     1   0.1    187    257    202    229     35     66     -
+GCA_002255045_00786              12.2      0.17     1   0.0    131    290    159    215     18     67     -
+GCA_013154205_02036              12.1      0.18     1   0.1    162    284    201    233     30     66     -
+GCA_011361945_00158              11.9       0.2     1   0.0      9    194     15     53     35     67     -
+GCA_002254975_00526              11.7      0.23     2   0.0    132    214    145    208     36    106     -
+PYFU002.0722.00001.C001_01814    11.7      0.23     1   0.1    156    395    199    226     35     66     C ATG TAA 1691182 1692429 Valid PYRFU_RS08885 1248 @WP_048192010.1@ PYRFU_RS08885 1 1691182 1692429 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_002011035_01339              11.7      0.23     1   0.0    178    262    200    260     39    106     -
+GCF_000223395_01809              11.7      0.23     1   0.1    159    397    202    229     35     66     -
+GCA_011364565_00188              11.6      0.26     1   0.1    164    377    200    227     35     66     -
+GCF_902812485_01284              11.4       0.3     2   0.0    133    363    139    223     15     67     -
+GCA_011053855_00306              11.3      0.31     2   0.0    153    395    195    249     33     67     -
+GCA_003661775_00089              11.1      0.35     1   0.1    157    400    201    251     36     79     -
+GCA_002506595_01442              11.0      0.38     1   0.1    152    378    196    243     35     67     -
+PYHO001.0722.00001.C001_00049    10.9      0.41     1   0.0    141    255    185    239     35     91     C ATG TGA 46265 47470 Valid PH_RS00250 1206 @WP_048053017.1@ PH_RS00250 1 46265 47470 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000011105_00047              10.9      0.41     1   0.1    142    256    186    240     35     91     -
+GCF_000092185_00156              10.8      0.43     1   0.1    153    395    158    249     15     67     -
+THAG001.0722.00001.C001_00164    10.8      0.43     1   0.1    153    395    158    249     15     67     C ATG TGA 138173 139387 Valid TAGG_RS00805 1215 @WP_013129029.1@ TAGG_RS00805 1 138173 139387 | rRNA biogenesis protein Nop56/Nop58  (translation)
+Asgard_ASG050_00542              10.7      0.46     1   0.0    140    262    196    238     42     80     -
+GCA_003661965_00696              10.6      0.52     1   0.1    172    367    189    251     36    105     -
+GCA_011362275_00898              10.5      0.53     1   0.1    158    267    204    247     40     86     -
+GCA_002254745_00704              10.5      0.55     1   0.0    156    256    202    227     37     66     -
+GCA_013153105_01241              10.4      0.61     2   0.1    158    395    203    229     36     66     -
+GCA_011375895_00843              10.4      0.61     1   0.0    155    268    201    226     37     66     -
+GCF_002214525_00435              10.2       0.7     2   0.0    183    268    185    248     35    101     -
+THSP005.0722.00001.C001_00456    10.2       0.7     2   0.0    183    268    185    248     35    101     C ATG TGA 409555 410802 Valid A3L12_RS02270 1248 @WP_088882102.1@ A3L12_RS02270 1 409555 410802 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+HYBU002.0722.00001.C001_00032    10.0      0.78     2   0.1    152    290    196    223     35     66     D ATG TAG 22465 23706 Valid HBUT_RS00155 1242 @WP_011821225.1@ HBUT_RS00155 1 22465 23706 | hypothetical protein  (translation)
+GCF_000022365_00468               9.8      0.89     2   0.0    142    272    185    212     35     66     -
+THGA001.0722.00001.C001_00481     9.8      0.89     2   0.0    142    272    185    212     35     66     C GTG TGA 453651 454919 Valid TGAM_RS02355 1269 @WP_015858084.1@ TGAM_RS02355 1 453651 454919 | hypothetical protein  (translation)
+GCF_006274605_02156               9.6       1.1     2   0.0    141    274    179    212     29     66     -
+THIN004.0722.00001.C001_02173     9.6       1.1     2   0.0    141    274    179    212     29     66     D ATG TGA 1981082 1982356 Valid FH039_RS10755 1275 @WP_139681839.1@ FH039_RS10755 1 1981082 1982356 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000015145_00030               9.5       1.1     2   0.0    184    284    228    254     35     65     -
+GCA_011367065_00914               9.1       1.5     2   0.0    151    360    196    234     36     67     -
+GCF_000151205_02074               8.7       1.9     2   0.0    142    304    185    212     35     66     -
+THSP017.0722.00001.C001_02103     8.7       1.9     2   0.0    142    304    185    212     35     66     C GTG TGA 1898243 1899511 Valid TAM4_RS10410 1269 @WP_014123189.1@ TAM4_RS10410 1 1898243 1899511 | rRNA biogenesis protein Nop5/Nop56  (translation)
+GCF_002214385_01418               8.7       1.9     2   0.0    142    274    185    212     35     66     -
+THGO001.0722.00001.C001_01449     8.7       1.9     2   0.0    142    274    185    212     35     66     D ATG TGA 1273882 1275171 Valid A3K92_RS07115 1290 @WP_088885597.1@ A3K92_RS07115 1 1273882 1275171 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000585495_01657               8.7       2.1     2   0.0    142    288    185    212     35     66     -
+THNA002.0722.00001.C001_01692     8.7       2.1     2   0.0    142    288    185    212     35     66     C ATG TGA 1511367 1512632 Valid BD01_RS08330 1266 @WP_042691903.1@ BD01_RS08330 1 1511367 1512632 | hypothetical protein  (translation)
+GCA_003649145_00084               8.6       2.1     2   0.0    163    294    206    238     35     67     -
+GCF_000769655_00116               8.6       2.2     2   0.0    142    276    185    212     35     66     -
+THEU001.0722.00001.C001_00117     8.6       2.2     2   0.0    142    276    185    212     35     66     C ATG TGA 95574 96824 Valid TEU_RS00590 1251 @WP_050001936.1@ TEU_RS00590 1 95574 96824 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000816105_01208               8.4       2.5     2   0.0    142    260    185    212     35     66     -
+THGU001.0722.00001.C001_01232     8.4       2.5     2   0.0    142    260    185    212     35     66     C ATG TGA 1111632 1112900 Valid X802_RS06055 1269 @WP_062371884.1@ X802_RS06055 1 1111632 1112900 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_003649445_01003               8.3       2.6     2   0.0    151    274    197    265     35     83     -
+GCA_011367065_00914               3.5        80     1   0.0     47     98     50     81     58     89     -
+GCA_013152575_00756               2.1   2.2e+02     1   0.0      7     96     53     79     66     89     -
+GCF_000769655_00116               2.0   2.5e+02     1   0.0      6     95     48     81     66     91     -
+THEU001.0722.00001.C001_00117     2.0   2.5e+02     1   0.0      6     95     48     81     66     91     C ATG TGA 95574 96824 Valid TEU_RS00590 1251 @WP_050001936.1@ TEU_RS00590 1 95574 96824 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000151205_02074               1.7   2.9e+02     1   0.0      5     95     48     81     66     91     -
+THSP017.0722.00001.C001_02103     1.7   2.9e+02     1   0.0      5     95     48     81     66     91     C GTG TGA 1898243 1899511 Valid TAM4_RS10410 1269 @WP_014123189.1@ TAM4_RS10410 1 1898243 1899511 | rRNA biogenesis protein Nop5/Nop56  (translation)
+GCF_000585495_01657               1.7   2.9e+02     1   0.0      5     95     49     81     66     91     -
+THNA002.0722.00001.C001_01692     1.7   2.9e+02     1   0.0      5     95     49     81     66     91     C ATG TGA 1511367 1512632 Valid BD01_RS08330 1266 @WP_042691903.1@ BD01_RS08330 1 1511367 1512632 | hypothetical protein  (translation)
+GCF_000022365_00468               1.7     3e+02     1   0.0      5     95     52     81     66     91     -
+THGA001.0722.00001.C001_00481     1.7     3e+02     1   0.0      5     95     52     81     66     91     C GTG TGA 453651 454919 Valid TGAM_RS02355 1269 @WP_015858084.1@ TGAM_RS02355 1 453651 454919 | hypothetical protein  (translation)
+GCF_000816105_01208               1.2   4.3e+02     1   0.0      5     94     48     81     66     91     -
+THGU001.0722.00001.C001_01232     1.2   4.3e+02     1   0.0      5     94     48     81     66     91     C ATG TGA 1111632 1112900 Valid X802_RS06055 1269 @WP_062371884.1@ X802_RS06055 1 1111632 1112900 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_002214385_01418               0.5     7e+02     1   0.0     16     95     58     81     67     91     -
+THGO001.0722.00001.C001_01449     0.5     7e+02     1   0.0     16     95     58     81     67     91     D ATG TGA 1273882 1275171 Valid A3K92_RS07115 1290 @WP_088885597.1@ A3K92_RS07115 1 1273882 1275171 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_003649145_00084               0.3   8.3e+02     1   0.0     30    119     57     88     56     86     -
+GCA_003649445_01003               0.1   9.7e+02     1   0.0     44     89     50     81     57     87     -
+GCA_002254975_00526              -0.2   1.1e+03     1   0.0     16    106     36     71     30     66     -
+GCF_002214525_00435              -0.4   1.3e+03     1   0.0     21     94     58     81     67     91     -
+THSP005.0722.00001.C001_00456    -0.4   1.3e+03     1   0.0     21     94     58     81     67     91     C ATG TGA 409555 410802 Valid A3L12_RS02270 1248 @WP_088882102.1@ A3L12_RS02270 1 409555 410802 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_003649445_01003              -0.4   1.3e+03     3   0.1    335    382    336    377      7     48     -
+GCA_011053855_00306              -0.4   1.4e+03     1   0.0     46    138     73    129     61     99     -
+GCF_006274605_02156              -0.5   1.4e+03     1   0.0      6     94     58     81     67     91     -
+THIN004.0722.00001.C001_02173    -0.5   1.4e+03     1   0.0      6     94     58     81     67     91     D ATG TGA 1981082 1982356 Valid FH039_RS10755 1275 @WP_139681839.1@ FH039_RS10755 1 1981082 1982356 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+HYBU002.0722.00001.C001_00032    -0.6   1.5e+03     1   0.0     71    168     80    115     20     57     D ATG TAG 22465 23706 Valid HBUT_RS00155 1242 @WP_011821225.1@ HBUT_RS00155 1 22465 23706 | hypothetical protein  (translation)
+GCF_000015145_00030              -0.7   1.7e+03     1   0.0    103    200    112    147     20     57     -
+GCA_013153105_01241              -1.0     2e+03     1   0.0     52    144     98    114     62     79     -
+GCF_902812485_01284              -1.2   2.4e+03     1   0.0     17     70     40     59     23     44     -
+GCF_012027595_02055              -1.3   2.5e+03     1   0.0     15     92     58     79     67     89     -
+GCA_003661905_01146              -1.3   2.6e+03     1   0.0    112    141    114    137     37     58     -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      data/PF00633_PF00730.hmm
+# Target file:     data/nop5-c-ter_round-3_hits_1e-5_len-200-1000_kingdom=all.faa
+# Option settings: hmmsearch --tblout results/dna_glycosylase_pfam_full_prot_hits_kingdom=euk-bact.tsv --domtblout results/dna_glycosylase_pfam_full_prot_domtbl_kingdom=euk-bact.tsv --pfamtblout results/dna_glycosylase_pfam_full_prot_pftblout_kingdom=euk-bact.tsv --cpu 20 data/PF00633_PF00730.hmm data/nop5-c-ter_round-3_hits_1e-5_len-200-1000_kingdom=all.faa 
+# Current dir:     /shared/ifbstor1/projects/mdm_db_coli/is110/dev/c_ter_domain/nop5_c_ter/3_round/results/check_dna_glycosylase
+# Date:            Mon Feb 26 09:12:45 2024
+# [ok]

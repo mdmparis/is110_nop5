@@ -1,0 +1,9 @@
+Found 60293 hits with e-value < 1e-5.
+- 59309 in Bacteria.
+- 190 in Eukaryotes.
+- 703 in Archaea.
+- 91 in Asgard.
+file                                                   format  type     num_seqs     sum_len  min_len  avg_len  max_len
+results/is110-c-ter_round-2_hits_1e-5_kingdom=all.faa  FASTA   Protein    60,290  20,866,512       48    346.1    1,231 sequences found in the database.
+file                                                                format  type     num_seqs     sum_len  min_len  avg_len  max_len
+results/is110-c-ter_round-2_hits_1e-5_len-200-1000_kingdom=all.faa  FASTA   Protein    57,657  20,481,356      200    355.2    1,000 sequences with 200 < length < 1000.

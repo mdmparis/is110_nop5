@@ -1,0 +1,72 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+GCA_013152575_00756           -          HhH-GPD              PF00730.29   0.00096   19.4   0.3     0.083   13.1   0.1   3.3   2   1   0   2   2   2   1 -
+GCA_003661905_01146           -          HhH-GPD              PF00730.29    0.0023   18.1   0.2     0.035   14.4   0.0   3.0   3   1   1   4   4   2   1 -
+GCA_011055355_00568           -          HhH-GPD              PF00730.29    0.0062   16.8   0.1     0.056   13.7   0.1   2.6   1   1   0   1   1   1   1 -
+GCF_012027595_02055           -          HhH-GPD              PF00730.29      0.01   16.0   0.0     0.083   13.1   0.0   2.4   2   1   0   2   2   2   0 -
+GCA_011367065_00914           -          HhH-GPD              PF00730.29     0.012   15.8   0.0       1.5    9.1   0.0   3.0   2   2   0   2   2   2   0 -
+AECA001.0722.00001.C001_01410 -          HhH-GPD              PF00730.29     0.013   15.8   0.1     0.063   13.5   0.1   2.0   1   1   0   1   1   1   0 C TTG TAG 1333815 1335077 Valid ACAM_RS07000 1263 @WP_022542119.1@ ACAM_RS07000 1 1333815 1335077 | hypothetical protein  (translation)
+GCF_000591035_01373           -          HhH-GPD              PF00730.29     0.013   15.8   0.1     0.063   13.5   0.1   2.0   1   1   0   1   1   1   0 -
+GCA_003661825_00420           -          HhH-GPD              PF00730.29     0.015   15.6   0.1     0.071   13.4   0.1   2.3   1   1   0   1   1   1   0 -
+STMA002.0722.00001.C001_01329 -          HhH-GPD              PF00730.29     0.015   15.5   0.1     0.057   13.7   0.1   2.1   1   1   0   1   1   1   0 C ATG TAA 1219413 1220642 Valid SMAR_RS06540 1230 @WP_011839539.1@ SMAR_RS06540 1 1219413 1220642 | hypothetical protein  (translation)
+GCF_000015945_01286           -          HhH-GPD              PF00730.29     0.015   15.5   0.1     0.068   13.4   0.1   2.1   1   1   0   1   1   1   0 -
+GCA_003661865_00362           -          HhH-GPD              PF00730.29     0.017   15.3   0.0     0.053   13.8   0.0   2.2   1   1   0   1   1   1   0 -
+GCA_002254975_00526           -          HhH-GPD              PF00730.29     0.017   15.3   0.3      0.23   11.7   0.0   2.7   2   1   0   3   3   2   0 -
+GCF_000022365_00468           -          HhH-GPD              PF00730.29     0.022   15.0   0.0      0.89    9.8   0.0   2.9   2   1   0   2   2   2   0 -
+THGA001.0722.00001.C001_00481 -          HhH-GPD              PF00730.29     0.022   15.0   0.0      0.89    9.8   0.0   2.9   2   1   0   2   2   2   0 C GTG TGA 453651 454919 Valid TGAM_RS02355 1269 @WP_015858084.1@ TGAM_RS02355 1 453651 454919 | hypothetical protein  (translation)
+AEPE001.0722.00001.C001_01485 -          HhH-GPD              PF00730.29     0.023   14.9   0.1      0.11   12.8   0.1   2.0   1   1   0   1   1   1   0 C TTG TAG 1394108 1395367 Valid APE_RS07390 1260 @WP_010866859.1@ APE_RS07390 1 1394108 1395367 | hypothetical protein  (translation)
+GCF_000011125_01451           -          HhH-GPD              PF00730.29     0.023   14.9   0.1      0.11   12.8   0.1   2.0   1   1   0   1   1   1   0 -
+GCA_003056265_01203           -          HhH-GPD              PF00730.29     0.025   14.8   0.1      0.14   12.5   0.1   2.1   1   1   0   2   2   1   0 -
+STHE001.0722.00001.C001_01186 -          HhH-GPD              PF00730.29     0.025   14.8   0.0      0.13   12.5   0.0   2.1   1   1   0   1   1   1   0 D ATG TAA 1155166 1156401 Valid SHELL_RS05805 1236 @WP_052833655.1@ SHELL_RS05805 1 1155166 1156401 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000092465_01161           -          HhH-GPD              PF00730.29     0.026   14.8   0.1      0.13   12.5   0.0   2.1   1   1   0   1   1   1   0 -
+GCA_003661745_00811           -          HhH-GPD              PF00730.29     0.026   14.8   0.2     0.074   13.3   0.2   2.0   1   1   0   1   1   1   0 -
+GCA_003649445_01003           -          HhH-GPD              PF00730.29      0.03   14.6   0.0       2.6    8.3   0.0   3.5   3   1   0   3   3   3   0 -
+GCA_011053855_00306           -          HhH-GPD              PF00730.29     0.033   14.4   0.1      0.31   11.3   0.0   2.7   2   1   0   2   2   2   0 -
+GCA_013154205_02036           -          HhH-GPD              PF00730.29     0.037   14.2   0.1      0.18   12.1   0.1   2.1   1   1   0   1   1   1   0 -
+GCF_000769655_00116           -          HhH-GPD              PF00730.29     0.044   14.0   0.0       2.2    8.6   0.0   2.9   2   1   0   2   2   2   0 -
+THEU001.0722.00001.C001_00117 -          HhH-GPD              PF00730.29     0.044   14.0   0.0       2.2    8.6   0.0   2.9   2   1   0   2   2   2   0 C ATG TGA 95574 96824 Valid TEU_RS00590 1251 @WP_050001936.1@ TEU_RS00590 1 95574 96824 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_902812485_01284           -          HhH-GPD              PF00730.29     0.051   13.8   0.0       0.3   11.4   0.0   2.5   2   1   0   2   2   2   0 -
+GCA_011364565_00188           -          HhH-GPD              PF00730.29     0.051   13.8   0.2      0.26   11.6   0.1   2.5   2   1   0   2   2   1   0 -
+GCF_002214525_00435           -          HhH-GPD              PF00730.29     0.054   13.7   0.0       0.7   10.2   0.0   2.6   3   0   0   3   3   2   0 -
+THSP005.0722.00001.C001_00456 -          HhH-GPD              PF00730.29     0.054   13.7   0.0       0.7   10.2   0.0   2.6   3   0   0   3   3   2   0 C ATG TGA 409555 410802 Valid A3L12_RS02270 1248 @WP_088882102.1@ A3L12_RS02270 1 409555 410802 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000151205_02074           -          HhH-GPD              PF00730.29     0.056   13.7   0.0       1.9    8.7   0.0   2.9   2   1   0   2   2   2   0 -
+THSP017.0722.00001.C001_02103 -          HhH-GPD              PF00730.29     0.056   13.7   0.0       1.9    8.7   0.0   2.9   2   1   0   2   2   2   0 C GTG TGA 1898243 1899511 Valid TAM4_RS10410 1269 @WP_014123189.1@ TAM4_RS10410 1 1898243 1899511 | rRNA biogenesis protein Nop5/Nop56  (translation)
+GCA_003661965_00696           -          HhH-GPD              PF00730.29     0.056   13.7   0.1      0.52   10.6   0.1   2.6   1   1   0   1   1   1   0 -
+GCF_000585495_01657           -          HhH-GPD              PF00730.29     0.056   13.7   0.0       2.1    8.7   0.0   2.9   2   1   0   2   2   2   0 -
+THNA002.0722.00001.C001_01692 -          HhH-GPD              PF00730.29     0.056   13.7   0.0       2.1    8.7   0.0   2.9   2   1   0   2   2   2   0 C ATG TGA 1511367 1512632 Valid BD01_RS08330 1266 @WP_042691903.1@ BD01_RS08330 1 1511367 1512632 | hypothetical protein  (translation)
+GCA_002255045_00786           -          HhH-GPD              PF00730.29     0.073   13.3   0.0      0.17   12.2   0.0   1.7   1   0   0   1   1   1   0 -
+GCA_002254745_00704           -          HhH-GPD              PF00730.29     0.077   13.3   0.1      0.55   10.5   0.0   2.3   2   1   0   2   2   1   0 -
+GCF_006274605_02156           -          HhH-GPD              PF00730.29     0.077   13.2   0.0       1.1    9.6   0.0   2.7   2   1   0   2   2   2   0 -
+THIN004.0722.00001.C001_02173 -          HhH-GPD              PF00730.29     0.077   13.2   0.0       1.1    9.6   0.0   2.7   2   1   0   2   2   2   0 D ATG TGA 1981082 1982356 Valid FH039_RS10755 1275 @WP_139681839.1@ FH039_RS10755 1 1981082 1982356 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_002011035_01339           -          HhH-GPD              PF00730.29     0.079   13.2   0.0      0.23   11.7   0.0   1.8   1   0   0   1   1   1   0 -
+GCF_000816105_01208           -          HhH-GPD              PF00730.29     0.081   13.2   0.0       2.5    8.4   0.0   2.8   2   1   0   2   2   2   0 -
+THGU001.0722.00001.C001_01232 -          HhH-GPD              PF00730.29     0.081   13.2   0.0       2.5    8.4   0.0   2.8   2   1   0   2   2   2   0 C ATG TGA 1111632 1112900 Valid X802_RS06055 1269 @WP_062371884.1@ X802_RS06055 1 1111632 1112900 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+PYFU002.0722.00001.C001_01814 -          HhH-GPD              PF00730.29     0.083   13.1   0.1      0.23   11.7   0.1   2.1   1   1   0   1   1   1   0 C ATG TAA 1691182 1692429 Valid PYRFU_RS08885 1248 @WP_048192010.1@ PYRFU_RS08885 1 1691182 1692429 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000223395_01809           -          HhH-GPD              PF00730.29     0.084   13.1   0.1      0.23   11.7   0.1   2.1   1   1   0   1   1   1   0 -
+GCA_011361945_00158           -          HhH-GPD              PF00730.29      0.09   13.0   0.0       0.2   11.9   0.0   1.8   1   1   0   1   1   1   0 -
+HYBU002.0722.00001.C001_00032 -          HhH-GPD              PF00730.29      0.09   13.0   0.2      0.78   10.0   0.1   2.5   1   1   1   2   2   2   0 D ATG TAG 22465 23706 Valid HBUT_RS00155 1242 @WP_011821225.1@ HBUT_RS00155 1 22465 23706 | hypothetical protein  (translation)
+Asgard_ASG050_00542           -          HhH-GPD              PF00730.29     0.095   12.9   0.0      0.46   10.7   0.0   2.3   2   1   0   2   2   1   0 -
+GCF_002214385_01418           -          HhH-GPD              PF00730.29     0.099   12.9   0.0       1.9    8.7   0.0   2.8   2   1   0   2   2   2   0 -
+THGO001.0722.00001.C001_01449 -          HhH-GPD              PF00730.29     0.099   12.9   0.0       1.9    8.7   0.0   2.8   2   1   0   2   2   2   0 D ATG TGA 1273882 1275171 Valid A3K92_RS07115 1290 @WP_088885597.1@ A3K92_RS07115 1 1273882 1275171 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCA_011362275_00898           -          HhH-GPD              PF00730.29       0.1   12.9   0.1      0.53   10.5   0.1   2.3   1   1   1   2   2   1   0 -
+GCF_000015145_00030           -          HhH-GPD              PF00730.29      0.11   12.8   0.1       1.1    9.5   0.0   2.5   1   1   1   2   2   2   0 -
+GCA_003649145_00084           -          HhH-GPD              PF00730.29      0.11   12.8   0.0       2.1    8.6   0.0   2.8   2   1   0   2   2   2   0 -
+GCA_002506595_01442           -          HhH-GPD              PF00730.29      0.11   12.8   0.1      0.38   11.0   0.1   2.2   1   1   0   1   1   1   0 -
+GCA_013153105_01241           -          HhH-GPD              PF00730.29      0.12   12.7   0.3      0.61   10.4   0.1   2.5   1   1   0   2   2   2   0 -
+GCA_003661775_00089           -          HhH-GPD              PF00730.29      0.12   12.6   0.1      0.35   11.1   0.1   2.2   1   1   0   1   1   1   0 -
+GCA_011375895_00843           -          HhH-GPD              PF00730.29      0.12   12.6   0.1      0.61   10.4   0.0   2.1   1   1   0   1   1   1   0 -
+PYHO001.0722.00001.C001_00049 -          HhH-GPD              PF00730.29      0.12   12.6   0.1      0.41   10.9   0.0   2.0   1   1   0   1   1   1   0 C ATG TGA 46265 47470 Valid PH_RS00250 1206 @WP_048053017.1@ PH_RS00250 1 46265 47470 | C/D box methylation guide ribonucleoprotein complex aNOP56 subunit  (translation)
+GCF_000011105_00047           -          HhH-GPD              PF00730.29      0.12   12.6   0.1      0.41   10.9   0.1   2.0   1   1   0   1   1   1   0 -
+GCF_000092185_00156           -          HhH-GPD              PF00730.29      0.13   12.5   0.1      0.43   10.8   0.1   2.1   1   1   0   1   1   1   0 -
+THAG001.0722.00001.C001_00164 -          HhH-GPD              PF00730.29      0.13   12.5   0.1      0.43   10.8   0.1   2.1   1   1   0   1   1   1   0 C ATG TGA 138173 139387 Valid TAGG_RS00805 1215 @WP_013129029.1@ TAGG_RS00805 1 138173 139387 | rRNA biogenesis protein Nop56/Nop58  (translation)
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      data/PF00633_PF00730.hmm
+# Target file:     data/nop5-c-ter_round-3_hits_1e-5_len-200-1000_kingdom=all.faa
+# Option settings: hmmsearch --tblout results/dna_glycosylase_pfam_full_prot_hits_kingdom=euk-bact.tsv --domtblout results/dna_glycosylase_pfam_full_prot_domtbl_kingdom=euk-bact.tsv --pfamtblout results/dna_glycosylase_pfam_full_prot_pftblout_kingdom=euk-bact.tsv --cpu 20 data/PF00633_PF00730.hmm data/nop5-c-ter_round-3_hits_1e-5_len-200-1000_kingdom=all.faa 
+# Current dir:     /shared/ifbstor1/projects/mdm_db_coli/is110/dev/c_ter_domain/nop5_c_ter/3_round/results/check_dna_glycosylase
+# Date:            Mon Feb 26 09:12:45 2024
+# [ok]

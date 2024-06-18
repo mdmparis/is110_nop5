@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      data/PF00633_PF00730.hmm
+# Target file:     data/nop5-c-ter_round-3_hit-region_1e-5_len-200-1000_qcov-gt-0.80_kingdom=all.faa
+# Option settings: hmmsearch --tblout results/dna_glycosylase_pfam_hits_kingdom=euk-bact.tsv --domtblout results/dna_glycosylase_pfam_domtbl_kingdom=euk-bact.tsv --pfamtblout results/dna_glycosylase_pfam_pftblout_kingdom=euk-bact.tsv --cpu 20 data/PF00633_PF00730.hmm data/nop5-c-ter_round-3_hit-region_1e-5_len-200-1000_qcov-gt-0.80_kingdom=all.faa 
+# Current dir:     /shared/ifbstor1/projects/mdm_db_coli/is110/dev/c_ter_domain/nop5_c_ter/3_round/results/check_dna_glycosylase
+# Date:            Mon Feb 26 09:02:45 2024
+# [ok]

@@ -1,0 +1,52 @@
+cat: results/is110_nop-dom_hits_kingdom=euk-bact.tsv: No such file or directory
+cat: results/is110_nop-dom_hits_kingdom=euk-bact.tsv: No such file or directory
+Using 30 cores.
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG039.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG041.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG040.prt: no such file or directory
+[31m[ERRO][0m stat /shared/ifbstor1/projects/mdm_db_computations/GENOMES_DATABASE/Archaea/Asgardv2/Asgard_ASG040.prt: no such file or directory
+xargs: bash: exited with status 255; aborting
+[33m[WARN][0m you may switch on flag -g/--remove-gaps to remove spaces
+[31m[ERRO][0m stat results/is110_nop-dom_hit-region_1e-5_qcov-gt-0.80_kingdom=all.faa: no such file or directory
+outputhat23=0
+treein = 0
+compacttree = 0
+stacksize: -1 kb
+rescale = 1
+All-to-all alignment.
+    0 / 178 (by thread   0)    10 / 178 (by thread  10)    20 / 178 (by thread   9)    30 / 178 (by thread  19)    40 / 178 (by thread  17)    50 / 178 (by thread   2)    60 / 178 (by thread  12)    70 / 178 (by thread  15)    80 / 178 (by thread  19)    90 / 178 (by thread  19)   100 / 178 (by thread   0)   110 / 178 (by thread  17)   120 / 178 (by thread   3)   130 / 178 (by thread  28)   140 / 178 (by thread   5)   150 / 178 (by thread   6)   160 / 178 (by thread   9)   170 / 178 (by thread  21) tbfast-pair (aa) Version 7.505
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+30 thread(s)
+
+outputhat23=0
+Loading 'hat3.seed' ... 
+done.
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 178   10 / 178   20 / 178   30 / 178   40 / 178   50 / 178   60 / 178   70 / 178   80 / 178   90 / 178  100 / 178  110 / 178  120 / 178  130 / 178  140 / 178  150 / 178  160 / 178  170 / 178
+done.
+
+Progressive alignment ... 
+STEP     4 /177 (thread    1) STEP     8 /177 (thread    7) STEP     3 /177 (thread    2) STEP     2 /177 (thread    6) STEP     5 /177 (thread    4) STEP     7 /177 (thread    3) STEP    10 /177 (thread    8) STEP     1 /177 (thread    0) STEP    11 /177 (thread   10) STEP    14 /177 (thread   12) STEP    15 /177 (thread   15) STEP    19 /177 (thread    6) STEP     6 /177 (thread    5) STEP    20 /177 (thread    3) STEP    21 /177 (thread    2) STEP    12 /177 (thread   11) STEP    16 /177 (thread   14) STEP    22 /177 (thread   10) STEP    23 /177 (thread    4) STEP    25 /177 (thread    8) STEP    17 /177 (thread    1) STEP    27 /177 (thread   12) STEP    28 /177 (thread    6) STEP    29 /177 (thread    2) STEP    31 /177 (thread   12) STEP    32 /177 (thread    4) STEP    24 /177 (thread    0) STEP    33 /177 (thread    5) STEP    30 /177 (thread   10) STEP     9 /177 (thread    9) STEP    35 /177 (thread    8) STEP    37 /177 (thread   14) STEP    18 /177 (thread    7) STEP    38 /177 (thread    6) STEP    39 /177 (thread    2) STEP    13 /177 (thread   13) STEP    41 /177 (thread   12) STEP    42 /177 (thread    4) STEP    26 /177 (thread   15) STEP    46 /177 (thread    6) STEP    47 /177 (thread   14) STEP    48 /177 (thread    2) STEP    49 /177 (thread    7) STEP    51 /177 (thread    5) STEP    34 /177 (thread    1) STEP    44 /177 (thread    8) STEP    54 /177 (thread   13) STEP    55 /177 (thread    6) STEP    56 /177 (thread    5) STEP    58 /177 (thread    2) STEP    59 /177 (thread    7) STEP    52 /177 (thread    0) STEP    36 /177 (thread    3) STEP    57 /177 (thread   14) STEP    63 /177 (thread   13) STEP    61 /177 (thread    8) STEP    66 /177 (thread    6) STEP    67 /177 (thread    3) STEP    40 /177 (thread   11) STEP    68 /177 (thread   14) STEP    62 /177 (thread   15) STEP    71 /177 (thread    6) STEP    72 /177 (thread    8) STEP    73 /177 (thread   13) STEP    75 /177 (thread    6) STEP    77 /177 (thread   11) STEP    43 /177 (thread   10) STEP    78 /177 (thread    3) STEP    79 /177 (thread   15) STEP    65 /177 (thread    2) STEP    80 /177 (thread   13) STEP    76 /177 (thread    8) STEP    82 /177 (thread   10) STEP    45 /177 (thread    9) STEP    83 /177 (thread    2) STEP    70 /177 (thread    0) STEP    85 /177 (thread    8) STEP    86 /177 (thread   15) STEP    50 /177 (thread   12) STEP    89 /177 (thread   10) STEP    84 /177 (thread    3) STEP    91 /177 (thread    2) STEP    93 /177 (thread   13) STEP    53 /177 (thread    4) STEP    95 /177 (thread   10) STEP    88 /177 (thread    9) STEP    99 /177 (thread    4) STEP    98 /177 (thread   15) STEP    60 /177 (thread    1) STEP   100 /177 (thread   10) STEP   102 /177 (thread    9) STEP    92 /177 (thread    8) STEP   103 /177 (thread    1) STEP    64 /177 (thread    7) STEP   105 /177 (thread   15) STEP   101 /177 (thread   13) STEP   106 /177 (thread    4) STEP   107 /177 (thread    8) STEP    97 /177 (thread    3) STEP   104 /177 (thread   10) STEP    69 /177 (thread    5) STEP   111 /177 (thread    1) STEP   109 /177 (thread    7) STEP   114 /177 (thread   15) STEP   115 /177 (thread    5) STEP    74 /177 (thread   14) STEP   116 /177 (thread   13) STEP   112 /177 (thread    8) STEP   117 /177 (thread   10) STEP   108 /177 (thread    9) STEP   119 /177 (thread    7) STEP   121 /177 (thread    5) STEP    81 /177 (thread    6) STEP   123 /177 (thread    8) STEP   124 /177 (thread   15) STEP   110 /177 (thread    4) STEP    87 /177 (thread   11) STEP   130 /177 (thread   15) STEP   129 /177 (thread    8) STEP   118 /177 (thread    1) STEP   133 /177 (thread   11) STEP    90 /177 (thread    0) STEP   134 /177 (thread   15) STEP   136 /177 (thread    1) STEP   120 /177 (thread   10) STEP   137 /177 (thread   11) STEP    94 /177 (thread   12) STEP   140 /177 (thread    1) STEP   141 /177 (thread   11) STEP   122 /177 (thread   14) STEP    96 /177 (thread    2) STEP   144 /177 (thread    1) STEP   145 /177 (thread   14) STEP   126 /177 (thread    9) STEP   113 /177 (thread    3) STEP   146 /177 (thread    2) STEP   147 /177 (thread    1) STEP   150 /177 (thread    9) STEP   127 /177 (thread    5) STEP   152 /177 (thread    3) STEP   125 /177 (thread    7) STEP   149 /177 (thread   14) STEP   156 /177 (thread   14) STEP   128 /177 (thread    6) STEP   131 /177 (thread   13) STEP   161 /177 (thread   13) STEP   132 /177 (thread    4) STEP   162 /177 (thread   13) STEP   135 /177 (thread    8) STEP   138 /177 (thread    0) 
+Reallocating (by thread 15) ..STEP   166 /177 (thread    0) done. *alloclen = 1578
+STEP   139 /177 (thread   15) STEP   142 /177 (thread   10) STEP   143 /177 (thread   12) STEP   148 /177 (thread   11) STEP   151 /177 (thread    2) STEP   153 /177 (thread    1) STEP   154 /177 (thread    9) STEP   155 /177 (thread    5) STEP   157 /177 (thread    3) STEP   158 /177 (thread    7) STEP   159 /177 (thread   14) STEP   160 /177 (thread    6) STEP   163 /177 (thread   13) STEP   164 /177 (thread    4) STEP   165 /177 (thread    8) STEP   167 /177 (thread    0) STEP   168 /177 (thread   15) STEP   169 /177 (thread   10) STEP   170 /177 (thread   12) STEP   171 /177 (thread   11) STEP   172 /177 (thread    2) STEP   173 /177 (thread    1) STEP   174 /177 (thread    9) STEP   175 /177 (thread    5) STEP   176 /177 (thread    3) STEP   177 /177 (thread    7) 
+done.
+tbfast (aa) Version 7.505
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+16 thread(s)
+
+
+Strategy:
+ L-INS-1 (Not tested.)
+ Progressive method incorporating LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+
+mv: cannot stat ‘results/*=euk-bact*’: No such file or directory

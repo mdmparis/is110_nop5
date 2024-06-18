@@ -1,5 +1,6 @@
 Evolutionary history of the IS110 recombinase and the NOP5/NOP56/NOP58 proteins. 
 
+Data corresponding to the article "*Evolutionary origins of archaeal and eukaryotic RNA-guided RNA modification in bacterial IS110 transposons*"
 
 # Repository
 - `data/` contains the raw data used for this project (initial sequences, profile HMM and AlphaFold structures)
